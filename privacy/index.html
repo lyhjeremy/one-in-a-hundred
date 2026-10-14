@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy</title>
+<link rel="stylesheet" href="../assets/ledger.css"><link rel="stylesheet" href="../assets/app.css"></head>
+<body><main class="wrap">
+<p class="kicker"><a href="../">One in a Hundred</a></p>
+<h1>Privacy</h1>
+<p class="meta">Last updated 2026-10-14.</p>
+
+<h2>What leaves your browser</h2>
+<p>If you use the buttons and menus, nothing. The whole site is static files served by GitHub Pages; choosing a group, a measure and a percentile is a lookup inside your browser. GitHub, as the host, sees the ordinary request logs of any web server (IP address, page requested, time). GitHub's own privacy statement covers that.</p>
+<p>If you type a question, the text of the question is sent to a small service we run on Cloudflare Workers, which passes it to Groq (an LLM provider) to be turned into a group, a measure and a percentile. Neither the question nor any identifier is stored by us at that step. Cloudflare's and Groq's own policies cover what they log in transit. Until that service exists, typed questions are understood by a rules parser inside your browser and nothing is sent.</p>
+<p>If the site has no data for your question and you press "Queue this question", the text of the question (and nothing else: no IP address, no browser details, no cookie) is written to a queue. A person processes the queue by hand, researching the question offline. Once processed, the text is deleted from the queue and from the local copy used to process it. What remains is a published fact in the public repository, which contains the derived group, measure and percentile, never your wording.</p>
+
+<h2>What stays in your browser</h2>
+<p>"Where do I land?" values are kept in your browser's localStorage so they survive a reload. They are never sent anywhere. The "Erase" button deletes them. The card you can download from that feature is drawn on your own device.</p>
+
+<h2>What we do not do</h2>
+<p>No analytics, no cookies, no accounts, no third-party scripts, no fonts fetched from other servers.</p>
+
+<h2>Deletion requests</h2>
+<p>There is no stored personal data to delete. If you queued a question and want it removed before it is processed, open an issue on the GitHub repository with the wording and it will be deleted from the queue.</p>
+</main>
+<footer class="wrap site-footer"><p><a href="../">Home</a> · <a href="../terms/">Terms</a> · <a href="../about/">About</a></p></footer>
+</body></html>

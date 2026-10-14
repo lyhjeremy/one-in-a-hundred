@@ -1,0 +1,377 @@
+{
+  "families": {
+    "income": {
+      "label": "Income and wealth",
+      "order": 1
+    },
+    "body": {
+      "label": "Height, weight and BMI",
+      "order": 2
+    },
+    "running": {
+      "label": "Running",
+      "order": 3
+    },
+    "life": {
+      "label": "Life and demographics",
+      "order": 4
+    }
+  },
+  "activities": {
+    "marathon_finishers": {
+      "label": "who finished a marathon",
+      "metric": "marathon_time"
+    },
+    "half_marathon_finishers": {
+      "label": "who finished a half marathon",
+      "metric": "half_marathon_time"
+    },
+    "tenk_finishers": {
+      "label": "who finished a 10 km race",
+      "metric": "tenk_time"
+    },
+    "fivek_finishers": {
+      "label": "who finished a 5 km run",
+      "metric": "fivek_time"
+    }
+  },
+  "metrics": {
+    "income_pretax_adult_ppp": {
+      "family": "income",
+      "label": "Income (pre-tax, per adult)",
+      "short": "Income",
+      "unit": "usd_year",
+      "direction": "high",
+      "format": "money",
+      "metric_phrase": "an income",
+      "base_noun": "adults",
+      "definition": "Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+      "phrasings": [
+        "income",
+        "earn",
+        "earning",
+        "earnings",
+        "salary",
+        "make a year",
+        "make per year",
+        "paid",
+        "rich",
+        "wealthy by income",
+        "pre-tax income",
+        "gross income",
+        "make",
+        "makes",
+        "earners",
+        "earner",
+        "money a year",
+        "per year",
+        "a year"
+      ]
+    },
+    "income_posttax_adult_ppp": {
+      "family": "income",
+      "label": "Income (post-tax, per adult)",
+      "short": "Post-tax income",
+      "unit": "usd_year",
+      "direction": "high",
+      "format": "money",
+      "metric_phrase": "a post-tax income",
+      "base_noun": "adults",
+      "definition": "Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+      "phrasings": [
+        "post-tax income",
+        "after tax income",
+        "take-home",
+        "take home pay",
+        "net income",
+        "disposable income"
+      ]
+    },
+    "consumption_percap_ppp": {
+      "family": "income",
+      "label": "Consumption (per person)",
+      "short": "Consumption",
+      "unit": "usd_year",
+      "direction": "high",
+      "format": "money",
+      "metric_phrase": "household consumption per person",
+      "base_noun": "people",
+      "definition": "Household consumption or income per capita from household surveys (the World Bank's welfare aggregate), in 2017 purchasing-power-parity dollars, converted from per day to per year.",
+      "phrasings": [
+        "consumption",
+        "spend",
+        "spending",
+        "living on",
+        "live on",
+        "dollars a day",
+        "per day"
+      ]
+    },
+    "net_worth_adult_usd": {
+      "family": "income",
+      "label": "Net worth (per adult)",
+      "short": "Net worth",
+      "unit": "usd",
+      "direction": "high",
+      "format": "money",
+      "metric_phrase": "a net worth",
+      "base_noun": "adults",
+      "definition": "Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.",
+      "phrasings": [
+        "net worth",
+        "wealth",
+        "wealthy",
+        "assets",
+        "millionaire",
+        "savings",
+        "worth"
+      ]
+    },
+    "height_adult_cm": {
+      "family": "body",
+      "label": "Height",
+      "short": "Height",
+      "unit": "cm",
+      "direction": "high",
+      "format": "height",
+      "metric_phrase": "a height",
+      "base_noun": "adults",
+      "definition": "Adult standing height.",
+      "phrasings": [
+        "height",
+        "tall",
+        "taller",
+        "how tall",
+        "stand",
+        "stature",
+        "short",
+        "shorter"
+      ]
+    },
+    "weight_adult_kg": {
+      "family": "body",
+      "label": "Weight",
+      "short": "Weight",
+      "unit": "kg",
+      "direction": "high",
+      "format": "weight",
+      "metric_phrase": "a body weight",
+      "base_noun": "adults",
+      "definition": "Measured adult body weight.",
+      "phrasings": [
+        "weight",
+        "weigh",
+        "heavy",
+        "heavier",
+        "how much do i weigh",
+        "kilograms",
+        "pounds",
+        "lbs"
+      ]
+    },
+    "bmi_adult": {
+      "family": "body",
+      "label": "BMI",
+      "short": "BMI",
+      "unit": "kg_m2",
+      "direction": "high",
+      "format": "bmi",
+      "metric_phrase": "a BMI",
+      "base_noun": "adults",
+      "definition": "Adult body-mass index, weight in kilograms divided by height in metres squared.",
+      "phrasings": [
+        "bmi",
+        "body mass index",
+        "body mass"
+      ]
+    },
+    "marathon_time": {
+      "family": "running",
+      "label": "Marathon time",
+      "short": "Marathon",
+      "unit": "seconds",
+      "direction": "low",
+      "format": "time_hm",
+      "metric_phrase": "a finish time",
+      "base_noun": "finishers",
+      "activity": "marathon_finishers",
+      "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+      "phrasings": [
+        "marathon",
+        "marathon time",
+        "run a marathon",
+        "26.2",
+        "42k",
+        "42 km",
+        "42.2"
+      ]
+    },
+    "half_marathon_time": {
+      "family": "running",
+      "label": "Half marathon time",
+      "short": "Half marathon",
+      "unit": "seconds",
+      "direction": "low",
+      "format": "time_hm",
+      "metric_phrase": "a finish time",
+      "base_noun": "finishers",
+      "activity": "half_marathon_finishers",
+      "definition": "Chip finish time of people who finished a half marathon in the reference year; did-not-finish excluded.",
+      "phrasings": [
+        "half marathon time",
+        "half marathon",
+        "half-marathon",
+        "half",
+        "13.1",
+        "21k",
+        "21 km",
+        "21.1"
+      ]
+    },
+    "tenk_time": {
+      "family": "running",
+      "label": "10 km time",
+      "short": "10 km",
+      "unit": "seconds",
+      "direction": "low",
+      "format": "time_ms",
+      "metric_phrase": "a finish time",
+      "base_noun": "finishers",
+      "activity": "tenk_finishers",
+      "definition": "Chip finish time of people who finished a 10 km road race in the reference year.",
+      "phrasings": [
+        "10k",
+        "10 k",
+        "10km",
+        "10 km",
+        "ten k",
+        "10 kilometres",
+        "10 kilometers"
+      ]
+    },
+    "fivek_time": {
+      "family": "running",
+      "label": "5 km time",
+      "short": "5 km",
+      "unit": "seconds",
+      "direction": "low",
+      "format": "time_ms",
+      "metric_phrase": "a finish time",
+      "base_noun": "finishers",
+      "activity": "fivek_finishers",
+      "definition": "Finish time of people who completed a timed 5 km run in the reference year.",
+      "phrasings": [
+        "5k",
+        "5 k",
+        "5km",
+        "5 km",
+        "parkrun",
+        "five k",
+        "5 kilometres",
+        "5 kilometers"
+      ]
+    },
+    "age_years": {
+      "family": "life",
+      "label": "Age",
+      "short": "Age",
+      "unit": "years",
+      "direction": "high",
+      "format": "years",
+      "metric_phrase": "an age",
+      "base_noun": "people",
+      "definition": "Age in completed years of people alive at mid-year of the reference year.",
+      "phrasings": [
+        "age",
+        "old",
+        "oldest",
+        "how old",
+        "years old",
+        "elderly",
+        "young",
+        "youngest"
+      ]
+    },
+    "life_expectancy_at_birth": {
+      "family": "life",
+      "label": "Life expectancy at birth",
+      "short": "Life expectancy",
+      "unit": "years",
+      "direction": "high",
+      "format": "years_1dp",
+      "metric_phrase": "a life expectancy",
+      "base_noun": "countries",
+      "definition": "Period life expectancy at birth, both sexes unless stated, for the reference year.",
+      "phrasings": [
+        "life expectancy",
+        "live to",
+        "lifespan",
+        "how long do people live",
+        "longevity"
+      ]
+    },
+    "schooling_years": {
+      "family": "life",
+      "label": "Years of schooling",
+      "short": "Schooling",
+      "unit": "years",
+      "direction": "high",
+      "format": "years_1dp",
+      "metric_phrase": "years of schooling",
+      "base_noun": "adults",
+      "definition": "Completed years of formal schooling among adults aged 25 and over.",
+      "phrasings": [
+        "schooling",
+        "education",
+        "years of school",
+        "educated",
+        "school years",
+        "studied"
+      ]
+    },
+    "hours_worked_annual": {
+      "family": "life",
+      "label": "Hours worked per year",
+      "short": "Hours worked",
+      "unit": "hours",
+      "direction": "high",
+      "format": "hours",
+      "metric_phrase": "annual working hours",
+      "base_noun": "workers",
+      "definition": "Average annual hours actually worked per employed person.",
+      "phrasings": [
+        "hours worked",
+        "work hours",
+        "working hours",
+        "hours a year",
+        "hours per year",
+        "workaholic",
+        "overworked"
+      ]
+    }
+  },
+  "percentiles": {
+    "50": {
+      "label": "Median",
+      "top": null
+    },
+    "90": {
+      "label": "Top 10%",
+      "top": 10
+    },
+    "99": {
+      "label": "Top 1%",
+      "top": 1
+    },
+    "99.9": {
+      "label": "Top 0.1%",
+      "top": 0.1
+    }
+  },
+  "templates": {
+    "high_top": "To be in the top {top}% of {group}, you'd need {metric_phrase} of at least {value}.",
+    "low_top": "To be in the top {top}% of {group}, you'd need {metric_phrase} under {value}.",
+    "high_median": "The median among {group} is {value}.",
+    "low_median": "The median {metric_phrase} among {group} is {value}."
+  }
+}

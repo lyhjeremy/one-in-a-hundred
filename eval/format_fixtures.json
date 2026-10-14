@@ -1,0 +1,189 @@
+{
+ "values": [
+  {
+   "format": "money",
+   "input": 31234,
+   "expected": "$31,000"
+  },
+  {
+   "format": "money",
+   "input": 1234567,
+   "expected": "$1.2 million"
+  },
+  {
+   "format": "money",
+   "input": 999,
+   "expected": "$1,000"
+  },
+  {
+   "format": "money",
+   "input": 150000,
+   "expected": "$150,000"
+  },
+  {
+   "format": "money",
+   "input": 2672251,
+   "expected": "$2.7 million"
+  },
+  {
+   "format": "time_hm",
+   "input": 9540,
+   "expected": "2:39"
+  },
+  {
+   "format": "time_hm",
+   "input": 14280,
+   "expected": "3:58"
+  },
+  {
+   "format": "time_ms",
+   "input": 1312,
+   "expected": "21:45"
+  },
+  {
+   "format": "time_ms",
+   "input": 2400,
+   "expected": "40:00"
+  },
+  {
+   "format": "height",
+   "input": 193.2,
+   "expected": "193 cm (6 ft 4 in)"
+  },
+  {
+   "format": "height",
+   "input": 160.7,
+   "expected": "161 cm (5 ft 3 in)"
+  },
+  {
+   "format": "height",
+   "input": 182.88,
+   "expected": "183 cm (6 ft 0 in)"
+  },
+  {
+   "format": "weight",
+   "input": 80.4,
+   "expected": "80 kg (177 lb)"
+  },
+  {
+   "format": "bmi",
+   "input": 28.34,
+   "expected": "28.3"
+  },
+  {
+   "format": "years",
+   "input": 84.6,
+   "expected": "85"
+  },
+  {
+   "format": "years_1dp",
+   "input": 73.25,
+   "expected": "73.3 years"
+  },
+  {
+   "format": "hours",
+   "input": 1731,
+   "expected": "1,700 hours"
+  },
+  {
+   "format": "count",
+   "input": 82000000,
+   "expected": "about 82 million"
+  },
+  {
+   "format": "count",
+   "input": 2850,
+   "expected": "about 2,900"
+  },
+  {
+   "format": "count",
+   "input": 8231613067,
+   "expected": "about 8.2 billion"
+  },
+  {
+   "format": "count",
+   "input": 456700,
+   "expected": "about 460,000"
+  }
+ ],
+ "groups": [
+  {
+   "population": {
+    "base": "world",
+    "country": null,
+    "sex": "all",
+    "age_band": null,
+    "activity": null,
+    "source_category": null
+   },
+   "metric": "age_years",
+   "year": 2025,
+   "expected": "everyone alive"
+  },
+  {
+   "population": {
+    "base": "world",
+    "country": null,
+    "sex": "all",
+    "age_band": null,
+    "activity": null,
+    "source_category": null
+   },
+   "metric": "income_pretax_adult_ppp",
+   "year": 2023,
+   "expected": "all adults worldwide"
+  },
+  {
+   "population": {
+    "base": "country",
+    "country": "CH",
+    "sex": "all",
+    "age_band": null,
+    "activity": null,
+    "source_category": null
+   },
+   "metric": "income_pretax_adult_ppp",
+   "year": 2023,
+   "expected": "adults in Switzerland"
+  },
+  {
+   "population": {
+    "base": "country",
+    "country": "US",
+    "sex": "m",
+    "age_band": "30-39",
+    "activity": null,
+    "source_category": "Non-Hispanic Asian"
+   },
+   "metric": "height_adult_cm",
+   "year": 2022,
+   "expected": "men (Non-Hispanic Asian) aged 30 to 39 in the United States"
+  },
+  {
+   "population": {
+    "base": "country",
+    "country": "US",
+    "sex": "f",
+    "age_band": "40-44",
+    "activity": "marathon_finishers",
+    "source_category": null
+   },
+   "metric": "marathon_time",
+   "year": 2023,
+   "expected": "women aged 40 to 44 in the United States who finished a marathon in 2023"
+  },
+  {
+   "population": {
+    "base": "country",
+    "country": "JP",
+    "sex": "f",
+    "age_band": "70+",
+    "activity": null,
+    "source_category": null
+   },
+   "metric": "bmi_adult",
+   "year": 2024,
+   "expected": "women aged 70 and over in Japan"
+  }
+ ]
+}

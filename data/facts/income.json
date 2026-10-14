@@ -1,0 +1,7010 @@
+[
+ {
+  "id": "consumption_percap_ppp.au.all.2022",
+  "metric": "consumption_percap_ppp",
+  "population": {
+   "base": "country",
+   "country": "AU",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2022,
+  "n": 26974024,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p0.1": 107.71,
+   "p1": 1531.09,
+   "p10": 10827.84,
+   "p25": 15979.14,
+   "p50": 22993.55,
+   "p75": 34384.67,
+   "p90": 49600.37,
+   "p99": 103598.27,
+   "p99.9": 199439.54
+  },
+  "sources": [
+   {
+    "id": "src-wb-pip",
+    "name": "World Bank Poverty and Inequality Platform",
+    "url": "https://pip.worldbank.org/",
+    "measures": "household income or consumption per capita from household surveys, 2021 PPP dollars per day",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 107.71,
+     "p1": 1531.09,
+     "p10": 10827.84,
+     "p25": 15979.14,
+     "p50": 22993.55,
+     "p75": 34384.67,
+     "p90": 49600.37,
+     "p99": 103598.27,
+     "p99.9": 199439.54
+    }
+   }
+  ],
+  "definition": "Household consumption or income per capita from household surveys (the World Bank's welfare aggregate), in 2017 purchasing-power-parity dollars, converted from per day to per year.",
+  "derived_points": [],
+  "caveat": "survey welfare measure is income, per person",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Bank Poverty and Inequality Platform); no second source to compare.",
+  "range": {
+   "p50": [
+    22993.55,
+    22993.55
+   ],
+   "p90": [
+    49600.37,
+    49600.37
+   ],
+   "p99": [
+    103598.27,
+    103598.27
+   ],
+   "p99.9": [
+    199439.54,
+    199439.54
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "consumption_percap_ppp.br.all.2022",
+  "metric": "consumption_percap_ppp",
+  "population": {
+   "base": "country",
+   "country": "BR",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2022,
+  "n": 212812397,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p0.1": 102.27,
+   "p1": 476.1,
+   "p10": 1689.28,
+   "p25": 3005.31,
+   "p50": 5417.72,
+   "p75": 9653.37,
+   "p90": 17929.65,
+   "p99": 60779.17,
+   "p99.9": 136633.05
+  },
+  "sources": [
+   {
+    "id": "src-wb-pip",
+    "name": "World Bank Poverty and Inequality Platform",
+    "url": "https://pip.worldbank.org/",
+    "measures": "household income or consumption per capita from household surveys, 2021 PPP dollars per day",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 102.27,
+     "p1": 476.1,
+     "p10": 1689.28,
+     "p25": 3005.31,
+     "p50": 5417.72,
+     "p75": 9653.37,
+     "p90": 17929.65,
+     "p99": 60779.17,
+     "p99.9": 136633.05
+    }
+   }
+  ],
+  "definition": "Household consumption or income per capita from household surveys (the World Bank's welfare aggregate), in 2017 purchasing-power-parity dollars, converted from per day to per year.",
+  "derived_points": [],
+  "caveat": "survey welfare measure is income, per person",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Bank Poverty and Inequality Platform); no second source to compare.",
+  "range": {
+   "p50": [
+    5417.72,
+    5417.72
+   ],
+   "p90": [
+    17929.65,
+    17929.65
+   ],
+   "p99": [
+    60779.17,
+    60779.17
+   ],
+   "p99.9": [
+    136633.05,
+    136633.05
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "consumption_percap_ppp.ca.all.2022",
+  "metric": "consumption_percap_ppp",
+  "population": {
+   "base": "country",
+   "country": "CA",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2022,
+  "n": 40126729,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p0.1": 509.05,
+   "p1": 4243.62,
+   "p10": 11386.81,
+   "p25": 16584.58,
+   "p50": 23659.11,
+   "p75": 33618.89,
+   "p90": 47090.66,
+   "p99": 96121.6,
+   "p99.9": 164702.37
+  },
+  "sources": [
+   {
+    "id": "src-wb-pip",
+    "name": "World Bank Poverty and Inequality Platform",
+    "url": "https://pip.worldbank.org/",
+    "measures": "household income or consumption per capita from household surveys, 2021 PPP dollars per day",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 509.05,
+     "p1": 4243.62,
+     "p10": 11386.81,
+     "p25": 16584.58,
+     "p50": 23659.11,
+     "p75": 33618.89,
+     "p90": 47090.66,
+     "p99": 96121.6,
+     "p99.9": 164702.37
+    }
+   }
+  ],
+  "definition": "Household consumption or income per capita from household surveys (the World Bank's welfare aggregate), in 2017 purchasing-power-parity dollars, converted from per day to per year.",
+  "derived_points": [],
+  "caveat": "survey welfare measure is income, per person",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Bank Poverty and Inequality Platform); no second source to compare.",
+  "range": {
+   "p50": [
+    23659.11,
+    23659.11
+   ],
+   "p90": [
+    47090.66,
+    47090.66
+   ],
+   "p99": [
+    96121.6,
+    96121.6
+   ],
+   "p99.9": [
+    164702.37,
+    164702.37
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "consumption_percap_ppp.ch.all.2022",
+  "metric": "consumption_percap_ppp",
+  "population": {
+   "base": "country",
+   "country": "CH",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2022,
+  "n": 8967414,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p0.1": 1049.55,
+   "p1": 6351.84,
+   "p10": 12430.41,
+   "p25": 18044.99,
+   "p50": 26403.23,
+   "p75": 38231.16,
+   "p90": 54429.85,
+   "p99": 116814.8,
+   "p99.9": 373138.93
+  },
+  "sources": [
+   {
+    "id": "src-wb-pip",
+    "name": "World Bank Poverty and Inequality Platform",
+    "url": "https://pip.worldbank.org/",
+    "measures": "household income or consumption per capita from household surveys, 2021 PPP dollars per day",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 1049.55,
+     "p1": 6351.84,
+     "p10": 12430.41,
+     "p25": 18044.99,
+     "p50": 26403.23,
+     "p75": 38231.16,
+     "p90": 54429.85,
+     "p99": 116814.8,
+     "p99.9": 373138.93
+    }
+   }
+  ],
+  "definition": "Household consumption or income per capita from household surveys (the World Bank's welfare aggregate), in 2017 purchasing-power-parity dollars, converted from per day to per year.",
+  "derived_points": [],
+  "caveat": "survey welfare measure is income, per person",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Bank Poverty and Inequality Platform); no second source to compare.",
+  "range": {
+   "p50": [
+    26403.23,
+    26403.23
+   ],
+   "p90": [
+    54429.85,
+    54429.85
+   ],
+   "p99": [
+    116814.8,
+    116814.8
+   ],
+   "p99.9": [
+    373138.93,
+    373138.93
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "consumption_percap_ppp.cn.all.2022",
+  "metric": "consumption_percap_ppp",
+  "population": {
+   "base": "country",
+   "country": "CN",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2022,
+  "n": 1416096093,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p0.1": 1458.77,
+   "p1": 1619.92,
+   "p10": 2308.27,
+   "p25": 3261.32,
+   "p50": 4912.03,
+   "p75": 7501.94,
+   "p90": 11407.63,
+   "p99": 27405.91,
+   "p99.9": 47426.25
+  },
+  "sources": [
+   {
+    "id": "src-wb-pip",
+    "name": "World Bank Poverty and Inequality Platform",
+    "url": "https://pip.worldbank.org/",
+    "measures": "household income or consumption per capita from household surveys, 2021 PPP dollars per day",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 1458.77,
+     "p1": 1619.92,
+     "p10": 2308.27,
+     "p25": 3261.32,
+     "p50": 4912.03,
+     "p75": 7501.94,
+     "p90": 11407.63,
+     "p99": 27405.91,
+     "p99.9": 47426.25
+    }
+   }
+  ],
+  "definition": "Household consumption or income per capita from household surveys (the World Bank's welfare aggregate), in 2017 purchasing-power-parity dollars, converted from per day to per year.",
+  "derived_points": [],
+  "caveat": "survey welfare measure is consumption, per person",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Bank Poverty and Inequality Platform); no second source to compare.",
+  "range": {
+   "p50": [
+    4912.03,
+    4912.03
+   ],
+   "p90": [
+    11407.63,
+    11407.63
+   ],
+   "p99": [
+    27405.91,
+    27405.91
+   ],
+   "p99.9": [
+    47426.25,
+    47426.25
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "consumption_percap_ppp.de.all.2022",
+  "metric": "consumption_percap_ppp",
+  "population": {
+   "base": "country",
+   "country": "DE",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2022,
+  "n": 84075075,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p0.1": 102.27,
+   "p1": 1959.27,
+   "p10": 10400.31,
+   "p25": 16254.94,
+   "p50": 23466.47,
+   "p75": 33011.11,
+   "p90": 46711.86,
+   "p99": 102138.69,
+   "p99.9": 227741.15
+  },
+  "sources": [
+   {
+    "id": "src-wb-pip",
+    "name": "World Bank Poverty and Inequality Platform",
+    "url": "https://pip.worldbank.org/",
+    "measures": "household income or consumption per capita from household surveys, 2021 PPP dollars per day",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 102.27,
+     "p1": 1959.27,
+     "p10": 10400.31,
+     "p25": 16254.94,
+     "p50": 23466.47,
+     "p75": 33011.11,
+     "p90": 46711.86,
+     "p99": 102138.69,
+     "p99.9": 227741.15
+    }
+   }
+  ],
+  "definition": "Household consumption or income per capita from household surveys (the World Bank's welfare aggregate), in 2017 purchasing-power-parity dollars, converted from per day to per year.",
+  "derived_points": [],
+  "caveat": "survey welfare measure is income, per person",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Bank Poverty and Inequality Platform); no second source to compare.",
+  "range": {
+   "p50": [
+    23466.47,
+    23466.47
+   ],
+   "p90": [
+    46711.86,
+    46711.86
+   ],
+   "p99": [
+    102138.69,
+    102138.69
+   ],
+   "p99.9": [
+    227741.15,
+    227741.15
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "consumption_percap_ppp.et.all.2022",
+  "metric": "consumption_percap_ppp",
+  "population": {
+   "base": "country",
+   "country": "ET",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2022,
+  "n": 135472048,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p0.1": 246.62,
+   "p1": 386.62,
+   "p10": 671.51,
+   "p25": 916.85,
+   "p50": 1302.15,
+   "p75": 1873.95,
+   "p90": 2677.14,
+   "p99": 5423.23,
+   "p99.9": 9664.51
+  },
+  "sources": [
+   {
+    "id": "src-wb-pip",
+    "name": "World Bank Poverty and Inequality Platform",
+    "url": "https://pip.worldbank.org/",
+    "measures": "household income or consumption per capita from household surveys, 2021 PPP dollars per day",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 246.62,
+     "p1": 386.62,
+     "p10": 671.51,
+     "p25": 916.85,
+     "p50": 1302.15,
+     "p75": 1873.95,
+     "p90": 2677.14,
+     "p99": 5423.23,
+     "p99.9": 9664.51
+    }
+   }
+  ],
+  "definition": "Household consumption or income per capita from household surveys (the World Bank's welfare aggregate), in 2017 purchasing-power-parity dollars, converted from per day to per year.",
+  "derived_points": [],
+  "caveat": "survey welfare measure is consumption, per person",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Bank Poverty and Inequality Platform); no second source to compare.",
+  "range": {
+   "p50": [
+    1302.15,
+    1302.15
+   ],
+   "p90": [
+    2677.14,
+    2677.14
+   ],
+   "p99": [
+    5423.23,
+    5423.23
+   ],
+   "p99.9": [
+    9664.51,
+    9664.51
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "consumption_percap_ppp.fr.all.2022",
+  "metric": "consumption_percap_ppp",
+  "population": {
+   "base": "country",
+   "country": "FR",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2022,
+  "n": 66650804,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p0.1": 1490.8,
+   "p1": 4688.02,
+   "p10": 9673.54,
+   "p25": 14522.27,
+   "p50": 20826.74,
+   "p75": 29104.4,
+   "p90": 39848.12,
+   "p99": 84984.11,
+   "p99.9": 181136.93
+  },
+  "sources": [
+   {
+    "id": "src-wb-pip",
+    "name": "World Bank Poverty and Inequality Platform",
+    "url": "https://pip.worldbank.org/",
+    "measures": "household income or consumption per capita from household surveys, 2021 PPP dollars per day",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 1490.8,
+     "p1": 4688.02,
+     "p10": 9673.54,
+     "p25": 14522.27,
+     "p50": 20826.74,
+     "p75": 29104.4,
+     "p90": 39848.12,
+     "p99": 84984.11,
+     "p99.9": 181136.93
+    }
+   }
+  ],
+  "definition": "Household consumption or income per capita from household surveys (the World Bank's welfare aggregate), in 2017 purchasing-power-parity dollars, converted from per day to per year.",
+  "derived_points": [],
+  "caveat": "survey welfare measure is income, per person",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Bank Poverty and Inequality Platform); no second source to compare.",
+  "range": {
+   "p50": [
+    20826.74,
+    20826.74
+   ],
+   "p90": [
+    39848.12,
+    39848.12
+   ],
+   "p99": [
+    84984.11,
+    84984.11
+   ],
+   "p99.9": [
+    181136.93,
+    181136.93
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "consumption_percap_ppp.gb.all.2022",
+  "metric": "consumption_percap_ppp",
+  "population": {
+   "base": "country",
+   "country": "GB",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2022,
+  "n": 69551334,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p0.1": 106.4,
+   "p1": 3698.92,
+   "p10": 9776.46,
+   "p25": 13946.82,
+   "p50": 20738.75,
+   "p75": 30214.87,
+   "p90": 41865.76,
+   "p99": 83988.18,
+   "p99.9": 137824.57
+  },
+  "sources": [
+   {
+    "id": "src-wb-pip",
+    "name": "World Bank Poverty and Inequality Platform",
+    "url": "https://pip.worldbank.org/",
+    "measures": "household income or consumption per capita from household surveys, 2021 PPP dollars per day",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 106.4,
+     "p1": 3698.92,
+     "p10": 9776.46,
+     "p25": 13946.82,
+     "p50": 20738.75,
+     "p75": 30214.87,
+     "p90": 41865.76,
+     "p99": 83988.18,
+     "p99.9": 137824.57
+    }
+   }
+  ],
+  "definition": "Household consumption or income per capita from household surveys (the World Bank's welfare aggregate), in 2017 purchasing-power-parity dollars, converted from per day to per year.",
+  "derived_points": [],
+  "caveat": "survey welfare measure is income, per person",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Bank Poverty and Inequality Platform); no second source to compare.",
+  "range": {
+   "p50": [
+    20738.75,
+    20738.75
+   ],
+   "p90": [
+    41865.76,
+    41865.76
+   ],
+   "p99": [
+    83988.18,
+    83988.18
+   ],
+   "p99.9": [
+    137824.57,
+    137824.57
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "consumption_percap_ppp.id.all.2022",
+  "metric": "consumption_percap_ppp",
+  "population": {
+   "base": "country",
+   "country": "ID",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2022,
+  "n": 285721236,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p0.1": 495.72,
+   "p1": 725.79,
+   "p10": 1164.12,
+   "p25": 1565.68,
+   "p50": 2215.13,
+   "p75": 3316.07,
+   "p90": 5149.95,
+   "p99": 12433.99,
+   "p99.9": 28023.29
+  },
+  "sources": [
+   {
+    "id": "src-wb-pip",
+    "name": "World Bank Poverty and Inequality Platform",
+    "url": "https://pip.worldbank.org/",
+    "measures": "household income or consumption per capita from household surveys, 2021 PPP dollars per day",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 495.72,
+     "p1": 725.79,
+     "p10": 1164.12,
+     "p25": 1565.68,
+     "p50": 2215.13,
+     "p75": 3316.07,
+     "p90": 5149.95,
+     "p99": 12433.99,
+     "p99.9": 28023.29
+    }
+   }
+  ],
+  "definition": "Household consumption or income per capita from household surveys (the World Bank's welfare aggregate), in 2017 purchasing-power-parity dollars, converted from per day to per year.",
+  "derived_points": [],
+  "caveat": "survey welfare measure is consumption, per person",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Bank Poverty and Inequality Platform); no second source to compare.",
+  "range": {
+   "p50": [
+    2215.13,
+    2215.13
+   ],
+   "p90": [
+    5149.95,
+    5149.95
+   ],
+   "p99": [
+    12433.99,
+    12433.99
+   ],
+   "p99.9": [
+    28023.29,
+    28023.29
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "consumption_percap_ppp.in.all.2022",
+  "metric": "consumption_percap_ppp",
+  "population": {
+   "base": "country",
+   "country": "IN",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2022,
+  "n": 1463865527,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p0.1": 567.01,
+   "p1": 798.29,
+   "p10": 1202.62,
+   "p25": 1506.8,
+   "p50": 1961.87,
+   "p75": 2627.9,
+   "p90": 3547.42,
+   "p99": 7004.95,
+   "p99.9": 12863.19
+  },
+  "sources": [
+   {
+    "id": "src-wb-pip",
+    "name": "World Bank Poverty and Inequality Platform",
+    "url": "https://pip.worldbank.org/",
+    "measures": "household income or consumption per capita from household surveys, 2021 PPP dollars per day",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 567.01,
+     "p1": 798.29,
+     "p10": 1202.62,
+     "p25": 1506.8,
+     "p50": 1961.87,
+     "p75": 2627.9,
+     "p90": 3547.42,
+     "p99": 7004.95,
+     "p99.9": 12863.19
+    }
+   }
+  ],
+  "definition": "Household consumption or income per capita from household surveys (the World Bank's welfare aggregate), in 2017 purchasing-power-parity dollars, converted from per day to per year.",
+  "derived_points": [],
+  "caveat": "survey welfare measure is consumption, per person",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Bank Poverty and Inequality Platform); no second source to compare.",
+  "range": {
+   "p50": [
+    1961.87,
+    1961.87
+   ],
+   "p90": [
+    3547.42,
+    3547.42
+   ],
+   "p99": [
+    7004.95,
+    7004.95
+   ],
+   "p99.9": [
+    12863.19,
+    12863.19
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "consumption_percap_ppp.jp.all.2022",
+  "metric": "consumption_percap_ppp",
+  "population": {
+   "base": "country",
+   "country": "JP",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2022,
+  "n": 123103480,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p0.1": 176.53,
+   "p1": 1089.21,
+   "p10": 6950.74,
+   "p25": 10780.72,
+   "p50": 16010.62,
+   "p75": 22773.7,
+   "p90": 31600.04,
+   "p99": 57969.23,
+   "p99.9": 108668.71
+  },
+  "sources": [
+   {
+    "id": "src-wb-pip",
+    "name": "World Bank Poverty and Inequality Platform",
+    "url": "https://pip.worldbank.org/",
+    "measures": "household income or consumption per capita from household surveys, 2021 PPP dollars per day",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 176.53,
+     "p1": 1089.21,
+     "p10": 6950.74,
+     "p25": 10780.72,
+     "p50": 16010.62,
+     "p75": 22773.7,
+     "p90": 31600.04,
+     "p99": 57969.23,
+     "p99.9": 108668.71
+    }
+   }
+  ],
+  "definition": "Household consumption or income per capita from household surveys (the World Bank's welfare aggregate), in 2017 purchasing-power-parity dollars, converted from per day to per year.",
+  "derived_points": [],
+  "caveat": "survey welfare measure is income, per person",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Bank Poverty and Inequality Platform); no second source to compare.",
+  "range": {
+   "p50": [
+    16010.62,
+    16010.62
+   ],
+   "p90": [
+    31600.04,
+    31600.04
+   ],
+   "p99": [
+    57969.23,
+    57969.23
+   ],
+   "p99.9": [
+    108668.71,
+    108668.71
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "consumption_percap_ppp.ke.all.2022",
+  "metric": "consumption_percap_ppp",
+  "population": {
+   "base": "country",
+   "country": "KE",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2022,
+  "n": 57532492,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p0.1": 126.23,
+   "p1": 314.99,
+   "p10": 601.2,
+   "p25": 813.89,
+   "p50": 1165.55,
+   "p75": 1858.32,
+   "p90": 2938.44,
+   "p99": 7794.87,
+   "p99.9": 15851.7
+  },
+  "sources": [
+   {
+    "id": "src-wb-pip",
+    "name": "World Bank Poverty and Inequality Platform",
+    "url": "https://pip.worldbank.org/",
+    "measures": "household income or consumption per capita from household surveys, 2021 PPP dollars per day",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 126.23,
+     "p1": 314.99,
+     "p10": 601.2,
+     "p25": 813.89,
+     "p50": 1165.55,
+     "p75": 1858.32,
+     "p90": 2938.44,
+     "p99": 7794.87,
+     "p99.9": 15851.7
+    }
+   }
+  ],
+  "definition": "Household consumption or income per capita from household surveys (the World Bank's welfare aggregate), in 2017 purchasing-power-parity dollars, converted from per day to per year.",
+  "derived_points": [],
+  "caveat": "survey welfare measure is consumption, per person",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Bank Poverty and Inequality Platform); no second source to compare.",
+  "range": {
+   "p50": [
+    1165.55,
+    1165.55
+   ],
+   "p90": [
+    2938.44,
+    2938.44
+   ],
+   "p99": [
+    7794.87,
+    7794.87
+   ],
+   "p99.9": [
+    15851.7,
+    15851.7
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "consumption_percap_ppp.kr.all.2022",
+  "metric": "consumption_percap_ppp",
+  "population": {
+   "base": "country",
+   "country": "KR",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2022,
+  "n": 51667035,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p0.1": 1343.17,
+   "p1": 4282.96,
+   "p10": 9397.08,
+   "p25": 13924.5,
+   "p50": 20703.5,
+   "p75": 30557.84,
+   "p90": 42899.78,
+   "p99": 84527.29,
+   "p99.9": 144005.22
+  },
+  "sources": [
+   {
+    "id": "src-wb-pip",
+    "name": "World Bank Poverty and Inequality Platform",
+    "url": "https://pip.worldbank.org/",
+    "measures": "household income or consumption per capita from household surveys, 2021 PPP dollars per day",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 1343.17,
+     "p1": 4282.96,
+     "p10": 9397.08,
+     "p25": 13924.5,
+     "p50": 20703.5,
+     "p75": 30557.84,
+     "p90": 42899.78,
+     "p99": 84527.29,
+     "p99.9": 144005.22
+    }
+   }
+  ],
+  "definition": "Household consumption or income per capita from household surveys (the World Bank's welfare aggregate), in 2017 purchasing-power-parity dollars, converted from per day to per year.",
+  "derived_points": [],
+  "caveat": "survey welfare measure is income, per person",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Bank Poverty and Inequality Platform); no second source to compare.",
+  "range": {
+   "p50": [
+    20703.5,
+    20703.5
+   ],
+   "p90": [
+    42899.78,
+    42899.78
+   ],
+   "p99": [
+    84527.29,
+    84527.29
+   ],
+   "p99.9": [
+    144005.22,
+    144005.22
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "consumption_percap_ppp.mx.all.2022",
+  "metric": "consumption_percap_ppp",
+  "population": {
+   "base": "country",
+   "country": "MX",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2022,
+  "n": 131946902,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p0.1": 336.61,
+   "p1": 792.23,
+   "p10": 1921.29,
+   "p25": 2884.2,
+   "p50": 4562.48,
+   "p75": 7394.67,
+   "p90": 12205.71,
+   "p99": 34706.57,
+   "p99.9": 90526.52
+  },
+  "sources": [
+   {
+    "id": "src-wb-pip",
+    "name": "World Bank Poverty and Inequality Platform",
+    "url": "https://pip.worldbank.org/",
+    "measures": "household income or consumption per capita from household surveys, 2021 PPP dollars per day",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 336.61,
+     "p1": 792.23,
+     "p10": 1921.29,
+     "p25": 2884.2,
+     "p50": 4562.48,
+     "p75": 7394.67,
+     "p90": 12205.71,
+     "p99": 34706.57,
+     "p99.9": 90526.52
+    }
+   }
+  ],
+  "definition": "Household consumption or income per capita from household surveys (the World Bank's welfare aggregate), in 2017 purchasing-power-parity dollars, converted from per day to per year.",
+  "derived_points": [],
+  "caveat": "survey welfare measure is income, per person",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Bank Poverty and Inequality Platform); no second source to compare.",
+  "range": {
+   "p50": [
+    4562.48,
+    4562.48
+   ],
+   "p90": [
+    12205.71,
+    12205.71
+   ],
+   "p99": [
+    34706.57,
+    34706.57
+   ],
+   "p99.9": [
+    90526.52,
+    90526.52
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "consumption_percap_ppp.ng.all.2022",
+  "metric": "consumption_percap_ppp",
+  "population": {
+   "base": "country",
+   "country": "NG",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2022,
+  "n": 237527788,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p0.1": 194.2,
+   "p1": 308.34,
+   "p10": 592.51,
+   "p25": 839.16,
+   "p50": 1249.7,
+   "p75": 1880.31,
+   "p90": 2742.0,
+   "p99": 5653.08,
+   "p99.9": 10159.87
+  },
+  "sources": [
+   {
+    "id": "src-wb-pip",
+    "name": "World Bank Poverty and Inequality Platform",
+    "url": "https://pip.worldbank.org/",
+    "measures": "household income or consumption per capita from household surveys, 2021 PPP dollars per day",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 194.2,
+     "p1": 308.34,
+     "p10": 592.51,
+     "p25": 839.16,
+     "p50": 1249.7,
+     "p75": 1880.31,
+     "p90": 2742.0,
+     "p99": 5653.08,
+     "p99.9": 10159.87
+    }
+   }
+  ],
+  "definition": "Household consumption or income per capita from household surveys (the World Bank's welfare aggregate), in 2017 purchasing-power-parity dollars, converted from per day to per year.",
+  "derived_points": [],
+  "caveat": "survey welfare measure is consumption, per person",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Bank Poverty and Inequality Platform); no second source to compare.",
+  "range": {
+   "p50": [
+    1249.7,
+    1249.7
+   ],
+   "p90": [
+    2742.0,
+    2742.0
+   ],
+   "p99": [
+    5653.08,
+    5653.08
+   ],
+   "p99.9": [
+    10159.87,
+    10159.87
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "consumption_percap_ppp.nl.all.2022",
+  "metric": "consumption_percap_ppp",
+  "population": {
+   "base": "country",
+   "country": "NL",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2022,
+  "n": 18346823,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p0.1": 1177.27,
+   "p1": 6514.31,
+   "p10": 14424.71,
+   "p25": 19971.8,
+   "p50": 26631.73,
+   "p75": 34617.34,
+   "p90": 45236.32,
+   "p99": 83153.25,
+   "p99.9": 194840.53
+  },
+  "sources": [
+   {
+    "id": "src-wb-pip",
+    "name": "World Bank Poverty and Inequality Platform",
+    "url": "https://pip.worldbank.org/",
+    "measures": "household income or consumption per capita from household surveys, 2021 PPP dollars per day",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 1177.27,
+     "p1": 6514.31,
+     "p10": 14424.71,
+     "p25": 19971.8,
+     "p50": 26631.73,
+     "p75": 34617.34,
+     "p90": 45236.32,
+     "p99": 83153.25,
+     "p99.9": 194840.53
+    }
+   }
+  ],
+  "definition": "Household consumption or income per capita from household surveys (the World Bank's welfare aggregate), in 2017 purchasing-power-parity dollars, converted from per day to per year.",
+  "derived_points": [],
+  "caveat": "survey welfare measure is income, per person",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Bank Poverty and Inequality Platform); no second source to compare.",
+  "range": {
+   "p50": [
+    26631.73,
+    26631.73
+   ],
+   "p90": [
+    45236.32,
+    45236.32
+   ],
+   "p99": [
+    83153.25,
+    83153.25
+   ],
+   "p99.9": [
+    194840.53,
+    194840.53
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "consumption_percap_ppp.us.all.2022",
+  "metric": "consumption_percap_ppp",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2022,
+  "n": 347275811,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p0.1": 102.27,
+   "p1": 381.98,
+   "p10": 9211.75,
+   "p25": 14875.35,
+   "p50": 24758.73,
+   "p75": 40609.34,
+   "p90": 63203.7,
+   "p99": 151260.91,
+   "p99.9": 297911.27
+  },
+  "sources": [
+   {
+    "id": "src-wb-pip",
+    "name": "World Bank Poverty and Inequality Platform",
+    "url": "https://pip.worldbank.org/",
+    "measures": "household income or consumption per capita from household surveys, 2021 PPP dollars per day",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 102.27,
+     "p1": 381.98,
+     "p10": 9211.75,
+     "p25": 14875.35,
+     "p50": 24758.73,
+     "p75": 40609.34,
+     "p90": 63203.7,
+     "p99": 151260.91,
+     "p99.9": 297911.27
+    }
+   }
+  ],
+  "definition": "Household consumption or income per capita from household surveys (the World Bank's welfare aggregate), in 2017 purchasing-power-parity dollars, converted from per day to per year.",
+  "derived_points": [],
+  "caveat": "survey welfare measure is income, per person",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Bank Poverty and Inequality Platform); no second source to compare.",
+  "range": {
+   "p50": [
+    24758.73,
+    24758.73
+   ],
+   "p90": [
+    63203.7,
+    63203.7
+   ],
+   "p99": [
+    151260.91,
+    151260.91
+   ],
+   "p99.9": [
+    297911.27,
+    297911.27
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "consumption_percap_ppp.world.all.2022",
+  "metric": "consumption_percap_ppp",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2022,
+  "n": 8231613067,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p0.1": 108.11,
+   "p1": 338.22,
+   "p10": 1050.09,
+   "p25": 1721.79,
+   "p50": 3179.14,
+   "p75": 7602.68,
+   "p90": 18826.45,
+   "p99": 56604.62,
+   "p99.9": 128380.63
+  },
+  "sources": [
+   {
+    "id": "src-wb-pip",
+    "name": "World Bank Poverty and Inequality Platform",
+    "url": "https://pip.worldbank.org/",
+    "measures": "household income or consumption per capita from household surveys, 2021 PPP dollars per day",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 108.11,
+     "p1": 338.22,
+     "p10": 1050.09,
+     "p25": 1721.79,
+     "p50": 3179.14,
+     "p75": 7602.68,
+     "p90": 18826.45,
+     "p99": 56604.62,
+     "p99.9": 128380.63
+    }
+   }
+  ],
+  "definition": "Household consumption or income per capita from household surveys (the World Bank's welfare aggregate), in 2017 purchasing-power-parity dollars, converted from per day to per year.",
+  "derived_points": [],
+  "caveat": "world aggregate mixes income-based and consumption-based surveys; lined up by the World Bank",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Bank Poverty and Inequality Platform); no second source to compare.",
+  "range": {
+   "p50": [
+    3179.14,
+    3179.14
+   ],
+   "p90": [
+    18826.45,
+    18826.45
+   ],
+   "p99": [
+    56604.62,
+    56604.62
+   ],
+   "p99.9": [
+    128380.63,
+    128380.63
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_posttax_adult_ppp.au.all.2023",
+  "metric": "income_posttax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "AU",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 20545227,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 15031.71,
+   "p10": 21948.67,
+   "p25": 38332.56,
+   "p50": 67950.27,
+   "p75": 99750.29,
+   "p90": 140773.25,
+   "p99": 302134.21,
+   "p99.9": 962442.41
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 21948.67,
+     "p1": 15031.71,
+     "p25": 38332.56,
+     "p50": 67950.27,
+     "p75": 99750.29,
+     "p90": 140773.25,
+     "p99.9": 962442.41,
+     "p99": 302134.21
+    }
+   }
+  ],
+  "definition": "Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 1.403",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    67950.27,
+    67950.27
+   ],
+   "p90": [
+    140773.25,
+    140773.25
+   ],
+   "p99": [
+    302134.21,
+    302134.21
+   ],
+   "p99.9": [
+    962442.41,
+    962442.41
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_posttax_adult_ppp.br.all.2023",
+  "metric": "income_posttax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "BR",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 156861427,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 1874.55,
+   "p10": 2752.21,
+   "p25": 6492.37,
+   "p50": 11893.1,
+   "p75": 20075.57,
+   "p90": 44916.9,
+   "p99": 277763.99,
+   "p99.9": 962501.28
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 2752.21,
+     "p1": 1874.55,
+     "p25": 6492.37,
+     "p50": 11893.1,
+     "p75": 20075.57,
+     "p90": 44916.9,
+     "p99.9": 962501.28,
+     "p99": 277763.99
+    }
+   }
+  ],
+  "definition": "Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 2.446",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    11893.1,
+    11893.1
+   ],
+   "p90": [
+    44916.9,
+    44916.9
+   ],
+   "p99": [
+    277763.99,
+    277763.99
+   ],
+   "p99.9": [
+    962501.28,
+    962501.28
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_posttax_adult_ppp.ca.all.2023",
+  "metric": "income_posttax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "CA",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 31912153,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 22304.06,
+   "p10": 26430.7,
+   "p25": 39502.31,
+   "p50": 62404.02,
+   "p75": 89723.09,
+   "p90": 126548.17,
+   "p99": 285208.29,
+   "p99.9": 1117146.01
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 26430.7,
+     "p1": 22304.06,
+     "p25": 39502.31,
+     "p50": 62404.02,
+     "p75": 89723.09,
+     "p90": 126548.17,
+     "p99.9": 1117146.01,
+     "p99": 285208.29
+    }
+   }
+  ],
+  "definition": "Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 1.147",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    62404.02,
+    62404.02
+   ],
+   "p90": [
+    126548.17,
+    126548.17
+   ],
+   "p99": [
+    285208.29,
+    285208.29
+   ],
+   "p99.9": [
+    1117146.01,
+    1117146.01
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_posttax_adult_ppp.ch.all.2023",
+  "metric": "income_posttax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "CH",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 7187523,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 18859.05,
+   "p10": 30274.48,
+   "p25": 63267.63,
+   "p50": 83943.48,
+   "p75": 103078.25,
+   "p90": 135237.47,
+   "p99": 250063.99,
+   "p99.9": 705899.76
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 30274.48,
+     "p1": 18859.05,
+     "p25": 63267.63,
+     "p50": 83943.48,
+     "p75": 103078.25,
+     "p90": 135237.47,
+     "p99.9": 705899.76,
+     "p99": 250063.99
+    }
+   }
+  ],
+  "definition": "Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 0.989",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    83943.48,
+    83943.48
+   ],
+   "p90": [
+    135237.47,
+    135237.47
+   ],
+   "p99": [
+    250063.99,
+    250063.99
+   ],
+   "p99.9": [
+    705899.76,
+    705899.76
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_posttax_adult_ppp.cn.all.2023",
+  "metric": "income_posttax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "CN",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 1113252960,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 1766.86,
+   "p10": 3000.41,
+   "p25": 7483.36,
+   "p50": 17182.04,
+   "p75": 29611.2,
+   "p90": 48027.32,
+   "p99": 136461.34,
+   "p99.9": 388033.66
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 3000.41,
+     "p1": 1766.86,
+     "p25": 7483.36,
+     "p50": 17182.04,
+     "p75": 29611.2,
+     "p90": 48027.32,
+     "p99.9": 388033.66,
+     "p99": 136461.34
+    }
+   }
+  ],
+  "definition": "Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 3.641",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    17182.04,
+    17182.04
+   ],
+   "p90": [
+    48027.32,
+    48027.32
+   ],
+   "p99": [
+    136461.34,
+    136461.34
+   ],
+   "p99.9": [
+    388033.66,
+    388033.66
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_posttax_adult_ppp.de.all.2023",
+  "metric": "income_posttax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "DE",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 68531546,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 14693.42,
+   "p10": 23572.34,
+   "p25": 42900.28,
+   "p50": 63176.37,
+   "p75": 82040.77,
+   "p90": 116334.45,
+   "p99": 321688.11,
+   "p99.9": 1121287.12
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 23572.34,
+     "p1": 14693.42,
+     "p25": 42900.28,
+     "p50": 63176.37,
+     "p75": 82040.77,
+     "p90": 116334.45,
+     "p99.9": 1121287.12,
+     "p99": 321688.11
+    }
+   }
+  ],
+  "definition": "Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 0.7164",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    63176.37,
+    63176.37
+   ],
+   "p90": [
+    116334.45,
+    116334.45
+   ],
+   "p99": [
+    321688.11,
+    321688.11
+   ],
+   "p99.9": [
+    1121287.12,
+    1121287.12
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_posttax_adult_ppp.et.all.2023",
+  "metric": "income_posttax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "ET",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 68121496,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 138.43,
+   "p10": 1225.6,
+   "p25": 3901.16,
+   "p50": 6449.86,
+   "p75": 10564.05,
+   "p90": 18521.73,
+   "p99": 60942.82,
+   "p99.9": 132703.62
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 1225.6,
+     "p1": 138.43,
+     "p25": 3901.16,
+     "p50": 6449.86,
+     "p75": 10564.05,
+     "p90": 18521.73,
+     "p99.9": 132703.62,
+     "p99": 60942.82
+    }
+   }
+  ],
+  "definition": "Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 21.28",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    6449.86,
+    6449.86
+   ],
+   "p90": [
+    18521.73,
+    18521.73
+   ],
+   "p99": [
+    60942.82,
+    60942.82
+   ],
+   "p99.9": [
+    132703.62,
+    132703.62
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_posttax_adult_ppp.fr.all.2023",
+  "metric": "income_posttax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "FR",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 51678583,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 25894.66,
+   "p10": 30992.86,
+   "p25": 44627.11,
+   "p50": 60470.68,
+   "p75": 80620.42,
+   "p90": 99706.5,
+   "p99": 209744.78,
+   "p99.9": 651998.1
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 30992.86,
+     "p1": 25894.66,
+     "p25": 44627.11,
+     "p50": 60470.68,
+     "p75": 80620.42,
+     "p90": 99706.5,
+     "p99.9": 651998.1,
+     "p99": 209744.78
+    }
+   }
+  ],
+  "definition": "Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 0.6855",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    60470.68,
+    60470.68
+   ],
+   "p90": [
+    99706.5,
+    99706.5
+   ],
+   "p99": [
+    209744.78,
+    209744.78
+   ],
+   "p99.9": [
+    651998.1,
+    651998.1
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_posttax_adult_ppp.gb.all.2023",
+  "metric": "income_posttax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "GB",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 53535883,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 22762.52,
+   "p10": 29915.64,
+   "p25": 47351.41,
+   "p50": 58024.57,
+   "p75": 78261.86,
+   "p90": 109791.1,
+   "p99": 266123.94,
+   "p99.9": 957443.22
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 29915.64,
+     "p1": 22762.52,
+     "p25": 47351.41,
+     "p50": 58024.57,
+     "p75": 78261.86,
+     "p90": 109791.1,
+     "p99.9": 957443.22,
+     "p99": 266123.94
+    }
+   }
+  ],
+  "definition": "Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 0.6768",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    58024.57,
+    58024.57
+   ],
+   "p90": [
+    109791.1,
+    109791.1
+   ],
+   "p99": [
+    266123.94,
+    266123.94
+   ],
+   "p99.9": [
+    957443.22,
+    957443.22
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_posttax_adult_ppp.hk.all.2023",
+  "metric": "income_posttax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "HK",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 6352190,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 9274.67,
+   "p10": 14888.68,
+   "p25": 30842.46,
+   "p50": 50683.48,
+   "p75": 87502.39,
+   "p90": 163033.2,
+   "p99": 594571.19,
+   "p99.9": 2161392.88
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 14888.68,
+     "p1": 9274.67,
+     "p25": 30842.46,
+     "p50": 50683.48,
+     "p75": 87502.39,
+     "p90": 163033.2,
+     "p99.9": 2161392.88,
+     "p99": 594571.19
+    }
+   }
+  ],
+  "definition": "Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 5.531",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    50683.48,
+    50683.48
+   ],
+   "p90": [
+    163033.2,
+    163033.2
+   ],
+   "p99": [
+    594571.19,
+    594571.19
+   ],
+   "p99.9": [
+    2161392.88,
+    2161392.88
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_posttax_adult_ppp.id.all.2023",
+  "metric": "income_posttax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "ID",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 192888049,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 565.86,
+   "p10": 1936.95,
+   "p25": 5480.56,
+   "p50": 10354.73,
+   "p75": 21056.27,
+   "p90": 36179.59,
+   "p99": 132671.05,
+   "p99.9": 521916.91
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 1936.95,
+     "p1": 565.86,
+     "p25": 5480.56,
+     "p50": 10354.73,
+     "p75": 21056.27,
+     "p90": 36179.59,
+     "p99.9": 521916.91,
+     "p99": 132671.05
+    }
+   }
+  ],
+  "definition": "Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 4816",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    10354.73,
+    10354.73
+   ],
+   "p90": [
+    36179.59,
+    36179.59
+   ],
+   "p99": [
+    132671.05,
+    132671.05
+   ],
+   "p99.9": [
+    521916.91,
+    521916.91
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_posttax_adult_ppp.in.all.2023",
+  "metric": "income_posttax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "IN",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 982970177,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 381.72,
+   "p10": 1565.18,
+   "p25": 4552.45,
+   "p50": 6512.39,
+   "p75": 9808.96,
+   "p90": 16616.59,
+   "p99": 110818.38,
+   "p99.9": 433432.94
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 1565.18,
+     "p1": 381.72,
+     "p25": 4552.45,
+     "p50": 6512.39,
+     "p75": 9808.96,
+     "p90": 16616.59,
+     "p99.9": 433432.94,
+     "p99": 110818.38
+    }
+   }
+  ],
+  "definition": "Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 20.54",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    6512.39,
+    6512.39
+   ],
+   "p90": [
+    16616.59,
+    16616.59
+   ],
+   "p99": [
+    110818.38,
+    110818.38
+   ],
+   "p99.9": [
+    433432.94,
+    433432.94
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_posttax_adult_ppp.jp.all.2023",
+  "metric": "income_posttax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "JP",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 103610422,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 5761.78,
+   "p10": 10535.88,
+   "p25": 23960.97,
+   "p50": 45768.93,
+   "p75": 51735.58,
+   "p90": 71110.53,
+   "p99": 348794.76,
+   "p99.9": 705791.83
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 10535.88,
+     "p1": 5761.78,
+     "p25": 23960.97,
+     "p50": 45768.93,
+     "p75": 51735.58,
+     "p90": 71110.53,
+     "p99.9": 705791.83,
+     "p99": 348794.76
+    }
+   }
+  ],
+  "definition": "Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 93.32",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    45768.93,
+    45768.93
+   ],
+   "p90": [
+    71110.53,
+    71110.53
+   ],
+   "p99": [
+    348794.76,
+    348794.76
+   ],
+   "p99.9": [
+    705791.83,
+    705791.83
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_posttax_adult_ppp.ke.all.2023",
+  "metric": "income_posttax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "KE",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 30030634,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 265.38,
+   "p10": 1348.42,
+   "p25": 3921.64,
+   "p50": 6339.42,
+   "p75": 11579.91,
+   "p90": 22046.23,
+   "p99": 90123.09,
+   "p99.9": 227065.13
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 1348.42,
+     "p1": 265.38,
+     "p25": 3921.64,
+     "p50": 6339.42,
+     "p75": 11579.91,
+     "p90": 22046.23,
+     "p99.9": 227065.13,
+     "p99": 90123.09
+    }
+   }
+  ],
+  "definition": "Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 42.97",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    6339.42,
+    6339.42
+   ],
+   "p90": [
+    22046.23,
+    22046.23
+   ],
+   "p99": [
+    90123.09,
+    90123.09
+   ],
+   "p99.9": [
+    227065.13,
+    227065.13
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_posttax_adult_ppp.kr.all.2023",
+  "metric": "income_posttax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "KR",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 44085930,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 9522.83,
+   "p10": 13719.04,
+   "p25": 26292.27,
+   "p50": 43352.1,
+   "p75": 66829.09,
+   "p90": 103393.91,
+   "p99": 235900.1,
+   "p99.9": 784754.36
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 13719.04,
+     "p1": 9522.83,
+     "p25": 26292.27,
+     "p50": 43352.1,
+     "p75": 66829.09,
+     "p90": 103393.91,
+     "p99.9": 784754.36,
+     "p99": 235900.1
+    }
+   }
+  ],
+  "definition": "Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 776.1",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    43352.1,
+    43352.1
+   ],
+   "p90": [
+    103393.91,
+    103393.91
+   ],
+   "p99": [
+    235900.1,
+    235900.1
+   ],
+   "p99.9": [
+    784754.36,
+    784754.36
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_posttax_adult_ppp.mx.all.2023",
+  "metric": "income_posttax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "MX",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 89012997,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 1631.4,
+   "p10": 1762.7,
+   "p25": 6128.19,
+   "p50": 12655.65,
+   "p75": 25957.42,
+   "p90": 61783.94,
+   "p99": 327325.69,
+   "p99.9": 975466.01
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 1762.7,
+     "p1": 1631.4,
+     "p25": 6128.19,
+     "p50": 12655.65,
+     "p75": 25957.42,
+     "p90": 61783.94,
+     "p99.9": 975466.01,
+     "p99": 327325.69
+    }
+   }
+  ],
+  "definition": "Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 10.11",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    12655.65,
+    12655.65
+   ],
+   "p90": [
+    61783.94,
+    61783.94
+   ],
+   "p99": [
+    327325.69,
+    327325.69
+   ],
+   "p99.9": [
+    975466.01,
+    975466.01
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_posttax_adult_ppp.ng.all.2023",
+  "metric": "income_posttax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "NG",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 114423759,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 1.58,
+   "p10": 2319.16,
+   "p25": 7843.35,
+   "p50": 13677.59,
+   "p75": 23510.46,
+   "p90": 41895.96,
+   "p99": 140492.65,
+   "p99.9": 370013.08
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 2319.16,
+     "p1": 1.58,
+     "p25": 7843.35,
+     "p50": 13677.59,
+     "p75": 23510.46,
+     "p90": 41895.96,
+     "p99.9": 370013.08,
+     "p99": 140492.65
+    }
+   }
+  ],
+  "definition": "Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 158.2",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    13677.59,
+    13677.59
+   ],
+   "p90": [
+    41895.96,
+    41895.96
+   ],
+   "p99": [
+    140492.65,
+    140492.65
+   ],
+   "p99.9": [
+    370013.08,
+    370013.08
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_posttax_adult_ppp.nl.all.2023",
+  "metric": "income_posttax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "NL",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 14595388,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 27526.18,
+   "p10": 33713.89,
+   "p25": 57365.23,
+   "p50": 75646.82,
+   "p75": 112403.12,
+   "p90": 155159.97,
+   "p99": 325266.82,
+   "p99.9": 720700.91
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 33713.89,
+     "p1": 27526.18,
+     "p25": 57365.23,
+     "p50": 75646.82,
+     "p75": 112403.12,
+     "p90": 155159.97,
+     "p99.9": 720700.91,
+     "p99": 325266.82
+    }
+   }
+  ],
+  "definition": "Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 0.7533",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    75646.82,
+    75646.82
+   ],
+   "p90": [
+    155159.97,
+    155159.97
+   ],
+   "p99": [
+    325266.82,
+    325266.82
+   ],
+   "p99.9": [
+    720700.91,
+    720700.91
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_posttax_adult_ppp.sg.all.2023",
+  "metric": "income_posttax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "SG",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 4880104,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 7586.55,
+   "p10": 26308.7,
+   "p25": 72340.96,
+   "p50": 110868.73,
+   "p75": 171853.76,
+   "p90": 343629.36,
+   "p99": 1031118.57,
+   "p99.9": 4107154.81
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 26308.7,
+     "p1": 7586.55,
+     "p25": 72340.96,
+     "p50": 110868.73,
+     "p75": 171853.76,
+     "p90": 343629.36,
+     "p99.9": 4107154.81,
+     "p99": 1031118.57
+    }
+   }
+  ],
+  "definition": "Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 0.797",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    110868.73,
+    110868.73
+   ],
+   "p90": [
+    343629.36,
+    343629.36
+   ],
+   "p99": [
+    1031118.57,
+    1031118.57
+   ],
+   "p99.9": [
+    4107154.81,
+    4107154.81
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_posttax_adult_ppp.us.all.2023",
+  "metric": "income_posttax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 265065977,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 1485.1,
+   "p10": 19391.8,
+   "p25": 41995.4,
+   "p50": 66843.9,
+   "p75": 102900.1,
+   "p90": 157872.6,
+   "p99": 468687.1,
+   "p99.9": 1932799.4
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 19391.8,
+     "p1": 1485.1,
+     "p25": 41995.4,
+     "p50": 66843.9,
+     "p90": 157872.6,
+     "p99.9": 1932799.4,
+     "p99": 468687.1,
+     "p75": 102900.1
+    }
+   }
+  ],
+  "definition": "Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 1",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    66843.9,
+    66843.9
+   ],
+   "p90": [
+    157872.6,
+    157872.6
+   ],
+   "p99": [
+    468687.1,
+    468687.1
+   ],
+   "p99.9": [
+    1932799.4,
+    1932799.4
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_posttax_adult_ppp.world.all.2023",
+  "metric": "income_posttax_adult_ppp",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 5564200739,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 283.4,
+   "p10": 2171.2,
+   "p25": 5426.4,
+   "p50": 12379.5,
+   "p75": 33211.7,
+   "p90": 65836.4,
+   "p99": 199138.3,
+   "p99.9": 700432.4
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 2171.2,
+     "p75": 33211.7,
+     "p25": 5426.4,
+     "p1": 283.4,
+     "p99.9": 700432.4,
+     "p50": 12379.5,
+     "p90": 65836.4,
+     "p99": 199138.3
+    }
+   }
+  ],
+  "definition": "Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    12379.5,
+    12379.5
+   ],
+   "p90": [
+    65836.4,
+    65836.4
+   ],
+   "p99": [
+    199138.3,
+    199138.3
+   ],
+   "p99.9": [
+    700432.4,
+    700432.4
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_pretax_adult_ppp.au.all.2023",
+  "metric": "income_pretax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "AU",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 20545227,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 0.0,
+   "p10": 7776.81,
+   "p25": 27166.73,
+   "p50": 60912.13,
+   "p75": 101053.79,
+   "p90": 153484.72,
+   "p99": 403612.97,
+   "p99.9": 1386633.75
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p99.9": 1386633.75,
+     "p10": 7776.81,
+     "p1": 0.0,
+     "p25": 27166.73,
+     "p50": 60912.13,
+     "p75": 101053.79,
+     "p90": 153484.72,
+     "p99": 403612.97
+    }
+   }
+  ],
+  "definition": "Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 1.403",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    60912.13,
+    60912.13
+   ],
+   "p90": [
+    153484.72,
+    153484.72
+   ],
+   "p99": [
+    403612.97,
+    403612.97
+   ],
+   "p99.9": [
+    1386633.75,
+    1386633.75
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_pretax_adult_ppp.br.all.2023",
+  "metric": "income_pretax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "BR",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 156861427,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 1.31,
+   "p10": 12.96,
+   "p25": 5014.77,
+   "p50": 11435.63,
+   "p75": 21415.13,
+   "p90": 50192.39,
+   "p99": 315778.97,
+   "p99.9": 934509.84
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 12.96,
+     "p1": 1.31,
+     "p25": 5014.77,
+     "p50": 11435.63,
+     "p75": 21415.13,
+     "p90": 50192.39,
+     "p99.9": 934509.84,
+     "p99": 315778.97
+    }
+   }
+  ],
+  "definition": "Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 2.446",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    11435.63,
+    11435.63
+   ],
+   "p90": [
+    50192.39,
+    50192.39
+   ],
+   "p99": [
+    315778.97,
+    315778.97
+   ],
+   "p99.9": [
+    934509.84,
+    934509.84
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_pretax_adult_ppp.ca.all.2023",
+  "metric": "income_pretax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "CA",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 31912153,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 0.0,
+   "p10": 6891.71,
+   "p25": 26336.5,
+   "p50": 56253.4,
+   "p75": 93811.3,
+   "p90": 145887.43,
+   "p99": 383575.17,
+   "p99.9": 1468353.9
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 6891.71,
+     "p1": 0.0,
+     "p25": 26336.5,
+     "p50": 56253.4,
+     "p75": 93811.3,
+     "p90": 145887.43,
+     "p99.9": 1468353.9,
+     "p99": 383575.17
+    }
+   }
+  ],
+  "definition": "Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 1.147",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    56253.4,
+    56253.4
+   ],
+   "p90": [
+    145887.43,
+    145887.43
+   ],
+   "p99": [
+    383575.17,
+    383575.17
+   ],
+   "p99.9": [
+    1468353.9,
+    1468353.9
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_pretax_adult_ppp.ch.all.2023",
+  "metric": "income_pretax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "CH",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 7187523,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 0.0,
+   "p10": 13941.8,
+   "p25": 46895.31,
+   "p50": 73145.92,
+   "p75": 103622.71,
+   "p90": 154175.59,
+   "p99": 366631.17,
+   "p99.9": 1265698.88
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 13941.8,
+     "p1": 0.0,
+     "p25": 46895.31,
+     "p50": 73145.92,
+     "p75": 103622.71,
+     "p90": 154175.59,
+     "p99.9": 1265698.88,
+     "p99": 366631.17
+    }
+   }
+  ],
+  "definition": "Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 0.989",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    73145.92,
+    73145.92
+   ],
+   "p90": [
+    154175.59,
+    154175.59
+   ],
+   "p99": [
+    366631.17,
+    366631.17
+   ],
+   "p99.9": [
+    1265698.88,
+    1265698.88
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_pretax_adult_ppp.cn.all.2023",
+  "metric": "income_pretax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "CN",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 1113252960,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 0.0,
+   "p10": 1664.21,
+   "p25": 6437.96,
+   "p50": 16430.59,
+   "p75": 29003.46,
+   "p90": 48120.93,
+   "p99": 159118.5,
+   "p99.9": 491287.87
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 1664.21,
+     "p1": 0.0,
+     "p25": 6437.96,
+     "p50": 16430.59,
+     "p75": 29003.46,
+     "p90": 48120.93,
+     "p99.9": 491287.87,
+     "p99": 159118.5
+    }
+   }
+  ],
+  "definition": "Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 3.641",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    16430.59,
+    16430.59
+   ],
+   "p90": [
+    48120.93,
+    48120.93
+   ],
+   "p99": [
+    159118.5,
+    159118.5
+   ],
+   "p99.9": [
+    491287.87,
+    491287.87
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_pretax_adult_ppp.de.all.2023",
+  "metric": "income_pretax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "DE",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 68531546,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 0.0,
+   "p10": 8995.05,
+   "p25": 31804.74,
+   "p50": 54038.81,
+   "p75": 85667.13,
+   "p90": 133917.12,
+   "p99": 404438.77,
+   "p99.9": 1475035.54
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p99.9": 1475035.54,
+     "p10": 8995.05,
+     "p1": 0.0,
+     "p25": 31804.74,
+     "p50": 54038.81,
+     "p75": 85667.13,
+     "p90": 133917.12,
+     "p99": 404438.77
+    }
+   }
+  ],
+  "definition": "Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 0.7164",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    54038.81,
+    54038.81
+   ],
+   "p90": [
+    133917.12,
+    133917.12
+   ],
+   "p99": [
+    404438.77,
+    404438.77
+   ],
+   "p99.9": [
+    1475035.54,
+    1475035.54
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_pretax_adult_ppp.et.all.2023",
+  "metric": "income_pretax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "ET",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 68121496,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 0.0,
+   "p10": 1102.15,
+   "p25": 3748.77,
+   "p50": 6316.53,
+   "p75": 10513.13,
+   "p90": 18611.95,
+   "p99": 65841.02,
+   "p99.9": 146096.93
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 1102.15,
+     "p1": 0.0,
+     "p25": 3748.77,
+     "p50": 6316.53,
+     "p75": 10513.13,
+     "p90": 18611.95,
+     "p99.9": 146096.93,
+     "p99": 65841.02
+    }
+   }
+  ],
+  "definition": "Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 21.28",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    6316.53,
+    6316.53
+   ],
+   "p90": [
+    18611.95,
+    18611.95
+   ],
+   "p99": [
+    65841.02,
+    65841.02
+   ],
+   "p99.9": [
+    146096.93,
+    146096.93
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_pretax_adult_ppp.fr.all.2023",
+  "metric": "income_pretax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "FR",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 51678583,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 0.0,
+   "p10": 8934.61,
+   "p25": 30119.58,
+   "p50": 54453.09,
+   "p75": 82191.34,
+   "p90": 120180.55,
+   "p99": 338166.68,
+   "p99.9": 1242101.22
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p50": 54453.09,
+     "p10": 8934.61,
+     "p1": 0.0,
+     "p25": 30119.58,
+     "p75": 82191.34,
+     "p90": 120180.55,
+     "p99.9": 1242101.22,
+     "p99": 338166.68
+    }
+   }
+  ],
+  "definition": "Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 0.6855",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    54453.09,
+    54453.09
+   ],
+   "p90": [
+    120180.55,
+    120180.55
+   ],
+   "p99": [
+    338166.68,
+    338166.68
+   ],
+   "p99.9": [
+    1242101.22,
+    1242101.22
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_pretax_adult_ppp.gb.all.2023",
+  "metric": "income_pretax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "GB",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 53535883,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 0.0,
+   "p10": 10016.7,
+   "p25": 33767.83,
+   "p50": 53223.52,
+   "p75": 81410.61,
+   "p90": 125919.12,
+   "p99": 349647.25,
+   "p99.9": 1391853.12
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p90": 125919.12,
+     "p10": 10016.7,
+     "p1": 0.0,
+     "p25": 33767.83,
+     "p50": 53223.52,
+     "p75": 81410.61,
+     "p99.9": 1391853.12,
+     "p99": 349647.25
+    }
+   }
+  ],
+  "definition": "Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 0.6768",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    53223.52,
+    53223.52
+   ],
+   "p90": [
+    125919.12,
+    125919.12
+   ],
+   "p99": [
+    349647.25,
+    349647.25
+   ],
+   "p99.9": [
+    1391853.12,
+    1391853.12
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_pretax_adult_ppp.hk.all.2023",
+  "metric": "income_pretax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "HK",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 6352190,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 0.0,
+   "p10": 7495.25,
+   "p25": 26419.13,
+   "p50": 47849.48,
+   "p75": 86984.16,
+   "p90": 166978.99,
+   "p99": 649272.75,
+   "p99.9": 2387807.94
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 7495.25,
+     "p1": 0.0,
+     "p25": 26419.13,
+     "p50": 47849.48,
+     "p75": 86984.16,
+     "p90": 166978.99,
+     "p99.9": 2387807.94,
+     "p99": 649272.75
+    }
+   }
+  ],
+  "definition": "Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 5.531",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    47849.48,
+    47849.48
+   ],
+   "p90": [
+    166978.99,
+    166978.99
+   ],
+   "p99": [
+    649272.75,
+    649272.75
+   ],
+   "p99.9": [
+    2387807.94,
+    2387807.94
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_pretax_adult_ppp.id.all.2023",
+  "metric": "income_pretax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "ID",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 192888049,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 0.0,
+   "p10": 1492.71,
+   "p25": 5056.65,
+   "p50": 9984.32,
+   "p75": 21004.93,
+   "p90": 36611.27,
+   "p99": 136650.13,
+   "p99.9": 544829.34
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 1492.71,
+     "p1": 0.0,
+     "p25": 5056.65,
+     "p50": 9984.32,
+     "p75": 21004.93,
+     "p90": 36611.27,
+     "p99.9": 544829.34,
+     "p99": 136650.13
+    }
+   }
+  ],
+  "definition": "Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 4816",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    9984.32,
+    9984.32
+   ],
+   "p90": [
+    36611.27,
+    36611.27
+   ],
+   "p99": [
+    136650.13,
+    136650.13
+   ],
+   "p99.9": [
+    544829.34,
+    544829.34
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_pretax_adult_ppp.in.all.2023",
+  "metric": "income_pretax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "IN",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 982970177,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 0.0,
+   "p10": 1313.74,
+   "p25": 4283.66,
+   "p50": 6230.79,
+   "p75": 9839.49,
+   "p90": 17191.58,
+   "p99": 122581.97,
+   "p99.9": 485894.4
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 1313.74,
+     "p1": 0.0,
+     "p25": 4283.66,
+     "p50": 6230.79,
+     "p75": 9839.49,
+     "p90": 17191.58,
+     "p99.9": 485894.4,
+     "p99": 122581.97
+    }
+   }
+  ],
+  "definition": "Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 20.54",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    6230.79,
+    6230.79
+   ],
+   "p90": [
+    17191.58,
+    17191.58
+   ],
+   "p99": [
+    122581.97,
+    122581.97
+   ],
+   "p99.9": [
+    485894.4,
+    485894.4
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_pretax_adult_ppp.jp.all.2023",
+  "metric": "income_pretax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "JP",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 103610422,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 0.0,
+   "p10": 4911.4,
+   "p25": 18756.08,
+   "p50": 41154.49,
+   "p75": 50052.66,
+   "p90": 74173.77,
+   "p99": 461244.34,
+   "p99.9": 899261.31
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p75": 50052.66,
+     "p1": 0.0,
+     "p90": 74173.77,
+     "p10": 4911.4,
+     "p25": 18756.08,
+     "p50": 41154.49,
+     "p99.9": 899261.31,
+     "p99": 461244.34
+    }
+   }
+  ],
+  "definition": "Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 93.32",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    41154.49,
+    41154.49
+   ],
+   "p90": [
+    74173.77,
+    74173.77
+   ],
+   "p99": [
+    461244.34,
+    461244.34
+   ],
+   "p99.9": [
+    899261.31,
+    899261.31
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_pretax_adult_ppp.ke.all.2023",
+  "metric": "income_pretax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "KE",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 30030634,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 0.0,
+   "p10": 1094.66,
+   "p25": 3709.22,
+   "p50": 6255.29,
+   "p75": 11696.72,
+   "p90": 22512.91,
+   "p99": 95857.62,
+   "p99.9": 240675.35
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 1094.66,
+     "p1": 0.0,
+     "p25": 3709.22,
+     "p50": 6255.29,
+     "p75": 11696.72,
+     "p90": 22512.91,
+     "p99.9": 240675.35,
+     "p99": 95857.62
+    }
+   }
+  ],
+  "definition": "Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 42.97",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    6255.29,
+    6255.29
+   ],
+   "p90": [
+    22512.91,
+    22512.91
+   ],
+   "p99": [
+    95857.62,
+    95857.62
+   ],
+   "p99.9": [
+    240675.35,
+    240675.35
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_pretax_adult_ppp.kr.all.2023",
+  "metric": "income_pretax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "KR",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 44085930,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 0.0,
+   "p10": 6122.21,
+   "p25": 21784.83,
+   "p50": 40794.13,
+   "p75": 67278.98,
+   "p90": 108274.49,
+   "p99": 300863.81,
+   "p99.9": 1039797.13
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 6122.21,
+     "p1": 0.0,
+     "p25": 21784.83,
+     "p50": 40794.13,
+     "p75": 67278.98,
+     "p90": 108274.49,
+     "p99.9": 1039797.13,
+     "p99": 300863.81
+    }
+   }
+  ],
+  "definition": "Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 776.1",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    40794.13,
+    40794.13
+   ],
+   "p90": [
+    108274.49,
+    108274.49
+   ],
+   "p99": [
+    300863.81,
+    300863.81
+   ],
+   "p99.9": [
+    1039797.13,
+    1039797.13
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_pretax_adult_ppp.mx.all.2023",
+  "metric": "income_pretax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "MX",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 89012997,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 0.33,
+   "p10": 3.28,
+   "p25": 5038.94,
+   "p50": 12004.91,
+   "p75": 26945.93,
+   "p90": 64360.17,
+   "p99": 378385.66,
+   "p99.9": 1012415.29
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 3.28,
+     "p1": 0.33,
+     "p25": 5038.94,
+     "p50": 12004.91,
+     "p75": 26945.93,
+     "p90": 64360.17,
+     "p99.9": 1012415.29,
+     "p99": 378385.66
+    }
+   }
+  ],
+  "definition": "Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 10.11",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    12004.91,
+    12004.91
+   ],
+   "p90": [
+    64360.17,
+    64360.17
+   ],
+   "p99": [
+    378385.66,
+    378385.66
+   ],
+   "p99.9": [
+    1012415.29,
+    1012415.29
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_pretax_adult_ppp.ng.all.2023",
+  "metric": "income_pretax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "NG",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 114423759,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 0.0,
+   "p10": 2255.3,
+   "p25": 7656.44,
+   "p50": 13430.16,
+   "p75": 23347.35,
+   "p90": 41851.9,
+   "p99": 151570.2,
+   "p99.9": 406456.06
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p90": 41851.9,
+     "p99.9": 406456.06,
+     "p99": 151570.2,
+     "p10": 2255.3,
+     "p1": 0.0,
+     "p25": 7656.44,
+     "p50": 13430.16,
+     "p75": 23347.35
+    }
+   }
+  ],
+  "definition": "Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 158.2",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    13430.16,
+    13430.16
+   ],
+   "p90": [
+    41851.9,
+    41851.9
+   ],
+   "p99": [
+    151570.2,
+    151570.2
+   ],
+   "p99.9": [
+    406456.06,
+    406456.06
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_pretax_adult_ppp.nl.all.2023",
+  "metric": "income_pretax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "NL",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 14595388,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 0.0,
+   "p10": 12798.6,
+   "p25": 43147.9,
+   "p50": 71652.91,
+   "p75": 121084.1,
+   "p90": 177029.67,
+   "p99": 398087.18,
+   "p99.9": 887833.17
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 12798.6,
+     "p1": 0.0,
+     "p25": 43147.9,
+     "p50": 71652.91,
+     "p75": 121084.1,
+     "p90": 177029.67,
+     "p99.9": 887833.17,
+     "p99": 398087.18
+    }
+   }
+  ],
+  "definition": "Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 0.7533",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    71652.91,
+    71652.91
+   ],
+   "p90": [
+    177029.67,
+    177029.67
+   ],
+   "p99": [
+    398087.18,
+    398087.18
+   ],
+   "p99.9": [
+    887833.17,
+    887833.17
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_pretax_adult_ppp.sg.all.2023",
+  "metric": "income_pretax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "SG",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 4880104,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 0.0,
+   "p10": 20467.12,
+   "p25": 67704.31,
+   "p50": 106112.0,
+   "p75": 168565.58,
+   "p90": 348481.2,
+   "p99": 1076926.48,
+   "p99.9": 5346134.38
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 20467.12,
+     "p1": 0.0,
+     "p25": 67704.31,
+     "p50": 106112.0,
+     "p75": 168565.58,
+     "p90": 348481.2,
+     "p99.9": 5346134.38,
+     "p99": 1076926.48
+    }
+   }
+  ],
+  "definition": "Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 0.797",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    106112.0,
+    106112.0
+   ],
+   "p90": [
+    348481.2,
+    348481.2
+   ],
+   "p99": [
+    1076926.48,
+    1076926.48
+   ],
+   "p99.9": [
+    5346134.38,
+    5346134.38
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_pretax_adult_ppp.us.all.2023",
+  "metric": "income_pretax_adult_ppp",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 265065977,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 593.0,
+   "p10": 9609.6,
+   "p25": 25157.0,
+   "p50": 52197.9,
+   "p75": 99034.5,
+   "p90": 172238.4,
+   "p99": 577009.3,
+   "p99.9": 2714918.1
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 9609.6,
+     "p75": 99034.5,
+     "p90": 172238.4,
+     "p99": 577009.3,
+     "p1": 593.0,
+     "p25": 25157.0,
+     "p50": 52197.9,
+     "p99.9": 2714918.1
+    }
+   }
+  ],
+  "definition": "Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 1",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    52197.9,
+    52197.9
+   ],
+   "p90": [
+    172238.4,
+    172238.4
+   ],
+   "p99": [
+    577009.3,
+    577009.3
+   ],
+   "p99.9": [
+    2714918.1,
+    2714918.1
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "income_pretax_adult_ppp.world.all.2023",
+  "metric": "income_pretax_adult_ppp",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 5564200739,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd_year",
+  "grid": {
+   "p1": 21.7,
+   "p10": 2101.0,
+   "p25": 4678.9,
+   "p50": 11100.9,
+   "p75": 29804.4,
+   "p90": 64167.6,
+   "p99": 223480.2,
+   "p99.9": 827501.9
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 2101.0,
+     "p1": 21.7,
+     "p25": 4678.9,
+     "p50": 11100.9,
+     "p75": 29804.4,
+     "p90": 64167.6,
+     "p99.9": 827501.9,
+     "p99": 223480.2
+    }
+   }
+  ],
+  "definition": "Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    11100.9,
+    11100.9
+   ],
+   "p90": [
+    64167.6,
+    64167.6
+   ],
+   "p99": [
+    223480.2,
+    223480.2
+   ],
+   "p99.9": [
+    827501.9,
+    827501.9
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "net_worth_adult_usd.au.all.2023",
+  "metric": "net_worth_adult_usd",
+  "population": {
+   "base": "country",
+   "country": "AU",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 20545227,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd",
+  "grid": {
+   "p1": -172370.05,
+   "p10": -3406.12,
+   "p25": 46558.01,
+   "p50": 198411.05,
+   "p75": 520879.15,
+   "p90": 1150444.2,
+   "p99": 4527518.23,
+   "p99.9": 16309595.13
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": -3406.12,
+     "p1": -172370.05,
+     "p25": 46558.01,
+     "p50": 198411.05,
+     "p75": 520879.15,
+     "p90": 1150444.2,
+     "p99.9": 16309595.13,
+     "p99": 4527518.23
+    }
+   }
+  ],
+  "definition": "Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 1.403",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    198411.05,
+    198411.05
+   ],
+   "p90": [
+    1150444.2,
+    1150444.2
+   ],
+   "p99": [
+    4527518.23,
+    4527518.23
+   ],
+   "p99.9": [
+    16309595.13,
+    16309595.13
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "net_worth_adult_usd.br.all.2023",
+  "metric": "net_worth_adult_usd",
+  "population": {
+   "base": "country",
+   "country": "BR",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 156861427,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd",
+  "grid": {
+   "p1": -61359.98,
+   "p10": -201.34,
+   "p25": 5496.62,
+   "p50": 21236.03,
+   "p75": 60888.52,
+   "p90": 165999.07,
+   "p99": 855232.37,
+   "p99.9": 4833392.54
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": -201.34,
+     "p1": -61359.98,
+     "p25": 5496.62,
+     "p50": 21236.03,
+     "p75": 60888.52,
+     "p90": 165999.07,
+     "p99.9": 4833392.54,
+     "p99": 855232.37
+    }
+   }
+  ],
+  "definition": "Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 2.446",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    21236.03,
+    21236.03
+   ],
+   "p90": [
+    165999.07,
+    165999.07
+   ],
+   "p99": [
+    855232.37,
+    855232.37
+   ],
+   "p99.9": [
+    4833392.54,
+    4833392.54
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "net_worth_adult_usd.ca.all.2023",
+  "metric": "net_worth_adult_usd",
+  "population": {
+   "base": "country",
+   "country": "CA",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 31912153,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd",
+  "grid": {
+   "p1": 41914.95,
+   "p10": 94931.3,
+   "p25": 130386.62,
+   "p50": 225619.45,
+   "p75": 277800.33,
+   "p90": 786917.22,
+   "p99": 3177256.28,
+   "p99.9": 16856878.22
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 94931.3,
+     "p1": 41914.95,
+     "p25": 130386.62,
+     "p50": 225619.45,
+     "p75": 277800.33,
+     "p90": 786917.22,
+     "p99.9": 16856878.22,
+     "p99": 3177256.28
+    }
+   }
+  ],
+  "definition": "Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 1.147",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    225619.45,
+    225619.45
+   ],
+   "p90": [
+    786917.22,
+    786917.22
+   ],
+   "p99": [
+    3177256.28,
+    3177256.28
+   ],
+   "p99.9": [
+    16856878.22,
+    16856878.22
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "net_worth_adult_usd.ch.all.2023",
+  "metric": "net_worth_adult_usd",
+  "population": {
+   "base": "country",
+   "country": "CH",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 7187523,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd",
+  "grid": {
+   "p1": -104.44,
+   "p10": 4.55,
+   "p25": 23113.04,
+   "p50": 201831.83,
+   "p75": 614949.44,
+   "p90": 1382221.68,
+   "p99": 5704832.34,
+   "p99.9": 28788473.54
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 4.55,
+     "p1": -104.44,
+     "p25": 23113.04,
+     "p50": 201831.83,
+     "p75": 614949.44,
+     "p90": 1382221.68,
+     "p99.9": 28788473.54,
+     "p99": 5704832.34
+    }
+   }
+  ],
+  "definition": "Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 0.989",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    201831.83,
+    201831.83
+   ],
+   "p90": [
+    1382221.68,
+    1382221.68
+   ],
+   "p99": [
+    5704832.34,
+    5704832.34
+   ],
+   "p99.9": [
+    28788473.54,
+    28788473.54
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "net_worth_adult_usd.cn.all.2023",
+  "metric": "net_worth_adult_usd",
+  "population": {
+   "base": "country",
+   "country": "CN",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 1113252960,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd",
+  "grid": {
+   "p1": -29717.15,
+   "p10": 7252.78,
+   "p25": 18857.9,
+   "p50": 42476.41,
+   "p75": 96028.38,
+   "p90": 228501.72,
+   "p99": 1496973.13,
+   "p99.9": 4051103.08
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 7252.78,
+     "p1": -29717.15,
+     "p25": 18857.9,
+     "p50": 42476.41,
+     "p75": 96028.38,
+     "p90": 228501.72,
+     "p99.9": 4051103.08,
+     "p99": 1496973.13
+    }
+   }
+  ],
+  "definition": "Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 3.641",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    42476.41,
+    42476.41
+   ],
+   "p90": [
+    228501.72,
+    228501.72
+   ],
+   "p99": [
+    1496973.13,
+    1496973.13
+   ],
+   "p99.9": [
+    4051103.08,
+    4051103.08
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "net_worth_adult_usd.de.all.2023",
+  "metric": "net_worth_adult_usd",
+  "population": {
+   "base": "country",
+   "country": "DE",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 68531546,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd",
+  "grid": {
+   "p1": -40431.44,
+   "p10": -30.29,
+   "p25": 10875.29,
+   "p50": 163054.12,
+   "p75": 494280.93,
+   "p90": 990295.96,
+   "p99": 3773141.24,
+   "p99.9": 16006422.91
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": -30.29,
+     "p1": -40431.44,
+     "p25": 10875.29,
+     "p50": 163054.12,
+     "p75": 494280.93,
+     "p90": 990295.96,
+     "p99.9": 16006422.91,
+     "p99": 3773141.24
+    }
+   }
+  ],
+  "definition": "Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 0.7164",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    163054.12,
+    163054.12
+   ],
+   "p90": [
+    990295.96,
+    990295.96
+   ],
+   "p99": [
+    3773141.24,
+    3773141.24
+   ],
+   "p99.9": [
+    16006422.91,
+    16006422.91
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "net_worth_adult_usd.et.all.2023",
+  "metric": "net_worth_adult_usd",
+  "population": {
+   "base": "country",
+   "country": "ET",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 68121496,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd",
+  "grid": {
+   "p1": -13977.48,
+   "p10": -252.04,
+   "p25": 4163.34,
+   "p50": 17873.36,
+   "p75": 47002.42,
+   "p90": 105107.33,
+   "p99": 425171.32,
+   "p99.9": 1564093.49
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": -252.04,
+     "p1": -13977.48,
+     "p25": 4163.34,
+     "p50": 17873.36,
+     "p75": 47002.42,
+     "p90": 105107.33,
+     "p99.9": 1564093.49,
+     "p99": 425171.32
+    }
+   }
+  ],
+  "definition": "Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 21.28",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    17873.36,
+    17873.36
+   ],
+   "p90": [
+    105107.33,
+    105107.33
+   ],
+   "p99": [
+    425171.32,
+    425171.32
+   ],
+   "p99.9": [
+    1564093.49,
+    1564093.49
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "net_worth_adult_usd.fr.all.2023",
+  "metric": "net_worth_adult_usd",
+  "population": {
+   "base": "country",
+   "country": "FR",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 51678583,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd",
+  "grid": {
+   "p1": -146.91,
+   "p10": 2401.61,
+   "p25": 17647.62,
+   "p50": 157924.52,
+   "p75": 376695.82,
+   "p90": 832767.5,
+   "p99": 3488619.88,
+   "p99.9": 14710468.72
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 2401.61,
+     "p1": -146.91,
+     "p25": 17647.62,
+     "p50": 157924.52,
+     "p75": 376695.82,
+     "p90": 832767.5,
+     "p99.9": 14710468.72,
+     "p99": 3488619.88
+    }
+   }
+  ],
+  "definition": "Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 0.6855",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    157924.52,
+    157924.52
+   ],
+   "p90": [
+    832767.5,
+    832767.5
+   ],
+   "p99": [
+    3488619.88,
+    3488619.88
+   ],
+   "p99.9": [
+    14710468.72,
+    14710468.72
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "net_worth_adult_usd.gb.all.2023",
+  "metric": "net_worth_adult_usd",
+  "population": {
+   "base": "country",
+   "country": "GB",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 53535883,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd",
+  "grid": {
+   "p1": -29844.13,
+   "p10": 430.84,
+   "p25": 16099.8,
+   "p50": 104910.56,
+   "p75": 314860.81,
+   "p90": 734723.65,
+   "p99": 3369760.37,
+   "p99.9": 7938259.94
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p75": 314860.81,
+     "p10": 430.84,
+     "p1": -29844.13,
+     "p25": 16099.8,
+     "p50": 104910.56,
+     "p90": 734723.65,
+     "p99.9": 7938259.94,
+     "p99": 3369760.37
+    }
+   }
+  ],
+  "definition": "Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 0.6768",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    104910.56,
+    104910.56
+   ],
+   "p90": [
+    734723.65,
+    734723.65
+   ],
+   "p99": [
+    3369760.37,
+    3369760.37
+   ],
+   "p99.9": [
+    7938259.94,
+    7938259.94
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "net_worth_adult_usd.hk.all.2023",
+  "metric": "net_worth_adult_usd",
+  "population": {
+   "base": "country",
+   "country": "HK",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 6352190,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd",
+  "grid": {
+   "p1": -138395.01,
+   "p10": -1787.85,
+   "p25": 28847.37,
+   "p50": 123581.51,
+   "p75": 330636.92,
+   "p90": 768428.74,
+   "p99": 3574794.74,
+   "p99.9": 14377431.94
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": -1787.85,
+     "p1": -138395.01,
+     "p25": 28847.37,
+     "p50": 123581.51,
+     "p75": 330636.92,
+     "p90": 768428.74,
+     "p99.9": 14377431.94,
+     "p99": 3574794.74
+    }
+   }
+  ],
+  "definition": "Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 5.531",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    123581.51,
+    123581.51
+   ],
+   "p90": [
+    768428.74,
+    768428.74
+   ],
+   "p99": [
+    3574794.74,
+    3574794.74
+   ],
+   "p99.9": [
+    14377431.94,
+    14377431.94
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "net_worth_adult_usd.id.all.2023",
+  "metric": "net_worth_adult_usd",
+  "population": {
+   "base": "country",
+   "country": "ID",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 192888049,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd",
+  "grid": {
+   "p1": -38170.83,
+   "p10": -23.62,
+   "p25": 1505.17,
+   "p50": 23053.54,
+   "p75": 78595.14,
+   "p90": 188474.3,
+   "p99": 732134.79,
+   "p99.9": 2042273.96
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": -23.62,
+     "p1": -38170.83,
+     "p25": 1505.17,
+     "p50": 23053.54,
+     "p75": 78595.14,
+     "p90": 188474.3,
+     "p99.9": 2042273.96,
+     "p99": 732134.79
+    }
+   }
+  ],
+  "definition": "Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 4816",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    23053.54,
+    23053.54
+   ],
+   "p90": [
+    188474.3,
+    188474.3
+   ],
+   "p99": [
+    732134.79,
+    732134.79
+   ],
+   "p99.9": [
+    2042273.96,
+    2042273.96
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "net_worth_adult_usd.in.all.2023",
+  "metric": "net_worth_adult_usd",
+  "population": {
+   "base": "country",
+   "country": "IN",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 982970177,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd",
+  "grid": {
+   "p1": -8354.55,
+   "p10": 2690.54,
+   "p25": 8647.48,
+   "p50": 22003.83,
+   "p75": 51613.82,
+   "p90": 112397.65,
+   "p99": 385635.86,
+   "p99.9": 2370303.35
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 2690.54,
+     "p1": -8354.55,
+     "p25": 8647.48,
+     "p50": 22003.83,
+     "p75": 51613.82,
+     "p90": 112397.65,
+     "p99.9": 2370303.35,
+     "p99": 385635.86
+    }
+   }
+  ],
+  "definition": "Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 20.54",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    22003.83,
+    22003.83
+   ],
+   "p90": [
+    112397.65,
+    112397.65
+   ],
+   "p99": [
+    385635.86,
+    385635.86
+   ],
+   "p99.9": [
+    2370303.35,
+    2370303.35
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "net_worth_adult_usd.jp.all.2023",
+  "metric": "net_worth_adult_usd",
+  "population": {
+   "base": "country",
+   "country": "JP",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 103610422,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd",
+  "grid": {
+   "p1": -102282.63,
+   "p10": -1696.91,
+   "p25": 27381.27,
+   "p50": 117871.39,
+   "p75": 311126.65,
+   "p90": 703457.24,
+   "p99": 2908932.19,
+   "p99.9": 10945316.17
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": -1696.91,
+     "p1": -102282.63,
+     "p25": 27381.27,
+     "p50": 117871.39,
+     "p75": 311126.65,
+     "p90": 703457.24,
+     "p99.9": 10945316.17,
+     "p99": 2908932.19
+    }
+   }
+  ],
+  "definition": "Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 93.32",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    117871.39,
+    117871.39
+   ],
+   "p90": [
+    703457.24,
+    703457.24
+   ],
+   "p99": [
+    2908932.19,
+    2908932.19
+   ],
+   "p99.9": [
+    10945316.17,
+    10945316.17
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "net_worth_adult_usd.ke.all.2023",
+  "metric": "net_worth_adult_usd",
+  "population": {
+   "base": "country",
+   "country": "KE",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 30030634,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd",
+  "grid": {
+   "p1": -11147.17,
+   "p10": -160.24,
+   "p25": 2802.91,
+   "p50": 12050.51,
+   "p75": 32056.54,
+   "p90": 73702.15,
+   "p99": 314001.93,
+   "p99.9": 1228824.2
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": -160.24,
+     "p1": -11147.17,
+     "p25": 2802.91,
+     "p50": 12050.51,
+     "p75": 32056.54,
+     "p90": 73702.15,
+     "p99.9": 1228824.2,
+     "p99": 314001.93
+    }
+   }
+  ],
+  "definition": "Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 42.97",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    12050.51,
+    12050.51
+   ],
+   "p90": [
+    73702.15,
+    73702.15
+   ],
+   "p99": [
+    314001.93,
+    314001.93
+   ],
+   "p99.9": [
+    1228824.2,
+    1228824.2
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "net_worth_adult_usd.kr.all.2023",
+  "metric": "net_worth_adult_usd",
+  "population": {
+   "base": "country",
+   "country": "KR",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 44085930,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd",
+  "grid": {
+   "p1": -220.24,
+   "p10": 466.56,
+   "p25": 5802.78,
+   "p50": 53116.07,
+   "p75": 244900.02,
+   "p90": 1408838.52,
+   "p99": 5802037.72,
+   "p99.9": 13450372.07
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 466.56,
+     "p1": -220.24,
+     "p25": 5802.78,
+     "p50": 53116.07,
+     "p75": 244900.02,
+     "p90": 1408838.52,
+     "p99.9": 13450372.07,
+     "p99": 5802037.72
+    }
+   }
+  ],
+  "definition": "Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 776.1",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    53116.07,
+    53116.07
+   ],
+   "p90": [
+    1408838.52,
+    1408838.52
+   ],
+   "p99": [
+    5802037.72,
+    5802037.72
+   ],
+   "p99.9": [
+    13450372.07,
+    13450372.07
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "net_worth_adult_usd.mx.all.2023",
+  "metric": "net_worth_adult_usd",
+  "population": {
+   "base": "country",
+   "country": "MX",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 89012997,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd",
+  "grid": {
+   "p1": -62136.81,
+   "p10": -203.72,
+   "p25": 5774.49,
+   "p50": 22020.53,
+   "p75": 64340.22,
+   "p90": 168709.4,
+   "p99": 868617.05,
+   "p99.9": 4903130.31
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": -203.72,
+     "p1": -62136.81,
+     "p25": 5774.49,
+     "p50": 22020.53,
+     "p75": 64340.22,
+     "p90": 168709.4,
+     "p99.9": 4903130.31,
+     "p99": 868617.05
+    }
+   }
+  ],
+  "definition": "Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 10.11",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    22020.53,
+    22020.53
+   ],
+   "p90": [
+    168709.4,
+    168709.4
+   ],
+   "p99": [
+    868617.05,
+    868617.05
+   ],
+   "p99.9": [
+    4903130.31,
+    4903130.31
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "net_worth_adult_usd.ng.all.2023",
+  "metric": "net_worth_adult_usd",
+  "population": {
+   "base": "country",
+   "country": "NG",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 114423759,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd",
+  "grid": {
+   "p1": -23056.76,
+   "p10": -240.07,
+   "p25": 5889.48,
+   "p50": 25323.57,
+   "p75": 66688.14,
+   "p90": 149836.55,
+   "p99": 612022.62,
+   "p99.9": 2272479.25
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": -240.07,
+     "p1": -23056.76,
+     "p25": 5889.48,
+     "p50": 25323.57,
+     "p75": 66688.14,
+     "p90": 149836.55,
+     "p99.9": 2272479.25,
+     "p99": 612022.62
+    }
+   }
+  ],
+  "definition": "Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 158.2",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    25323.57,
+    25323.57
+   ],
+   "p90": [
+    149836.55,
+    149836.55
+   ],
+   "p99": [
+    612022.62,
+    612022.62
+   ],
+   "p99.9": [
+    2272479.25,
+    2272479.25
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "net_worth_adult_usd.nl.all.2023",
+  "metric": "net_worth_adult_usd",
+  "population": {
+   "base": "country",
+   "country": "NL",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 14595388,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd",
+  "grid": {
+   "p1": 18947.54,
+   "p10": 33632.65,
+   "p25": 72052.33,
+   "p50": 237377.99,
+   "p75": 627908.64,
+   "p90": 1101994.4,
+   "p99": 3336126.24,
+   "p99.9": 9424950.03
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 33632.65,
+     "p1": 18947.54,
+     "p25": 72052.33,
+     "p50": 237377.99,
+     "p75": 627908.64,
+     "p90": 1101994.4,
+     "p99.9": 9424950.03,
+     "p99": 3336126.24
+    }
+   }
+  ],
+  "definition": "Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 0.7533",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    237377.99,
+    237377.99
+   ],
+   "p90": [
+    1101994.4,
+    1101994.4
+   ],
+   "p99": [
+    3336126.24,
+    3336126.24
+   ],
+   "p99.9": [
+    9424950.03,
+    9424950.03
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "net_worth_adult_usd.sg.all.2023",
+  "metric": "net_worth_adult_usd",
+  "population": {
+   "base": "country",
+   "country": "SG",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 4880104,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd",
+  "grid": {
+   "p1": -235928.23,
+   "p10": -3636.62,
+   "p25": 57114.65,
+   "p50": 245877.09,
+   "p75": 651567.17,
+   "p90": 1486436.88,
+   "p99": 6248681.81,
+   "p99.9": 23996702.0
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": -3636.62,
+     "p1": -235928.23,
+     "p25": 57114.65,
+     "p50": 245877.09,
+     "p75": 651567.17,
+     "p90": 1486436.88,
+     "p99.9": 23996702.0,
+     "p99": 6248681.81
+    }
+   }
+  ],
+  "definition": "Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 0.797",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    245877.09,
+    245877.09
+   ],
+   "p90": [
+    1486436.88,
+    1486436.88
+   ],
+   "p99": [
+    6248681.81,
+    6248681.81
+   ],
+   "p99.9": [
+    23996702.0,
+    23996702.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "net_worth_adult_usd.us.all.2023",
+  "metric": "net_worth_adult_usd",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 265065977,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd",
+  "grid": {
+   "p1": -48983.5,
+   "p10": -17148.3,
+   "p25": 3347.7,
+   "p50": 80261.4,
+   "p75": 417065.0,
+   "p90": 1023789.7,
+   "p99": 4647329.0,
+   "p99.9": 22729042.0
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": -17148.3,
+     "p1": -48983.5,
+     "p25": 3347.7,
+     "p50": 80261.4,
+     "p75": 417065.0,
+     "p90": 1023789.7,
+     "p99.9": 22729042.0,
+     "p99": 4647329.0
+    }
+   }
+  ],
+  "definition": "Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": "converted from local currency at WID PPP factor 1",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    80261.4,
+    80261.4
+   ],
+   "p90": [
+    1023789.7,
+    1023789.7
+   ],
+   "p99": [
+    4647329.0,
+    4647329.0
+   ],
+   "p99.9": [
+    22729042.0,
+    22729042.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "net_worth_adult_usd.world.all.2023",
+  "metric": "net_worth_adult_usd",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 5564200739,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "usd",
+  "grid": {
+   "p1": -55046.2,
+   "p10": 441.0,
+   "p25": 6382.3,
+   "p50": 27115.1,
+   "p75": 86005.0,
+   "p90": 246526.1,
+   "p99": 1506002.9,
+   "p99.9": 6245965.5
+  },
+  "sources": [
+   {
+    "id": "src-wid",
+    "name": "World Inequality Database (WID.world)",
+    "url": "https://wid.world/data/",
+    "measures": "income and wealth thresholds per adult from distributional national accounts; local currency converted at WID's PPP factor",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p10": 441.0,
+     "p1": -55046.2,
+     "p99.9": 6245965.5,
+     "p25": 6382.3,
+     "p75": 86005.0,
+     "p90": 246526.1,
+     "p99": 1506002.9,
+     "p50": 27115.1
+    }
+   }
+  ],
+  "definition": "Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (World Inequality Database (WID.world)); no second source to compare.",
+  "range": {
+   "p50": [
+    27115.1,
+    27115.1
+   ],
+   "p90": [
+    246526.1,
+    246526.1
+   ],
+   "p99": [
+    1506002.9,
+    1506002.9
+   ],
+   "p99.9": [
+    6245965.5,
+    6245965.5
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ }
+]

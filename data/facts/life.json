@@ -1,0 +1,5807 @@
+[
+ {
+  "id": "age_years.au.all.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "AU",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 26974024,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 0.9,
+   "p10": 8.7,
+   "p25": 21.0,
+   "p50": 39.3,
+   "p75": 58.9,
+   "p90": 73.2,
+   "p99": 89.2,
+   "p99.9": 96.9
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 0.9,
+     "p10": 8.7,
+     "p25": 21.0,
+     "p50": 39.3,
+     "p75": 58.9,
+     "p90": 73.2,
+     "p99": 89.2,
+     "p99.9": 96.9
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    39.3,
+    39.3
+   ],
+   "p90": [
+    73.2,
+    73.2
+   ],
+   "p99": [
+    89.2,
+    89.2
+   ],
+   "p99.9": [
+    96.9,
+    96.9
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.au.f.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "AU",
+   "sex": "f",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 13589024,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 0.9,
+   "p10": 9.0,
+   "p25": 21.7,
+   "p50": 40.2,
+   "p75": 60.0,
+   "p90": 74.1,
+   "p99": 90.4,
+   "p99.9": 97.8
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 0.9,
+     "p10": 9.0,
+     "p25": 21.7,
+     "p50": 40.2,
+     "p75": 60.0,
+     "p90": 74.1,
+     "p99": 90.4,
+     "p99.9": 97.8
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    40.2,
+    40.2
+   ],
+   "p90": [
+    74.1,
+    74.1
+   ],
+   "p99": [
+    90.4,
+    90.4
+   ],
+   "p99.9": [
+    97.8,
+    97.8
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.au.m.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "AU",
+   "sex": "m",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 13384991,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 0.8,
+   "p10": 8.4,
+   "p25": 20.3,
+   "p50": 38.3,
+   "p75": 57.8,
+   "p90": 72.2,
+   "p99": 87.9,
+   "p99.9": 95.6
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 0.8,
+     "p10": 8.4,
+     "p25": 20.3,
+     "p50": 38.3,
+     "p75": 57.8,
+     "p90": 72.2,
+     "p99": 87.9,
+     "p99.9": 95.6
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    38.3,
+    38.3
+   ],
+   "p90": [
+    72.2,
+    72.2
+   ],
+   "p99": [
+    87.9,
+    87.9
+   ],
+   "p99.9": [
+    95.6,
+    95.6
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.br.all.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "BR",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 212812397,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 0.8,
+   "p10": 8.0,
+   "p25": 19.1,
+   "p50": 35.8,
+   "p75": 52.7,
+   "p90": 66.6,
+   "p99": 84.1,
+   "p99.9": 92.9
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 0.8,
+     "p10": 8.0,
+     "p25": 19.1,
+     "p50": 35.8,
+     "p75": 52.7,
+     "p90": 66.6,
+     "p99": 84.1,
+     "p99.9": 92.9
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    35.8,
+    35.8
+   ],
+   "p90": [
+    66.6,
+    66.6
+   ],
+   "p99": [
+    84.1,
+    84.1
+   ],
+   "p99.9": [
+    92.9,
+    92.9
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.br.f.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "BR",
+   "sex": "f",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 108154998,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 0.9,
+   "p10": 8.3,
+   "p25": 19.7,
+   "p50": 36.8,
+   "p75": 54.0,
+   "p90": 67.9,
+   "p99": 85.2,
+   "p99.9": 93.7
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 0.9,
+     "p10": 8.3,
+     "p25": 19.7,
+     "p50": 36.8,
+     "p75": 54.0,
+     "p90": 67.9,
+     "p99": 85.2,
+     "p99.9": 93.7
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    36.8,
+    36.8
+   ],
+   "p90": [
+    67.9,
+    67.9
+   ],
+   "p99": [
+    85.2,
+    85.2
+   ],
+   "p99.9": [
+    93.7,
+    93.7
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.br.m.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "BR",
+   "sex": "m",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 104657412,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 0.8,
+   "p10": 7.8,
+   "p25": 18.4,
+   "p50": 34.8,
+   "p75": 51.5,
+   "p90": 65.3,
+   "p99": 82.8,
+   "p99.9": 91.8
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 0.8,
+     "p10": 7.8,
+     "p25": 18.4,
+     "p50": 34.8,
+     "p75": 51.5,
+     "p90": 65.3,
+     "p99": 82.8,
+     "p99.9": 91.8
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    34.8,
+    34.8
+   ],
+   "p90": [
+    65.3,
+    65.3
+   ],
+   "p99": [
+    82.8,
+    82.8
+   ],
+   "p99.9": [
+    91.8,
+    91.8
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.ca.all.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "CA",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 40126729,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 1.1,
+   "p10": 10.3,
+   "p25": 23.8,
+   "p50": 41.6,
+   "p75": 61.5,
+   "p90": 73.9,
+   "p99": 89.9,
+   "p99.9": 97.7
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 1.1,
+     "p10": 10.3,
+     "p25": 23.8,
+     "p50": 41.6,
+     "p75": 61.5,
+     "p90": 73.9,
+     "p99": 89.9,
+     "p99.9": 97.7
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    41.6,
+    41.6
+   ],
+   "p90": [
+    73.9,
+    73.9
+   ],
+   "p99": [
+    89.9,
+    89.9
+   ],
+   "p99.9": [
+    97.7,
+    97.7
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.ca.f.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "CA",
+   "sex": "f",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 20202497,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 1.1,
+   "p10": 10.6,
+   "p25": 24.4,
+   "p50": 42.7,
+   "p75": 62.5,
+   "p90": 75.0,
+   "p99": 91.3,
+   "p99.9": 98.8
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 1.1,
+     "p10": 10.6,
+     "p25": 24.4,
+     "p50": 42.7,
+     "p75": 62.5,
+     "p90": 75.0,
+     "p99": 91.3,
+     "p99.9": 98.8
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    42.7,
+    42.7
+   ],
+   "p90": [
+    75.0,
+    75.0
+   ],
+   "p99": [
+    91.3,
+    91.3
+   ],
+   "p99.9": [
+    98.8,
+    98.8
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.ca.m.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "CA",
+   "sex": "m",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 19924241,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 1.1,
+   "p10": 10.0,
+   "p25": 23.3,
+   "p50": 40.6,
+   "p75": 60.4,
+   "p90": 72.7,
+   "p99": 88.2,
+   "p99.9": 95.9
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 1.1,
+     "p10": 10.0,
+     "p25": 23.3,
+     "p50": 40.6,
+     "p75": 60.4,
+     "p90": 72.7,
+     "p99": 88.2,
+     "p99.9": 95.9
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    40.6,
+    40.6
+   ],
+   "p90": [
+    72.7,
+    72.7
+   ],
+   "p99": [
+    88.2,
+    88.2
+   ],
+   "p99.9": [
+    95.9,
+    95.9
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.ch.all.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "CH",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 8967414,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 1.1,
+   "p10": 10.2,
+   "p25": 25.1,
+   "p50": 43.9,
+   "p75": 61.7,
+   "p90": 75.2,
+   "p99": 90.4,
+   "p99.9": 97.2
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 1.1,
+     "p10": 10.2,
+     "p25": 25.1,
+     "p50": 43.9,
+     "p75": 61.7,
+     "p90": 75.2,
+     "p99": 90.4,
+     "p99.9": 97.2
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    43.9,
+    43.9
+   ],
+   "p90": [
+    75.2,
+    75.2
+   ],
+   "p99": [
+    90.4,
+    90.4
+   ],
+   "p99.9": [
+    97.2,
+    97.2
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.ch.f.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "CH",
+   "sex": "f",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 4511251,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 1.1,
+   "p10": 10.5,
+   "p25": 25.9,
+   "p50": 44.9,
+   "p75": 62.8,
+   "p90": 76.7,
+   "p99": 91.6,
+   "p99.9": 98.1
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 1.1,
+     "p10": 10.5,
+     "p25": 25.9,
+     "p50": 44.9,
+     "p75": 62.8,
+     "p90": 76.7,
+     "p99": 91.6,
+     "p99.9": 98.1
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    44.9,
+    44.9
+   ],
+   "p90": [
+    76.7,
+    76.7
+   ],
+   "p99": [
+    91.6,
+    91.6
+   ],
+   "p99.9": [
+    98.1,
+    98.1
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.ch.m.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "CH",
+   "sex": "m",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 4456175,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 1.0,
+   "p10": 9.9,
+   "p25": 24.3,
+   "p50": 43.0,
+   "p75": 60.5,
+   "p90": 73.5,
+   "p99": 88.6,
+   "p99.9": 95.6
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 1.0,
+     "p10": 9.9,
+     "p25": 24.3,
+     "p50": 43.0,
+     "p75": 60.5,
+     "p90": 73.5,
+     "p99": 88.6,
+     "p99.9": 95.6
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    43.0,
+    43.0
+   ],
+   "p90": [
+    73.5,
+    73.5
+   ],
+   "p99": [
+    88.6,
+    88.6
+   ],
+   "p99.9": [
+    95.6,
+    95.6
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.cn.all.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "CN",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 1416096093,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.2,
+   "p1": 1.6,
+   "p10": 10.8,
+   "p25": 23.3,
+   "p50": 41.1,
+   "p75": 57.8,
+   "p90": 70.0,
+   "p99": 85.5,
+   "p99.9": 93.3
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.2,
+     "p1": 1.6,
+     "p10": 10.8,
+     "p25": 23.3,
+     "p50": 41.1,
+     "p75": 57.8,
+     "p90": 70.0,
+     "p99": 85.5,
+     "p99.9": 93.3
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    41.1,
+    41.1
+   ],
+   "p90": [
+    70.0,
+    70.0
+   ],
+   "p99": [
+    85.5,
+    85.5
+   ],
+   "p99.9": [
+    93.3,
+    93.3
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.cn.f.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "CN",
+   "sex": "f",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 695208295,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.2,
+   "p1": 1.7,
+   "p10": 11.1,
+   "p25": 24.5,
+   "p50": 42.7,
+   "p75": 59.1,
+   "p90": 71.3,
+   "p99": 87.0,
+   "p99.9": 94.5
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.2,
+     "p1": 1.7,
+     "p10": 11.1,
+     "p25": 24.5,
+     "p50": 42.7,
+     "p75": 59.1,
+     "p90": 71.3,
+     "p99": 87.0,
+     "p99.9": 94.5
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    42.7,
+    42.7
+   ],
+   "p90": [
+    71.3,
+    71.3
+   ],
+   "p99": [
+    87.0,
+    87.0
+   ],
+   "p99.9": [
+    94.5,
+    94.5
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.cn.m.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "CN",
+   "sex": "m",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 720887801,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.2,
+   "p1": 1.6,
+   "p10": 10.5,
+   "p25": 22.2,
+   "p50": 39.7,
+   "p75": 56.5,
+   "p90": 68.5,
+   "p99": 83.7,
+   "p99.9": 91.5
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.2,
+     "p1": 1.6,
+     "p10": 10.5,
+     "p25": 22.2,
+     "p50": 39.7,
+     "p75": 56.5,
+     "p90": 68.5,
+     "p99": 83.7,
+     "p99.9": 91.5
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    39.7,
+    39.7
+   ],
+   "p90": [
+    68.5,
+    68.5
+   ],
+   "p99": [
+    83.7,
+    83.7
+   ],
+   "p99.9": [
+    91.5,
+    91.5
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.de.all.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "DE",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 84075075,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 1.2,
+   "p10": 10.8,
+   "p25": 26.5,
+   "p50": 46.5,
+   "p75": 64.1,
+   "p90": 76.7,
+   "p99": 90.6,
+   "p99.9": 97.1
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 1.2,
+     "p10": 10.8,
+     "p25": 26.5,
+     "p50": 46.5,
+     "p75": 64.1,
+     "p90": 76.7,
+     "p99": 90.6,
+     "p99.9": 97.1
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    46.5,
+    46.5
+   ],
+   "p90": [
+    76.7,
+    76.7
+   ],
+   "p99": [
+    90.6,
+    90.6
+   ],
+   "p99.9": [
+    97.1,
+    97.1
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.de.f.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "DE",
+   "sex": "f",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 42557332,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 1.2,
+   "p10": 11.2,
+   "p25": 27.5,
+   "p50": 48.2,
+   "p75": 65.7,
+   "p90": 78.6,
+   "p99": 91.7,
+   "p99.9": 98.1
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 1.2,
+     "p10": 11.2,
+     "p25": 27.5,
+     "p50": 48.2,
+     "p75": 65.7,
+     "p90": 78.6,
+     "p99": 91.7,
+     "p99.9": 98.1
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    48.2,
+    48.2
+   ],
+   "p90": [
+    78.6,
+    78.6
+   ],
+   "p99": [
+    91.7,
+    91.7
+   ],
+   "p99.9": [
+    98.1,
+    98.1
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.de.m.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "DE",
+   "sex": "m",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 41517745,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 1.1,
+   "p10": 10.4,
+   "p25": 25.6,
+   "p50": 44.9,
+   "p75": 62.6,
+   "p90": 74.7,
+   "p99": 89.1,
+   "p99.9": 95.5
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 1.1,
+     "p10": 10.4,
+     "p25": 25.6,
+     "p50": 44.9,
+     "p75": 62.6,
+     "p90": 74.7,
+     "p99": 89.1,
+     "p99.9": 95.5
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    44.9,
+    44.9
+   ],
+   "p90": [
+    74.7,
+    74.7
+   ],
+   "p99": [
+    89.1,
+    89.1
+   ],
+   "p99.9": [
+    95.5,
+    95.5
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.et.all.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "ET",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 135472048,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.0,
+   "p1": 0.3,
+   "p10": 3.4,
+   "p25": 9.0,
+   "p50": 20.1,
+   "p75": 34.6,
+   "p90": 51.1,
+   "p99": 75.2,
+   "p99.9": 86.2
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.0,
+     "p1": 0.3,
+     "p10": 3.4,
+     "p25": 9.0,
+     "p50": 20.1,
+     "p75": 34.6,
+     "p90": 51.1,
+     "p99": 75.2,
+     "p99.9": 86.2
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    20.1,
+    20.1
+   ],
+   "p90": [
+    51.1,
+    51.1
+   ],
+   "p99": [
+    75.2,
+    75.2
+   ],
+   "p99.9": [
+    86.2,
+    86.2
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.et.f.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "ET",
+   "sex": "f",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 67595944,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.0,
+   "p1": 0.3,
+   "p10": 3.5,
+   "p25": 9.2,
+   "p50": 20.5,
+   "p75": 35.2,
+   "p90": 52.3,
+   "p99": 76.3,
+   "p99.9": 87.0
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.0,
+     "p1": 0.3,
+     "p10": 3.5,
+     "p25": 9.2,
+     "p50": 20.5,
+     "p75": 35.2,
+     "p90": 52.3,
+     "p99": 76.3,
+     "p99.9": 87.0
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    20.5,
+    20.5
+   ],
+   "p90": [
+    52.3,
+    52.3
+   ],
+   "p99": [
+    76.3,
+    76.3
+   ],
+   "p99.9": [
+    87.0,
+    87.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.et.m.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "ET",
+   "sex": "m",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 67876104,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.0,
+   "p1": 0.3,
+   "p10": 3.3,
+   "p25": 8.8,
+   "p50": 19.8,
+   "p75": 33.9,
+   "p90": 49.9,
+   "p99": 73.9,
+   "p99.9": 85.1
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.0,
+     "p1": 0.3,
+     "p10": 3.3,
+     "p25": 8.8,
+     "p50": 19.8,
+     "p75": 33.9,
+     "p90": 49.9,
+     "p99": 73.9,
+     "p99.9": 85.1
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    19.8,
+    19.8
+   ],
+   "p90": [
+    49.9,
+    49.9
+   ],
+   "p99": [
+    73.9,
+    73.9
+   ],
+   "p99.9": [
+    85.1,
+    85.1
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.fr.all.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "FR",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 66650804,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 1.0,
+   "p10": 9.7,
+   "p25": 22.0,
+   "p50": 43.3,
+   "p75": 63.0,
+   "p90": 76.1,
+   "p99": 91.8,
+   "p99.9": 98.6
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 1.0,
+     "p10": 9.7,
+     "p25": 22.0,
+     "p50": 43.3,
+     "p75": 63.0,
+     "p90": 76.1,
+     "p99": 91.8,
+     "p99.9": 98.6
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    43.3,
+    43.3
+   ],
+   "p90": [
+    76.1,
+    76.1
+   ],
+   "p99": [
+    91.8,
+    91.8
+   ],
+   "p99.9": [
+    98.6,
+    98.6
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.fr.f.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "FR",
+   "sex": "f",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 34338167,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 1.1,
+   "p10": 10.2,
+   "p25": 23.1,
+   "p50": 44.9,
+   "p75": 64.8,
+   "p90": 77.6,
+   "p99": 93.3,
+   "p99.9": 99.6
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 1.1,
+     "p10": 10.2,
+     "p25": 23.1,
+     "p50": 44.9,
+     "p75": 64.8,
+     "p90": 77.6,
+     "p99": 93.3,
+     "p99.9": 99.6
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    44.9,
+    44.9
+   ],
+   "p90": [
+    77.6,
+    77.6
+   ],
+   "p99": [
+    93.3,
+    93.3
+   ],
+   "p99.9": [
+    99.6,
+    99.6
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.fr.m.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "FR",
+   "sex": "m",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 32312638,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 1.0,
+   "p10": 9.3,
+   "p25": 21.0,
+   "p50": 41.5,
+   "p75": 61.1,
+   "p90": 74.4,
+   "p99": 89.5,
+   "p99.9": 96.3
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 1.0,
+     "p10": 9.3,
+     "p25": 21.0,
+     "p50": 41.5,
+     "p75": 61.1,
+     "p90": 74.4,
+     "p99": 89.5,
+     "p99.9": 96.3
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    41.5,
+    41.5
+   ],
+   "p90": [
+    74.4,
+    74.4
+   ],
+   "p99": [
+    89.5,
+    89.5
+   ],
+   "p99.9": [
+    96.3,
+    96.3
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.gb.all.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "GB",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 69551334,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 1.0,
+   "p10": 9.3,
+   "p25": 21.7,
+   "p50": 41.1,
+   "p75": 60.6,
+   "p90": 74.7,
+   "p99": 89.8,
+   "p99.9": 97.1
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 1.0,
+     "p10": 9.3,
+     "p25": 21.7,
+     "p50": 41.1,
+     "p75": 60.6,
+     "p90": 74.7,
+     "p99": 89.8,
+     "p99.9": 97.1
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    41.1,
+    41.1
+   ],
+   "p90": [
+    74.7,
+    74.7
+   ],
+   "p99": [
+    89.8,
+    89.8
+   ],
+   "p99.9": [
+    97.1,
+    97.1
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.gb.f.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "GB",
+   "sex": "f",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 35294355,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 1.0,
+   "p10": 9.7,
+   "p25": 22.6,
+   "p50": 42.4,
+   "p75": 61.8,
+   "p90": 75.8,
+   "p99": 90.9,
+   "p99.9": 98.1
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 1.0,
+     "p10": 9.7,
+     "p25": 22.6,
+     "p50": 42.4,
+     "p75": 61.8,
+     "p90": 75.8,
+     "p99": 90.9,
+     "p99.9": 98.1
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    42.4,
+    42.4
+   ],
+   "p90": [
+    75.8,
+    75.8
+   ],
+   "p99": [
+    90.9,
+    90.9
+   ],
+   "p99.9": [
+    98.1,
+    98.1
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.gb.m.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "GB",
+   "sex": "m",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 34256977,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 1.0,
+   "p10": 9.0,
+   "p25": 20.9,
+   "p50": 39.8,
+   "p75": 59.3,
+   "p90": 73.4,
+   "p99": 88.5,
+   "p99.9": 95.6
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 1.0,
+     "p10": 9.0,
+     "p25": 20.9,
+     "p50": 39.8,
+     "p75": 59.3,
+     "p90": 73.4,
+     "p99": 88.5,
+     "p99.9": 95.6
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    39.8,
+    39.8
+   ],
+   "p90": [
+    73.4,
+    73.4
+   ],
+   "p99": [
+    88.5,
+    88.5
+   ],
+   "p99.9": [
+    95.6,
+    95.6
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.hk.all.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "HK",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 7396076,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.2,
+   "p1": 1.9,
+   "p10": 14.6,
+   "p25": 31.9,
+   "p50": 48.4,
+   "p75": 64.2,
+   "p90": 74.8,
+   "p99": 92.2,
+   "p99.9": 100.2
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.2,
+     "p1": 1.9,
+     "p10": 14.6,
+     "p25": 31.9,
+     "p50": 48.4,
+     "p75": 64.2,
+     "p90": 74.8,
+     "p99": 92.2,
+     "p99.9": 100.2
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    48.4,
+    48.4
+   ],
+   "p90": [
+    74.8,
+    74.8
+   ],
+   "p99": [
+    92.2,
+    92.2
+   ],
+   "p99.9": [
+    100.2,
+    100.2
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.hk.f.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "HK",
+   "sex": "f",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 4067270,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.2,
+   "p1": 2.1,
+   "p10": 16.2,
+   "p25": 33.6,
+   "p50": 48.5,
+   "p75": 63.7,
+   "p90": 74.8,
+   "p99": 93.3,
+   "p99.9": 100.4
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.2,
+     "p1": 2.1,
+     "p10": 16.2,
+     "p25": 33.6,
+     "p50": 48.5,
+     "p75": 63.7,
+     "p90": 74.8,
+     "p99": 93.3,
+     "p99.9": 100.4
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    48.5,
+    48.5
+   ],
+   "p90": [
+    74.8,
+    74.8
+   ],
+   "p99": [
+    93.3,
+    93.3
+   ],
+   "p99.9": [
+    100.4,
+    100.4
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.hk.m.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "HK",
+   "sex": "m",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 3328809,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.2,
+   "p1": 1.6,
+   "p10": 13.3,
+   "p25": 29.8,
+   "p50": 48.1,
+   "p75": 64.8,
+   "p90": 74.9,
+   "p99": 90.8,
+   "p99.9": 98.6
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.2,
+     "p1": 1.6,
+     "p10": 13.3,
+     "p25": 29.8,
+     "p50": 48.1,
+     "p75": 64.8,
+     "p90": 74.9,
+     "p99": 90.8,
+     "p99.9": 98.6
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    48.1,
+    48.1
+   ],
+   "p90": [
+    74.9,
+    74.9
+   ],
+   "p99": [
+    90.8,
+    90.8
+   ],
+   "p99.9": [
+    98.6,
+    98.6
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.id.all.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "ID",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 285721236,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 0.7,
+   "p10": 6.4,
+   "p25": 15.4,
+   "p50": 31.4,
+   "p75": 48.7,
+   "p90": 62.0,
+   "p99": 80.5,
+   "p99.9": 89.6
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 0.7,
+     "p10": 6.4,
+     "p25": 15.4,
+     "p50": 31.4,
+     "p75": 48.7,
+     "p90": 62.0,
+     "p99": 80.5,
+     "p99.9": 89.6
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    31.4,
+    31.4
+   ],
+   "p90": [
+    62.0,
+    62.0
+   ],
+   "p99": [
+    80.5,
+    80.5
+   ],
+   "p99.9": [
+    89.6,
+    89.6
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.id.f.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "ID",
+   "sex": "f",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 142193710,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 0.7,
+   "p10": 6.6,
+   "p25": 15.8,
+   "p50": 32.1,
+   "p75": 49.8,
+   "p90": 63.3,
+   "p99": 81.9,
+   "p99.9": 90.6
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 0.7,
+     "p10": 6.6,
+     "p25": 15.8,
+     "p50": 32.1,
+     "p75": 49.8,
+     "p90": 63.3,
+     "p99": 81.9,
+     "p99.9": 90.6
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    32.1,
+    32.1
+   ],
+   "p90": [
+    63.3,
+    63.3
+   ],
+   "p99": [
+    81.9,
+    81.9
+   ],
+   "p99.9": [
+    90.6,
+    90.6
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.id.m.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "ID",
+   "sex": "m",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 143527521,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 0.6,
+   "p10": 6.3,
+   "p25": 15.1,
+   "p50": 30.7,
+   "p75": 47.7,
+   "p90": 60.7,
+   "p99": 78.5,
+   "p99.9": 88.0
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 0.6,
+     "p10": 6.3,
+     "p25": 15.1,
+     "p50": 30.7,
+     "p75": 47.7,
+     "p90": 60.7,
+     "p99": 78.5,
+     "p99.9": 88.0
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    30.7,
+    30.7
+   ],
+   "p90": [
+    60.7,
+    60.7
+   ],
+   "p99": [
+    78.5,
+    78.5
+   ],
+   "p99.9": [
+    88.0,
+    88.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.in.all.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "IN",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 1463865527,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 0.6,
+   "p10": 6.4,
+   "p25": 15.5,
+   "p50": 29.8,
+   "p75": 46.4,
+   "p90": 61.4,
+   "p99": 80.6,
+   "p99.9": 90.9
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 0.6,
+     "p10": 6.4,
+     "p25": 15.5,
+     "p50": 29.8,
+     "p75": 46.4,
+     "p90": 61.4,
+     "p99": 80.6,
+     "p99.9": 90.9
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    29.8,
+    29.8
+   ],
+   "p90": [
+    61.4,
+    61.4
+   ],
+   "p99": [
+    80.6,
+    80.6
+   ],
+   "p99.9": [
+    90.9,
+    90.9
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.in.f.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "IN",
+   "sex": "f",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 709090066,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 0.6,
+   "p10": 6.5,
+   "p25": 15.6,
+   "p50": 30.3,
+   "p75": 47.2,
+   "p90": 62.2,
+   "p99": 81.6,
+   "p99.9": 91.7
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 0.6,
+     "p10": 6.5,
+     "p25": 15.6,
+     "p50": 30.3,
+     "p75": 47.2,
+     "p90": 62.2,
+     "p99": 81.6,
+     "p99.9": 91.7
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    30.3,
+    30.3
+   ],
+   "p90": [
+    62.2,
+    62.2
+   ],
+   "p99": [
+    81.6,
+    81.6
+   ],
+   "p99.9": [
+    91.7,
+    91.7
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.in.m.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "IN",
+   "sex": "m",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 754775443,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 0.6,
+   "p10": 6.4,
+   "p25": 15.3,
+   "p50": 29.4,
+   "p75": 45.8,
+   "p90": 60.5,
+   "p99": 79.6,
+   "p99.9": 90.1
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 0.6,
+     "p10": 6.4,
+     "p25": 15.3,
+     "p50": 29.4,
+     "p75": 45.8,
+     "p90": 60.5,
+     "p99": 79.6,
+     "p99.9": 90.1
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    29.4,
+    29.4
+   ],
+   "p90": [
+    60.5,
+    60.5
+   ],
+   "p99": [
+    79.6,
+    79.6
+   ],
+   "p99.9": [
+    90.1,
+    90.1
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.jp.all.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "JP",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 123103480,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.2,
+   "p1": 1.6,
+   "p10": 13.6,
+   "p25": 29.2,
+   "p50": 50.8,
+   "p75": 69.2,
+   "p90": 80.7,
+   "p99": 93.6,
+   "p99.9": 100.0
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.2,
+     "p1": 1.6,
+     "p10": 13.6,
+     "p25": 29.2,
+     "p50": 50.8,
+     "p75": 69.2,
+     "p90": 80.7,
+     "p99": 93.6,
+     "p99.9": 100.0
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    50.8,
+    50.8
+   ],
+   "p90": [
+    80.7,
+    80.7
+   ],
+   "p99": [
+    93.6,
+    93.6
+   ],
+   "p99.9": [
+    100.0,
+    100.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.jp.f.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "JP",
+   "sex": "f",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 63080365,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.2,
+   "p1": 1.7,
+   "p10": 14.2,
+   "p25": 30.5,
+   "p50": 52.1,
+   "p75": 71.6,
+   "p90": 82.8,
+   "p99": 95.0,
+   "p99.9": 100.4
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.2,
+     "p1": 1.7,
+     "p10": 14.2,
+     "p25": 30.5,
+     "p50": 52.1,
+     "p75": 71.6,
+     "p90": 82.8,
+     "p99": 95.0,
+     "p99.9": 100.4
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    52.1,
+    52.1
+   ],
+   "p90": [
+    82.8,
+    82.8
+   ],
+   "p99": [
+    95.0,
+    95.0
+   ],
+   "p99.9": [
+    100.4,
+    100.4
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.jp.m.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "JP",
+   "sex": "m",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 60023113,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.2,
+   "p1": 1.6,
+   "p10": 13.0,
+   "p25": 28.0,
+   "p50": 49.4,
+   "p75": 66.7,
+   "p90": 78.4,
+   "p99": 91.1,
+   "p99.9": 97.4
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.2,
+     "p1": 1.6,
+     "p10": 13.0,
+     "p25": 28.0,
+     "p50": 49.4,
+     "p75": 66.7,
+     "p90": 78.4,
+     "p99": 91.1,
+     "p99.9": 97.4
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    49.4,
+    49.4
+   ],
+   "p90": [
+    78.4,
+    78.4
+   ],
+   "p99": [
+    91.1,
+    91.1
+   ],
+   "p99.9": [
+    97.4,
+    97.4
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.ke.all.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "KE",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 57532492,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.0,
+   "p1": 0.4,
+   "p10": 4.0,
+   "p25": 10.3,
+   "p50": 21.0,
+   "p75": 36.2,
+   "p90": 51.1,
+   "p99": 74.8,
+   "p99.9": 88.9
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.0,
+     "p1": 0.4,
+     "p10": 4.0,
+     "p25": 10.3,
+     "p50": 21.0,
+     "p75": 36.2,
+     "p90": 51.1,
+     "p99": 74.8,
+     "p99.9": 88.9
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    21.0,
+    21.0
+   ],
+   "p90": [
+    51.1,
+    51.1
+   ],
+   "p99": [
+    74.8,
+    74.8
+   ],
+   "p99.9": [
+    88.9,
+    88.9
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.ke.f.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "KE",
+   "sex": "f",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 28935940,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.0,
+   "p1": 0.4,
+   "p10": 4.0,
+   "p25": 10.4,
+   "p50": 21.3,
+   "p75": 36.4,
+   "p90": 51.8,
+   "p99": 76.4,
+   "p99.9": 90.3
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.0,
+     "p1": 0.4,
+     "p10": 4.0,
+     "p25": 10.4,
+     "p50": 21.3,
+     "p75": 36.4,
+     "p90": 51.8,
+     "p99": 76.4,
+     "p99.9": 90.3
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    21.3,
+    21.3
+   ],
+   "p90": [
+    51.8,
+    51.8
+   ],
+   "p99": [
+    76.4,
+    76.4
+   ],
+   "p99.9": [
+    90.3,
+    90.3
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.ke.m.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "KE",
+   "sex": "m",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 28596559,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.0,
+   "p1": 0.4,
+   "p10": 3.9,
+   "p25": 10.1,
+   "p50": 20.8,
+   "p75": 36.0,
+   "p90": 50.5,
+   "p99": 73.1,
+   "p99.9": 86.6
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.0,
+     "p1": 0.4,
+     "p10": 3.9,
+     "p25": 10.1,
+     "p50": 20.8,
+     "p75": 36.0,
+     "p90": 50.5,
+     "p99": 73.1,
+     "p99.9": 86.6
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    20.8,
+    20.8
+   ],
+   "p90": [
+    50.5,
+    50.5
+   ],
+   "p99": [
+    73.1,
+    73.1
+   ],
+   "p99.9": [
+    86.6,
+    86.6
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.kr.all.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "KR",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 51667035,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.2,
+   "p1": 2.1,
+   "p10": 14.8,
+   "p25": 28.9,
+   "p50": 46.6,
+   "p75": 62.2,
+   "p90": 73.0,
+   "p99": 89.1,
+   "p99.9": 96.6
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.2,
+     "p1": 2.1,
+     "p10": 14.8,
+     "p25": 28.9,
+     "p50": 46.6,
+     "p75": 62.2,
+     "p90": 73.0,
+     "p99": 89.1,
+     "p99.9": 96.6
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    46.6,
+    46.6
+   ],
+   "p90": [
+    73.0,
+    73.0
+   ],
+   "p99": [
+    89.1,
+    89.1
+   ],
+   "p99.9": [
+    96.6,
+    96.6
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.kr.f.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "KR",
+   "sex": "f",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 25892209,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.2,
+   "p1": 2.2,
+   "p10": 15.1,
+   "p25": 29.6,
+   "p50": 48.2,
+   "p75": 63.7,
+   "p90": 75.3,
+   "p99": 91.0,
+   "p99.9": 98.0
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.2,
+     "p1": 2.2,
+     "p10": 15.1,
+     "p25": 29.6,
+     "p50": 48.2,
+     "p75": 63.7,
+     "p90": 75.3,
+     "p99": 91.0,
+     "p99.9": 98.0
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    48.2,
+    48.2
+   ],
+   "p90": [
+    75.3,
+    75.3
+   ],
+   "p99": [
+    91.0,
+    91.0
+   ],
+   "p99.9": [
+    98.0,
+    98.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.kr.m.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "KR",
+   "sex": "m",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 25774811,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.2,
+   "p1": 2.1,
+   "p10": 14.5,
+   "p25": 28.2,
+   "p50": 45.2,
+   "p75": 60.6,
+   "p90": 70.9,
+   "p99": 86.2,
+   "p99.9": 93.1
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.2,
+     "p1": 2.1,
+     "p10": 14.5,
+     "p25": 28.2,
+     "p50": 45.2,
+     "p75": 60.6,
+     "p90": 70.9,
+     "p99": 86.2,
+     "p99.9": 93.1
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    45.2,
+    45.2
+   ],
+   "p90": [
+    70.9,
+    70.9
+   ],
+   "p99": [
+    86.2,
+    86.2
+   ],
+   "p99.9": [
+    93.1,
+    93.1
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.mx.all.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "MX",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 131946902,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 0.7,
+   "p10": 6.5,
+   "p25": 15.5,
+   "p50": 30.6,
+   "p75": 48.4,
+   "p90": 63.0,
+   "p99": 83.0,
+   "p99.9": 92.5
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 0.7,
+     "p10": 6.5,
+     "p25": 15.5,
+     "p50": 30.6,
+     "p75": 48.4,
+     "p90": 63.0,
+     "p99": 83.0,
+     "p99.9": 92.5
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    30.6,
+    30.6
+   ],
+   "p90": [
+    63.0,
+    63.0
+   ],
+   "p99": [
+    83.0,
+    83.0
+   ],
+   "p99.9": [
+    92.5,
+    92.5
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.mx.f.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "MX",
+   "sex": "f",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 67964083,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 0.7,
+   "p10": 6.8,
+   "p25": 16.2,
+   "p50": 31.9,
+   "p75": 49.6,
+   "p90": 63.9,
+   "p99": 83.5,
+   "p99.9": 92.5
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 0.7,
+     "p10": 6.8,
+     "p25": 16.2,
+     "p50": 31.9,
+     "p75": 49.6,
+     "p90": 63.9,
+     "p99": 83.5,
+     "p99.9": 92.5
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    31.9,
+    31.9
+   ],
+   "p90": [
+    63.9,
+    63.9
+   ],
+   "p99": [
+    83.5,
+    83.5
+   ],
+   "p99.9": [
+    92.5,
+    92.5
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.mx.m.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "MX",
+   "sex": "m",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 63982817,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 0.6,
+   "p10": 6.2,
+   "p25": 14.8,
+   "p50": 29.3,
+   "p75": 47.0,
+   "p90": 62.0,
+   "p99": 82.4,
+   "p99.9": 92.5
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 0.6,
+     "p10": 6.2,
+     "p25": 14.8,
+     "p50": 29.3,
+     "p75": 47.0,
+     "p90": 62.0,
+     "p99": 82.4,
+     "p99.9": 92.5
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    29.3,
+    29.3
+   ],
+   "p90": [
+    62.0,
+    62.0
+   ],
+   "p99": [
+    82.4,
+    82.4
+   ],
+   "p99.9": [
+    92.5,
+    92.5
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.ng.all.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "NG",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 237527788,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.0,
+   "p1": 0.3,
+   "p10": 3.4,
+   "p25": 9.0,
+   "p50": 19.1,
+   "p75": 34.6,
+   "p90": 50.5,
+   "p99": 74.0,
+   "p99.9": 84.9
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.0,
+     "p1": 0.3,
+     "p10": 3.4,
+     "p25": 9.0,
+     "p50": 19.1,
+     "p75": 34.6,
+     "p90": 50.5,
+     "p99": 74.0,
+     "p99.9": 84.9
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    19.1,
+    19.1
+   ],
+   "p90": [
+    50.5,
+    50.5
+   ],
+   "p99": [
+    74.0,
+    74.0
+   ],
+   "p99.9": [
+    84.9,
+    84.9
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.ng.f.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "NG",
+   "sex": "f",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 117350047,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.0,
+   "p1": 0.3,
+   "p10": 3.4,
+   "p25": 9.0,
+   "p50": 19.2,
+   "p75": 34.9,
+   "p90": 51.0,
+   "p99": 74.5,
+   "p99.9": 85.3
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.0,
+     "p1": 0.3,
+     "p10": 3.4,
+     "p25": 9.0,
+     "p50": 19.2,
+     "p75": 34.9,
+     "p90": 51.0,
+     "p99": 74.5,
+     "p99.9": 85.3
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    19.2,
+    19.2
+   ],
+   "p90": [
+    51.0,
+    51.0
+   ],
+   "p99": [
+    74.5,
+    74.5
+   ],
+   "p99.9": [
+    85.3,
+    85.3
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.ng.m.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "NG",
+   "sex": "m",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 120177739,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.0,
+   "p1": 0.3,
+   "p10": 3.4,
+   "p25": 8.9,
+   "p50": 19.1,
+   "p75": 34.3,
+   "p90": 50.0,
+   "p99": 73.5,
+   "p99.9": 84.5
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.0,
+     "p1": 0.3,
+     "p10": 3.4,
+     "p25": 8.9,
+     "p50": 19.1,
+     "p75": 34.3,
+     "p90": 50.0,
+     "p99": 73.5,
+     "p99.9": 84.5
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    19.1,
+    19.1
+   ],
+   "p90": [
+    50.0,
+    50.0
+   ],
+   "p99": [
+    73.5,
+    73.5
+   ],
+   "p99.9": [
+    84.5,
+    84.5
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.nl.all.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "NL",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 18346823,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 1.0,
+   "p10": 10.2,
+   "p25": 23.6,
+   "p50": 42.5,
+   "p75": 61.9,
+   "p90": 74.8,
+   "p99": 89.1,
+   "p99.9": 96.1
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 1.0,
+     "p10": 10.2,
+     "p25": 23.6,
+     "p50": 42.5,
+     "p75": 61.9,
+     "p90": 74.8,
+     "p99": 89.1,
+     "p99.9": 96.1
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    42.5,
+    42.5
+   ],
+   "p90": [
+    74.8,
+    74.8
+   ],
+   "p99": [
+    89.1,
+    89.1
+   ],
+   "p99.9": [
+    96.1,
+    96.1
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.nl.f.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "NL",
+   "sex": "f",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 9230664,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 1.1,
+   "p10": 10.5,
+   "p25": 24.2,
+   "p50": 43.4,
+   "p75": 62.8,
+   "p90": 75.9,
+   "p99": 90.3,
+   "p99.9": 97.1
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 1.1,
+     "p10": 10.5,
+     "p25": 24.2,
+     "p50": 43.4,
+     "p75": 62.8,
+     "p90": 75.9,
+     "p99": 90.3,
+     "p99.9": 97.1
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    43.4,
+    43.4
+   ],
+   "p90": [
+    75.9,
+    75.9
+   ],
+   "p99": [
+    90.3,
+    90.3
+   ],
+   "p99.9": [
+    97.1,
+    97.1
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.nl.m.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "NL",
+   "sex": "m",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 9116161,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 1.0,
+   "p10": 9.9,
+   "p25": 23.1,
+   "p50": 41.5,
+   "p75": 61.0,
+   "p90": 73.6,
+   "p99": 87.4,
+   "p99.9": 94.5
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 1.0,
+     "p10": 9.9,
+     "p25": 23.1,
+     "p50": 41.5,
+     "p75": 61.0,
+     "p90": 73.6,
+     "p99": 87.4,
+     "p99.9": 94.5
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    41.5,
+    41.5
+   ],
+   "p90": [
+    73.6,
+    73.6
+   ],
+   "p99": [
+    87.4,
+    87.4
+   ],
+   "p99.9": [
+    94.5,
+    94.5
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.sg.all.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "SG",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 5870750,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 1.2,
+   "p10": 12.7,
+   "p25": 24.7,
+   "p50": 37.2,
+   "p75": 55.2,
+   "p90": 69.3,
+   "p99": 86.8,
+   "p99.9": 96.0
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 1.2,
+     "p10": 12.7,
+     "p25": 24.7,
+     "p50": 37.2,
+     "p75": 55.2,
+     "p90": 69.3,
+     "p99": 86.8,
+     "p99.9": 96.0
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    37.2,
+    37.2
+   ],
+   "p90": [
+    69.3,
+    69.3
+   ],
+   "p99": [
+    86.8,
+    86.8
+   ],
+   "p99.9": [
+    96.0,
+    96.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.sg.f.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "SG",
+   "sex": "f",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 2838470,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 1.2,
+   "p10": 12.6,
+   "p25": 25.0,
+   "p50": 38.4,
+   "p75": 56.8,
+   "p90": 70.8,
+   "p99": 88.5,
+   "p99.9": 97.3
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 1.2,
+     "p10": 12.6,
+     "p25": 25.0,
+     "p50": 38.4,
+     "p75": 56.8,
+     "p90": 70.8,
+     "p99": 88.5,
+     "p99.9": 97.3
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    38.4,
+    38.4
+   ],
+   "p90": [
+    70.8,
+    70.8
+   ],
+   "p99": [
+    88.5,
+    88.5
+   ],
+   "p99.9": [
+    97.3,
+    97.3
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.sg.m.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "SG",
+   "sex": "m",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 3032291,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 1.2,
+   "p10": 12.9,
+   "p25": 24.5,
+   "p50": 36.2,
+   "p75": 53.7,
+   "p90": 67.8,
+   "p99": 84.9,
+   "p99.9": 94.0
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 1.2,
+     "p10": 12.9,
+     "p25": 24.5,
+     "p50": 36.2,
+     "p75": 53.7,
+     "p90": 67.8,
+     "p99": 84.9,
+     "p99.9": 94.0
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    36.2,
+    36.2
+   ],
+   "p90": [
+    67.8,
+    67.8
+   ],
+   "p99": [
+    84.9,
+    84.9
+   ],
+   "p99.9": [
+    94.0,
+    94.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.us.all.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 347275811,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 0.9,
+   "p10": 9.1,
+   "p25": 21.0,
+   "p50": 39.5,
+   "p75": 59.7,
+   "p90": 72.6,
+   "p99": 88.6,
+   "p99.9": 96.5
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 0.9,
+     "p10": 9.1,
+     "p25": 21.0,
+     "p50": 39.5,
+     "p75": 59.7,
+     "p90": 72.6,
+     "p99": 88.6,
+     "p99.9": 96.5
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    39.5,
+    39.5
+   ],
+   "p90": [
+    72.6,
+    72.6
+   ],
+   "p99": [
+    88.6,
+    88.6
+   ],
+   "p99.9": [
+    96.5,
+    96.5
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.us.f.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "f",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 172778983,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 1.0,
+   "p10": 9.3,
+   "p25": 21.4,
+   "p50": 40.5,
+   "p75": 61.0,
+   "p90": 73.9,
+   "p99": 89.8,
+   "p99.9": 97.5
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 1.0,
+     "p10": 9.3,
+     "p25": 21.4,
+     "p50": 40.5,
+     "p75": 61.0,
+     "p90": 73.9,
+     "p99": 89.8,
+     "p99.9": 97.5
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    40.5,
+    40.5
+   ],
+   "p90": [
+    73.9,
+    73.9
+   ],
+   "p99": [
+    89.8,
+    89.8
+   ],
+   "p99.9": [
+    97.5,
+    97.5
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.us.m.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "m",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 174496823,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 0.9,
+   "p10": 9.0,
+   "p25": 20.6,
+   "p50": 38.6,
+   "p75": 58.3,
+   "p90": 71.2,
+   "p99": 87.0,
+   "p99.9": 95.0
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 0.9,
+     "p10": 9.0,
+     "p25": 20.6,
+     "p50": 38.6,
+     "p75": 58.3,
+     "p90": 71.2,
+     "p99": 87.0,
+     "p99.9": 95.0
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    38.6,
+    38.6
+   ],
+   "p90": [
+    71.2,
+    71.2
+   ],
+   "p99": [
+    87.0,
+    87.0
+   ],
+   "p99.9": [
+    95.0,
+    95.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.world.all.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 8231613067,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 0.6,
+   "p10": 6.4,
+   "p25": 15.4,
+   "p50": 31.9,
+   "p75": 50.6,
+   "p90": 65.6,
+   "p99": 84.6,
+   "p99.9": 93.8
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 0.6,
+     "p10": 6.4,
+     "p25": 15.4,
+     "p50": 31.9,
+     "p75": 50.6,
+     "p90": 65.6,
+     "p99": 84.6,
+     "p99.9": 93.8
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    31.9,
+    31.9
+   ],
+   "p90": [
+    65.6,
+    65.6
+   ],
+   "p99": [
+    84.6,
+    84.6
+   ],
+   "p99.9": [
+    93.8,
+    93.8
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.world.f.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "f",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 4093903835,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 0.6,
+   "p10": 6.5,
+   "p25": 15.7,
+   "p50": 32.7,
+   "p75": 51.9,
+   "p90": 67.1,
+   "p99": 86.1,
+   "p99.9": 95.0
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 0.6,
+     "p10": 6.5,
+     "p25": 15.7,
+     "p50": 32.7,
+     "p75": 51.9,
+     "p90": 67.1,
+     "p99": 86.1,
+     "p99.9": 95.0
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    32.7,
+    32.7
+   ],
+   "p90": [
+    67.1,
+    67.1
+   ],
+   "p99": [
+    86.1,
+    86.1
+   ],
+   "p99.9": [
+    95.0,
+    95.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "age_years.world.m.2025",
+  "metric": "age_years",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "m",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2025,
+  "n": 4137709239,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 0.1,
+   "p1": 0.6,
+   "p10": 6.2,
+   "p25": 15.0,
+   "p50": 31.1,
+   "p75": 49.3,
+   "p90": 63.9,
+   "p99": 82.7,
+   "p99.9": 92.0
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 0.1,
+     "p1": 0.6,
+     "p10": 6.2,
+     "p25": 15.0,
+     "p50": 31.1,
+     "p75": 49.3,
+     "p90": 63.9,
+     "p99": 82.7,
+     "p99.9": 92.0
+    }
+   }
+  ],
+  "definition": "Age in completed years of people alive at mid-year of the reference year.",
+  "derived_points": [],
+  "caveat": null,
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
+  "range": {
+   "p50": [
+    31.1,
+    31.1
+   ],
+   "p90": [
+    63.9,
+    63.9
+   ],
+   "p99": [
+    82.7,
+    82.7
+   ],
+   "p99.9": [
+    92.0,
+    92.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "p99.9": 1
+  }
+ },
+ {
+  "id": "life_expectancy_at_birth.world.all.2023",
+  "metric": "life_expectancy_at_birth",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "all",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 237,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 53.6,
+   "p1": 56.5,
+   "p10": 64.05,
+   "p25": 68.45,
+   "p50": 74.65,
+   "p75": 79.05,
+   "p90": 82.35,
+   "p99": 84.55,
+   "p99.9": 85.15
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 54.5,
+     "p1": 57.4,
+     "p10": 64.1,
+     "p25": 69.2,
+     "p50": 75.3,
+     "p75": 79.6,
+     "p90": 82.7,
+     "p99": 85.5,
+     "p99.9": 86.4
+    }
+   },
+   {
+    "id": "src-who-ghe",
+    "name": "WHO Global Health Observatory, life expectancy at birth",
+    "url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/life-expectancy-at-birth-(years)",
+    "measures": "period life expectancy at birth by country and sex, WHO Global Health Estimates",
+    "independent_of": [
+     "src-un-wpp-2024"
+    ],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 52.7,
+     "p1": 55.6,
+     "p10": 64.0,
+     "p25": 67.7,
+     "p50": 74.0,
+     "p75": 78.5,
+     "p90": 82.0,
+     "p99": 83.6,
+     "p99.9": 83.9
+    }
+   }
+  ],
+  "definition": "Period life expectancy at birth, both sexes unless stated, for the reference year.",
+  "derived_points": [],
+  "caveat": "distribution across countries, one value per country",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "A",
+  "reason": "2 independent sources agree within 3% at every shown percentile.",
+  "range": {
+   "p50": [
+    74.0,
+    75.3
+   ],
+   "p90": [
+    82.0,
+    82.7
+   ],
+   "p99": [
+    83.6,
+    85.5
+   ],
+   "p99.9": [
+    83.9,
+    86.4
+   ]
+  },
+  "agreement": {
+   "p50": 0.0174,
+   "p90": 0.0085,
+   "p99": 0.0225,
+   "p99.9": 0.0294
+  },
+  "n_sources": {
+   "p50": 2,
+   "p90": 2,
+   "p99": 2,
+   "p99.9": 2
+  }
+ },
+ {
+  "id": "life_expectancy_at_birth.world.f.2023",
+  "metric": "life_expectancy_at_birth",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "f",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 237,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 55.5,
+   "p1": 59.15,
+   "p10": 66.0,
+   "p25": 70.75,
+   "p50": 78.0,
+   "p75": 81.6,
+   "p90": 84.55,
+   "p99": 86.7,
+   "p99.9": 87.5
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 54.7,
+     "p1": 59.3,
+     "p10": 66.5,
+     "p25": 71.4,
+     "p50": 78.8,
+     "p75": 82.0,
+     "p90": 85.1,
+     "p99": 87.7,
+     "p99.9": 88.5
+    }
+   },
+   {
+    "id": "src-who-ghe",
+    "name": "WHO Global Health Observatory, life expectancy at birth",
+    "url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/life-expectancy-at-birth-(years)",
+    "measures": "period life expectancy at birth by country and sex, WHO Global Health Estimates",
+    "independent_of": [
+     "src-un-wpp-2024"
+    ],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 56.3,
+     "p1": 59.0,
+     "p10": 65.5,
+     "p25": 70.1,
+     "p50": 77.2,
+     "p75": 81.2,
+     "p90": 84.0,
+     "p99": 85.7,
+     "p99.9": 86.5
+    }
+   }
+  ],
+  "definition": "Period life expectancy at birth, both sexes unless stated, for the reference year.",
+  "derived_points": [],
+  "caveat": "distribution across countries, one value per country",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "A",
+  "reason": "2 independent sources agree within 2% at every shown percentile.",
+  "range": {
+   "p50": [
+    77.2,
+    78.8
+   ],
+   "p90": [
+    84.0,
+    85.1
+   ],
+   "p99": [
+    85.7,
+    87.7
+   ],
+   "p99.9": [
+    86.5,
+    88.5
+   ]
+  },
+  "agreement": {
+   "p50": 0.0205,
+   "p90": 0.013,
+   "p99": 0.0231,
+   "p99.9": 0.0229
+  },
+  "n_sources": {
+   "p50": 2,
+   "p90": 2,
+   "p99": 2,
+   "p99.9": 2
+  }
+ },
+ {
+  "id": "life_expectancy_at_birth.world.m.2023",
+  "metric": "life_expectancy_at_birth",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "m",
+   "age_band": null,
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2023,
+  "n": 237,
+  "n_source": "src-un-wpp-2024",
+  "n_source_name": "UN World Population Prospects 2024",
+  "direction": "high",
+  "unit": "years",
+  "grid": {
+   "p0.1": 51.05,
+   "p1": 53.65,
+   "p10": 61.55,
+   "p25": 65.95,
+   "p50": 71.65,
+   "p75": 76.7,
+   "p90": 80.5,
+   "p99": 82.5,
+   "p99.9": 84.0
+  },
+  "sources": [
+   {
+    "id": "src-un-wpp-2024",
+    "name": "UN World Population Prospects 2024",
+    "url": "https://population.un.org/wpp/",
+    "measures": "population by single year of age and sex, medium variant, mid-2025",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 53.2,
+     "p1": 54.6,
+     "p10": 61.7,
+     "p25": 66.6,
+     "p50": 72.2,
+     "p75": 77.2,
+     "p90": 80.7,
+     "p99": 82.8,
+     "p99.9": 84.4
+    }
+   },
+   {
+    "id": "src-who-ghe",
+    "name": "WHO Global Health Observatory, life expectancy at birth",
+    "url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/life-expectancy-at-birth-(years)",
+    "measures": "period life expectancy at birth by country and sex, WHO Global Health Estimates",
+    "independent_of": [
+     "src-un-wpp-2024"
+    ],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 48.9,
+     "p1": 52.7,
+     "p10": 61.4,
+     "p25": 65.3,
+     "p50": 71.1,
+     "p75": 76.2,
+     "p90": 80.3,
+     "p99": 82.2,
+     "p99.9": 83.6
+    }
+   }
+  ],
+  "definition": "Period life expectancy at birth, both sexes unless stated, for the reference year.",
+  "derived_points": [],
+  "caveat": "distribution across countries, one value per country",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "A",
+  "reason": "2 independent sources agree within 2% at every shown percentile.",
+  "range": {
+   "p50": [
+    71.1,
+    72.2
+   ],
+   "p90": [
+    80.3,
+    80.7
+   ],
+   "p99": [
+    82.2,
+    82.8
+   ],
+   "p99.9": [
+    83.6,
+    84.4
+   ]
+  },
+  "agreement": {
+   "p50": 0.0154,
+   "p90": 0.005,
+   "p99": 0.0073,
+   "p99.9": 0.0095
+  },
+  "n_sources": {
+   "p50": 2,
+   "p90": 2,
+   "p99": 2,
+   "p99.9": 2
+  }
+ }
+]

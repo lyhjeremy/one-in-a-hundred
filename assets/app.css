@@ -1,0 +1,67 @@
+/* One in a Hundred: page-specific rules on top of ledger.css.
+   No radius, no shadow, no transition, two accents with fixed jobs. */
+
+[hidden]{display:none !important}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.top{padding-bottom:var(--s3)}
+.top h1{margin:var(--s1) 0 var(--s2)}
+.kicker{font-family:var(--font-body);font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-2);margin:0}
+.kicker a{color:inherit;text-decoration:none}
+main.wrap{padding-top:0}
+
+.rowlabel{font-family:var(--font-body);font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;
+  color:var(--ink-2);margin:var(--s3) 0 var(--s1);font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:var(--s1)}
+.chip{font:inherit;font-size:.95rem;padding:6px 12px;border:1px solid var(--edge);background:var(--panel);color:var(--ink);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chip:disabled{color:var(--ink-2);border-color:var(--rule);cursor:default}
+.chip.remove::after{content:" \00d7";color:inherit}
+.narrow{display:flex;flex-wrap:wrap;gap:var(--s1);margin-top:var(--s1)}
+.narrow select{font:inherit;font-size:.9rem;padding:5px 8px;border:1px solid var(--edge);background:var(--panel);color:var(--ink);max-width:100%}
+
+.ask-row{display:flex;gap:var(--s1);flex-wrap:wrap}
+.ask-row input{flex:1 1 16rem;min-width:0}
+.field input{font:inherit;padding:8px 10px;border:1px solid var(--edge);background:var(--panel);color:var(--ink)}
+.field label{display:block;font-size:.9rem;color:var(--ink-2);margin-bottom:4px}
+
+#answer{margin-top:var(--s4);padding-top:var(--s3);border-top:2px solid var(--ink)}
+.punchline{font-family:var(--font-head);font-size:1.95rem;line-height:1.15;margin:0 0 var(--s2);min-height:2.3em}
+.punchline b{color:var(--signal);font-weight:600}
+.punchline.empty{color:var(--ink-2);font-size:1.56rem}
+.subline{color:var(--ink-2);font-size:.9rem;margin:0}
+.subline .grade{display:inline-block;border:1px solid var(--edge);padding:0 6px;margin-right:6px;font-family:var(--font-mono);font-size:.8rem;color:var(--ink)}
+.subline .grade.d{border:2px solid var(--signal);color:var(--signal)}
+.subline button{font:inherit;font-size:.9rem;background:none;border:0;padding:0;color:var(--signal);text-decoration:underline;text-underline-offset:1px;cursor:pointer}
+
+.panel{margin-top:var(--s2);border:1px solid var(--edge);padding:var(--s2);font-size:.9rem}
+.panel h3{margin:0 0 var(--s1);font-size:1rem}
+.panel p{margin:0 0 var(--s1)}
+.panel .unrev{border:2px solid var(--signal);padding:var(--s1) var(--s2);margin-bottom:var(--s2);font-weight:600;color:var(--signal)}
+.panel table{font-size:.85rem;margin-top:var(--s1)}
+.panel dl{margin:0;display:grid;grid-template-columns:max-content 1fr;gap:4px var(--s2)}
+.panel dt{color:var(--ink-2)}
+.panel dd{margin:0;font-family:var(--font-mono);font-size:.85rem}
+
+.compare{margin-top:var(--s3);padding-top:var(--s2);border-top:1px solid var(--rule)}
+.compare .punchline{font-size:1.56rem}
+.compare .colhead{font-family:var(--font-body);font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-2);margin:0 0 var(--s1)}
+
+#land{margin-top:var(--s4)}
+.land-out{font-family:var(--font-head);font-size:1.25rem;margin:var(--s1) 0 0;min-height:1.5em}
+.land-out b{color:var(--signal-2);font-weight:600}
+
+.actions{display:flex;flex-wrap:wrap;gap:var(--s1);margin-top:var(--s4);padding-top:var(--s2);border-top:1px solid var(--rule)}
+.actions .spacer{flex:1}
+.actions .btn{text-decoration:none}
+
+#today{margin-top:var(--s4)}
+#today p{font-family:var(--font-head);font-size:1.25rem;margin:0}
+#today .small{font-family:var(--font-body);font-size:.8rem}
+#queue{margin-top:var(--s3)}
+
+.skeleton{background:var(--rule);color:transparent}
+@media (prefers-reduced-motion:no-preference){.skeleton{animation:sk 1.6s ease-in-out infinite}}
+@keyframes sk{0%,100%{opacity:1}50%{opacity:.55}}
+
+.sources-table td,.sources-table th{vertical-align:top}
+@media (max-width:480px){.punchline{font-size:1.56rem}.compare .punchline{font-size:1.25rem}}

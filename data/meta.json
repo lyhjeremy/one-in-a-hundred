@@ -1,0 +1,15 @@
+{
+ "built": "2026-10-14",
+ "facts": 818,
+ "grades": {
+  "B": 815,
+  "A": 3
+ },
+ "families": {
+  "body": 670,
+  "income": 82,
+  "life": 66
+ },
+ "sources": 7,
+ "next_queue_run": null
+}

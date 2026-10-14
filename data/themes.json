@@ -1,0 +1,16 @@
+[
+  { "id": "income_pretax_adult_ppp.world.all.2023", "note": "The fact that started this site. Depending on the definition, the global top 1% starts anywhere from tens of thousands to hundreds of thousands of dollars." },
+  { "id": "age_years.world.all.2025", "note": "Being old is rarer than it feels. One in a hundred people alive is past this age." },
+  { "id": "height_adult_cm.nl.m.2019", "note": "The tallest population on earth, and still the top 1% is only this tall." },
+  { "id": "net_worth_adult_usd.world.all.2023", "note": "Wealth is far more concentrated than income; compare this with the income fact." },
+  { "id": "consumption_percap_ppp.world.all.2022", "note": "The World Bank's survey-based number. Same question as the income fact, different definition, different answer." },
+  { "id": "height_adult_cm.us.m.2022", "note": "Measured, not self-reported: NHANES puts a tape to people." },
+  { "id": "age_years.jp.all.2025", "note": "Japan's age pyramid is the shape every rich country is heading toward." },
+  { "id": "income_pretax_adult_ppp.ch.all.2023", "note": "Switzerland's top 1% threshold, in purchasing-power dollars." },
+  { "id": "life_expectancy_at_birth.world.all.2024", "note": "Across countries, not people: the median country's newborn can expect this long." },
+  { "id": "weight_adult_kg.us.f.2022", "note": "Measured weight, examination-weighted to the US adult population." },
+  { "id": "income_pretax_adult_ppp.in.all.2023", "note": "India's top 1% starts at a figure that would be modest in Europe." },
+  { "id": "age_years.ng.all.2025", "note": "Nigeria is young: compare the median age here with Japan's." },
+  { "id": "net_worth_adult_usd.us.all.2023", "note": "The American top 1% by wealth per adult." },
+  { "id": "height_adult_cm.world.m.2019", "note": "Worldwide height at 19, pooled from population surveys." }
+]

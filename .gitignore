@@ -1,0 +1,12 @@
+# raw downloads and anything holding visitor text never ship
+pipeline/raw/
+pipeline/queue/
+pipeline/fonts-ttf/
+pipeline/.cards_hash.json
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+worker/.wrangler/
+worker/.dev.vars
+_*.mjs

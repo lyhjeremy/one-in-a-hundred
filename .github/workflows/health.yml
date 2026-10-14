@@ -1,0 +1,39 @@
+name: health
+
+# Monitoring, not a keep-alive: Workers do not sleep. Asserts on the body
+# fields, never the status code, because /health returns 200 with ok:false
+# when a dependency is down. Runs Mon and Thu plus on demand.
+
+on:
+  schedule:
+    - cron: "23 3 * * 1,4"
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      HEALTH_URL: ${{ vars.WORKER_HEALTH_URL }}
+    steps:
+      - name: Fetch health with retries
+        if: env.HEALTH_URL != ''
+        run: |
+          set -u
+          for i in 1 2 3; do
+            body=$(curl -sS --max-time 30 "$HEALTH_URL" || true)
+            [ -n "$body" ] && break
+            sleep 10
+          done
+          echo "$body" | tee health.json
+          {
+            echo "### Worker health"
+            echo '```json'
+            cat health.json
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          grep -q '"groq"[[:space:]]*:[[:space:]]*true' health.json || { echo "::error::Groq check failed"; exit 1; }
+          grep -q '"kv"[[:space:]]*:[[:space:]]*true' health.json || { echo "::error::KV check failed"; exit 1; }
+      - name: Not configured
+        if: env.HEALTH_URL == ''
+        run: echo "WORKER_HEALTH_URL repository variable not set; Worker not deployed yet." >> "$GITHUB_STEP_SUMMARY"

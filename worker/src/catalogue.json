@@ -1,0 +1,157 @@
+{
+ "metrics": {
+  "income_pretax_adult_ppp": {
+   "label": "Income (pre-tax, per adult)",
+   "phrasings": [
+    "income",
+    "earn",
+    "earning",
+    "earnings",
+    "salary",
+    "make a year",
+    "make per year",
+    "paid",
+    "rich",
+    "wealthy by income",
+    "pre-tax income",
+    "gross income",
+    "make",
+    "makes",
+    "earners",
+    "earner",
+    "money a year",
+    "per year",
+    "a year"
+   ],
+   "activity": null
+  },
+  "income_posttax_adult_ppp": {
+   "label": "Income (post-tax, per adult)",
+   "phrasings": [
+    "post-tax income",
+    "after tax income",
+    "take-home",
+    "take home pay",
+    "net income",
+    "disposable income"
+   ],
+   "activity": null
+  },
+  "consumption_percap_ppp": {
+   "label": "Consumption (per person)",
+   "phrasings": [
+    "consumption",
+    "spend",
+    "spending",
+    "living on",
+    "live on",
+    "dollars a day",
+    "per day"
+   ],
+   "activity": null
+  },
+  "net_worth_adult_usd": {
+   "label": "Net worth (per adult)",
+   "phrasings": [
+    "net worth",
+    "wealth",
+    "wealthy",
+    "assets",
+    "millionaire",
+    "savings",
+    "worth"
+   ],
+   "activity": null
+  },
+  "height_adult_cm": {
+   "label": "Height",
+   "phrasings": [
+    "height",
+    "tall",
+    "taller",
+    "how tall",
+    "stand",
+    "stature",
+    "short",
+    "shorter"
+   ],
+   "activity": null
+  },
+  "weight_adult_kg": {
+   "label": "Weight",
+   "phrasings": [
+    "weight",
+    "weigh",
+    "heavy",
+    "heavier",
+    "how much do i weigh",
+    "kilograms",
+    "pounds",
+    "lbs"
+   ],
+   "activity": null
+  },
+  "bmi_adult": {
+   "label": "BMI",
+   "phrasings": [
+    "bmi",
+    "body mass index",
+    "body mass"
+   ],
+   "activity": null
+  },
+  "age_years": {
+   "label": "Age",
+   "phrasings": [
+    "age",
+    "old",
+    "oldest",
+    "how old",
+    "years old",
+    "elderly",
+    "young",
+    "youngest"
+   ],
+   "activity": null
+  },
+  "life_expectancy_at_birth": {
+   "label": "Life expectancy at birth",
+   "phrasings": [
+    "life expectancy",
+    "live to",
+    "lifespan",
+    "how long do people live",
+    "longevity"
+   ],
+   "activity": null
+  }
+ },
+ "activities": {
+  "marathon_finishers": "who finished a marathon",
+  "half_marathon_finishers": "who finished a half marathon",
+  "tenk_finishers": "who finished a 10 km race",
+  "fivek_finishers": "who finished a 5 km run"
+ },
+ "countries": {
+  "US": "United States",
+  "GB": "United Kingdom",
+  "CA": "Canada",
+  "AU": "Australia",
+  "HK": "Hong Kong",
+  "SG": "Singapore",
+  "JP": "Japan",
+  "KR": "South Korea",
+  "DE": "Germany",
+  "FR": "France",
+  "NL": "Netherlands",
+  "CH": "Switzerland",
+  "CN": "China",
+  "IN": "India",
+  "ID": "Indonesia",
+  "BR": "Brazil",
+  "NG": "Nigeria",
+  "MX": "Mexico",
+  "KE": "Kenya",
+  "ET": "Ethiopia"
+ }
+}

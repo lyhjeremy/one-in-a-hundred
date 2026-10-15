@@ -9,6 +9,7 @@ v0.1 to v0.3 shipped on 2026-10-14; v0.3.1 on 2026-10-15.
 - `build_facts.py` registers a group introduced by a researched fact on an existing measure (height of NBA players), which had crashed the share-card renderer.
 - A single age as a group ("aged 20") formats in both `format.py` and `format.js` instead of raising; parity fixtures still agree.
 - The NBA height fact came back in inches (86) under a centimetre measure and went live reading "at least 86 cm"; corrected to 218 cm. `build_facts.py` now skips a researched fact on a catalogue measure whose values fall outside the curated range for that measure by more than a factor of 1.5, which catches that slip.
+- The student debt fact came back in thousands (median 25.1, averaged over two survey waves); corrected to $24,500 from the 2022 wave. A money measure whose whole grid is under 100 is now skipped by the build.
 - Rules parser unchanged at 90.5% on the frozen gold set after the new measures joined the catalogue.
 
 ## v0.3: three columns, five modes, the curve, researched measures

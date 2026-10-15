@@ -177,6 +177,10 @@ def main() -> int:
             # Usually a unit slip (inches given for a centimetre measure).
             print(f"inbox: skipping {f['id']}: values {f['grid']} far outside curated range {lo_hi}")
             continue
+        if METRICS["metrics"][f["metric"]].get("format") == "money" and max(f["grid"].values()) < 100:
+            # Money published "in thousands" and copied without scaling.
+            print(f"inbox: skipping {f['id']}: money values {f['grid']} look like thousands")
+            continue
         fam = METRICS["metrics"][f["metric"]]["family"]
         facts_by_family[fam].append(f)
 

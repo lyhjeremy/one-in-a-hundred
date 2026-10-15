@@ -100,6 +100,25 @@
    ],
    "activity": null
   },
+  "marathon_time": {
+   "label": "Marathon time",
+   "phrasings": [
+    "marathon",
+    "marathon time",
+    "run a marathon",
+    "26.2",
+    "42k",
+    "42 km",
+    "42.2",
+    "marathoner",
+    "marathoners",
+    "marathon runner",
+    "marathon runners",
+    "marathon finisher",
+    "full marathon"
+   ],
+   "activity": "marathon_finishers"
+  },
   "age_years": {
    "label": "Age",
    "phrasings": [
@@ -124,13 +143,30 @@
     "longevity"
    ],
    "activity": null
+  },
+  "chess_rating_fide": {
+   "label": "FIDE chess rating (standard)",
+   "phrasings": [
+    "what chess rating is the top 1%",
+    "top 1% chess rating",
+    "what elo is top 1 percent of chess players",
+    "chess elo percentile",
+    "what fide rating is top 10%",
+    "median fide rating",
+    "how good is a 2000 chess rating",
+    "what percentile is a 2200 elo",
+    "what chess rating puts you in the top 1 percent",
+    "average chess rating of rated players"
+   ],
+   "activity": "chess_players"
   }
  },
  "activities": {
   "marathon_finishers": "who finished a marathon",
   "half_marathon_finishers": "who finished a half marathon",
   "tenk_finishers": "who finished a 10 km race",
-  "fivek_finishers": "who finished a 5 km run"
+  "fivek_finishers": "who finished a 5 km run",
+  "chess_players": "who hold a FIDE rating"
  },
  "countries": {
   "US": "United States",

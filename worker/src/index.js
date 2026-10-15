@@ -3,6 +3,7 @@
 import { parseWithLLM } from "./llm.js";
 import { buildSystemPrompt, validateTriple } from "./prompt.js";
 import catalogue from "./catalogue.json";
+import { researchLive } from "./research.js";
 
 const MAX_Q = 300;
 
@@ -103,12 +104,33 @@ async function handleHealth(env) {
   return json(env, out);
 }
 
+async function handleResearch(request, env) {
+  let body;
+  try { body = await request.json(); } catch { return json(env, { ok: false, reason: "bad-json" }, 400); }
+  const q = typeof body.q === "string" ? body.q.trim() : "";
+  if (!q) return json(env, { ok: false, reason: "empty" }, 400);
+  if (q.length > MAX_Q) return json(env, { ok: false, reason: "too-long" }, 413);
+  if (await rateLimited(env, request)) return json(env, { ok: false, reason: "rate-limited" }, 429);
+  // Always queue it for the offline loop, whatever the live result.
+  if (env.QUEUE) {
+    const key = `q:${await sha1(normalise(q))}`;
+    try { if (!(await env.QUEUE.get(key))) await env.QUEUE.put(key, JSON.stringify({ q, triple: null, at: new Date().toISOString(), live: true })); } catch { /* queue full */ }
+  }
+  try {
+    const res = await researchLive(env, q);
+    return json(env, { ok: true, ...res });
+  } catch (e) {
+    return json(env, { ok: false, reason: e && e.reason ? e.reason : "llm-down" }, 502);
+  }
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: cors(env) });
     if (url.pathname === "/health" && request.method === "GET") return handleHealth(env);
     if (url.pathname === "/parse" && request.method === "POST") return handleParse(request, env);
+    if (url.pathname === "/research" && request.method === "POST") return handleResearch(request, env);
     if (url.pathname === "/request" && request.method === "POST") return handleRequest(request, env);
     return json(env, { ok: false, reason: "not-found" }, 404);
   },

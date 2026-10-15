@@ -28,7 +28,7 @@ INBOX = ROOT / "pipeline" / "inbox"
 REJECTED = ROOT / "pipeline" / "rejected"
 PROMPT = (ROOT / "pipeline" / "prompts" / "research.md").read_text()
 SCHEMA = (ROOT / "pipeline" / "schemas" / "research.json").read_text()
-METRICS = json.loads((ROOT / "data" / "metrics.json").read_text())
+from pipeline.catalog import CATALOG as METRICS  # noqa: E402
 INDEX = json.loads((ROOT / "data" / "index.json").read_text())
 INBOX_CAP = 60
 RUN_CAP = 60
@@ -88,7 +88,9 @@ def already_answered(entry: dict) -> bool:
 
 
 def research(questions: list[str]) -> dict:
-    user = "Questions:\n" + "\n".join(f"<<<{q}>>>" for q in questions) + "\n\nSchema:\n" + SCHEMA
+    ids = ", ".join(sorted(METRICS["metrics"]))
+    user = ("Questions:\n" + "\n".join(f"<<<{q}>>>" for q in questions) +
+            f"\n\nCatalogue metric ids (use one of these for catalogue_metric, else null and fill new_metric): {ids}\n\nSchema:\n" + SCHEMA)
     cmd = ["claude", "-p", "--output-format", "json", "--allowedTools", "WebSearch,WebFetch", "--append-system-prompt", PROMPT]
     r = subprocess.run(cmd, input=user, capture_output=True, text=True, timeout=600)
     if r.returncode != 0:
@@ -106,13 +108,25 @@ def to_fact(res: dict, questions: list[str]) -> dict | None:
         return None
     t = res["triple"]
     metric = t.get("catalogue_metric")
+    new_metric = None
     if not metric or metric not in METRICS["metrics"]:
-        # A metric outside the catalogue cannot ship yet; park it for review.
-        metric = None
+        nm = res.get("new_metric")
+        if nm and nm.get("id"):
+            metric = re.sub(r"[^a-z0-9_]", "_", nm["id"].lower())
+            new_metric = {k: nm.get(k) for k in ("label", "short", "unit", "direction", "format", "metric_phrase",
+                                                  "base_noun", "definition", "phrasings", "activity", "activity_label")}
+            new_metric["id"] = metric
+        else:
+            metric = None
     pop = t.get("population", {})
+    act_raw = (new_metric or {}).get("activity") or pop.get("activity")
+    act = re.sub(r"[^a-z0-9]+", "_", str(act_raw).lower()).strip("_") if act_raw else None
+    if new_metric and act:
+        new_metric["activity"] = act
+        new_metric["activity_label"] = new_metric.get("activity_label") or (f"who are {act_raw}" if not str(act_raw).lower().startswith("who ") else str(act_raw))
     pop = {"base": pop.get("base", "world"), "country": pop.get("country"), "sex": pop.get("sex", "all"),
-           "age_band": pop.get("age_band"), "activity": pop.get("activity"), "source_category": None}
-    direction = t.get("direction") or (METRICS["metrics"][metric]["direction"] if metric else "high")
+           "age_band": pop.get("age_band"), "activity": act, "source_category": None}
+    direction = t.get("direction") or (new_metric["direction"] if new_metric else (METRICS["metrics"][metric]["direction"] if metric else "high"))
     grid: dict[str, list[float]] = {}
     sources = []
     year = None
@@ -139,11 +153,13 @@ def to_fact(res: dict, questions: list[str]) -> dict | None:
     parts.append(str(year))
     fact = {
         "id": ".".join(parts), "metric": metric or "unmapped:" + t["metric_phrase"], "population": pop, "year": int(year),
-        "n": None, "n_source": None, "direction": direction, "unit": t.get("unit") or (UNIT_FOR.get(metric) if metric else "unknown"),
+        "n": None, "n_source": None, "direction": direction, "unit": (new_metric or {}).get("unit") or t.get("unit") or (UNIT_FOR.get(metric) if metric else "unknown"),
         "grid": {k: round(sum(v) / len(v), 4) for k, v in grid.items()}, "sources": sources,
         "definition": sources[0]["measures"], "derived_points": [], "caveat": res.get("caveat"),
         "status": "queued", "added": date.today().isoformat(), "questions_n": len(questions),
     }
+    if new_metric:
+        fact["new_metric"] = new_metric
     return fact
 
 
@@ -196,10 +212,14 @@ def main() -> int:
             (REJECTED / f"nofound-{abs(hash(gk)) % 10**8}.json").write_text(json.dumps({"group": gk, "result": res}, indent=1))
             print("  nothing credible found")
         else:
-            errs = structural_errors(fact) if not fact["metric"].startswith("unmapped:") else []
+            errs = structural_errors(fact) if (fact["metric"] in METRICS["metrics"] or fact.get("new_metric")) else []
             if errs:
                 print("  structural errors:", errs)
             (INBOX / f"{fact['id']}.json").write_text(json.dumps(fact, indent=1, ensure_ascii=False) + "\n")
+            if fact.get("new_metric"):
+                mdir = INBOX / "metrics"
+                mdir.mkdir(exist_ok=True)
+                (mdir / f"{fact['metric']}.json").write_text(json.dumps(fact["new_metric"], indent=1, ensure_ascii=False) + "\n")
             print("  inbox:", fact["id"])
         done_keys += [e["key"] for e in es if "key" in e]
     if not dry and "--from-file" not in sys.argv:

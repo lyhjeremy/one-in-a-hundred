@@ -21,7 +21,8 @@ from pipeline.fetch import un_wpp, cdc_nhanes, ncdrisc_height, ncdrisc_bmi, wid,
 from pipeline import verify  # noqa: E402
 
 ROOT = common.ROOT
-METRICS = json.loads((ROOT / "data" / "metrics.json").read_text())
+from pipeline import catalog  # noqa: E402
+METRICS = catalog.CATALOG
 FACTS_DIR = ROOT / "data" / "facts"
 INBOX = ROOT / "pipeline" / "inbox"
 
@@ -30,11 +31,11 @@ N_NAMES = {m.SOURCE["id"]: m.SOURCE["name"] for m in FETCHERS}
 
 
 def pop_key(r: common.Row) -> tuple:
-    return (r.metric, r.base, r.country, r.sex, r.age_band, r.activity, r.source_category, r.year)
+    return (r.metric, r.base, r.country, r.sex, r.age_band, r.activity, r.source_category)
 
 
-def fact_id(k: tuple) -> str:
-    metric, base, country, sex, band, activity, cat, year = k
+def fact_id(k: tuple, year: int) -> str:
+    metric, base, country, sex, band, activity, cat = k
     parts = [metric, country.lower() if country else "world", sex]
     if band:
         parts.append(band.replace("+", "plus"))
@@ -68,8 +69,19 @@ def main() -> int:
         groups[pop_key(r)].append(r)
 
     facts_by_family: dict[str, list[dict]] = defaultdict(list)
-    for k, rs in groups.items():
+    for k, all_rs in groups.items():
         metric = METRICS["metrics"][k[0]]
+        year = max(r.year for r in all_rs)
+        rs = [r for r in all_rs if r.year == year]
+        # Earlier years become the time series, but only from the same sources that
+        # make the latest-year fact; a derived series must not pose as the history
+        # of a measured one.
+        latest_sources = {r.source_id for r in rs}
+        series: dict[str, dict] = {}
+        for r in all_rs:
+            if r.year != year and r.source_id in latest_sources:
+                series.setdefault(str(r.year), {}).setdefault(r.percentile, []).append(r.value)
+        series = {y: {pk: round(sum(v) / len(v), 4) for pk, v in d.items()} for y, d in sorted(series.items())}
         by_src: dict[str, dict] = defaultdict(dict)
         derived_points = set()
         n = None
@@ -93,9 +105,9 @@ def main() -> int:
             s = dict(sources[sid])
             s["values"] = vals
             src_list.append(s)
-        metric_id, base, country, sex, band, activity, cat, year = k
+        metric_id, base, country, sex, band, activity, cat = k
         fact = {
-            "id": fact_id(k),
+            "id": fact_id(k, year),
             "metric": metric_id,
             "population": {"base": base, "country": country, "sex": sex, "age_band": band,
                             "activity": activity, "source_category": cat},
@@ -110,14 +122,36 @@ def main() -> int:
             "definition": metric["definition"],
             "derived_points": sorted(derived_points),
             "caveat": " ".join(sorted(notes)) if notes else None,
+            "series": series or None,
             "status": "curated",
             "added": date.today().isoformat(),
         }
         facts_by_family[metric["family"]].append(fact)
 
+    # Metrics defined by the research loop: merge into data/metrics_extra.json first.
+    extra_path = ROOT / "data" / "metrics_extra.json"
+    extra = json.loads(extra_path.read_text()) if extra_path.exists() else {"metrics": {}, "activities": {}}
+    for p in sorted((INBOX / "metrics").glob("*.json")) if (INBOX / "metrics").exists() else []:
+        m = json.loads(p.read_text())
+        mid = m.pop("id", p.stem)
+        act = m.pop("activity", None)
+        act_label = m.pop("activity_label", None)
+        if act:
+            extra["activities"][act] = {"label": act_label or act.replace("_", " "), "metric": mid}
+            m["activity"] = act
+        m.setdefault("family", "more")
+        extra["metrics"][mid] = {**extra["metrics"].get(mid, {}), **m}
+    extra_path.write_text(json.dumps(extra, indent=1, ensure_ascii=False) + "\n")
+    for mid, m in extra["metrics"].items():
+        METRICS["metrics"].setdefault(mid, m)
+    METRICS["activities"].update(extra["activities"])
+
     # Queued facts from the research loop ship alongside, flagged by status.
     for p in sorted(INBOX.glob("*.json")):
         f = json.loads(p.read_text())
+        if f["metric"] not in METRICS["metrics"]:
+            print(f"inbox: skipping {f['id']}, metric {f['metric']} not in catalogue")
+            continue
         fam = METRICS["metrics"][f["metric"]]["family"]
         facts_by_family[fam].append(f)
 

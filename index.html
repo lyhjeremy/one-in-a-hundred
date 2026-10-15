@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>One in a Hundred</title>
-<meta name="description" content="What it takes to be in the top 1%, top 10% or the median of any group, on income, height, weight, age and more. Every number graded and sourced.">
+<meta name="description" content="What it takes to be in the top 1%, top 10% or the median of any group: income, wealth, height, weight, age, marathon times and more. Every number graded and sourced.">
 <meta property="og:title" content="One in a Hundred">
 <meta property="og:description" content="What it takes to be in the top 1% of any group. Every number graded and sourced.">
 <meta property="og:type" content="website">
@@ -12,68 +12,120 @@
 <link rel="stylesheet" href="assets/app.css">
 </head>
 <body>
-<main class="wrap">
-  <p class="kicker"><a href="./">One in a Hundred</a></p>
+<a class="skip-link" href="#answer">Skip to the answer</a>
+<div class="sheet">
+  <header class="masthead">
+    <a class="brand" href="./">One in a Hundred</a>
+    <p class="tagline">What it takes to be in the top 1% of any group. Every number graded and sourced.</p>
+    <nav class="masthead-links"><a href="overview/">How it works</a><a href="sources/">Sources</a><a href="about/">About</a></nav>
+  </header>
 
-  <section id="controls" aria-label="Choose a measure and a group">
-    <div class="row">
-      <label for="sel-metric">Measure</label>
-      <select id="sel-metric"></select>
-    </div>
-    <div class="row" id="row-group">
-      <label for="sel-country">Group</label>
-      <div class="selects">
-        <select id="sel-country" aria-label="Country"></select>
-        <select id="sel-sex" aria-label="Sex"></select>
-        <select id="sel-age" aria-label="Age"></select>
-        <select id="sel-cat" aria-label="Category as published by the source" hidden></select>
+  <aside class="rail" aria-label="Modes">
+    <nav class="modes" id="modes">
+      <button type="button" data-mode="explore" aria-pressed="true"><span class="mode-name">Explore</span><span class="mode-hint">Pick a measure and narrow the group</span></button>
+      <button type="button" data-mode="ask"><span class="mode-name">Ask</span><span class="mode-hint">Type the question in words</span></button>
+      <button type="button" data-mode="me"><span class="mode-name">Where do I land</span><span class="mode-hint">Put your own number on the curve</span></button>
+      <button type="button" data-mode="compare"><span class="mode-name">Compare</span><span class="mode-hint">Two groups, one curve</span></button>
+      <button type="button" data-mode="surprise"><span class="mode-name">Surprise me</span><span class="mode-hint">A fact you did not ask for</span></button>
+    </nav>
+
+    <section class="pane" data-pane="explore">
+      <div class="ctl"><span id="measure-l">Measure</span><select id="sel-metric" aria-labelledby="measure-l"></select></div>
+      <div class="ctl"><span>Group</span>
+        <div class="selects">
+          <select id="sel-country" aria-label="Country"></select>
+          <select id="sel-sex" aria-label="Sex"></select>
+          <select id="sel-age" aria-label="Age"></select>
+          <select id="sel-cat" aria-label="Category as published by the source" hidden></select>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <span class="lbl">Show</span>
-      <div class="seg" id="pct-seg" role="group" aria-label="Percentile"></div>
-    </div>
-  </section>
+      <div class="ctl"><span>Show</span><div class="seg" id="pct-seg" role="group" aria-label="Percentile"></div></div>
+      <p class="pane-note">Only choices with data appear. The group shrinks as you narrow it; watch the number move.</p>
+    </section>
 
-  <section id="answer" aria-live="polite">
+    <section class="pane" data-pane="ask" hidden>
+      <form id="ask-form">
+        <div class="ctl"><span id="q-l">Your question</span><textarea id="q" rows="3" maxlength="300" aria-labelledby="q-l" placeholder="how tall is the top 1% of Dutch men"></textarea></div>
+        <button class="btn btn-primary" type="submit">Ask</button>
+        <p id="ask-note" class="pane-note"></p>
+      </form>
+      <p class="pane-note">Try one:</p>
+      <ul class="examples" id="examples">
+        <li><button type="button">how fast is top 1% of all marathoners</button></li>
+        <li><button type="button">what net worth is top 10% in Switzerland</button></li>
+        <li><button type="button">median age in Japan</button></li>
+        <li><button type="button">top 1% of earners in India</button></li>
+      </ul>
+    </section>
+
+    <section class="pane" data-pane="me" hidden>
+      <form id="land-form">
+        <div class="ctl"><span id="v-label">Your value</span><input id="v" type="text" inputmode="decimal" autocomplete="off" aria-labelledby="v-label"></div>
+        <div class="btnrow"><button class="btn btn-primary" type="submit">Place me</button><button class="btn" type="button" id="v-clear">Erase</button></div>
+        <p id="land-out" class="land-out"></p>
+      </form>
+      <div id="profile" class="profile" hidden>
+        <h3>Your profile</h3>
+        <p class="pane-note">Every value you have placed, across measures. Stored in this browser only.</p>
+        <ul id="profile-list"></ul>
+      </div>
+    </section>
+
+    <section class="pane" data-pane="compare" hidden>
+      <p class="pane-note">The second group shares the measure. Its curve is drawn dashed.</p>
+      <div class="ctl"><span>Compare with</span>
+        <div class="selects">
+          <select id="selb-country" aria-label="Country"></select>
+          <select id="selb-sex" aria-label="Sex"></select>
+          <select id="selb-age" aria-label="Age"></select>
+          <select id="selb-cat" aria-label="Category" hidden></select>
+        </div>
+      </div>
+      <p id="compare-line" class="compare-line"></p>
+    </section>
+
+    <section class="pane" data-pane="surprise" hidden>
+      <button class="btn btn-primary" type="button" id="btn-surprise">Show me another</button>
+      <p class="pane-note">Draws from facts graded A or B, whole populations first.</p>
+    </section>
+  </aside>
+
+  <main class="stage" id="answer" aria-live="polite">
+    <ol class="chain" id="chain" aria-label="How the group was narrowed"></ol>
     <h1 id="punchline" class="punchline skeleton skeleton--title"></h1>
     <p id="subline" class="subline"></p>
-    <div id="panel" class="panel" hidden></div>
-    <form id="land-form" class="land" hidden>
-      <label for="v" id="v-label">Your value</label>
-      <input id="v" name="v" type="text" inputmode="decimal" autocomplete="off">
-      <button class="btn" type="submit">Place me</button>
-      <span id="land-out" class="land-out"></span>
-    </form>
-  </section>
-
-  <section id="ask" aria-labelledby="ask-h">
-    <form id="ask-form">
-      <label for="q" id="ask-h">Or ask in words</label>
-      <div class="ask-row">
-        <input id="q" name="q" type="text" maxlength="300" autocomplete="off" placeholder="how tall is the top 1% of Dutch men">
-        <button class="btn" type="submit">Ask</button>
+    <figure class="curve">
+      <div id="curve" class="curve-svg"></div>
+      <figcaption id="curve-cap"></figcaption>
+    </figure>
+    <figure class="history" id="history" hidden>
+      <div id="history-svg" class="history-svg"></div>
+      <figcaption id="history-cap"></figcaption>
+    </figure>
+    <section id="empty" class="empty" hidden>
+      <h2 id="empty-h">No data for that yet</h2>
+      <p id="empty-text"></p>
+      <p id="empty-near" class="small"></p>
+      <div class="btnrow">
+        <button class="btn btn-primary" id="btn-research" type="button" hidden>Research it now</button>
+        <a class="btn" id="btn-request" href="#" target="_blank" rel="noopener">Request this fact</a>
       </div>
-      <p id="ask-note" class="small" hidden></p>
-    </form>
-  </section>
+    </section>
+  </main>
 
-  <section id="queue" class="callout" hidden>
-    <b>No data for that yet.</b> <span id="queue-text"></span>
-    <span id="queue-near" class="small"></span>
-  </section>
+  <aside class="evidence" aria-label="Evidence">
+    <div id="evidence-body"></div>
+    <div class="share">
+      <button class="btn" id="btn-link" type="button">Copy link</button>
+      <a class="btn" id="btn-card" href="#" download>Download card</a>
+    </div>
+  </aside>
 
-  <section class="actions">
-    <button class="btn" id="btn-surprise">Surprise me</button>
-    <button class="btn" id="btn-link">Copy link</button>
-    <a class="btn" id="btn-card" href="#" download>Download card</a>
-  </section>
-</main>
-
-<footer class="wrap site-footer">
-  <p><a href="overview/">How this works</a> · <a href="sources/">Sources</a> · <a href="about/">About</a> · <a href="privacy/">Privacy</a> · <a href="terms/">Terms</a></p>
-  <p>Built by <a href="about/">Jeremy Lee</a>. Data built <span id="built"></span>. Numbers can be wrong; the grade says how likely.</p>
-</footer>
+  <footer class="foot">
+    <p>Built by <a href="about/">Jeremy Lee</a>. Data built <span id="built"></span>. Numbers can be wrong; the grade says how likely. <a href="privacy/">Privacy</a> · <a href="terms/">Terms</a></p>
+  </footer>
+</div>
+<div id="tip" class="tip" hidden></div>
 <script type="module" src="app.js"></script>
 </body>
 </html>

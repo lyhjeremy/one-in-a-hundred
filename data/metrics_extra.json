@@ -1,0 +1,57 @@
+{
+ "metrics": {
+  "chess_rating_fide": {
+   "label": "FIDE chess rating (standard)",
+   "short": "FIDE rating",
+   "unit": "points",
+   "direction": "high",
+   "format": "number",
+   "metric_phrase": "a chess rating",
+   "base_noun": "FIDE-rated chess players",
+   "definition": "A player's FIDE Standard (classical time control) Elo rating as published on the monthly FIDE rating list, among all players holding a published rating.",
+   "phrasings": [
+    "what chess rating is the top 1%",
+    "top 1% chess rating",
+    "what elo is top 1 percent of chess players",
+    "chess elo percentile",
+    "what fide rating is top 10%",
+    "median fide rating",
+    "how good is a 2000 chess rating",
+    "what percentile is a 2200 elo",
+    "what chess rating puts you in the top 1 percent",
+    "average chess rating of rated players"
+   ],
+   "activity": "chess_players",
+   "family": "more"
+  },
+  "iq_score": {
+   "label": "IQ score",
+   "short": "IQ",
+   "unit": "points",
+   "direction": "high",
+   "format": "number",
+   "metric_phrase": "an IQ score",
+   "base_noun": "people who take a standardised IQ test",
+   "definition": "Full-scale score on a supervised, individually administered intelligence test such as the Wechsler Adult Intelligence Scale or Stanford-Binet 5, scaled to a mean of 100 and a standard deviation of 15 against the test's same-age standardization sample.",
+   "phrasings": [
+    "what IQ score is the top 1%",
+    "what IQ is the 99th percentile",
+    "what IQ do you need to be in the top 1 percent",
+    "IQ for top 1% of population",
+    "is an IQ of 135 top 1%",
+    "what IQ is top 10%",
+    "what is the median IQ",
+    "what IQ is the top 0.1%",
+    "how rare is an IQ of 140",
+    "what IQ do you need for Mensa"
+   ],
+   "family": "more"
+  }
+ },
+ "activities": {
+  "chess_players": {
+   "label": "who hold a FIDE rating",
+   "metric": "chess_rating_fide"
+  }
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "label": "FIDE chess rating (standard)",
+ "short": "FIDE rating",
+ "unit": "points",
+ "direction": "high",
+ "format": "number",
+ "metric_phrase": "a chess rating",
+ "base_noun": "FIDE-rated chess players",
+ "definition": "A player's FIDE Standard (classical time control) Elo rating as published on the monthly FIDE rating list, among all players holding a published rating.",
+ "phrasings": [
+  "what chess rating is the top 1%",
+  "top 1% chess rating",
+  "what elo is top 1 percent of chess players",
+  "chess elo percentile",
+  "what fide rating is top 10%",
+  "median fide rating",
+  "how good is a 2000 chess rating",
+  "what percentile is a 2200 elo",
+  "what chess rating puts you in the top 1 percent",
+  "average chess rating of rated players"
+ ],
+ "activity": "chess_players",
+ "activity_label": "who hold a FIDE rating",
+ "id": "chess_rating_fide"
+}

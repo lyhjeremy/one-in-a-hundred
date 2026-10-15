@@ -30,7 +30,7 @@ CARDS = ROOT / "cards"
 FPAGES = ROOT / "f"
 FONTS_TTF = ROOT / "pipeline" / "fonts-ttf"
 SITE = "https://lyhjeremy.github.io/one-in-a-hundred/"
-METRICS = json.loads((ROOT / "data" / "metrics.json").read_text())["metrics"]
+from pipeline.catalog import METRICS  # noqa: E402
 
 
 def palette() -> dict:

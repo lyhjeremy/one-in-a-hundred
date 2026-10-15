@@ -41,19 +41,23 @@ PCTS = {"p50p51": "p50", "p90p91": "p90", "p99p100": "p99", "p99.9p100": "p99.9"
         "p10p11": "p10", "p25p26": "p25", "p75p76": "p75", "p1p2": "p1", "p0.1p0.2": "p0.1"}
 
 
-def _read(cc: str) -> tuple[dict, float | None]:
-    """Return ({(var, pct_key): value}, ppp_factor) for YEAR."""
+FIRST_YEAR = 1980
+
+
+def _read(cc: str) -> tuple[dict, dict]:
+    """Return ({year: {(var, pct_key): value}}, {year: ppp_factor}) for FIRST_YEAR..YEAR."""
     vals: dict = {}
-    ppp = None
+    ppp: dict = {}
     with open(RAW / SOURCE_ID / "x" / f"WID_data_{cc}.csv", encoding="utf-8", errors="ignore") as f:
         for r in csv.DictReader(f, delimiter=";"):
-            if r["year"] != str(YEAR):
+            y = r["year"]
+            if not y.isdigit() or not (FIRST_YEAR <= int(y) <= YEAR):
                 continue
             v = r["variable"]
             if v in VARS and r["percentile"] in PCTS:
-                vals[(v, PCTS[r["percentile"]])] = float(r["value"])
+                vals.setdefault(int(y), {})[(v, PCTS[r["percentile"]])] = float(r["value"])
             elif v == "xlcuspi999" and r["percentile"] == "p0p100":
-                ppp = float(r["value"])
+                ppp[int(y)] = float(r["value"])
     return vals, ppp
 
 
@@ -61,24 +65,26 @@ def load(population_fn=None) -> list[Row]:
     write_meta(SOURCE_ID, URLS, {"year": YEAR})
     rows: list[Row] = []
     for cc in ["WO"] + LAUNCH_COUNTRIES:
-        vals, ppp = _read(cc)
-        if cc == "WO":
-            ppp = 1.0
-        if not vals or not ppp:
-            print(f"wid: skipping {cc}, no data or PPP for {YEAR}")
+        by_year, ppp_by_year = _read(cc)
+        if YEAR not in by_year:
+            print(f"wid: skipping {cc}, no data for {YEAR}")
             continue
         base = "world" if cc == "WO" else "country"
         country = None if cc == "WO" else cc
         n = population_fn("WO" if cc == "WO" else cc, "all", 20) if population_fn else None
-        for (var, pk), v in vals.items():
-            metric, unit = VARS[var]
-            usd = v / ppp
-            if usd < 0 and metric.startswith("net_worth"):
-                # Bottom wealth percentiles are negative (debt); keep them, the UI shows them as is.
-                pass
-            rows.append(Row(metric, base, country, "all", None, None, None, YEAR, pk, round(usd, 2),
-                            unit, SOURCE_ID, n=n, n_source=WPP_ID if population_fn else None,
-                            note=None if cc == "WO" else f"converted from local currency at WID PPP factor {ppp:.4g}"))
+        # Constant-price local currency: the latest year's PPP factor applies to every year.
+        ppp = 1.0 if cc == "WO" else ppp_by_year.get(YEAR)
+        if not ppp:
+            print(f"wid: skipping {cc}, no PPP factor for {YEAR}")
+            continue
+        for year, vals in sorted(by_year.items()):
+            for (var, pk), v in vals.items():
+                metric, unit = VARS[var]
+                usd = v / ppp
+                rows.append(Row(metric, base, country, "all", None, None, None, year, pk, round(usd, 2),
+                                unit, SOURCE_ID, n=n if year == YEAR else None,
+                                n_source=WPP_ID if (population_fn and year == YEAR) else None,
+                                note=None if cc == "WO" else f"converted from local currency at WID PPP factor {ppp:.4g}"))
     return rows
 
 

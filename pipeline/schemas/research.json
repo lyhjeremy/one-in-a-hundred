@@ -2,56 +2,249 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Research result for one queued question group",
   "type": "object",
-  "required": ["found"],
+  "required": [
+    "found"
+  ],
   "properties": {
-    "found": { "type": "boolean" },
-    "why": { "type": "string" },
+    "found": {
+      "type": "boolean"
+    },
+    "why": {
+      "type": "string"
+    },
     "triple": {
       "type": "object",
-      "required": ["metric_phrase", "percentile"],
+      "required": [
+        "metric_phrase",
+        "percentile"
+      ],
       "properties": {
-        "metric_phrase": { "type": "string" },
-        "catalogue_metric": { "type": ["string", "null"], "description": "an existing metric id from data/metrics.json if the question maps to one, else null" },
-        "direction": { "enum": ["high", "low"] },
-        "unit": { "type": "string", "description": "base unit for the fact, e.g. seconds, usd_year, cm, kg, years, points" },
+        "metric_phrase": {
+          "type": "string"
+        },
+        "catalogue_metric": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "an existing metric id from data/metrics.json if the question maps to one, else null"
+        },
+        "direction": {
+          "enum": [
+            "high",
+            "low"
+          ]
+        },
+        "unit": {
+          "type": "string",
+          "description": "base unit for the fact, e.g. seconds, usd_year, cm, kg, years, points"
+        },
         "population": {
           "type": "object",
           "properties": {
-            "base": { "enum": ["world", "country"] },
-            "country": { "type": ["string", "null"], "description": "ISO alpha-2" },
-            "sex": { "enum": ["all", "m", "f"] },
-            "age_band": { "type": ["string", "null"] },
-            "activity": { "type": ["string", "null"] }
+            "base": {
+              "enum": [
+                "world",
+                "country"
+              ]
+            },
+            "country": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "ISO alpha-2"
+            },
+            "sex": {
+              "enum": [
+                "all",
+                "m",
+                "f"
+              ]
+            },
+            "age_band": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "activity": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
           }
         },
-        "percentile": { "enum": [50, 90, 99, 99.9] }
+        "percentile": {
+          "enum": [
+            50,
+            90,
+            99,
+            99.9
+          ]
+        }
       }
     },
     "sources": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["name", "url", "measures", "year", "unit_as_published", "values"],
+        "required": [
+          "name",
+          "url",
+          "measures",
+          "year",
+          "unit_as_published",
+          "values"
+        ],
         "properties": {
-          "name": { "type": "string" },
-          "url": { "type": "string" },
-          "publisher_type": { "enum": ["official", "academic", "consortium", "organisation_own_data", "secondary"] },
-          "measures": { "type": "string" },
-          "year": { "type": "integer" },
-          "unit_as_published": { "type": "string" },
-          "n": { "type": ["number", "null"] },
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "publisher_type": {
+            "enum": [
+              "official",
+              "academic",
+              "consortium",
+              "organisation_own_data",
+              "secondary"
+            ]
+          },
+          "measures": {
+            "type": "string"
+          },
+          "year": {
+            "type": "integer"
+          },
+          "unit_as_published": {
+            "type": "string"
+          },
+          "n": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
           "values": {
             "type": "object",
             "description": "percentile key -> value as published, keys like p50, p90, p99, p1, p10 (p1/p10 for lower-is-better metrics)",
-            "additionalProperties": { "type": "number" }
+            "additionalProperties": {
+              "type": "number"
+            }
           },
-          "mean": { "type": ["number", "null"] },
-          "sd": { "type": ["number", "null"] },
-          "derives_from": { "type": "array", "items": { "type": "string" } },
-          "notes": { "type": "string" }
+          "mean": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "sd": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "derives_from": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "notes": {
+            "type": "string"
+          }
         }
       }
     },
-    "caveat": { "type": "string" }
+    "caveat": {
+      "type": "string"
+    },
+    "new_metric": {
+      "type": "object",
+      "description": "Fill this when catalogue_metric is null: defines the measure so it can ship. id is lowercase snake_case.",
+      "required": [
+        "id",
+        "label",
+        "unit",
+        "direction",
+        "format",
+        "metric_phrase",
+        "base_noun",
+        "definition",
+        "phrasings"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "short": {
+          "type": "string"
+        },
+        "unit": {
+          "type": "string"
+        },
+        "direction": {
+          "enum": [
+            "high",
+            "low"
+          ]
+        },
+        "format": {
+          "enum": [
+            "money",
+            "time_hm",
+            "time_ms",
+            "height",
+            "weight",
+            "bmi",
+            "years",
+            "years_1dp",
+            "hours",
+            "number",
+            "number_1dp",
+            "percent",
+            "count"
+          ]
+        },
+        "metric_phrase": {
+          "type": "string",
+          "description": "with article, e.g. 'a chess rating'"
+        },
+        "base_noun": {
+          "type": "string",
+          "description": "who the population is, e.g. 'rated chess players'"
+        },
+        "definition": {
+          "type": "string"
+        },
+        "phrasings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "activity": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "optional activity id and label, e.g. 'chess_players'"
+        },
+        "activity_label": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "e.g. 'who play rated chess'"
+        }
+      }
+    }
   }
 }

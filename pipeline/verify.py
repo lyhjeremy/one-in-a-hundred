@@ -17,7 +17,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 FACTS_DIR = ROOT / "data" / "facts"
-METRICS = json.loads((ROOT / "data" / "metrics.json").read_text())["metrics"]
+sys.path.insert(0, str(ROOT))
+from pipeline.catalog import METRICS  # noqa: E402
 OFFICIAL = set(json.loads((ROOT / "pipeline" / "official.json").read_text()))
 AGREE = 0.10  # within 10%
 

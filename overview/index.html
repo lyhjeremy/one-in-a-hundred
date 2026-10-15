@@ -1,14 +1,15 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>How One in a Hundred works</title>
-<meta name="description" content="911 graded percentile facts from 8 official sources, and why the '$30k is the global top 1%' claim is wrong under every definition.">
-<link rel="stylesheet" href="../assets/ledger.css"><link rel="stylesheet" href="../assets/app.css"></head>
-<body><main class="wrap prose-serif">
+<meta name="description" content="911 graded percentile facts from 15 sources, a distribution curve under every sentence, and why the '$30k is the global top 1%' claim is wrong under every definition.">
+<link rel="stylesheet" href="../assets/ledger.css"><link rel="stylesheet" href="../assets/app.css">
+<style>.wrap.prose{max-width:68ch;margin:0 auto;padding:var(--s4) var(--s3) var(--s5)}.wrap.prose .punchline{max-width:none}</style></head>
+<body><main class="wrap prose prose-serif">
 <p class="kicker"><a href="../">One in a Hundred</a></p>
 <h1>How this works, and what it cannot show</h1>
-<p class="meta">Built 2026-10-14. <a href="https://github.com/lyhjeremy/one-in-a-hundred">Code and data on GitHub</a>.</p>
+<p class="meta">Version 0.3, built 2026-10-14. <a href="https://github.com/lyhjeremy/one-in-a-hundred">Code and data on GitHub</a>.</p>
 
-<p>911 percentile facts across 20 countries and the world, from 8 official or open sources, every one with a source link and an access date, graded A to D by how much independent sources agree. Three facts reach A; 908 are B, because for a given definition official statistics usually have one producer. The parser that understands typed questions scores 90.5% exact-triple accuracy on a frozen 200-question test set.</p>
+<p>911 percentile facts across 20 countries and the world, from 15 sources, every one with a source link and an access date, graded A to D by how much independent sources agree. Three facts reach A; 906 are B, because for a given definition official statistics usually have one producer; two are D, researched automatically and not yet reviewed. 103 facts carry history back to 1980. The parser that reads typed questions scores 90.5% exact-triple accuracy on a frozen 200-question test set.</p>
 
 <h2>The claim that started it</h2>
 <p>"Earning $30,000 a year puts you in the top 1% of earners worldwide." Sometimes the number is $60,000. Neither is the top 1%, but the gap between them is a difference of definition, and the site keeps the definitions apart rather than averaging them.</p>
@@ -19,33 +20,41 @@
 <tr><td>Post-tax disposable income per adult, PPP</td><td>WID.world, 2023</td><td class="num">$12,000</td><td class="num">$66,000</td><td class="num">$200,000</td><td>72nd</td></tr>
 <tr><td>Household consumption or income per person, PPP</td><td>World Bank PIP, 2022</td><td class="num">$3,200</td><td class="num">$19,000</td><td class="num">$57,000</td><td>94th</td></tr>
 </tbody></table></div>
-<p>The "$60k" version is roughly right for the World Bank's per-person measure, which counts children, comes from household surveys, and is net of tax. The "$30k" version is not right under any of the three. <a href="../?m=income_pretax_adult_ppp&q=99">Open the income fact</a> and switch measures to see each one with its sources.</p>
+<p>The "$60k" version is roughly right for the World Bank's per-person measure, which counts children, comes from household surveys, and is net of tax. The "$30k" version is not right under any of the three. The threshold has also moved: under WID's definition the world top 1% started at $131,000 in 1980 and $223,000 in 2023, in constant purchasing-power dollars, a real rise of 70%. <a href="../?m=income_pretax_adult_ppp&q=99">Open the income fact</a> to see the curve and the history.</p>
+
+<h2>The screen</h2>
+<p>Five modes sit in the left rail. <b>Explore</b> picks a measure and narrows the group with selects that only appear when they offer a choice; the chain above the sentence shows every narrowing step and lets you undo it. <b>Ask</b> takes the question in words. <b>Where do I land</b> puts your own number on the curve and keeps it in a profile across measures, in your browser only. <b>Compare</b> draws a second group on the same curve, dashed. <b>Surprise me</b> picks a graded fact you did not ask for.</p>
+<p>The centre holds the sentence and, under it, the whole distribution the sentence came from: value against the share of the group at or below it, with the chosen percentile marked and your own value beside it. Money is drawn on a log scale. Where the source has history, a second chart shows the chosen threshold over the years. The right column holds the evidence: the grade and its reason, the range across sources, the group size and where it came from, the definition, the caveat, and each source with the value it gives at this percentile.</p>
 
 <h2>Two more worth repeating</h2>
-<p>One in a hundred people alive is at least <a href="../f/age_years.world.all.2025/">84.6 years old</a>; the median person is 31.9 (UN World Population Prospects, 2025). The tallest 1% of <a href="../f/height_adult_cm.nl.m.2019/">Dutch men</a> stand at least 202 cm, a number derived from a published mean and an assumed spread, which is why it is grade B and the panel says so.</p>
+<p>One in a hundred people alive is at least <a href="../f/age_years.world.all.2025/">84.6 years old</a>; the median person is 31.9. To be in the fastest 1% of the <a href="../f/marathon_time.world.all.marathon_finishers.2013/">778,747 people who finished a timed marathon</a> in the 2013 research sample, you needed to run under 2:50; the median finisher took 4:19.</p>
 
 <h2>How the numbers are made</h2>
-<p>Each fact is one distribution: a measure, a group, a reference year, and a grid of percentile points. One fetcher per source reads it into the same row shape; a build step merges rows into facts; a verify step computes the spread across sources at each shown percentile and assigns the grade by fixed rules, and refuses to build a fact with no source. The UN pyramid gives ages directly. WID publishes income and wealth thresholds, converted from local currency at its own PPP factor. The World Bank API answers "what welfare level is the 99th percentile" per country, and the world figure is found by bisection. NHANES gives measured US body data, weighted to the population, including the survey's own race and Hispanic-origin categories. NCD-RisC gives height means (so the percentiles are derived under a normal assumption) and BMI in bands (so the percentiles are interpolated). Marathon times are plain quantiles of 897,204 finisher records from 2013, published by the authors of a Management Science paper and compiled from races' own results.</p>
+<p>Each fact is one distribution: a measure, a group, a reference year, a grid of percentile points, and its sources. One fetcher per source reads it into the same row shape, for every year it publishes; a build step makes the latest year the fact and the earlier years its history, from the same sources only; a verify step computes the spread across sources at each shown percentile, assigns the grade by fixed rules, and refuses to build a fact with no source. The UN pyramid gives ages directly. WID publishes income and wealth thresholds from 1980. The World Bank API answers "what welfare level is the 99th percentile" per country. NHANES gives measured US body data, weighted to the population. NCD-RisC gives height means by birth cohort (so the percentiles are derived) and BMI in bands (so they are interpolated). Marathon times are plain quantiles of 897,204 finisher records from 2013, published by the authors of a Management Science paper and compiled from races' own results.</p>
+
+<h2>Questions outside the catalogue</h2>
+<p>A question the catalogue cannot answer goes to a research loop: a fixed prompt, a JSON schema, and a model with web search that must name its sources, define the measure, and say where the sources disagree. The result ships at once as a grade D fact with an "unreviewed" stamp on the page and on its share image, and a person reviews it later. Sixty popular questions (chess ratings, IQ, push-ups, typing speed, Instagram followers, VO2 max, savings by age, test scores) are being run through it now. The first result shows why the stamp exists: for "what chess rating is the top 1%" the model found four sources and wrote a careful caveat about FIDE's rating floor, then averaged FIDE, US Chess and Lichess values into one grid. Review is where one definition gets chosen. Live research at the moment of asking is built and waits for a server to be switched on; until then a missing fact offers "Request this fact", which files an issue the loop picks up.</p>
 
 <h2>Grades</h2>
-<p><b>A</b>: two or more independent sources, at least one official, within 10% at every shown percentile. <b>B</b>: one official source, or a derived percentile. <b>C</b>: sources disagree by more than 10%, or a known definitional mismatch. <b>D</b>: produced by the automated research step and not yet checked by a person. A reviewer can lower a grade with a reason and never raise one; the way up is another source.</p>
+<p><b>A</b>: two or more independent sources, at least one official, within 10% at every shown percentile. <b>B</b>: one official source, or a derived percentile. <b>C</b>: sources disagree by more than 10%, or a known definitional mismatch. <b>D</b>: produced by the research loop and not yet checked by a person. A reviewer can lower a grade with a reason and never raise one; the way up is another source.</p>
 
 <h2>The parser</h2>
-<p>Two parsers return the same shape. A rules parser runs in your browser: regexes for percentiles, sex, age and values, a country alias table, and a phrasing match with a fuzzy fallback for typos. An LLM parser, when deployed, runs in a Cloudflare Worker and asks a small Llama model for JSON against the same catalogue; the browser falls back to the rules parser after 2.5 seconds or on any error and says which one answered. On the frozen 200-question set the rules parser scores 95% on plain questions, 92% on paraphrases, 60% on questions that include the asker's own number, 90% on ambiguous ones, and 92% on out-of-scope questions with 3 invented ids. It was adjusted once after seeing its failures, so its score is optimistic by an unknown amount; the LLM parser will be scored cold. Details in <a href="https://github.com/lyhjeremy/one-in-a-hundred/blob/main/eval/results.md">eval/results.md</a>.</p>
+<p>Two parsers return the same shape. A rules parser runs in your browser: regexes for percentiles, sex, age and values, a country alias table, and a phrasing match that accepts inflections, with a fuzzy fallback for typos. Researched measures bring their own phrasings, so a new fact is askable at once. An LLM parser, when deployed, runs in a Cloudflare Worker against the same catalogue; the browser falls back to the rules parser after 2.5 seconds or on any error. On the frozen 200-question set the rules parser scores 96% on plain questions, 92% on paraphrases, 60% on questions that include the asker's own number, 90% on ambiguous ones, and 92% on out-of-scope questions with 3 invented ids. It was adjusted twice after seeing failures, so its score is optimistic by an unknown amount. Details in <a href="https://github.com/lyhjeremy/one-in-a-hundred/blob/main/eval/results.md">eval/results.md</a>.</p>
 
 <h2>What it cannot show</h2>
 <ul>
 <li>Almost everything is B. The A grade needs independent producers measuring the same definition, and for income, wealth, height and age there is usually one.</li>
 <li>Height outside the US is derived, not measured, and real height tails are slightly heavier than normal: the Dutch 202 cm is probably a centimetre or two high.</li>
 <li>BMI percentiles are linear interpolations inside published bands.</li>
-<li>Marathon facts describe a 2013 research sample of 897,000 finishers (Allen, Dechow, Pope and Wu), 61% of them in the US; the "world" running group means finishers in that sample, and the panel says so.</li>
-<li>Group counts for age bands and categories are survey shares applied to UN totals, so "that's about 2,900 people" is an estimate.</li>
-<li>Sensitive breakdowns appear only where the source publishes them, with the source's category names, never combined across sources.</li>
-<li>The LLM parser, the request queue and the research loop are built but not deployed; they need a Cloudflare account and a Groq key.</li>
+<li>Marathon facts describe the 2013 research sample (61% US); the "world" running group means finishers in that sample.</li>
+<li>Researched facts are only as good as what the web says, are graded D and stamped, can mix definitions until reviewed, and have no group size.</li>
+<li>History charts follow one definition; a change inside the source shows as a kink, not a note.</li>
+<li>Group counts for age bands and categories are survey shares applied to UN totals.</li>
+<li>The LLM parser, live research and the request queue need a Cloudflare account and a Groq key before they run.</li>
 </ul>
 
 <h2>Sources</h2>
-<p>UN DESA, World Population Prospects 2024. WHO Global Health Observatory, life expectancy at birth. Allen, Dechow, Pope and Wu (2017), marathon finisher records. World Inequality Database, bulk download September 2026. World Bank Poverty and Inequality Platform, API release 20260922, 2021 PPP. CDC NHANES August 2021 to August 2023. NCD Risk Factor Collaboration, height (Lancet 2020) and adult BMI (Nature 2026). Licences and access dates on the <a href="../sources/">sources page</a>.</p>
+<p>UN DESA, World Population Prospects 2024. WHO Global Health Observatory, life expectancy at birth. World Inequality Database, bulk download September 2026. World Bank Poverty and Inequality Platform, release 20260922, 2021 PPP. CDC NHANES August 2021 to August 2023. NCD Risk Factor Collaboration, height (Lancet 2020) and adult BMI (Nature 2026). Allen, Dechow, Pope and Wu (2017), marathon finisher records. Researched facts cite their own sources on each fact page. Licences and access dates on the <a href="../sources/">sources page</a>.</p>
 </main>
-<footer class="wrap site-footer"><p><a href="../">Home</a> · <a href="../sources/">Sources</a> · <a href="../about/">About</a> · <a href="../privacy/">Privacy</a> · <a href="../terms/">Terms</a></p></footer>
+<footer class="wrap prose site-footer"><p><a href="../">Home</a> · <a href="../sources/">Sources</a> · <a href="../about/">About</a> · <a href="../privacy/">Privacy</a> · <a href="../terms/">Terms</a></p></footer>
 </body></html>

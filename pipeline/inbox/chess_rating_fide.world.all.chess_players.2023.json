@@ -1,0 +1,112 @@
+{
+ "id": "chess_rating_fide.world.all.chess_players.2023",
+ "metric": "chess_rating_fide",
+ "population": {
+  "base": "world",
+  "country": null,
+  "sex": "all",
+  "age_band": null,
+  "activity": "chess_players",
+  "source_category": null
+ },
+ "year": 2023,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "points",
+ "grid": {
+  "p99": 2306.25,
+  "p50": 1543.5
+ },
+ "sources": [
+  {
+   "id": "src-q-fide-jeff-sonas-sonas-proposal-repairing",
+   "name": "FIDE / Jeff Sonas, 'Sonas Proposal: Repairing the FIDE Standard Elo rating system' (published on fide.com, 20 July 2023)",
+   "url": "https://fide.com/docs/presentations/Sonas%20Proposal%20-%20Repairing%20the%20FIDE%20Standard%20Elo%20Rating%20System.pdf",
+   "accessed": "2026-10-14",
+   "measures": "FIDE Standard (classical) Elo rating of every player on the FIDE rating list, active and inactive, grouped in 100-point bands; January 2023 list (405,074 players) and April 2023 list (approx. 414,000 players)",
+   "values": {
+    "p99": 2400.0
+   },
+   "independent_of": [],
+   "official": true,
+   "unit_as_published": "Elo rating points",
+   "notes": "Published statements: 'the fact remains that 99% of rated players have ratings below 2400 Elo' and 'All players rated below 2000 Elo, which is the bottom 85% of rated players'. January 2023 band counts as published: 1000-1099 23,381; 1100-1199 30,475; 1200-1299 32,444; 1300-1399 33,844; 1400-1499 35,462; 1500-1599 37,324; 1600-1699 38,464; 1700-1799 37,749; 1800-1899 35,851; 1900-1999 31,844; 2000-2099 28,115; 2100-2199 19,818; 2200-2299 11,716; 2300-2399 5,518; 2400+ 3,069 (total 405,074). April 2023: 2300-2399 5,500; 2400+ 3,080; 'same 346,000 players below 2000' and '68,000 players' at 2000+. So 2400+ is about 0.76% of the list and 2300+ about 2.1%; the exact top-1% cutoff sits inside the 2300-2399 band. Pre-dates the March 2024 FIDE compression, which raised all sub-2000 ratings (minimum now 1400) but left ratings of 2000+ unchanged, so the top-1% cutoff is unaffected by it. Document is by FIDE's rating consultant and hosted by FIDE; no mean or SD given."
+  },
+  {
+   "id": "src-q-fide-october-2026-standard-rating-list-t",
+   "name": "FIDE October 2026 standard rating list, tabulated by JD Chess (research data file elo-2026-10-03.json)",
+   "url": "https://jdchess.com/research/elo-2026-10-03.json",
+   "accessed": "2026-10-14",
+   "measures": "FIDE Standard rating of every player on the October 2026 standard list with a positive published rating and no inactive flag (per-rating counts from the official standard_rating_list_xml.zip, archive dated 2 October 2026, SHA-256 recorded)",
+   "values": {
+    "p50": 1700.0,
+    "p99": 2375.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "Elo rating points",
+   "notes": "Median 1700 is stated in the file. The p99 value is NOT stated: the file gives per-rating counts, from which 2,728 active players are rated 2350 or above and 1,710 are 2400 or above (2300+: 4,136; 2200+: 8,324; 2000+: 27,857). One percent of 221,400 is 2,214, so the top-1% cutoff lies between 2350 and 2400; 2375 is the midpoint of that interval, not a published figure. The accompanying blog page publishes shares at or above thresholds: 2300 = 1.9%, 2400 = 0.8% of active published players. Active-only pool (inactive-flagged players excluded), minimum rating 1400 since the 2024 compression. Third-party tabulation with transparent method; treat as a cross-check on the FIDE/Sonas figure rather than an independent source."
+  },
+  {
+   "id": "src-q-lichess-weekly-rating-distribution-pages",
+   "name": "Lichess weekly rating distribution pages (rapid and blitz), histogram data captured 3 October 2026 in the JD Chess data file",
+   "url": "https://lichess.org/stat/rating/distribution/rapid",
+   "accessed": "2026-10-14",
+   "measures": "Lichess Glicko-2 rating of players shown in the weekly rapid and blitz rating-distribution histograms (players with recent activity; 25-point bins from 400 to 2824); rapid n = 504,630, blitz n = 703,048",
+   "values": {
+    "p50": 1387.0,
+    "p99": 2250.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "Lichess rating points",
+   "notes": "Rapid: median bin 1375-1399 (p50 given as bin midpoint); summing published bucket counts from the top, 5,040 players are rated 2250 or above against a top-1% size of 5,046, so the rapid top-1% cutoff is about 2250 (located from bucket counts, not stated by Lichess). Blitz (n = 703,048): median bin 1475-1499; 6,337 players at 2400+ and 7,412 at 2375+ against a top-1% size of 7,030, so the blitz top-1% cutoff is about 2375-2400. Classical page shows 41,171 players this week but its histogram was not captured. Lichess ratings are on a different scale from FIDE and the pool is online players active that week, not federation-rated players."
+  },
+  {
+   "id": "src-q-us-chess-federation-uscf-regular-rating",
+   "name": "US Chess Federation, USCF Regular Rating Distribution Chart as of November 1, 2004",
+   "url": "https://www.uschess.org/archive/ratings/ratedist.php",
+   "accessed": "2026-10-14",
+   "measures": "US Chess regular (over-the-board) rating of all rated members, with cumulative percentile per 100-point band, split into all members, non-scholastic and scholastic",
+   "values": {
+    "p99": 2200.0
+   },
+   "independent_of": [],
+   "official": true,
+   "unit_as_published": "US Chess rating points",
+   "notes": "Published cumulative percentiles: through 2100-2199 = 98.13%, through 2200-2299 = 99.19% (all members), so the 99th percentile falls in the 2200-2299 band; p99 reported as the band floor. Non-scholastic (n = 49,458, average 1198): through 2200-2299 = 98.93%, through 2300-2399 = 99.39%, so p99 is in the 2300-2399 band. Scholastic (n = 15,997, average 668). Average rating 1068 for all members. Dated 2004 and flagged by US Chess as possibly no longer current; a national (US) pool that includes many scholastic players, so not comparable to the FIDE world list. US Chess Ratings Committee reports for 2025 and 2026 (glicko.net) discuss distribution trends but publish no percentile table."
+  }
+ ],
+ "definition": "FIDE Standard (classical) Elo rating of every player on the FIDE rating list, active and inactive, grouped in 100-point bands; January 2023 list (405,074 players) and April 2023 list (approx. 414,000 players)",
+ "derived_points": [],
+ "caveat": "'Rated players' is ambiguous. The primary answer uses the FIDE standard (over-the-board classical) list, where FIDE's own 2023 analysis states 99% of rated players are below 2400 and the October 2026 active list places the cutoff between 2350 and 2400 (roughly FIDE Master level). That pool is gated: FIDE publishes no rating below 1400 (1000 before March 2024), so it excludes most casual and club players. National federation pools give lower cutoffs (US Chess all members, 2004: 2200-2299 band). Online pools are on different scales: Lichess rapid top 1% is about 2250 and blitz about 2375-2400 among players active that week; chess.com publishes no distribution table. FIDE ratings deflated through the 2010s and were compressed in March 2024, which changed the bottom of the list but not ratings above 2000. No source states an exact top-1% rating; the FIDE figure is a band, and the Lichess and 2026 FIDE cutoffs were located from published counts rather than quoted.",
+ "status": "queued",
+ "added": "2026-10-14",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "FIDE chess rating (standard)",
+  "short": "FIDE rating",
+  "unit": "points",
+  "direction": "high",
+  "format": "number",
+  "metric_phrase": "a chess rating",
+  "base_noun": "FIDE-rated chess players",
+  "definition": "A player's FIDE Standard (classical time control) Elo rating as published on the monthly FIDE rating list, among all players holding a published rating.",
+  "phrasings": [
+   "what chess rating is the top 1%",
+   "top 1% chess rating",
+   "what elo is top 1 percent of chess players",
+   "chess elo percentile",
+   "what fide rating is top 10%",
+   "median fide rating",
+   "how good is a 2000 chess rating",
+   "what percentile is a 2200 elo",
+   "what chess rating puts you in the top 1 percent",
+   "average chess rating of rated players"
+  ],
+  "activity": "chess_players",
+  "activity_label": "who hold a FIDE rating",
+  "id": "chess_rating_fide"
+ }
+}

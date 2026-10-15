@@ -5,15 +5,16 @@ Facts: 911. Errors: 0.
 ## By grade
 
 - A: 3
-- B: 908
+- B: 906
 - C: 0
-- D: 0
+- D: 2
 
 ## By family
 
-- body: A 0, B 670, C 0, D 0
+- body: A 0, B 668, C 0, D 0
 - income: A 0, B 82, C 0, D 0
 - life: A 3, B 63, C 0, D 0
+- more: A 0, B 0, C 0, D 2
 - running: A 0, B 93, C 0, D 0
 
 ## Source agreement
@@ -26,12 +27,12 @@ Facts with two or more sources at a shown percentile: 3. Of those, within 10% at
 - life_expectancy_at_birth.world.f.2023: 2% at p99
 - life_expectancy_at_birth.world.m.2023: 2% at p50
 
-## Single-source facts: 908 of 911
+## Single-source facts: 906 of 911
 
 - age_years: 63
 - bmi_adult: 564
 - consumption_percap_ppp: 19
-- height_adult_cm: 74
+- height_adult_cm: 72
 - income_posttax_adult_ppp: 21
 - income_pretax_adult_ppp: 21
 - marathon_time: 93

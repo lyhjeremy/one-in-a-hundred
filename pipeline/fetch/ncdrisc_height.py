@@ -60,10 +60,10 @@ def _sd_by_sex() -> dict[str, float]:
     return out
 
 
-def _rows_for(mean: float, sd: float, base, country, sex, n) -> list[Row]:
+def _rows_for(mean: float, sd: float, base, country, sex, n, year=YEAR) -> list[Row]:
     rows = []
     for pk, share in GRID:
-        rows.append(Row("height_adult_cm", base, country, sex, None, None, None, YEAR, pk,
+        rows.append(Row("height_adult_cm", base, country, sex, None, None, None, year, pk,
                         round(normal_quantile(mean, sd, share), 1), "cm", SOURCE_ID, n=n, n_source=WPP_ID if n else None,
                         derived=True,
                         note=f"derived from mean {mean:.1f} cm and an assumed SD of {sd:.1f} cm (NHANES measured, same sex)"))
@@ -75,19 +75,21 @@ def load(population_fn=None) -> list[Row]:
     sd = _sd_by_sex()
     rows: list[Row] = []
     country = pd.concat(pd.read_csv(f) for f in glob.glob(str(RAW / SOURCE_ID / "x" / "*.csv")))
-    country = country[(country["Age group"] == 19) & (country.Year == YEAR)]
+    country = country[(country["Age group"] == 19) & (country.Year % 5 == 4)]  # 1989, 1994, ... 2019
     for iso2 in LAUNCH_COUNTRIES:
         sub = country[country.Country == NAMES[iso2]]
         for _, r in sub.iterrows():
             s = SEX[r.Sex]
-            n = population_fn(iso2, s, 20) if population_fn else None
-            rows += _rows_for(float(r["Mean height"]), sd[s], "country", iso2, s, n)
+            latest = int(r.Year) == YEAR
+            n = population_fn(iso2, s, 20) if (population_fn and latest) else None
+            rows += _rows_for(float(r["Mean height"]), sd[s], "country", iso2, s, n, int(r.Year))
     g = pd.read_csv(RAW / SOURCE_ID / "global.csv")
-    g = g[(g["Age group"] == 19) & (g.Year == YEAR)]
+    g = g[(g["Age group"] == 19) & (g.Year % 5 == 4)]
     for _, r in g.iterrows():
         s = SEX[r.Sex]
-        n = population_fn("WO", s, 20) if population_fn else None
-        rows += _rows_for(float(r["Mean height"]), sd[s], "world", None, s, n)
+        latest = int(r.Year) == YEAR
+        n = population_fn("WO", s, 20) if (population_fn and latest) else None
+        rows += _rows_for(float(r["Mean height"]), sd[s], "world", None, s, n, int(r.Year))
     return rows
 
 

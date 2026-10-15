@@ -31,7 +31,7 @@ INBOX = ROOT / "pipeline" / "inbox"
 REJECTED = ROOT / "pipeline" / "rejected"
 LOG = ROOT / "pipeline" / "review_log.jsonl"
 FACTS_DIR = ROOT / "data" / "facts"
-METRICS = json.loads((ROOT / "data" / "metrics.json").read_text())["metrics"]
+from pipeline.catalog import METRICS  # noqa: E402
 
 
 def log(fid: str, action: str, **kw) -> None:

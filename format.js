@@ -61,6 +61,10 @@ export const FORMATTERS = {
   years: (v) => String(Math.round(v)),
   years_1dp: (v) => `${v.toFixed(1)} years`,
   hours: (v) => `${Math.round(sig2(v)).toLocaleString("en-US")} hours`,
+  number: (v) => Math.round(v).toLocaleString("en-US"),
+  number_1dp: (v) => v.toFixed(1),
+  percent: (v) => `${g(Math.round(v * 10) / 10)}%`,
+  count: (v) => Math.round(sig2(v)).toLocaleString("en-US"),
 };
 
 export function ageBandPhrase(band) {

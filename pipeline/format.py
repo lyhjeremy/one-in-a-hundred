@@ -8,11 +8,13 @@ from __future__ import annotations
 
 import json
 import math
+import sys
 from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-METRICS = json.loads((ROOT / "data" / "metrics.json").read_text())
+sys.path.insert(0, str(ROOT))
+from pipeline.catalog import CATALOG as METRICS  # noqa: E402
 
 COUNTRY_NAMES = {
     "US": "the United States", "GB": "the United Kingdom", "CA": "Canada", "AU": "Australia",
@@ -93,6 +95,10 @@ FORMATTERS = {
     "years": lambda v: f"{int(round_half_up(v))}",
     "years_1dp": lambda v: f"{round_half_up(v, 1):.1f} years",
     "hours": lambda v: f"{int(sig2(v)):,} hours",
+    "number": lambda v: f"{int(round_half_up(v)):,}",
+    "number_1dp": lambda v: f"{round_half_up(v, 1):.1f}",
+    "percent": lambda v: f"{round_half_up(v, 1):g}%",
+    "count": lambda v: f"{int(sig2(v)):,}",
 }
 
 

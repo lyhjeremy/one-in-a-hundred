@@ -14,7 +14,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 FACTS_DIR = ROOT / "data" / "facts"
-METRICS = json.loads((ROOT / "data" / "metrics.json").read_text())["metrics"]
+import sys
+sys.path.insert(0, str(ROOT))
+from pipeline.catalog import METRICS  # noqa: E402
 
 LICENCES = {
     "src-un-wpp-2024": "CC BY 3.0 IGO",

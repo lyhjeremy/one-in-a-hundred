@@ -14,7 +14,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from pipeline.format import COUNTRY_NAMES  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
-M = json.loads((ROOT / "data" / "metrics.json").read_text())
+from pipeline.catalog import CATALOG as M  # noqa: E402
 INDEX = json.loads((ROOT / "data" / "index.json").read_text()) if (ROOT / "data" / "index.json").exists() else {"metrics": {}}
 
 cat = {

@@ -8,6 +8,7 @@ v0.1 to v0.3 shipped on 2026-10-14; v0.3.1 on 2026-10-15.
 - `research_queue.py --from-file` is resumable: questions already researched are listed in `pipeline/seeds/done.txt` and skipped, so a run that stops on quota picks up where it left off.
 - `build_facts.py` registers a group introduced by a researched fact on an existing measure (height of NBA players), which had crashed the share-card renderer.
 - A single age as a group ("aged 20") formats in both `format.py` and `format.js` instead of raising; parity fixtures still agree.
+- The NBA height fact came back in inches (86) under a centimetre measure and went live reading "at least 86 cm"; corrected to 218 cm. `build_facts.py` now skips a researched fact on a catalogue measure whose values fall outside the curated range for that measure by more than a factor of 1.5, which catches that slip.
 - Rules parser unchanged at 90.5% on the frozen gold set after the new measures joined the catalogue.
 
 ## v0.3: three columns, five modes, the curve, researched measures

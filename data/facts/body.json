@@ -53989,7 +53989,7 @@
   "direction": "high",
   "unit": "cm",
   "grid": {
-   "p99": 86.0
+   "p99": 218.4
   },
   "sources": [
    {
@@ -53999,7 +53999,7 @@
     "accessed": "2026-10-15",
     "measures": "Official NBA listed height, without shoes (the league has required barefoot measurements since 2019-20), for players on 2025-26 rosters. Gives the ten tallest players, not the full distribution.",
     "values": {
-     "p99": 86.0
+     "p99": 218.4
     },
     "independent_of": [],
     "official": false,
@@ -54009,7 +54009,7 @@
   ],
   "definition": "Official NBA listed height, without shoes (the league has required barefoot measurements since 2019-20), for players on 2025-26 rosters. Gives the ten tallest players, not the full distribution.",
   "derived_points": [],
-  "caveat": "Neither source is independent: both rest on the NBA's own listed heights, through SI and Basketball-Reference. No official NBA publication or peer-reviewed paper gives height percentiles for the whole league. The p99 is a rank cutoff on a small population of roughly 550 players, so it amounts to the sixth or so tallest player, and it moves by a full inch depending on who is counted (two-way and G League call-ups such as Zikarsky). Wembanyama's height is disputed: some reports say the Spurs listed him at 7'5\" for 2025-26. Comparison on a different population: a peer-reviewed summary of ten years of NBA Draft Combine data (PMC10593457) gives 197.7 ± 7.6 cm, range 181.6-212.7 cm. That covers draft prospects, not league players. The suggested value is about 218 cm (7'2\"), with 221 cm (7'3\") as the upper bound.",
+  "caveat": "Neither source is independent: both rest on the NBA's own listed heights, through SI and Basketball-Reference. No official NBA publication or peer-reviewed paper gives height percentiles for the whole league. The p99 is a rank cutoff on a small population of roughly 550 players, so it amounts to the sixth or so tallest player, and it moves by a full inch depending on who is counted (two-way and G League call-ups such as Zikarsky). Wembanyama's height is disputed: some reports say the Spurs listed him at 7'5\" for 2025-26. Comparison on a different population: a peer-reviewed summary of ten years of NBA Draft Combine data (PMC10593457) gives 197.7 ± 7.6 cm, range 181.6-212.7 cm. That covers draft prospects, not league players. The suggested value is about 218 cm (7'2\"), with 221 cm (7'3\") as the upper bound. The model returned this value in inches (86); it was converted to centimetres at build review.",
   "status": "queued",
   "added": "2026-10-15",
   "questions_n": 1,
@@ -54017,8 +54017,8 @@
   "reason": "Researched automatically on 2026-10-15; not yet checked by a person.",
   "range": {
    "p99": [
-    86.0,
-    86.0
+    218.4,
+    218.4
    ]
   },
   "agreement": {

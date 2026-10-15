@@ -153,6 +153,14 @@ def main() -> int:
         METRICS["metrics"].setdefault(mid, m)
     METRICS["activities"].update(extra["activities"])
 
+    # Value range of each curated measure, to catch researched facts in the wrong unit.
+    curated_range: dict[str, tuple[float, float]] = {}
+    for facts in facts_by_family.values():
+        for cf in facts:
+            vals = list(cf["grid"].values())
+            lo, hi = curated_range.get(cf["metric"], (min(vals), max(vals)))
+            curated_range[cf["metric"]] = (min(lo, *vals), max(hi, *vals))
+
     # Queued facts from the research loop ship alongside, flagged by status.
     for p in sorted(INBOX.glob("*.json")):
         f = json.loads(p.read_text())
@@ -163,6 +171,11 @@ def main() -> int:
         if errs:
             # A bad research result must never break the build; it waits for review.
             print(f"inbox: skipping {f['id']}: {'; '.join(errs)}")
+            continue
+        lo_hi = curated_range.get(f["metric"])
+        if lo_hi and any(v < lo_hi[0] / 1.5 or v > lo_hi[1] * 1.5 for v in f["grid"].values()):
+            # Usually a unit slip (inches given for a centimetre measure).
+            print(f"inbox: skipping {f['id']}: values {f['grid']} far outside curated range {lo_hi}")
             continue
         fam = METRICS["metrics"][f["metric"]]["family"]
         facts_by_family[fam].append(f)

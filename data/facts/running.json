@@ -76,7 +76,33 @@
   "caveat": "No national statistics office, peer-reviewed paper or parkrun publication gives a men's 5K percentile table; the top-1% figure rests on RunRepeat's aggregated race-result pool, which does not name its races, countries or method. RunRepeat's two tables put the fastest 1% of male 5K race finishers at 17:30 (global calculator, updated 2024) and 17:49 (US 2009-2018 page), and both derive from the same organisation. The population is self-selected timed race finishers, all ages pooled, not men in general; the 2024 US sample from Outside Run says fewer than 2% of all finishers broke 20:00, which is consistent with a men's top-1% mark in the 17-18 minute range. parkrun data is excluded from RunRepeat's US figures. The question gives no country, so the global calculator table is the primary match.",
   "status": "queued",
   "added": "2026-10-14",
-  "questions_n": 1
+  "questions_n": 1,
+  "grade": "D",
+  "reason": "Researched automatically on 2026-10-14; not yet checked by a person.",
+  "range": {
+   "p50": [
+    1878.0,
+    1920.0
+   ],
+   "p10": [
+    1326.0,
+    1406.0
+   ],
+   "p1": [
+    1050.0,
+    1069.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0222,
+   "p10": 0.0586,
+   "p1": 0.0179
+  },
+  "n_sources": {
+   "p50": 3,
+   "p10": 2,
+   "p1": 2
+  }
  },
  {
   "id": "marathon_time.au.all.marathon_finishers.2013",
@@ -132,7 +158,39 @@
   "caveat": "16,232 finishers across 15 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14520.0,
+    14520.0
+   ],
+   "p10": [
+    11837.0,
+    11837.0
+   ],
+   "p1": [
+    9880.0,
+    9880.0
+   ],
+   "p0.1": [
+    8542.0,
+    8542.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.au.f.marathon_finishers.2013",
@@ -188,7 +246,39 @@
   "caveat": "4,867 finishers across 15 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15474.0,
+    15474.0
+   ],
+   "p10": [
+    12865.0,
+    12865.0
+   ],
+   "p1": [
+    10907.0,
+    10907.0
+   ],
+   "p0.1": [
+    9118.0,
+    9118.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.au.m.marathon_finishers.2013",
@@ -244,7 +334,39 @@
   "caveat": "11,365 finishers across 15 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14162.0,
+    14162.0
+   ],
+   "p10": [
+    11543.0,
+    11543.0
+   ],
+   "p1": [
+    9743.0,
+    9743.0
+   ],
+   "p0.1": [
+    8061.0,
+    8061.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.ca.all.marathon_finishers.2013",
@@ -300,7 +422,39 @@
   "caveat": "19,024 finishers across 51 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14780.0,
+    14780.0
+   ],
+   "p10": [
+    12102.0,
+    12102.0
+   ],
+   "p1": [
+    10209.0,
+    10209.0
+   ],
+   "p0.1": [
+    8743.0,
+    8743.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.ca.f.marathon_finishers.2013",
@@ -356,7 +510,39 @@
   "caveat": "6,954 finishers across 51 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15651.0,
+    15651.0
+   ],
+   "p10": [
+    13191.0,
+    13191.0
+   ],
+   "p1": [
+    11215.0,
+    11215.0
+   ],
+   "p0.1": [
+    9183.0,
+    9183.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.ca.m.marathon_finishers.2013",
@@ -412,7 +598,39 @@
   "caveat": "12,070 finishers across 51 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14237.0,
+    14237.0
+   ],
+   "p10": [
+    11693.0,
+    11693.0
+   ],
+   "p1": [
+    9987.0,
+    9987.0
+   ],
+   "p0.1": [
+    8560.0,
+    8560.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.ch.all.marathon_finishers.2013",
@@ -468,7 +686,39 @@
   "caveat": "2,452 finishers across 1 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    13446.0,
+    13446.0
+   ],
+   "p10": [
+    11110.0,
+    11110.0
+   ],
+   "p1": [
+    9316.0,
+    9316.0
+   ],
+   "p0.1": [
+    7841.0,
+    7841.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.ch.f.marathon_finishers.2013",
@@ -524,7 +774,39 @@
   "caveat": "461 finishers across 1 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14212.0,
+    14212.0
+   ],
+   "p10": [
+    12077.0,
+    12077.0
+   ],
+   "p1": [
+    9653.0,
+    9653.0
+   ],
+   "p0.1": [
+    8744.0,
+    8744.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.ch.m.marathon_finishers.2013",
@@ -580,7 +862,39 @@
   "caveat": "1,991 finishers across 1 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    13253.0,
+    13253.0
+   ],
+   "p10": [
+    10859.0,
+    10859.0
+   ],
+   "p1": [
+    9297.0,
+    9297.0
+   ],
+   "p0.1": [
+    7825.0,
+    7825.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.de.all.marathon_finishers.2013",
@@ -636,7 +950,39 @@
   "caveat": "71,758 finishers across 7 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14304.0,
+    14304.0
+   ],
+   "p10": [
+    11684.0,
+    11684.0
+   ],
+   "p1": [
+    9864.0,
+    9864.0
+   ],
+   "p0.1": [
+    8273.0,
+    8273.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.de.f.marathon_finishers.2013",
@@ -692,7 +1038,39 @@
   "caveat": "16,041 finishers across 7 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15591.0,
+    15591.0
+   ],
+   "p10": [
+    13066.0,
+    13066.0
+   ],
+   "p1": [
+    10964.0,
+    10964.0
+   ],
+   "p0.1": [
+    8982.0,
+    8982.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.de.m.marathon_finishers.2013",
@@ -748,7 +1126,39 @@
   "caveat": "55,717 finishers across 7 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14031.0,
+    14031.0
+   ],
+   "p10": [
+    11465.0,
+    11465.0
+   ],
+   "p1": [
+    9728.0,
+    9728.0
+   ],
+   "p0.1": [
+    8121.0,
+    8121.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.fr.all.marathon_finishers.2013",
@@ -804,7 +1214,39 @@
   "caveat": "41,471 finishers across 2 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14711.0,
+    14711.0
+   ],
+   "p10": [
+    11980.0,
+    11980.0
+   ],
+   "p1": [
+    10197.0,
+    10197.0
+   ],
+   "p0.1": [
+    8881.0,
+    8881.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.fr.f.marathon_finishers.2013",
@@ -860,7 +1302,39 @@
   "caveat": "8,304 finishers across 2 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16070.0,
+    16070.0
+   ],
+   "p10": [
+    13573.0,
+    13573.0
+   ],
+   "p1": [
+    11624.0,
+    11624.0
+   ],
+   "p0.1": [
+    9355.0,
+    9355.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.fr.m.marathon_finishers.2013",
@@ -916,7 +1390,39 @@
   "caveat": "33,167 finishers across 2 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14350.0,
+    14350.0
+   ],
+   "p10": [
+    11754.0,
+    11754.0
+   ],
+   "p1": [
+    10115.0,
+    10115.0
+   ],
+   "p0.1": [
+    8670.0,
+    8670.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.gb.all.marathon_finishers.2013",
@@ -972,7 +1478,39 @@
   "caveat": "54,597 finishers across 31 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15679.0,
+    15679.0
+   ],
+   "p10": [
+    12185.0,
+    12185.0
+   ],
+   "p1": [
+    10053.0,
+    10053.0
+   ],
+   "p0.1": [
+    8904.0,
+    8904.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.gb.f.marathon_finishers.2013",
@@ -1028,7 +1566,39 @@
   "caveat": "17,690 finishers across 31 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16898.0,
+    16898.0
+   ],
+   "p10": [
+    13363.0,
+    13363.0
+   ],
+   "p1": [
+    11297.0,
+    11297.0
+   ],
+   "p0.1": [
+    9606.0,
+    9606.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.gb.m.marathon_finishers.2013",
@@ -1084,7 +1654,39 @@
   "caveat": "36,907 finishers across 31 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15057.0,
+    15057.0
+   ],
+   "p10": [
+    11748.0,
+    11748.0
+   ],
+   "p1": [
+    9831.0,
+    9831.0
+   ],
+   "p0.1": [
+    8828.0,
+    8828.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.hk.all.marathon_finishers.2013",
@@ -1140,7 +1742,39 @@
   "caveat": "6,732 finishers across 2 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15719.0,
+    15719.0
+   ],
+   "p10": [
+    12466.0,
+    12466.0
+   ],
+   "p1": [
+    10423.0,
+    10423.0
+   ],
+   "p0.1": [
+    8115.0,
+    8115.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.hk.f.marathon_finishers.2013",
@@ -1196,7 +1830,39 @@
   "caveat": "811 finishers across 2 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16666.0,
+    16666.0
+   ],
+   "p10": [
+    13820.0,
+    13820.0
+   ],
+   "p1": [
+    9619.0,
+    9619.0
+   ],
+   "p0.1": [
+    9048.0,
+    9048.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.hk.m.marathon_finishers.2013",
@@ -1252,7 +1918,39 @@
   "caveat": "5,921 finishers across 2 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15548.0,
+    15548.0
+   ],
+   "p10": [
+    12392.0,
+    12392.0
+   ],
+   "p1": [
+    10441.0,
+    10441.0
+   ],
+   "p0.1": [
+    8111.0,
+    8111.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.nl.all.marathon_finishers.2013",
@@ -1308,7 +2006,39 @@
   "caveat": "1,177 finishers across 1 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    12903.0,
+    12903.0
+   ],
+   "p10": [
+    10408.0,
+    10408.0
+   ],
+   "p1": [
+    8171.0,
+    8171.0
+   ],
+   "p0.1": [
+    7758.0,
+    7758.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.nl.m.marathon_finishers.2013",
@@ -1364,7 +2094,39 @@
   "caveat": "1,177 finishers across 1 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    12903.0,
+    12903.0
+   ],
+   "p10": [
+    10408.0,
+    10408.0
+   ],
+   "p1": [
+    8171.0,
+    8171.0
+   ],
+   "p0.1": [
+    7758.0,
+    7758.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.all.18-24.marathon_finishers.2013",
@@ -1420,7 +2182,39 @@
   "caveat": "23,810 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15789.0,
+    15789.0
+   ],
+   "p10": [
+    12156.0,
+    12156.0
+   ],
+   "p1": [
+    9905.0,
+    9905.0
+   ],
+   "p0.1": [
+    8487.0,
+    8487.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.all.25-29.marathon_finishers.2013",
@@ -1476,7 +2270,39 @@
   "caveat": "46,315 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15771.0,
+    15771.0
+   ],
+   "p10": [
+    12153.0,
+    12153.0
+   ],
+   "p1": [
+    9682.0,
+    9682.0
+   ],
+   "p0.1": [
+    8312.0,
+    8312.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.all.30-34.marathon_finishers.2013",
@@ -1532,7 +2358,39 @@
   "caveat": "55,353 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15734.0,
+    15734.0
+   ],
+   "p10": [
+    12162.0,
+    12162.0
+   ],
+   "p1": [
+    9930.0,
+    9930.0
+   ],
+   "p0.1": [
+    8519.0,
+    8519.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.all.35-39.marathon_finishers.2013",
@@ -1588,7 +2446,39 @@
   "caveat": "56,815 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15665.0,
+    15665.0
+   ],
+   "p10": [
+    12261.0,
+    12261.0
+   ],
+   "p1": [
+    10307.0,
+    10307.0
+   ],
+   "p0.1": [
+    9096.0,
+    9096.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.all.40-44.marathon_finishers.2013",
@@ -1644,7 +2534,39 @@
   "caveat": "58,228 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15749.0,
+    15749.0
+   ],
+   "p10": [
+    12397.0,
+    12397.0
+   ],
+   "p1": [
+    10542.0,
+    10542.0
+   ],
+   "p0.1": [
+    9440.0,
+    9440.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.all.45-49.marathon_finishers.2013",
@@ -1700,7 +2622,39 @@
   "caveat": "44,912 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15816.0,
+    15816.0
+   ],
+   "p10": [
+    12484.0,
+    12484.0
+   ],
+   "p1": [
+    10738.0,
+    10738.0
+   ],
+   "p0.1": [
+    9789.0,
+    9789.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.all.50-54.marathon_finishers.2013",
@@ -1756,7 +2710,39 @@
   "caveat": "33,850 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16094.0,
+    16094.0
+   ],
+   "p10": [
+    12682.0,
+    12682.0
+   ],
+   "p1": [
+    10989.0,
+    10989.0
+   ],
+   "p0.1": [
+    10072.0,
+    10072.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.all.55-59.marathon_finishers.2013",
@@ -1812,7 +2798,39 @@
   "caveat": "19,178 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16749.0,
+    16749.0
+   ],
+   "p10": [
+    13152.0,
+    13152.0
+   ],
+   "p1": [
+    11533.0,
+    11533.0
+   ],
+   "p0.1": [
+    10465.0,
+    10465.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.all.60-64.marathon_finishers.2013",
@@ -1868,7 +2886,39 @@
   "caveat": "9,887 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    17590.0,
+    17590.0
+   ],
+   "p10": [
+    13800.0,
+    13800.0
+   ],
+   "p1": [
+    12133.0,
+    12133.0
+   ],
+   "p0.1": [
+    11006.0,
+    11006.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.all.65-69.marathon_finishers.2013",
@@ -1924,7 +2974,39 @@
   "caveat": "4,009 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    18840.0,
+    18840.0
+   ],
+   "p10": [
+    14586.0,
+    14586.0
+   ],
+   "p1": [
+    12676.0,
+    12676.0
+   ],
+   "p0.1": [
+    11538.0,
+    11538.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.all.70plus.marathon_finishers.2013",
@@ -1980,7 +3062,39 @@
   "caveat": "1,720 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    20699.0,
+    20699.0
+   ],
+   "p10": [
+    15838.0,
+    15838.0
+   ],
+   "p1": [
+    13447.0,
+    13447.0
+   ],
+   "p0.1": [
+    11525.0,
+    11525.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.all.marathon_finishers.2013",
@@ -2036,7 +3150,39 @@
   "caveat": "474,410 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16141.0,
+    16141.0
+   ],
+   "p10": [
+    12533.0,
+    12533.0
+   ],
+   "p1": [
+    10381.0,
+    10381.0
+   ],
+   "p0.1": [
+    8901.0,
+    8901.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.f.18-24.marathon_finishers.2013",
@@ -2092,7 +3238,39 @@
   "caveat": "12,279 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16431.0,
+    16431.0
+   ],
+   "p10": [
+    13052.0,
+    13052.0
+   ],
+   "p1": [
+    11187.0,
+    11187.0
+   ],
+   "p0.1": [
+    9755.0,
+    9755.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.f.25-29.marathon_finishers.2013",
@@ -2148,7 +3326,39 @@
   "caveat": "24,526 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16415.0,
+    16415.0
+   ],
+   "p10": [
+    12971.0,
+    12971.0
+   ],
+   "p1": [
+    11135.0,
+    11135.0
+   ],
+   "p0.1": [
+    9346.0,
+    9346.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.f.30-34.marathon_finishers.2013",
@@ -2204,7 +3414,39 @@
   "caveat": "26,028 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16537.0,
+    16537.0
+   ],
+   "p10": [
+    13091.0,
+    13091.0
+   ],
+   "p1": [
+    11125.0,
+    11125.0
+   ],
+   "p0.1": [
+    9697.0,
+    9697.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.f.35-39.marathon_finishers.2013",
@@ -2260,7 +3502,39 @@
   "caveat": "25,031 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16473.0,
+    16473.0
+   ],
+   "p10": [
+    13158.0,
+    13158.0
+   ],
+   "p1": [
+    11418.0,
+    11418.0
+   ],
+   "p0.1": [
+    10325.0,
+    10325.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.f.40-44.marathon_finishers.2013",
@@ -2316,7 +3590,39 @@
   "caveat": "23,695 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16713.0,
+    16713.0
+   ],
+   "p10": [
+    13388.0,
+    13388.0
+   ],
+   "p1": [
+    11769.0,
+    11769.0
+   ],
+   "p0.1": [
+    10631.0,
+    10631.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.f.45-49.marathon_finishers.2013",
@@ -2372,7 +3678,39 @@
   "caveat": "16,838 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    17008.0,
+    17008.0
+   ],
+   "p10": [
+    13635.0,
+    13635.0
+   ],
+   "p1": [
+    12044.0,
+    12044.0
+   ],
+   "p0.1": [
+    10941.0,
+    10941.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.f.50-54.marathon_finishers.2013",
@@ -2428,7 +3766,39 @@
   "caveat": "11,061 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    17596.0,
+    17596.0
+   ],
+   "p10": [
+    14074.0,
+    14074.0
+   ],
+   "p1": [
+    12436.0,
+    12436.0
+   ],
+   "p0.1": [
+    11409.0,
+    11409.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.f.55-59.marathon_finishers.2013",
@@ -2484,7 +3854,39 @@
   "caveat": "5,562 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    18370.0,
+    18370.0
+   ],
+   "p10": [
+    14478.0,
+    14478.0
+   ],
+   "p1": [
+    12846.0,
+    12846.0
+   ],
+   "p0.1": [
+    11305.0,
+    11305.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.f.60-64.marathon_finishers.2013",
@@ -2540,7 +3942,39 @@
   "caveat": "2,343 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    19701.0,
+    19701.0
+   ],
+   "p10": [
+    15425.0,
+    15425.0
+   ],
+   "p1": [
+    13342.0,
+    13342.0
+   ],
+   "p0.1": [
+    12491.0,
+    12491.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.f.65-69.marathon_finishers.2013",
@@ -2596,7 +4030,39 @@
   "caveat": "829 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    21183.0,
+    21183.0
+   ],
+   "p10": [
+    16313.0,
+    16313.0
+   ],
+   "p1": [
+    13617.0,
+    13617.0
+   ],
+   "p0.1": [
+    12662.0,
+    12662.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.f.marathon_finishers.2013",
@@ -2652,7 +4118,39 @@
   "caveat": "192,268 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16939.0,
+    16939.0
+   ],
+   "p10": [
+    13413.0,
+    13413.0
+   ],
+   "p1": [
+    11507.0,
+    11507.0
+   ],
+   "p0.1": [
+    10033.0,
+    10033.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.m.18-24.marathon_finishers.2013",
@@ -2708,7 +4206,39 @@
   "caveat": "11,531 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14939.0,
+    14939.0
+   ],
+   "p10": [
+    11298.0,
+    11298.0
+   ],
+   "p1": [
+    9507.0,
+    9507.0
+   ],
+   "p0.1": [
+    8169.0,
+    8169.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.m.25-29.marathon_finishers.2013",
@@ -2764,7 +4294,39 @@
   "caveat": "21,789 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14914.0,
+    14914.0
+   ],
+   "p10": [
+    11191.0,
+    11191.0
+   ],
+   "p1": [
+    9182.0,
+    9182.0
+   ],
+   "p0.1": [
+    8032.0,
+    8032.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.m.30-34.marathon_finishers.2013",
@@ -2820,7 +4382,39 @@
   "caveat": "29,325 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14926.0,
+    14926.0
+   ],
+   "p10": [
+    11429.0,
+    11429.0
+   ],
+   "p1": [
+    9517.0,
+    9517.0
+   ],
+   "p0.1": [
+    8332.0,
+    8332.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.m.35-39.marathon_finishers.2013",
@@ -2876,7 +4470,39 @@
   "caveat": "31,784 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14934.0,
+    14934.0
+   ],
+   "p10": [
+    11629.0,
+    11629.0
+   ],
+   "p1": [
+    10035.0,
+    10035.0
+   ],
+   "p0.1": [
+    8786.0,
+    8786.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.m.40-44.marathon_finishers.2013",
@@ -2932,7 +4558,39 @@
   "caveat": "34,533 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15059.0,
+    15059.0
+   ],
+   "p10": [
+    11845.0,
+    11845.0
+   ],
+   "p1": [
+    10260.0,
+    10260.0
+   ],
+   "p0.1": [
+    9263.0,
+    9263.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.m.45-49.marathon_finishers.2013",
@@ -2988,7 +4646,39 @@
   "caveat": "28,074 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15126.0,
+    15126.0
+   ],
+   "p10": [
+    12098.0,
+    12098.0
+   ],
+   "p1": [
+    10576.0,
+    10576.0
+   ],
+   "p0.1": [
+    9704.0,
+    9704.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.m.50-54.marathon_finishers.2013",
@@ -3044,7 +4734,39 @@
   "caveat": "22,789 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15427.0,
+    15427.0
+   ],
+   "p10": [
+    12396.0,
+    12396.0
+   ],
+   "p1": [
+    10762.0,
+    10762.0
+   ],
+   "p0.1": [
+    9920.0,
+    9920.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.m.55-59.marathon_finishers.2013",
@@ -3100,7 +4822,39 @@
   "caveat": "13,616 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16107.0,
+    16107.0
+   ],
+   "p10": [
+    12892.0,
+    12892.0
+   ],
+   "p1": [
+    11363.0,
+    11363.0
+   ],
+   "p0.1": [
+    10356.0,
+    10356.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.m.60-64.marathon_finishers.2013",
@@ -3156,7 +4910,39 @@
   "caveat": "7,544 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16994.0,
+    16994.0
+   ],
+   "p10": [
+    13589.0,
+    13589.0
+   ],
+   "p1": [
+    11984.0,
+    11984.0
+   ],
+   "p0.1": [
+    10956.0,
+    10956.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.m.65-69.marathon_finishers.2013",
@@ -3212,7 +4998,39 @@
   "caveat": "3,180 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    18180.0,
+    18180.0
+   ],
+   "p10": [
+    14317.0,
+    14317.0
+   ],
+   "p1": [
+    12527.0,
+    12527.0
+   ],
+   "p0.1": [
+    11518.0,
+    11518.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.m.70plus.marathon_finishers.2013",
@@ -3268,7 +5086,39 @@
   "caveat": "1,480 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    20299.0,
+    20299.0
+   ],
+   "p10": [
+    15621.0,
+    15621.0
+   ],
+   "p1": [
+    13327.0,
+    13327.0
+   ],
+   "p0.1": [
+    11525.0,
+    11525.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.us.m.marathon_finishers.2013",
@@ -3324,7 +5174,39 @@
   "caveat": "282,142 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15574.0,
+    15574.0
+   ],
+   "p10": [
+    12072.0,
+    12072.0
+   ],
+   "p1": [
+    10076.0,
+    10076.0
+   ],
+   "p0.1": [
+    8631.0,
+    8631.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.all.18-24.marathon_finishers.2013",
@@ -3380,7 +5262,39 @@
   "caveat": "26,431 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15678.0,
+    15678.0
+   ],
+   "p10": [
+    12150.0,
+    12150.0
+   ],
+   "p1": [
+    9905.0,
+    9905.0
+   ],
+   "p0.1": [
+    8280.0,
+    8280.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.all.25-29.marathon_finishers.2013",
@@ -3436,7 +5350,39 @@
   "caveat": "51,718 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15597.0,
+    15597.0
+   ],
+   "p10": [
+    12110.0,
+    12110.0
+   ],
+   "p1": [
+    9645.0,
+    9645.0
+   ],
+   "p0.1": [
+    8177.0,
+    8177.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.all.30-34.marathon_finishers.2013",
@@ -3492,7 +5438,39 @@
   "caveat": "63,132 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15501.0,
+    15501.0
+   ],
+   "p10": [
+    12080.0,
+    12080.0
+   ],
+   "p1": [
+    9892.0,
+    9892.0
+   ],
+   "p0.1": [
+    8464.0,
+    8464.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.all.35-39.marathon_finishers.2013",
@@ -3548,7 +5526,39 @@
   "caveat": "66,303 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15401.0,
+    15401.0
+   ],
+   "p10": [
+    12150.0,
+    12150.0
+   ],
+   "p1": [
+    10241.0,
+    10241.0
+   ],
+   "p0.1": [
+    9028.0,
+    9028.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.all.40-44.marathon_finishers.2013",
@@ -3604,7 +5614,39 @@
   "caveat": "69,246 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15418.0,
+    15418.0
+   ],
+   "p10": [
+    12252.0,
+    12252.0
+   ],
+   "p1": [
+    10480.0,
+    10480.0
+   ],
+   "p0.1": [
+    9425.0,
+    9425.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.all.45-49.marathon_finishers.2013",
@@ -3660,7 +5702,39 @@
   "caveat": "54,713 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15481.0,
+    15481.0
+   ],
+   "p10": [
+    12367.0,
+    12367.0
+   ],
+   "p1": [
+    10661.0,
+    10661.0
+   ],
+   "p0.1": [
+    9743.0,
+    9743.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.all.50-54.marathon_finishers.2013",
@@ -3716,7 +5790,39 @@
   "caveat": "40,376 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15839.0,
+    15839.0
+   ],
+   "p10": [
+    12593.0,
+    12593.0
+   ],
+   "p1": [
+    10845.0,
+    10845.0
+   ],
+   "p0.1": [
+    9996.0,
+    9996.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.all.55-59.marathon_finishers.2013",
@@ -3772,7 +5878,39 @@
   "caveat": "22,539 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16472.0,
+    16472.0
+   ],
+   "p10": [
+    13079.0,
+    13079.0
+   ],
+   "p1": [
+    11423.0,
+    11423.0
+   ],
+   "p0.1": [
+    10362.0,
+    10362.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.all.60-64.marathon_finishers.2013",
@@ -3828,7 +5966,39 @@
   "caveat": "11,605 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    17274.0,
+    17274.0
+   ],
+   "p10": [
+    13689.0,
+    13689.0
+   ],
+   "p1": [
+    11967.0,
+    11967.0
+   ],
+   "p0.1": [
+    10836.0,
+    10836.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.all.65-69.marathon_finishers.2013",
@@ -3884,7 +6054,39 @@
   "caveat": "4,735 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    18361.0,
+    18361.0
+   ],
+   "p10": [
+    14363.0,
+    14363.0
+   ],
+   "p1": [
+    12527.0,
+    12527.0
+   ],
+   "p0.1": [
+    11298.0,
+    11298.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.all.70plus.marathon_finishers.2013",
@@ -3940,7 +6142,39 @@
   "caveat": "2,044 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    20130.0,
+    20130.0
+   ],
+   "p10": [
+    15585.0,
+    15585.0
+   ],
+   "p1": [
+    13365.0,
+    13365.0
+   ],
+   "p0.1": [
+    11949.0,
+    11949.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.all.marathon_finishers.2013",
@@ -3996,7 +6230,39 @@
   "caveat": "778,747 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15522.0,
+    15522.0
+   ],
+   "p10": [
+    12274.0,
+    12274.0
+   ],
+   "p1": [
+    10217.0,
+    10217.0
+   ],
+   "p0.1": [
+    8713.0,
+    8713.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.f.18-24.marathon_finishers.2013",
@@ -4052,7 +6318,39 @@
   "caveat": "12,918 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16394.0,
+    16394.0
+   ],
+   "p10": [
+    13055.0,
+    13055.0
+   ],
+   "p1": [
+    11187.0,
+    11187.0
+   ],
+   "p0.1": [
+    9644.0,
+    9644.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.f.25-29.marathon_finishers.2013",
@@ -4108,7 +6406,39 @@
   "caveat": "25,941 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16342.0,
+    16342.0
+   ],
+   "p10": [
+    12961.0,
+    12961.0
+   ],
+   "p1": [
+    11076.0,
+    11076.0
+   ],
+   "p0.1": [
+    9226.0,
+    9226.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.f.30-34.marathon_finishers.2013",
@@ -4164,7 +6494,39 @@
   "caveat": "27,716 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16440.0,
+    16440.0
+   ],
+   "p10": [
+    13078.0,
+    13078.0
+   ],
+   "p1": [
+    11109.0,
+    11109.0
+   ],
+   "p0.1": [
+    9633.0,
+    9633.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.f.35-39.marathon_finishers.2013",
@@ -4220,7 +6582,39 @@
   "caveat": "26,752 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16395.0,
+    16395.0
+   ],
+   "p10": [
+    13144.0,
+    13144.0
+   ],
+   "p1": [
+    11386.0,
+    11386.0
+   ],
+   "p0.1": [
+    10237.0,
+    10237.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.f.40-44.marathon_finishers.2013",
@@ -4276,7 +6670,39 @@
   "caveat": "25,610 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16574.0,
+    16574.0
+   ],
+   "p10": [
+    13362.0,
+    13362.0
+   ],
+   "p1": [
+    11727.0,
+    11727.0
+   ],
+   "p0.1": [
+    10388.0,
+    10388.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.f.45-49.marathon_finishers.2013",
@@ -4332,7 +6758,39 @@
   "caveat": "18,559 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16822.0,
+    16822.0
+   ],
+   "p10": [
+    13596.0,
+    13596.0
+   ],
+   "p1": [
+    12006.0,
+    12006.0
+   ],
+   "p0.1": [
+    10774.0,
+    10774.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.f.50-54.marathon_finishers.2013",
@@ -4388,7 +6846,39 @@
   "caveat": "12,055 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    17455.0,
+    17455.0
+   ],
+   "p10": [
+    14033.0,
+    14033.0
+   ],
+   "p1": [
+    12396.0,
+    12396.0
+   ],
+   "p0.1": [
+    11394.0,
+    11394.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.f.55-59.marathon_finishers.2013",
@@ -4444,7 +6934,39 @@
   "caveat": "6,037 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    18165.0,
+    18165.0
+   ],
+   "p10": [
+    14441.0,
+    14441.0
+   ],
+   "p1": [
+    12791.0,
+    12791.0
+   ],
+   "p0.1": [
+    11373.0,
+    11373.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.f.60-64.marathon_finishers.2013",
@@ -4500,7 +7022,39 @@
   "caveat": "2,562 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    19494.0,
+    19494.0
+   ],
+   "p10": [
+    15287.0,
+    15287.0
+   ],
+   "p1": [
+    13216.0,
+    13216.0
+   ],
+   "p0.1": [
+    12267.0,
+    12267.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.f.65-69.marathon_finishers.2013",
@@ -4556,7 +7110,39 @@
   "caveat": "904 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    21005.0,
+    21005.0
+   ],
+   "p10": [
+    16289.0,
+    16289.0
+   ],
+   "p1": [
+    13297.0,
+    13297.0
+   ],
+   "p0.1": [
+    12511.0,
+    12511.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.f.marathon_finishers.2013",
@@ -4612,7 +7198,39 @@
   "caveat": "265,780 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16627.0,
+    16627.0
+   ],
+   "p10": [
+    13367.0,
+    13367.0
+   ],
+   "p1": [
+    11401.0,
+    11401.0
+   ],
+   "p0.1": [
+    9697.0,
+    9697.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.m.18-24.marathon_finishers.2013",
@@ -4668,7 +7286,39 @@
   "caveat": "13,513 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14863.0,
+    14863.0
+   ],
+   "p10": [
+    11373.0,
+    11373.0
+   ],
+   "p1": [
+    9515.0,
+    9515.0
+   ],
+   "p0.1": [
+    7950.0,
+    7950.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.m.25-29.marathon_finishers.2013",
@@ -4724,7 +7374,39 @@
   "caveat": "25,777 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14741.0,
+    14741.0
+   ],
+   "p10": [
+    11231.0,
+    11231.0
+   ],
+   "p1": [
+    9147.0,
+    9147.0
+   ],
+   "p0.1": [
+    7916.0,
+    7916.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.m.30-34.marathon_finishers.2013",
@@ -4780,7 +7462,39 @@
   "caveat": "35,416 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14672.0,
+    14672.0
+   ],
+   "p10": [
+    11442.0,
+    11442.0
+   ],
+   "p1": [
+    9510.0,
+    9510.0
+   ],
+   "p0.1": [
+    8262.0,
+    8262.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.m.35-39.marathon_finishers.2013",
@@ -4836,7 +7550,39 @@
   "caveat": "39,551 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14666.0,
+    14666.0
+   ],
+   "p10": [
+    11610.0,
+    11610.0
+   ],
+   "p1": [
+    9996.0,
+    9996.0
+   ],
+   "p0.1": [
+    8762.0,
+    8762.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.m.40-44.marathon_finishers.2013",
@@ -4892,7 +7638,39 @@
   "caveat": "43,636 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14733.0,
+    14733.0
+   ],
+   "p10": [
+    11769.0,
+    11769.0
+   ],
+   "p1": [
+    10247.0,
+    10247.0
+   ],
+   "p0.1": [
+    9263.0,
+    9263.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.m.45-49.marathon_finishers.2013",
@@ -4948,7 +7726,39 @@
   "caveat": "36,154 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14830.0,
+    14830.0
+   ],
+   "p10": [
+    12020.0,
+    12020.0
+   ],
+   "p1": [
+    10530.0,
+    10530.0
+   ],
+   "p0.1": [
+    9611.0,
+    9611.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.m.50-54.marathon_finishers.2013",
@@ -5004,7 +7814,39 @@
   "caveat": "28,321 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15192.0,
+    15192.0
+   ],
+   "p10": [
+    12342.0,
+    12342.0
+   ],
+   "p1": [
+    10720.0,
+    10720.0
+   ],
+   "p0.1": [
+    9873.0,
+    9873.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.m.55-59.marathon_finishers.2013",
@@ -5060,7 +7902,39 @@
   "caveat": "16,502 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15870.0,
+    15870.0
+   ],
+   "p10": [
+    12837.0,
+    12837.0
+   ],
+   "p1": [
+    11272.0,
+    11272.0
+   ],
+   "p0.1": [
+    10308.0,
+    10308.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.m.60-64.marathon_finishers.2013",
@@ -5116,7 +7990,39 @@
   "caveat": "9,043 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16719.0,
+    16719.0
+   ],
+   "p10": [
+    13492.0,
+    13492.0
+   ],
+   "p1": [
+    11839.0,
+    11839.0
+   ],
+   "p0.1": [
+    10821.0,
+    10821.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.m.65-69.marathon_finishers.2013",
@@ -5172,7 +8078,39 @@
   "caveat": "3,831 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    17781.0,
+    17781.0
+   ],
+   "p10": [
+    14205.0,
+    14205.0
+   ],
+   "p1": [
+    12429.0,
+    12429.0
+   ],
+   "p0.1": [
+    11263.0,
+    11263.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.m.70plus.marathon_finishers.2013",
@@ -5228,7 +8166,39 @@
   "caveat": "1,778 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    19839.0,
+    19839.0
+   ],
+   "p10": [
+    15445.0,
+    15445.0
+   ],
+   "p1": [
+    13319.0,
+    13319.0
+   ],
+   "p0.1": [
+    11525.0,
+    11525.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  },
  {
   "id": "marathon_time.world.m.marathon_finishers.2013",
@@ -5284,6 +8254,38 @@
   "caveat": "512,967 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14"
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14913.0,
+    14913.0
+   ],
+   "p10": [
+    11874.0,
+    11874.0
+   ],
+   "p1": [
+    10000.0,
+    10000.0
+   ],
+   "p0.1": [
+    8492.0,
+    8492.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
  }
 ]

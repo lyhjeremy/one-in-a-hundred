@@ -152,6 +152,11 @@ def main() -> int:
         if f["metric"] not in METRICS["metrics"]:
             print(f"inbox: skipping {f['id']}, metric {f['metric']} not in catalogue")
             continue
+        errs = verify.structural_errors(f)
+        if errs:
+            # A bad research result must never break the build; it waits for review.
+            print(f"inbox: skipping {f['id']}: {'; '.join(errs)}")
+            continue
         fam = METRICS["metrics"][f["metric"]]["family"]
         facts_by_family[fam].append(f)
 

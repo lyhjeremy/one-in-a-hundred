@@ -1,6 +1,6 @@
 # Verify report
 
-Facts: 913. Errors: 1.
+Facts: 913. Errors: 0.
 
 ## By grade
 
@@ -38,7 +38,3 @@ Facts with two or more sources at a shown percentile: 3. Of those, within 10% at
 - marathon_time: 93
 - net_worth_adult_usd: 21
 - weight_adult_kg: 32
-
-## Errors
-
-- bench_press_1rm.world.m.powerlifters.2022: grid not monotone: {'p10': 48.095, 'p25': 112.0, 'p50': 88.14, 'p75': 150.0, 'p90': 109.82, 'p99': 187.5}

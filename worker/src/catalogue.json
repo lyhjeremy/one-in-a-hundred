@@ -119,6 +119,20 @@
    ],
    "activity": "marathon_finishers"
   },
+  "fivek_time": {
+   "label": "5 km time",
+   "phrasings": [
+    "5k",
+    "5 k",
+    "5km",
+    "5 km",
+    "parkrun",
+    "five k",
+    "5 kilometres",
+    "5 kilometers"
+   ],
+   "activity": "fivek_finishers"
+  },
   "age_years": {
    "label": "Age",
    "phrasings": [
@@ -159,6 +173,38 @@
     "average chess rating of rated players"
    ],
    "activity": "chess_players"
+  },
+  "iq_score": {
+   "label": "IQ score",
+   "phrasings": [
+    "what IQ score is the top 1%",
+    "what IQ is the 99th percentile",
+    "what IQ do you need to be in the top 1 percent",
+    "IQ for top 1% of population",
+    "is an IQ of 135 top 1%",
+    "what IQ is top 10%",
+    "what is the median IQ",
+    "what IQ is the top 0.1%",
+    "how rare is an IQ of 140",
+    "what IQ do you need for Mensa"
+   ],
+   "activity": null
+  },
+  "pushups_max": {
+   "label": "Push-ups in one test",
+   "phrasings": [
+    "how many push ups can the top 1% of men do",
+    "push up percentile",
+    "how many pushups should i be able to do",
+    "average number of push ups for men",
+    "top 10% push ups",
+    "push ups top 1 percent",
+    "pushup norms by age",
+    "is 50 push ups good",
+    "what percentile is 40 push ups",
+    "how many push ups is elite"
+   ],
+   "activity": "soldiers"
   }
  },
  "activities": {
@@ -166,7 +212,9 @@
   "half_marathon_finishers": "who finished a half marathon",
   "tenk_finishers": "who finished a 10 km race",
   "fivek_finishers": "who finished a 5 km run",
-  "chess_players": "who hold a FIDE rating"
+  "chess_players": "who hold a FIDE rating",
+  "powerlifters": "who compete in powerlifting",
+  "soldiers": "who are US Army soldiers"
  },
  "countries": {
   "US": "United States",

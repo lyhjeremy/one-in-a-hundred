@@ -166,7 +166,8 @@ function renderChain(fact) {
   const m = M.metrics[state.metric];
   const root = document.createElement("li");
   const rootBtn = document.createElement("button"); rootBtn.type = "button";
-  rootBtn.textContent = state.metric === "age_years" ? "Everyone alive" : `All ${m.base_noun || "people"}${state.pop.activity ? " " + (M.activities[state.pop.activity] || { label: "" }).label : ""}`;
+  // "All people who finished a marathon", not "All finishers who finished a marathon".
+  rootBtn.textContent = state.metric === "age_years" ? "Everyone alive" : state.pop.activity ? `All people ${(M.activities[state.pop.activity] || { label: "" }).label}` : `All ${m.base_noun || "people"}`;
   rootBtn.title = "Back to the whole group";
   rootBtn.addEventListener("click", () => { state.pop = reconcile(state.metric, { ...blankPop(), activity: state.pop.activity }); state.v = null; update(true); });
   root.appendChild(rootBtn); ol.appendChild(root);

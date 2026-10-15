@@ -78,7 +78,7 @@ export function groupName(M, population, metricId, year) {
   let noun;
   if (sex === "m") noun = "men";
   else if (sex === "f") noun = "women";
-  else noun = (country || band || activity || cat) ? baseNoun : null;
+  else noun = (country || band || activity || cat) ? (activity ? "people" : baseNoun) : null;
   if (noun === null) {
     if (metricId === "age_years") return "everyone alive";
     return `all ${baseNoun} worldwide`;

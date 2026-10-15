@@ -1,0 +1,8093 @@
+[
+ {
+  "id": "marathon_time.au.all.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "AU",
+   "sex": "all",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 16232,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8542.0,
+   "p1": 9880.0,
+   "p10": 11837.0,
+   "p25": 13041.0,
+   "p50": 14520.0,
+   "p75": 16377.0,
+   "p90": 18355.0,
+   "p99": 22266.0,
+   "p99.9": 24750.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8542.0,
+     "p1": 9880.0,
+     "p10": 11837.0,
+     "p25": 13041.0,
+     "p50": 14520.0,
+     "p75": 16377.0,
+     "p90": 18355.0,
+     "p99": 22266.0,
+     "p99.9": 24750.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "16,232 finishers across 15 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14520.0,
+    14520.0
+   ],
+   "p10": [
+    11837.0,
+    11837.0
+   ],
+   "p1": [
+    9880.0,
+    9880.0
+   ],
+   "p0.1": [
+    8542.0,
+    8542.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.au.f.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "AU",
+   "sex": "f",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 4867,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9118.0,
+   "p1": 10907.0,
+   "p10": 12865.0,
+   "p25": 14036.0,
+   "p50": 15474.0,
+   "p75": 17174.0,
+   "p90": 19283.0,
+   "p99": 22913.0,
+   "p99.9": 24875.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9118.0,
+     "p1": 10907.0,
+     "p10": 12865.0,
+     "p25": 14036.0,
+     "p50": 15474.0,
+     "p75": 17174.0,
+     "p90": 19283.0,
+     "p99": 22913.0,
+     "p99.9": 24875.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "4,867 finishers across 15 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15474.0,
+    15474.0
+   ],
+   "p10": [
+    12865.0,
+    12865.0
+   ],
+   "p1": [
+    10907.0,
+    10907.0
+   ],
+   "p0.1": [
+    9118.0,
+    9118.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.au.m.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "AU",
+   "sex": "m",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 11365,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8061.0,
+   "p1": 9743.0,
+   "p10": 11543.0,
+   "p25": 12649.0,
+   "p50": 14162.0,
+   "p75": 15928.0,
+   "p90": 17858.0,
+   "p99": 21920.0,
+   "p99.9": 24250.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8061.0,
+     "p1": 9743.0,
+     "p10": 11543.0,
+     "p25": 12649.0,
+     "p50": 14162.0,
+     "p75": 15928.0,
+     "p90": 17858.0,
+     "p99": 21920.0,
+     "p99.9": 24250.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "11,365 finishers across 15 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14162.0,
+    14162.0
+   ],
+   "p10": [
+    11543.0,
+    11543.0
+   ],
+   "p1": [
+    9743.0,
+    9743.0
+   ],
+   "p0.1": [
+    8061.0,
+    8061.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.ca.all.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "CA",
+   "sex": "all",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 19024,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8743.0,
+   "p1": 10209.0,
+   "p10": 12102.0,
+   "p25": 13338.0,
+   "p50": 14780.0,
+   "p75": 16664.0,
+   "p90": 18686.0,
+   "p99": 23028.0,
+   "p99.9": 26979.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8743.0,
+     "p1": 10209.0,
+     "p10": 12102.0,
+     "p25": 13338.0,
+     "p50": 14780.0,
+     "p75": 16664.0,
+     "p90": 18686.0,
+     "p99": 23028.0,
+     "p99.9": 26979.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "19,024 finishers across 51 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14780.0,
+    14780.0
+   ],
+   "p10": [
+    12102.0,
+    12102.0
+   ],
+   "p1": [
+    10209.0,
+    10209.0
+   ],
+   "p0.1": [
+    8743.0,
+    8743.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.ca.f.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "CA",
+   "sex": "f",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 6954,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9183.0,
+   "p1": 11215.0,
+   "p10": 13191.0,
+   "p25": 14231.0,
+   "p50": 15651.0,
+   "p75": 17484.0,
+   "p90": 19439.0,
+   "p99": 23691.0,
+   "p99.9": 28987.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9183.0,
+     "p1": 11215.0,
+     "p10": 13191.0,
+     "p25": 14231.0,
+     "p50": 15651.0,
+     "p75": 17484.0,
+     "p90": 19439.0,
+     "p99": 23691.0,
+     "p99.9": 28987.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "6,954 finishers across 51 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15651.0,
+    15651.0
+   ],
+   "p10": [
+    13191.0,
+    13191.0
+   ],
+   "p1": [
+    11215.0,
+    11215.0
+   ],
+   "p0.1": [
+    9183.0,
+    9183.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.ca.m.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "CA",
+   "sex": "m",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 12070,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8560.0,
+   "p1": 9987.0,
+   "p10": 11693.0,
+   "p25": 12846.0,
+   "p50": 14237.0,
+   "p75": 16051.0,
+   "p90": 18052.0,
+   "p99": 22275.0,
+   "p99.9": 26279.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8560.0,
+     "p1": 9987.0,
+     "p10": 11693.0,
+     "p25": 12846.0,
+     "p50": 14237.0,
+     "p75": 16051.0,
+     "p90": 18052.0,
+     "p99": 22275.0,
+     "p99.9": 26279.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "12,070 finishers across 51 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14237.0,
+    14237.0
+   ],
+   "p10": [
+    11693.0,
+    11693.0
+   ],
+   "p1": [
+    9987.0,
+    9987.0
+   ],
+   "p0.1": [
+    8560.0,
+    8560.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.ch.all.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "CH",
+   "sex": "all",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 2452,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 7841.0,
+   "p1": 9316.0,
+   "p10": 11110.0,
+   "p25": 12176.0,
+   "p50": 13446.0,
+   "p75": 14799.0,
+   "p90": 16172.0,
+   "p99": 18910.0,
+   "p99.9": 20501.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 7841.0,
+     "p1": 9316.0,
+     "p10": 11110.0,
+     "p25": 12176.0,
+     "p50": 13446.0,
+     "p75": 14799.0,
+     "p90": 16172.0,
+     "p99": 18910.0,
+     "p99.9": 20501.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "2,452 finishers across 1 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    13446.0,
+    13446.0
+   ],
+   "p10": [
+    11110.0,
+    11110.0
+   ],
+   "p1": [
+    9316.0,
+    9316.0
+   ],
+   "p0.1": [
+    7841.0,
+    7841.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.ch.f.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "CH",
+   "sex": "f",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 461,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8744.0,
+   "p1": 9653.0,
+   "p10": 12077.0,
+   "p25": 13140.0,
+   "p50": 14212.0,
+   "p75": 15656.0,
+   "p90": 16840.0,
+   "p99": 19591.0,
+   "p99.9": 20936.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8744.0,
+     "p1": 9653.0,
+     "p10": 12077.0,
+     "p25": 13140.0,
+     "p50": 14212.0,
+     "p75": 15656.0,
+     "p90": 16840.0,
+     "p99": 19591.0,
+     "p99.9": 20936.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "461 finishers across 1 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14212.0,
+    14212.0
+   ],
+   "p10": [
+    12077.0,
+    12077.0
+   ],
+   "p1": [
+    9653.0,
+    9653.0
+   ],
+   "p0.1": [
+    8744.0,
+    8744.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.ch.m.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "CH",
+   "sex": "m",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 1991,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 7825.0,
+   "p1": 9297.0,
+   "p10": 10859.0,
+   "p25": 11998.0,
+   "p50": 13253.0,
+   "p75": 14477.0,
+   "p90": 16072.0,
+   "p99": 18830.0,
+   "p99.9": 20252.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 7825.0,
+     "p1": 9297.0,
+     "p10": 10859.0,
+     "p25": 11998.0,
+     "p50": 13253.0,
+     "p75": 14477.0,
+     "p90": 16072.0,
+     "p99": 18830.0,
+     "p99.9": 20252.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "1,991 finishers across 1 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    13253.0,
+    13253.0
+   ],
+   "p10": [
+    10859.0,
+    10859.0
+   ],
+   "p1": [
+    9297.0,
+    9297.0
+   ],
+   "p0.1": [
+    7825.0,
+    7825.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.de.all.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "DE",
+   "sex": "all",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 71758,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8273.0,
+   "p1": 9864.0,
+   "p10": 11684.0,
+   "p25": 12927.0,
+   "p50": 14304.0,
+   "p75": 16070.0,
+   "p90": 17777.0,
+   "p99": 21239.0,
+   "p99.9": 23715.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8273.0,
+     "p1": 9864.0,
+     "p10": 11684.0,
+     "p25": 12927.0,
+     "p50": 14304.0,
+     "p75": 16070.0,
+     "p90": 17777.0,
+     "p99": 21239.0,
+     "p99.9": 23715.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "71,758 finishers across 7 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14304.0,
+    14304.0
+   ],
+   "p10": [
+    11684.0,
+    11684.0
+   ],
+   "p1": [
+    9864.0,
+    9864.0
+   ],
+   "p0.1": [
+    8273.0,
+    8273.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.de.f.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "DE",
+   "sex": "f",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 16041,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8982.0,
+   "p1": 10964.0,
+   "p10": 13066.0,
+   "p25": 14176.0,
+   "p50": 15591.0,
+   "p75": 17173.0,
+   "p90": 18764.0,
+   "p99": 21977.0,
+   "p99.9": 24120.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8982.0,
+     "p1": 10964.0,
+     "p10": 13066.0,
+     "p25": 14176.0,
+     "p50": 15591.0,
+     "p75": 17173.0,
+     "p90": 18764.0,
+     "p99": 21977.0,
+     "p99.9": 24120.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "16,041 finishers across 7 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15591.0,
+    15591.0
+   ],
+   "p10": [
+    13066.0,
+    13066.0
+   ],
+   "p1": [
+    10964.0,
+    10964.0
+   ],
+   "p0.1": [
+    8982.0,
+    8982.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.de.m.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "DE",
+   "sex": "m",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 55717,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8121.0,
+   "p1": 9728.0,
+   "p10": 11465.0,
+   "p25": 12624.0,
+   "p50": 14031.0,
+   "p75": 15627.0,
+   "p90": 17383.0,
+   "p99": 20903.0,
+   "p99.9": 23433.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8121.0,
+     "p1": 9728.0,
+     "p10": 11465.0,
+     "p25": 12624.0,
+     "p50": 14031.0,
+     "p75": 15627.0,
+     "p90": 17383.0,
+     "p99": 20903.0,
+     "p99.9": 23433.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "55,717 finishers across 7 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14031.0,
+    14031.0
+   ],
+   "p10": [
+    11465.0,
+    11465.0
+   ],
+   "p1": [
+    9728.0,
+    9728.0
+   ],
+   "p0.1": [
+    8121.0,
+    8121.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.fr.all.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "FR",
+   "sex": "all",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 41471,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8881.0,
+   "p1": 10197.0,
+   "p10": 11980.0,
+   "p25": 13233.0,
+   "p50": 14711.0,
+   "p75": 16457.0,
+   "p90": 18225.0,
+   "p99": 21678.0,
+   "p99.9": 23380.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8881.0,
+     "p1": 10197.0,
+     "p10": 11980.0,
+     "p25": 13233.0,
+     "p50": 14711.0,
+     "p75": 16457.0,
+     "p90": 18225.0,
+     "p99": 21678.0,
+     "p99.9": 23380.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "41,471 finishers across 2 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14711.0,
+    14711.0
+   ],
+   "p10": [
+    11980.0,
+    11980.0
+   ],
+   "p1": [
+    10197.0,
+    10197.0
+   ],
+   "p0.1": [
+    8881.0,
+    8881.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.fr.f.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "FR",
+   "sex": "f",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 8304,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9355.0,
+   "p1": 11624.0,
+   "p10": 13573.0,
+   "p25": 14646.0,
+   "p50": 16070.0,
+   "p75": 17712.0,
+   "p90": 19488.0,
+   "p99": 22507.0,
+   "p99.9": 24338.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9355.0,
+     "p1": 11624.0,
+     "p10": 13573.0,
+     "p25": 14646.0,
+     "p50": 16070.0,
+     "p75": 17712.0,
+     "p90": 19488.0,
+     "p99": 22507.0,
+     "p99.9": 24338.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "8,304 finishers across 2 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16070.0,
+    16070.0
+   ],
+   "p10": [
+    13573.0,
+    13573.0
+   ],
+   "p1": [
+    11624.0,
+    11624.0
+   ],
+   "p0.1": [
+    9355.0,
+    9355.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.fr.m.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "FR",
+   "sex": "m",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 33167,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8670.0,
+   "p1": 10115.0,
+   "p10": 11754.0,
+   "p25": 12932.0,
+   "p50": 14350.0,
+   "p75": 16059.0,
+   "p90": 17794.0,
+   "p99": 21202.0,
+   "p99.9": 23170.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8670.0,
+     "p1": 10115.0,
+     "p10": 11754.0,
+     "p25": 12932.0,
+     "p50": 14350.0,
+     "p75": 16059.0,
+     "p90": 17794.0,
+     "p99": 21202.0,
+     "p99.9": 23170.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "33,167 finishers across 2 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14350.0,
+    14350.0
+   ],
+   "p10": [
+    11754.0,
+    11754.0
+   ],
+   "p1": [
+    10115.0,
+    10115.0
+   ],
+   "p0.1": [
+    8670.0,
+    8670.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.gb.all.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "GB",
+   "sex": "all",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 54597,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8904.0,
+   "p1": 10053.0,
+   "p10": 12185.0,
+   "p25": 13703.0,
+   "p50": 15679.0,
+   "p75": 17833.0,
+   "p90": 20244.0,
+   "p99": 25031.0,
+   "p99.9": 27524.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8904.0,
+     "p1": 10053.0,
+     "p10": 12185.0,
+     "p25": 13703.0,
+     "p50": 15679.0,
+     "p75": 17833.0,
+     "p90": 20244.0,
+     "p99": 25031.0,
+     "p99.9": 27524.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "54,597 finishers across 31 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15679.0,
+    15679.0
+   ],
+   "p10": [
+    12185.0,
+    12185.0
+   ],
+   "p1": [
+    10053.0,
+    10053.0
+   ],
+   "p0.1": [
+    8904.0,
+    8904.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.gb.f.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "GB",
+   "sex": "f",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 17690,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9606.0,
+   "p1": 11297.0,
+   "p10": 13363.0,
+   "p25": 14920.0,
+   "p50": 16898.0,
+   "p75": 19210.0,
+   "p90": 21713.0,
+   "p99": 25991.0,
+   "p99.9": 27892.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9606.0,
+     "p1": 11297.0,
+     "p10": 13363.0,
+     "p25": 14920.0,
+     "p50": 16898.0,
+     "p75": 19210.0,
+     "p90": 21713.0,
+     "p99": 25991.0,
+     "p99.9": 27892.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "17,690 finishers across 31 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16898.0,
+    16898.0
+   ],
+   "p10": [
+    13363.0,
+    13363.0
+   ],
+   "p1": [
+    11297.0,
+    11297.0
+   ],
+   "p0.1": [
+    9606.0,
+    9606.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.gb.m.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "GB",
+   "sex": "m",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 36907,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8828.0,
+   "p1": 9831.0,
+   "p10": 11748.0,
+   "p25": 13265.0,
+   "p50": 15057.0,
+   "p75": 17170.0,
+   "p90": 19251.0,
+   "p99": 23902.0,
+   "p99.9": 27088.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8828.0,
+     "p1": 9831.0,
+     "p10": 11748.0,
+     "p25": 13265.0,
+     "p50": 15057.0,
+     "p75": 17170.0,
+     "p90": 19251.0,
+     "p99": 23902.0,
+     "p99.9": 27088.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "36,907 finishers across 31 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15057.0,
+    15057.0
+   ],
+   "p10": [
+    11748.0,
+    11748.0
+   ],
+   "p1": [
+    9831.0,
+    9831.0
+   ],
+   "p0.1": [
+    8828.0,
+    8828.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.hk.all.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "HK",
+   "sex": "all",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 6732,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8115.0,
+   "p1": 10423.0,
+   "p10": 12466.0,
+   "p25": 13837.0,
+   "p50": 15719.0,
+   "p75": 17743.0,
+   "p90": 19612.0,
+   "p99": 21230.0,
+   "p99.9": 21445.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8115.0,
+     "p1": 10423.0,
+     "p10": 12466.0,
+     "p25": 13837.0,
+     "p50": 15719.0,
+     "p75": 17743.0,
+     "p90": 19612.0,
+     "p99": 21230.0,
+     "p99.9": 21445.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "6,732 finishers across 2 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15719.0,
+    15719.0
+   ],
+   "p10": [
+    12466.0,
+    12466.0
+   ],
+   "p1": [
+    10423.0,
+    10423.0
+   ],
+   "p0.1": [
+    8115.0,
+    8115.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.hk.f.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "HK",
+   "sex": "f",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 811,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9048.0,
+   "p1": 9619.0,
+   "p10": 13820.0,
+   "p25": 15207.0,
+   "p50": 16666.0,
+   "p75": 18775.0,
+   "p90": 20217.0,
+   "p99": 21271.0,
+   "p99.9": 21503.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9048.0,
+     "p1": 9619.0,
+     "p10": 13820.0,
+     "p25": 15207.0,
+     "p50": 16666.0,
+     "p75": 18775.0,
+     "p90": 20217.0,
+     "p99": 21271.0,
+     "p99.9": 21503.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "811 finishers across 2 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16666.0,
+    16666.0
+   ],
+   "p10": [
+    13820.0,
+    13820.0
+   ],
+   "p1": [
+    9619.0,
+    9619.0
+   ],
+   "p0.1": [
+    9048.0,
+    9048.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.hk.m.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "HK",
+   "sex": "m",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 5921,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8111.0,
+   "p1": 10441.0,
+   "p10": 12392.0,
+   "p25": 13711.0,
+   "p50": 15548.0,
+   "p75": 17609.0,
+   "p90": 19479.0,
+   "p99": 21207.0,
+   "p99.9": 21445.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8111.0,
+     "p1": 10441.0,
+     "p10": 12392.0,
+     "p25": 13711.0,
+     "p50": 15548.0,
+     "p75": 17609.0,
+     "p90": 19479.0,
+     "p99": 21207.0,
+     "p99.9": 21445.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "5,921 finishers across 2 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15548.0,
+    15548.0
+   ],
+   "p10": [
+    12392.0,
+    12392.0
+   ],
+   "p1": [
+    10441.0,
+    10441.0
+   ],
+   "p0.1": [
+    8111.0,
+    8111.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.nl.all.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "NL",
+   "sex": "all",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 1177,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 7758.0,
+   "p1": 8171.0,
+   "p10": 10408.0,
+   "p25": 11650.0,
+   "p50": 12903.0,
+   "p75": 14204.0,
+   "p90": 15439.0,
+   "p99": 17437.0,
+   "p99.9": 18280.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 7758.0,
+     "p1": 8171.0,
+     "p10": 10408.0,
+     "p25": 11650.0,
+     "p50": 12903.0,
+     "p75": 14204.0,
+     "p90": 15439.0,
+     "p99": 17437.0,
+     "p99.9": 18280.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "1,177 finishers across 1 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    12903.0,
+    12903.0
+   ],
+   "p10": [
+    10408.0,
+    10408.0
+   ],
+   "p1": [
+    8171.0,
+    8171.0
+   ],
+   "p0.1": [
+    7758.0,
+    7758.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.nl.m.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "NL",
+   "sex": "m",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 1177,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 7758.0,
+   "p1": 8171.0,
+   "p10": 10408.0,
+   "p25": 11650.0,
+   "p50": 12903.0,
+   "p75": 14204.0,
+   "p90": 15439.0,
+   "p99": 17437.0,
+   "p99.9": 18280.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 7758.0,
+     "p1": 8171.0,
+     "p10": 10408.0,
+     "p25": 11650.0,
+     "p50": 12903.0,
+     "p75": 14204.0,
+     "p90": 15439.0,
+     "p99": 17437.0,
+     "p99.9": 18280.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "1,177 finishers across 1 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    12903.0,
+    12903.0
+   ],
+   "p10": [
+    10408.0,
+    10408.0
+   ],
+   "p1": [
+    8171.0,
+    8171.0
+   ],
+   "p0.1": [
+    7758.0,
+    7758.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.all.18-24.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "all",
+   "age_band": "18-24",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 23810,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8487.0,
+   "p1": 9905.0,
+   "p10": 12156.0,
+   "p25": 13712.0,
+   "p50": 15789.0,
+   "p75": 18184.0,
+   "p90": 20871.0,
+   "p99": 26471.0,
+   "p99.9": 31476.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8487.0,
+     "p1": 9905.0,
+     "p10": 12156.0,
+     "p25": 13712.0,
+     "p50": 15789.0,
+     "p75": 18184.0,
+     "p90": 20871.0,
+     "p99": 26471.0,
+     "p99.9": 31476.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "23,810 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15789.0,
+    15789.0
+   ],
+   "p10": [
+    12156.0,
+    12156.0
+   ],
+   "p1": [
+    9905.0,
+    9905.0
+   ],
+   "p0.1": [
+    8487.0,
+    8487.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.all.25-29.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "all",
+   "age_band": "25-29",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 46315,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8312.0,
+   "p1": 9682.0,
+   "p10": 12153.0,
+   "p25": 13746.0,
+   "p50": 15771.0,
+   "p75": 18119.0,
+   "p90": 20703.0,
+   "p99": 25664.0,
+   "p99.9": 30809.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8312.0,
+     "p1": 9682.0,
+     "p10": 12153.0,
+     "p25": 13746.0,
+     "p50": 15771.0,
+     "p75": 18119.0,
+     "p90": 20703.0,
+     "p99": 25664.0,
+     "p99.9": 30809.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "46,315 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15771.0,
+    15771.0
+   ],
+   "p10": [
+    12153.0,
+    12153.0
+   ],
+   "p1": [
+    9682.0,
+    9682.0
+   ],
+   "p0.1": [
+    8312.0,
+    8312.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.all.30-34.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "all",
+   "age_band": "30-34",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 55353,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8519.0,
+   "p1": 9930.0,
+   "p10": 12162.0,
+   "p25": 13724.0,
+   "p50": 15734.0,
+   "p75": 18121.0,
+   "p90": 20815.0,
+   "p99": 25755.0,
+   "p99.9": 30314.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8519.0,
+     "p1": 9930.0,
+     "p10": 12162.0,
+     "p25": 13724.0,
+     "p50": 15734.0,
+     "p75": 18121.0,
+     "p90": 20815.0,
+     "p99": 25755.0,
+     "p99.9": 30314.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "55,353 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15734.0,
+    15734.0
+   ],
+   "p10": [
+    12162.0,
+    12162.0
+   ],
+   "p1": [
+    9930.0,
+    9930.0
+   ],
+   "p0.1": [
+    8519.0,
+    8519.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.all.35-39.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "all",
+   "age_band": "35-39",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 56815,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9096.0,
+   "p1": 10307.0,
+   "p10": 12261.0,
+   "p25": 13704.0,
+   "p50": 15665.0,
+   "p75": 18005.0,
+   "p90": 20754.0,
+   "p99": 25669.0,
+   "p99.9": 30329.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9096.0,
+     "p1": 10307.0,
+     "p10": 12261.0,
+     "p25": 13704.0,
+     "p50": 15665.0,
+     "p75": 18005.0,
+     "p90": 20754.0,
+     "p99": 25669.0,
+     "p99.9": 30329.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "56,815 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15665.0,
+    15665.0
+   ],
+   "p10": [
+    12261.0,
+    12261.0
+   ],
+   "p1": [
+    10307.0,
+    10307.0
+   ],
+   "p0.1": [
+    9096.0,
+    9096.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.all.40-44.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "all",
+   "age_band": "40-44",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 58228,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9440.0,
+   "p1": 10542.0,
+   "p10": 12397.0,
+   "p25": 13788.0,
+   "p50": 15749.0,
+   "p75": 18125.0,
+   "p90": 20857.0,
+   "p99": 25717.0,
+   "p99.9": 30311.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9440.0,
+     "p1": 10542.0,
+     "p10": 12397.0,
+     "p25": 13788.0,
+     "p50": 15749.0,
+     "p75": 18125.0,
+     "p90": 20857.0,
+     "p99": 25717.0,
+     "p99.9": 30311.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "58,228 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15749.0,
+    15749.0
+   ],
+   "p10": [
+    12397.0,
+    12397.0
+   ],
+   "p1": [
+    10542.0,
+    10542.0
+   ],
+   "p0.1": [
+    9440.0,
+    9440.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.all.45-49.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "all",
+   "age_band": "45-49",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 44912,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9789.0,
+   "p1": 10738.0,
+   "p10": 12484.0,
+   "p25": 13866.0,
+   "p50": 15816.0,
+   "p75": 18306.0,
+   "p90": 21001.0,
+   "p99": 26067.0,
+   "p99.9": 30889.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9789.0,
+     "p1": 10738.0,
+     "p10": 12484.0,
+     "p25": 13866.0,
+     "p50": 15816.0,
+     "p75": 18306.0,
+     "p90": 21001.0,
+     "p99": 26067.0,
+     "p99.9": 30889.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "44,912 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15816.0,
+    15816.0
+   ],
+   "p10": [
+    12484.0,
+    12484.0
+   ],
+   "p1": [
+    10738.0,
+    10738.0
+   ],
+   "p0.1": [
+    9789.0,
+    9789.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.all.50-54.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "all",
+   "age_band": "50-54",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 33850,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 10072.0,
+   "p1": 10989.0,
+   "p10": 12682.0,
+   "p25": 14094.0,
+   "p50": 16094.0,
+   "p75": 18674.0,
+   "p90": 21356.0,
+   "p99": 26318.0,
+   "p99.9": 31070.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 10072.0,
+     "p1": 10989.0,
+     "p10": 12682.0,
+     "p25": 14094.0,
+     "p50": 16094.0,
+     "p75": 18674.0,
+     "p90": 21356.0,
+     "p99": 26318.0,
+     "p99.9": 31070.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "33,850 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16094.0,
+    16094.0
+   ],
+   "p10": [
+    12682.0,
+    12682.0
+   ],
+   "p1": [
+    10989.0,
+    10989.0
+   ],
+   "p0.1": [
+    10072.0,
+    10072.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.all.55-59.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "all",
+   "age_band": "55-59",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 19178,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 10465.0,
+   "p1": 11533.0,
+   "p10": 13152.0,
+   "p25": 14488.0,
+   "p50": 16749.0,
+   "p75": 19414.0,
+   "p90": 22228.0,
+   "p99": 26923.0,
+   "p99.9": 31124.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 10465.0,
+     "p1": 11533.0,
+     "p10": 13152.0,
+     "p25": 14488.0,
+     "p50": 16749.0,
+     "p75": 19414.0,
+     "p90": 22228.0,
+     "p99": 26923.0,
+     "p99.9": 31124.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "19,178 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16749.0,
+    16749.0
+   ],
+   "p10": [
+    13152.0,
+    13152.0
+   ],
+   "p1": [
+    11533.0,
+    11533.0
+   ],
+   "p0.1": [
+    10465.0,
+    10465.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.all.60-64.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "all",
+   "age_band": "60-64",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 9887,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 11006.0,
+   "p1": 12133.0,
+   "p10": 13800.0,
+   "p25": 15216.0,
+   "p50": 17590.0,
+   "p75": 20362.0,
+   "p90": 22966.0,
+   "p99": 27622.0,
+   "p99.9": 30936.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 11006.0,
+     "p1": 12133.0,
+     "p10": 13800.0,
+     "p25": 15216.0,
+     "p50": 17590.0,
+     "p75": 20362.0,
+     "p90": 22966.0,
+     "p99": 27622.0,
+     "p99.9": 30936.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "9,887 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    17590.0,
+    17590.0
+   ],
+   "p10": [
+    13800.0,
+    13800.0
+   ],
+   "p1": [
+    12133.0,
+    12133.0
+   ],
+   "p0.1": [
+    11006.0,
+    11006.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.all.65-69.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "all",
+   "age_band": "65-69",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 4009,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 11538.0,
+   "p1": 12676.0,
+   "p10": 14586.0,
+   "p25": 16288.0,
+   "p50": 18840.0,
+   "p75": 21604.0,
+   "p90": 24045.0,
+   "p99": 28959.0,
+   "p99.9": 32106.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 11538.0,
+     "p1": 12676.0,
+     "p10": 14586.0,
+     "p25": 16288.0,
+     "p50": 18840.0,
+     "p75": 21604.0,
+     "p90": 24045.0,
+     "p99": 28959.0,
+     "p99.9": 32106.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "4,009 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    18840.0,
+    18840.0
+   ],
+   "p10": [
+    14586.0,
+    14586.0
+   ],
+   "p1": [
+    12676.0,
+    12676.0
+   ],
+   "p0.1": [
+    11538.0,
+    11538.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.all.70plus.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "all",
+   "age_band": "70+",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 1720,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 11525.0,
+   "p1": 13447.0,
+   "p10": 15838.0,
+   "p25": 17896.0,
+   "p50": 20699.0,
+   "p75": 23288.0,
+   "p90": 25920.0,
+   "p99": 30421.0,
+   "p99.9": 32198.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 11525.0,
+     "p1": 13447.0,
+     "p10": 15838.0,
+     "p25": 17896.0,
+     "p50": 20699.0,
+     "p75": 23288.0,
+     "p90": 25920.0,
+     "p99": 30421.0,
+     "p99.9": 32198.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "1,720 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    20699.0,
+    20699.0
+   ],
+   "p10": [
+    15838.0,
+    15838.0
+   ],
+   "p1": [
+    13447.0,
+    13447.0
+   ],
+   "p0.1": [
+    11525.0,
+    11525.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.all.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "all",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 474410,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8901.0,
+   "p1": 10381.0,
+   "p10": 12533.0,
+   "p25": 14038.0,
+   "p50": 16141.0,
+   "p75": 18825.0,
+   "p90": 21738.0,
+   "p99": 27986.0,
+   "p99.9": 31655.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8901.0,
+     "p1": 10381.0,
+     "p10": 12533.0,
+     "p25": 14038.0,
+     "p50": 16141.0,
+     "p75": 18825.0,
+     "p90": 21738.0,
+     "p99": 27986.0,
+     "p99.9": 31655.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "474,410 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16141.0,
+    16141.0
+   ],
+   "p10": [
+    12533.0,
+    12533.0
+   ],
+   "p1": [
+    10381.0,
+    10381.0
+   ],
+   "p0.1": [
+    8901.0,
+    8901.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.f.18-24.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "f",
+   "age_band": "18-24",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 12279,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9755.0,
+   "p1": 11187.0,
+   "p10": 13052.0,
+   "p25": 14419.0,
+   "p50": 16431.0,
+   "p75": 18805.0,
+   "p90": 21337.0,
+   "p99": 25966.0,
+   "p99.9": 30986.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9755.0,
+     "p1": 11187.0,
+     "p10": 13052.0,
+     "p25": 14419.0,
+     "p50": 16431.0,
+     "p75": 18805.0,
+     "p90": 21337.0,
+     "p99": 25966.0,
+     "p99.9": 30986.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "12,279 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16431.0,
+    16431.0
+   ],
+   "p10": [
+    13052.0,
+    13052.0
+   ],
+   "p1": [
+    11187.0,
+    11187.0
+   ],
+   "p0.1": [
+    9755.0,
+    9755.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.f.25-29.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "f",
+   "age_band": "25-29",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 24526,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9346.0,
+   "p1": 11135.0,
+   "p10": 12971.0,
+   "p25": 14398.0,
+   "p50": 16415.0,
+   "p75": 18776.0,
+   "p90": 21271.0,
+   "p99": 25899.0,
+   "p99.9": 30232.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9346.0,
+     "p1": 11135.0,
+     "p10": 12971.0,
+     "p25": 14398.0,
+     "p50": 16415.0,
+     "p75": 18776.0,
+     "p90": 21271.0,
+     "p99": 25899.0,
+     "p99.9": 30232.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "24,526 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16415.0,
+    16415.0
+   ],
+   "p10": [
+    12971.0,
+    12971.0
+   ],
+   "p1": [
+    11135.0,
+    11135.0
+   ],
+   "p0.1": [
+    9346.0,
+    9346.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.f.30-34.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "f",
+   "age_band": "30-34",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 26028,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9697.0,
+   "p1": 11125.0,
+   "p10": 13091.0,
+   "p25": 14517.0,
+   "p50": 16537.0,
+   "p75": 18947.0,
+   "p90": 21461.0,
+   "p99": 25936.0,
+   "p99.9": 29676.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9697.0,
+     "p1": 11125.0,
+     "p10": 13091.0,
+     "p25": 14517.0,
+     "p50": 16537.0,
+     "p75": 18947.0,
+     "p90": 21461.0,
+     "p99": 25936.0,
+     "p99.9": 29676.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "26,028 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16537.0,
+    16537.0
+   ],
+   "p10": [
+    13091.0,
+    13091.0
+   ],
+   "p1": [
+    11125.0,
+    11125.0
+   ],
+   "p0.1": [
+    9697.0,
+    9697.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.f.35-39.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "f",
+   "age_band": "35-39",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 25031,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 10325.0,
+   "p1": 11418.0,
+   "p10": 13158.0,
+   "p25": 14439.0,
+   "p50": 16473.0,
+   "p75": 18956.0,
+   "p90": 21573.0,
+   "p99": 26054.0,
+   "p99.9": 30081.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 10325.0,
+     "p1": 11418.0,
+     "p10": 13158.0,
+     "p25": 14439.0,
+     "p50": 16473.0,
+     "p75": 18956.0,
+     "p90": 21573.0,
+     "p99": 26054.0,
+     "p99.9": 30081.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "25,031 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16473.0,
+    16473.0
+   ],
+   "p10": [
+    13158.0,
+    13158.0
+   ],
+   "p1": [
+    11418.0,
+    11418.0
+   ],
+   "p0.1": [
+    10325.0,
+    10325.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.f.40-44.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "f",
+   "age_band": "40-44",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 23695,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 10631.0,
+   "p1": 11769.0,
+   "p10": 13388.0,
+   "p25": 14656.0,
+   "p50": 16713.0,
+   "p75": 19203.0,
+   "p90": 21739.0,
+   "p99": 26206.0,
+   "p99.9": 29994.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 10631.0,
+     "p1": 11769.0,
+     "p10": 13388.0,
+     "p25": 14656.0,
+     "p50": 16713.0,
+     "p75": 19203.0,
+     "p90": 21739.0,
+     "p99": 26206.0,
+     "p99.9": 29994.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "23,695 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16713.0,
+    16713.0
+   ],
+   "p10": [
+    13388.0,
+    13388.0
+   ],
+   "p1": [
+    11769.0,
+    11769.0
+   ],
+   "p0.1": [
+    10631.0,
+    10631.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.f.45-49.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "f",
+   "age_band": "45-49",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 16838,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 10941.0,
+   "p1": 12044.0,
+   "p10": 13635.0,
+   "p25": 14849.0,
+   "p50": 17008.0,
+   "p75": 19554.0,
+   "p90": 22137.0,
+   "p99": 26785.0,
+   "p99.9": 30843.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 10941.0,
+     "p1": 12044.0,
+     "p10": 13635.0,
+     "p25": 14849.0,
+     "p50": 17008.0,
+     "p75": 19554.0,
+     "p90": 22137.0,
+     "p99": 26785.0,
+     "p99.9": 30843.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "16,838 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    17008.0,
+    17008.0
+   ],
+   "p10": [
+    13635.0,
+    13635.0
+   ],
+   "p1": [
+    12044.0,
+    12044.0
+   ],
+   "p0.1": [
+    10941.0,
+    10941.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.f.50-54.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "f",
+   "age_band": "50-54",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 11061,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 11409.0,
+   "p1": 12436.0,
+   "p10": 14074.0,
+   "p25": 15460.0,
+   "p50": 17596.0,
+   "p75": 20224.0,
+   "p90": 22847.0,
+   "p99": 27411.0,
+   "p99.9": 31103.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 11409.0,
+     "p1": 12436.0,
+     "p10": 14074.0,
+     "p25": 15460.0,
+     "p50": 17596.0,
+     "p75": 20224.0,
+     "p90": 22847.0,
+     "p99": 27411.0,
+     "p99.9": 31103.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "11,061 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    17596.0,
+    17596.0
+   ],
+   "p10": [
+    14074.0,
+    14074.0
+   ],
+   "p1": [
+    12436.0,
+    12436.0
+   ],
+   "p0.1": [
+    11409.0,
+    11409.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.f.55-59.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "f",
+   "age_band": "55-59",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 5562,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 11305.0,
+   "p1": 12846.0,
+   "p10": 14478.0,
+   "p25": 16080.0,
+   "p50": 18370.0,
+   "p75": 21158.0,
+   "p90": 23531.0,
+   "p99": 27641.0,
+   "p99.9": 31515.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 11305.0,
+     "p1": 12846.0,
+     "p10": 14478.0,
+     "p25": 16080.0,
+     "p50": 18370.0,
+     "p75": 21158.0,
+     "p90": 23531.0,
+     "p99": 27641.0,
+     "p99.9": 31515.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "5,562 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    18370.0,
+    18370.0
+   ],
+   "p10": [
+    14478.0,
+    14478.0
+   ],
+   "p1": [
+    12846.0,
+    12846.0
+   ],
+   "p0.1": [
+    11305.0,
+    11305.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.f.60-64.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "f",
+   "age_band": "60-64",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 2343,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 12491.0,
+   "p1": 13342.0,
+   "p10": 15425.0,
+   "p25": 17164.0,
+   "p50": 19701.0,
+   "p75": 22092.0,
+   "p90": 24352.0,
+   "p99": 27940.0,
+   "p99.9": 31012.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 12491.0,
+     "p1": 13342.0,
+     "p10": 15425.0,
+     "p25": 17164.0,
+     "p50": 19701.0,
+     "p75": 22092.0,
+     "p90": 24352.0,
+     "p99": 27940.0,
+     "p99.9": 31012.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "2,343 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    19701.0,
+    19701.0
+   ],
+   "p10": [
+    15425.0,
+    15425.0
+   ],
+   "p1": [
+    13342.0,
+    13342.0
+   ],
+   "p0.1": [
+    12491.0,
+    12491.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.f.65-69.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "f",
+   "age_band": "65-69",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 829,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 12662.0,
+   "p1": 13617.0,
+   "p10": 16313.0,
+   "p25": 18532.0,
+   "p50": 21183.0,
+   "p75": 23274.0,
+   "p90": 25518.0,
+   "p99": 30307.0,
+   "p99.9": 32161.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 12662.0,
+     "p1": 13617.0,
+     "p10": 16313.0,
+     "p25": 18532.0,
+     "p50": 21183.0,
+     "p75": 23274.0,
+     "p90": 25518.0,
+     "p99": 30307.0,
+     "p99.9": 32161.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "829 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    21183.0,
+    21183.0
+   ],
+   "p10": [
+    16313.0,
+    16313.0
+   ],
+   "p1": [
+    13617.0,
+    13617.0
+   ],
+   "p0.1": [
+    12662.0,
+    12662.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.f.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "f",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 192268,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 10033.0,
+   "p1": 11507.0,
+   "p10": 13413.0,
+   "p25": 14826.0,
+   "p50": 16939.0,
+   "p75": 19595.0,
+   "p90": 22445.0,
+   "p99": 28485.0,
+   "p99.9": 31762.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 10033.0,
+     "p1": 11507.0,
+     "p10": 13413.0,
+     "p25": 14826.0,
+     "p50": 16939.0,
+     "p75": 19595.0,
+     "p90": 22445.0,
+     "p99": 28485.0,
+     "p99.9": 31762.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "192,268 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16939.0,
+    16939.0
+   ],
+   "p10": [
+    13413.0,
+    13413.0
+   ],
+   "p1": [
+    11507.0,
+    11507.0
+   ],
+   "p0.1": [
+    10033.0,
+    10033.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.m.18-24.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "m",
+   "age_band": "18-24",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 11531,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8169.0,
+   "p1": 9507.0,
+   "p10": 11298.0,
+   "p25": 12952.0,
+   "p50": 14939.0,
+   "p75": 17480.0,
+   "p90": 20322.0,
+   "p99": 27698.0,
+   "p99.9": 31795.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8169.0,
+     "p1": 9507.0,
+     "p10": 11298.0,
+     "p25": 12952.0,
+     "p50": 14939.0,
+     "p75": 17480.0,
+     "p90": 20322.0,
+     "p99": 27698.0,
+     "p99.9": 31795.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "11,531 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14939.0,
+    14939.0
+   ],
+   "p10": [
+    11298.0,
+    11298.0
+   ],
+   "p1": [
+    9507.0,
+    9507.0
+   ],
+   "p0.1": [
+    8169.0,
+    8169.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.m.25-29.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "m",
+   "age_band": "25-29",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 21789,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8032.0,
+   "p1": 9182.0,
+   "p10": 11191.0,
+   "p25": 12936.0,
+   "p50": 14914.0,
+   "p75": 17342.0,
+   "p90": 19880.0,
+   "p99": 25260.0,
+   "p99.9": 31208.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8032.0,
+     "p1": 9182.0,
+     "p10": 11191.0,
+     "p25": 12936.0,
+     "p50": 14914.0,
+     "p75": 17342.0,
+     "p90": 19880.0,
+     "p99": 25260.0,
+     "p99.9": 31208.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "21,789 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14914.0,
+    14914.0
+   ],
+   "p10": [
+    11191.0,
+    11191.0
+   ],
+   "p1": [
+    9182.0,
+    9182.0
+   ],
+   "p0.1": [
+    8032.0,
+    8032.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.m.30-34.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "m",
+   "age_band": "30-34",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 29325,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8332.0,
+   "p1": 9517.0,
+   "p10": 11429.0,
+   "p25": 13060.0,
+   "p50": 14926.0,
+   "p75": 17325.0,
+   "p90": 20014.0,
+   "p99": 25469.0,
+   "p99.9": 30623.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8332.0,
+     "p1": 9517.0,
+     "p10": 11429.0,
+     "p25": 13060.0,
+     "p50": 14926.0,
+     "p75": 17325.0,
+     "p90": 20014.0,
+     "p99": 25469.0,
+     "p99.9": 30623.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "29,325 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14926.0,
+    14926.0
+   ],
+   "p10": [
+    11429.0,
+    11429.0
+   ],
+   "p1": [
+    9517.0,
+    9517.0
+   ],
+   "p0.1": [
+    8332.0,
+    8332.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.m.35-39.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "m",
+   "age_band": "35-39",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 31784,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8786.0,
+   "p1": 10035.0,
+   "p10": 11629.0,
+   "p25": 13127.0,
+   "p50": 14934.0,
+   "p75": 17259.0,
+   "p90": 19838.0,
+   "p99": 25005.0,
+   "p99.9": 30442.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8786.0,
+     "p1": 10035.0,
+     "p10": 11629.0,
+     "p25": 13127.0,
+     "p50": 14934.0,
+     "p75": 17259.0,
+     "p90": 19838.0,
+     "p99": 25005.0,
+     "p99.9": 30442.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "31,784 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14934.0,
+    14934.0
+   ],
+   "p10": [
+    11629.0,
+    11629.0
+   ],
+   "p1": [
+    10035.0,
+    10035.0
+   ],
+   "p0.1": [
+    8786.0,
+    8786.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.m.40-44.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "m",
+   "age_band": "40-44",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 34533,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9263.0,
+   "p1": 10260.0,
+   "p10": 11845.0,
+   "p25": 13246.0,
+   "p50": 15059.0,
+   "p75": 17381.0,
+   "p90": 19976.0,
+   "p99": 25035.0,
+   "p99.9": 30546.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9263.0,
+     "p1": 10260.0,
+     "p10": 11845.0,
+     "p25": 13246.0,
+     "p50": 15059.0,
+     "p75": 17381.0,
+     "p90": 19976.0,
+     "p99": 25035.0,
+     "p99.9": 30546.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "34,533 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15059.0,
+    15059.0
+   ],
+   "p10": [
+    11845.0,
+    11845.0
+   ],
+   "p1": [
+    10260.0,
+    10260.0
+   ],
+   "p0.1": [
+    9263.0,
+    9263.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.m.45-49.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "m",
+   "age_band": "45-49",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 28074,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9704.0,
+   "p1": 10576.0,
+   "p10": 12098.0,
+   "p25": 13335.0,
+   "p50": 15126.0,
+   "p75": 17476.0,
+   "p90": 20086.0,
+   "p99": 25363.0,
+   "p99.9": 30911.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9704.0,
+     "p1": 10576.0,
+     "p10": 12098.0,
+     "p25": 13335.0,
+     "p50": 15126.0,
+     "p75": 17476.0,
+     "p90": 20086.0,
+     "p99": 25363.0,
+     "p99.9": 30911.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "28,074 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15126.0,
+    15126.0
+   ],
+   "p10": [
+    12098.0,
+    12098.0
+   ],
+   "p1": [
+    10576.0,
+    10576.0
+   ],
+   "p0.1": [
+    9704.0,
+    9704.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.m.50-54.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "m",
+   "age_band": "50-54",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 22789,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9920.0,
+   "p1": 10762.0,
+   "p10": 12396.0,
+   "p25": 13577.0,
+   "p50": 15427.0,
+   "p75": 17754.0,
+   "p90": 20343.0,
+   "p99": 25577.0,
+   "p99.9": 31057.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9920.0,
+     "p1": 10762.0,
+     "p10": 12396.0,
+     "p25": 13577.0,
+     "p50": 15427.0,
+     "p75": 17754.0,
+     "p90": 20343.0,
+     "p99": 25577.0,
+     "p99.9": 31057.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "22,789 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15427.0,
+    15427.0
+   ],
+   "p10": [
+    12396.0,
+    12396.0
+   ],
+   "p1": [
+    10762.0,
+    10762.0
+   ],
+   "p0.1": [
+    9920.0,
+    9920.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.m.55-59.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "m",
+   "age_band": "55-59",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 13616,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 10356.0,
+   "p1": 11363.0,
+   "p10": 12892.0,
+   "p25": 14061.0,
+   "p50": 16107.0,
+   "p75": 18559.0,
+   "p90": 21195.0,
+   "p99": 26369.0,
+   "p99.9": 31057.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 10356.0,
+     "p1": 11363.0,
+     "p10": 12892.0,
+     "p25": 14061.0,
+     "p50": 16107.0,
+     "p75": 18559.0,
+     "p90": 21195.0,
+     "p99": 26369.0,
+     "p99.9": 31057.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "13,616 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16107.0,
+    16107.0
+   ],
+   "p10": [
+    12892.0,
+    12892.0
+   ],
+   "p1": [
+    11363.0,
+    11363.0
+   ],
+   "p0.1": [
+    10356.0,
+    10356.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.m.60-64.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "m",
+   "age_band": "60-64",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 7544,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 10956.0,
+   "p1": 11984.0,
+   "p10": 13589.0,
+   "p25": 14766.0,
+   "p50": 16994.0,
+   "p75": 19549.0,
+   "p90": 22200.0,
+   "p99": 27496.0,
+   "p99.9": 30878.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 10956.0,
+     "p1": 11984.0,
+     "p10": 13589.0,
+     "p25": 14766.0,
+     "p50": 16994.0,
+     "p75": 19549.0,
+     "p90": 22200.0,
+     "p99": 27496.0,
+     "p99.9": 30878.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "7,544 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16994.0,
+    16994.0
+   ],
+   "p10": [
+    13589.0,
+    13589.0
+   ],
+   "p1": [
+    11984.0,
+    11984.0
+   ],
+   "p0.1": [
+    10956.0,
+    10956.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.m.65-69.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "m",
+   "age_band": "65-69",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 3180,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 11518.0,
+   "p1": 12527.0,
+   "p10": 14317.0,
+   "p25": 15891.0,
+   "p50": 18180.0,
+   "p75": 21023.0,
+   "p90": 23406.0,
+   "p99": 28322.0,
+   "p99.9": 31809.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 11518.0,
+     "p1": 12527.0,
+     "p10": 14317.0,
+     "p25": 15891.0,
+     "p50": 18180.0,
+     "p75": 21023.0,
+     "p90": 23406.0,
+     "p99": 28322.0,
+     "p99.9": 31809.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "3,180 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    18180.0,
+    18180.0
+   ],
+   "p10": [
+    14317.0,
+    14317.0
+   ],
+   "p1": [
+    12527.0,
+    12527.0
+   ],
+   "p0.1": [
+    11518.0,
+    11518.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.m.70plus.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "m",
+   "age_band": "70+",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 1480,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 11525.0,
+   "p1": 13327.0,
+   "p10": 15621.0,
+   "p25": 17722.0,
+   "p50": 20299.0,
+   "p75": 23010.0,
+   "p90": 25540.0,
+   "p99": 29852.0,
+   "p99.9": 31110.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 11525.0,
+     "p1": 13327.0,
+     "p10": 15621.0,
+     "p25": 17722.0,
+     "p50": 20299.0,
+     "p75": 23010.0,
+     "p90": 25540.0,
+     "p99": 29852.0,
+     "p99.9": 31110.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "1,480 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    20299.0,
+    20299.0
+   ],
+   "p10": [
+    15621.0,
+    15621.0
+   ],
+   "p1": [
+    13327.0,
+    13327.0
+   ],
+   "p0.1": [
+    11525.0,
+    11525.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.us.m.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "m",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 282142,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8631.0,
+   "p1": 10076.0,
+   "p10": 12072.0,
+   "p25": 13549.0,
+   "p50": 15574.0,
+   "p75": 18160.0,
+   "p90": 21155.0,
+   "p99": 27580.0,
+   "p99.9": 31527.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8631.0,
+     "p1": 10076.0,
+     "p10": 12072.0,
+     "p25": 13549.0,
+     "p50": 15574.0,
+     "p75": 18160.0,
+     "p90": 21155.0,
+     "p99": 27580.0,
+     "p99.9": 31527.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "282,142 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15574.0,
+    15574.0
+   ],
+   "p10": [
+    12072.0,
+    12072.0
+   ],
+   "p1": [
+    10076.0,
+    10076.0
+   ],
+   "p0.1": [
+    8631.0,
+    8631.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.all.18-24.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "all",
+   "age_band": "18-24",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 26431,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8280.0,
+   "p1": 9905.0,
+   "p10": 12150.0,
+   "p25": 13659.0,
+   "p50": 15678.0,
+   "p75": 17997.0,
+   "p90": 20631.0,
+   "p99": 26094.0,
+   "p99.9": 31455.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8280.0,
+     "p1": 9905.0,
+     "p10": 12150.0,
+     "p25": 13659.0,
+     "p50": 15678.0,
+     "p75": 17997.0,
+     "p90": 20631.0,
+     "p99": 26094.0,
+     "p99.9": 31455.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "26,431 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15678.0,
+    15678.0
+   ],
+   "p10": [
+    12150.0,
+    12150.0
+   ],
+   "p1": [
+    9905.0,
+    9905.0
+   ],
+   "p0.1": [
+    8280.0,
+    8280.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.all.25-29.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "all",
+   "age_band": "25-29",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 51718,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8177.0,
+   "p1": 9645.0,
+   "p10": 12110.0,
+   "p25": 13651.0,
+   "p50": 15597.0,
+   "p75": 17897.0,
+   "p90": 20456.0,
+   "p99": 25419.0,
+   "p99.9": 30598.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8177.0,
+     "p1": 9645.0,
+     "p10": 12110.0,
+     "p25": 13651.0,
+     "p50": 15597.0,
+     "p75": 17897.0,
+     "p90": 20456.0,
+     "p99": 25419.0,
+     "p99.9": 30598.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "51,718 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15597.0,
+    15597.0
+   ],
+   "p10": [
+    12110.0,
+    12110.0
+   ],
+   "p1": [
+    9645.0,
+    9645.0
+   ],
+   "p0.1": [
+    8177.0,
+    8177.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.all.30-34.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "all",
+   "age_band": "30-34",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 63132,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8464.0,
+   "p1": 9892.0,
+   "p10": 12080.0,
+   "p25": 13587.0,
+   "p50": 15501.0,
+   "p75": 17837.0,
+   "p90": 20511.0,
+   "p99": 25566.0,
+   "p99.9": 30186.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8464.0,
+     "p1": 9892.0,
+     "p10": 12080.0,
+     "p25": 13587.0,
+     "p50": 15501.0,
+     "p75": 17837.0,
+     "p90": 20511.0,
+     "p99": 25566.0,
+     "p99.9": 30186.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "63,132 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15501.0,
+    15501.0
+   ],
+   "p10": [
+    12080.0,
+    12080.0
+   ],
+   "p1": [
+    9892.0,
+    9892.0
+   ],
+   "p0.1": [
+    8464.0,
+    8464.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.all.35-39.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "all",
+   "age_band": "35-39",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 66303,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9028.0,
+   "p1": 10241.0,
+   "p10": 12150.0,
+   "p25": 13537.0,
+   "p50": 15401.0,
+   "p75": 17701.0,
+   "p90": 20373.0,
+   "p99": 25455.0,
+   "p99.9": 30052.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9028.0,
+     "p1": 10241.0,
+     "p10": 12150.0,
+     "p25": 13537.0,
+     "p50": 15401.0,
+     "p75": 17701.0,
+     "p90": 20373.0,
+     "p99": 25455.0,
+     "p99.9": 30052.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "66,303 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15401.0,
+    15401.0
+   ],
+   "p10": [
+    12150.0,
+    12150.0
+   ],
+   "p1": [
+    10241.0,
+    10241.0
+   ],
+   "p0.1": [
+    9028.0,
+    9028.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.all.40-44.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "all",
+   "age_band": "40-44",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 69246,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9425.0,
+   "p1": 10480.0,
+   "p10": 12252.0,
+   "p25": 13587.0,
+   "p50": 15418.0,
+   "p75": 17760.0,
+   "p90": 20427.0,
+   "p99": 25417.0,
+   "p99.9": 30097.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9425.0,
+     "p1": 10480.0,
+     "p10": 12252.0,
+     "p25": 13587.0,
+     "p50": 15418.0,
+     "p75": 17760.0,
+     "p90": 20427.0,
+     "p99": 25417.0,
+     "p99.9": 30097.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "69,246 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15418.0,
+    15418.0
+   ],
+   "p10": [
+    12252.0,
+    12252.0
+   ],
+   "p1": [
+    10480.0,
+    10480.0
+   ],
+   "p0.1": [
+    9425.0,
+    9425.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.all.45-49.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "all",
+   "age_band": "45-49",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 54713,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9743.0,
+   "p1": 10661.0,
+   "p10": 12367.0,
+   "p25": 13690.0,
+   "p50": 15481.0,
+   "p75": 17847.0,
+   "p90": 20561.0,
+   "p99": 25735.0,
+   "p99.9": 30614.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9743.0,
+     "p1": 10661.0,
+     "p10": 12367.0,
+     "p25": 13690.0,
+     "p50": 15481.0,
+     "p75": 17847.0,
+     "p90": 20561.0,
+     "p99": 25735.0,
+     "p99.9": 30614.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "54,713 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15481.0,
+    15481.0
+   ],
+   "p10": [
+    12367.0,
+    12367.0
+   ],
+   "p1": [
+    10661.0,
+    10661.0
+   ],
+   "p0.1": [
+    9743.0,
+    9743.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.all.50-54.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "all",
+   "age_band": "50-54",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 40376,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9996.0,
+   "p1": 10845.0,
+   "p10": 12593.0,
+   "p25": 13950.0,
+   "p50": 15839.0,
+   "p75": 18238.0,
+   "p90": 20966.0,
+   "p99": 26038.0,
+   "p99.9": 30977.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9996.0,
+     "p1": 10845.0,
+     "p10": 12593.0,
+     "p25": 13950.0,
+     "p50": 15839.0,
+     "p75": 18238.0,
+     "p90": 20966.0,
+     "p99": 26038.0,
+     "p99.9": 30977.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "40,376 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15839.0,
+    15839.0
+   ],
+   "p10": [
+    12593.0,
+    12593.0
+   ],
+   "p1": [
+    10845.0,
+    10845.0
+   ],
+   "p0.1": [
+    9996.0,
+    9996.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.all.55-59.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "all",
+   "age_band": "55-59",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 22539,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 10362.0,
+   "p1": 11423.0,
+   "p10": 13079.0,
+   "p25": 14328.0,
+   "p50": 16472.0,
+   "p75": 19070.0,
+   "p90": 21821.0,
+   "p99": 26654.0,
+   "p99.9": 31048.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 10362.0,
+     "p1": 11423.0,
+     "p10": 13079.0,
+     "p25": 14328.0,
+     "p50": 16472.0,
+     "p75": 19070.0,
+     "p90": 21821.0,
+     "p99": 26654.0,
+     "p99.9": 31048.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "22,539 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16472.0,
+    16472.0
+   ],
+   "p10": [
+    13079.0,
+    13079.0
+   ],
+   "p1": [
+    11423.0,
+    11423.0
+   ],
+   "p0.1": [
+    10362.0,
+    10362.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.all.60-64.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "all",
+   "age_band": "60-64",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 11605,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 10836.0,
+   "p1": 11967.0,
+   "p10": 13689.0,
+   "p25": 15006.0,
+   "p50": 17274.0,
+   "p75": 19979.0,
+   "p90": 22637.0,
+   "p99": 27348.0,
+   "p99.9": 30866.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 10836.0,
+     "p1": 11967.0,
+     "p10": 13689.0,
+     "p25": 15006.0,
+     "p50": 17274.0,
+     "p75": 19979.0,
+     "p90": 22637.0,
+     "p99": 27348.0,
+     "p99.9": 30866.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "11,605 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    17274.0,
+    17274.0
+   ],
+   "p10": [
+    13689.0,
+    13689.0
+   ],
+   "p1": [
+    11967.0,
+    11967.0
+   ],
+   "p0.1": [
+    10836.0,
+    10836.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.all.65-69.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "all",
+   "age_band": "65-69",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 4735,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 11298.0,
+   "p1": 12527.0,
+   "p10": 14363.0,
+   "p25": 15959.0,
+   "p50": 18361.0,
+   "p75": 21252.0,
+   "p90": 23700.0,
+   "p99": 28775.0,
+   "p99.9": 32106.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 11298.0,
+     "p1": 12527.0,
+     "p10": 14363.0,
+     "p25": 15959.0,
+     "p50": 18361.0,
+     "p75": 21252.0,
+     "p90": 23700.0,
+     "p99": 28775.0,
+     "p99.9": 32106.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "4,735 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    18361.0,
+    18361.0
+   ],
+   "p10": [
+    14363.0,
+    14363.0
+   ],
+   "p1": [
+    12527.0,
+    12527.0
+   ],
+   "p0.1": [
+    11298.0,
+    11298.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.all.70plus.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "all",
+   "age_band": "70+",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 2044,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 11949.0,
+   "p1": 13365.0,
+   "p10": 15585.0,
+   "p25": 17589.0,
+   "p50": 20130.0,
+   "p75": 22868.0,
+   "p90": 25504.0,
+   "p99": 30180.0,
+   "p99.9": 31520.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 11949.0,
+     "p1": 13365.0,
+     "p10": 15585.0,
+     "p25": 17589.0,
+     "p50": 20130.0,
+     "p75": 22868.0,
+     "p90": 25504.0,
+     "p99": 30180.0,
+     "p99.9": 31520.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "2,044 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    20130.0,
+    20130.0
+   ],
+   "p10": [
+    15585.0,
+    15585.0
+   ],
+   "p1": [
+    13365.0,
+    13365.0
+   ],
+   "p0.1": [
+    11949.0,
+    11949.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.all.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "all",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 778747,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8713.0,
+   "p1": 10217.0,
+   "p10": 12274.0,
+   "p25": 13666.0,
+   "p50": 15522.0,
+   "p75": 17884.0,
+   "p90": 20694.0,
+   "p99": 26780.0,
+   "p99.9": 31268.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8713.0,
+     "p1": 10217.0,
+     "p10": 12274.0,
+     "p25": 13666.0,
+     "p50": 15522.0,
+     "p75": 17884.0,
+     "p90": 20694.0,
+     "p99": 26780.0,
+     "p99.9": 31268.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "778,747 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15522.0,
+    15522.0
+   ],
+   "p10": [
+    12274.0,
+    12274.0
+   ],
+   "p1": [
+    10217.0,
+    10217.0
+   ],
+   "p0.1": [
+    8713.0,
+    8713.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.f.18-24.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "f",
+   "age_band": "18-24",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 12918,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9644.0,
+   "p1": 11187.0,
+   "p10": 13055.0,
+   "p25": 14402.0,
+   "p50": 16394.0,
+   "p75": 18717.0,
+   "p90": 21241.0,
+   "p99": 25862.0,
+   "p99.9": 30986.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9644.0,
+     "p1": 11187.0,
+     "p10": 13055.0,
+     "p25": 14402.0,
+     "p50": 16394.0,
+     "p75": 18717.0,
+     "p90": 21241.0,
+     "p99": 25862.0,
+     "p99.9": 30986.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "12,918 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16394.0,
+    16394.0
+   ],
+   "p10": [
+    13055.0,
+    13055.0
+   ],
+   "p1": [
+    11187.0,
+    11187.0
+   ],
+   "p0.1": [
+    9644.0,
+    9644.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.f.25-29.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "f",
+   "age_band": "25-29",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 25941,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9226.0,
+   "p1": 11076.0,
+   "p10": 12961.0,
+   "p25": 14373.0,
+   "p50": 16342.0,
+   "p75": 18672.0,
+   "p90": 21158.0,
+   "p99": 25779.0,
+   "p99.9": 30225.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9226.0,
+     "p1": 11076.0,
+     "p10": 12961.0,
+     "p25": 14373.0,
+     "p50": 16342.0,
+     "p75": 18672.0,
+     "p90": 21158.0,
+     "p99": 25779.0,
+     "p99.9": 30225.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "25,941 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16342.0,
+    16342.0
+   ],
+   "p10": [
+    12961.0,
+    12961.0
+   ],
+   "p1": [
+    11076.0,
+    11076.0
+   ],
+   "p0.1": [
+    9226.0,
+    9226.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.f.30-34.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "f",
+   "age_band": "30-34",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 27716,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9633.0,
+   "p1": 11109.0,
+   "p10": 13078.0,
+   "p25": 14454.0,
+   "p50": 16440.0,
+   "p75": 18800.0,
+   "p90": 21331.0,
+   "p99": 25848.0,
+   "p99.9": 29621.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9633.0,
+     "p1": 11109.0,
+     "p10": 13078.0,
+     "p25": 14454.0,
+     "p50": 16440.0,
+     "p75": 18800.0,
+     "p90": 21331.0,
+     "p99": 25848.0,
+     "p99.9": 29621.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "27,716 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16440.0,
+    16440.0
+   ],
+   "p10": [
+    13078.0,
+    13078.0
+   ],
+   "p1": [
+    11109.0,
+    11109.0
+   ],
+   "p0.1": [
+    9633.0,
+    9633.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.f.35-39.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "f",
+   "age_band": "35-39",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 26752,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 10237.0,
+   "p1": 11386.0,
+   "p10": 13144.0,
+   "p25": 14403.0,
+   "p50": 16395.0,
+   "p75": 18783.0,
+   "p90": 21430.0,
+   "p99": 25960.0,
+   "p99.9": 30052.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 10237.0,
+     "p1": 11386.0,
+     "p10": 13144.0,
+     "p25": 14403.0,
+     "p50": 16395.0,
+     "p75": 18783.0,
+     "p90": 21430.0,
+     "p99": 25960.0,
+     "p99.9": 30052.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "26,752 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16395.0,
+    16395.0
+   ],
+   "p10": [
+    13144.0,
+    13144.0
+   ],
+   "p1": [
+    11386.0,
+    11386.0
+   ],
+   "p0.1": [
+    10237.0,
+    10237.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.f.40-44.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "f",
+   "age_band": "40-44",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 25610,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 10388.0,
+   "p1": 11727.0,
+   "p10": 13362.0,
+   "p25": 14573.0,
+   "p50": 16574.0,
+   "p75": 19019.0,
+   "p90": 21552.0,
+   "p99": 26100.0,
+   "p99.9": 29935.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 10388.0,
+     "p1": 11727.0,
+     "p10": 13362.0,
+     "p25": 14573.0,
+     "p50": 16574.0,
+     "p75": 19019.0,
+     "p90": 21552.0,
+     "p99": 26100.0,
+     "p99.9": 29935.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "25,610 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16574.0,
+    16574.0
+   ],
+   "p10": [
+    13362.0,
+    13362.0
+   ],
+   "p1": [
+    11727.0,
+    11727.0
+   ],
+   "p0.1": [
+    10388.0,
+    10388.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.f.45-49.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "f",
+   "age_band": "45-49",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 18559,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 10774.0,
+   "p1": 12006.0,
+   "p10": 13596.0,
+   "p25": 14779.0,
+   "p50": 16822.0,
+   "p75": 19331.0,
+   "p90": 21882.0,
+   "p99": 26637.0,
+   "p99.9": 30635.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 10774.0,
+     "p1": 12006.0,
+     "p10": 13596.0,
+     "p25": 14779.0,
+     "p50": 16822.0,
+     "p75": 19331.0,
+     "p90": 21882.0,
+     "p99": 26637.0,
+     "p99.9": 30635.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "18,559 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16822.0,
+    16822.0
+   ],
+   "p10": [
+    13596.0,
+    13596.0
+   ],
+   "p1": [
+    12006.0,
+    12006.0
+   ],
+   "p0.1": [
+    10774.0,
+    10774.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.f.50-54.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "f",
+   "age_band": "50-54",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 12055,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 11394.0,
+   "p1": 12396.0,
+   "p10": 14033.0,
+   "p25": 15382.0,
+   "p50": 17455.0,
+   "p75": 20036.0,
+   "p90": 22650.0,
+   "p99": 27250.0,
+   "p99.9": 31039.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 11394.0,
+     "p1": 12396.0,
+     "p10": 14033.0,
+     "p25": 15382.0,
+     "p50": 17455.0,
+     "p75": 20036.0,
+     "p90": 22650.0,
+     "p99": 27250.0,
+     "p99.9": 31039.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "12,055 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    17455.0,
+    17455.0
+   ],
+   "p10": [
+    14033.0,
+    14033.0
+   ],
+   "p1": [
+    12396.0,
+    12396.0
+   ],
+   "p0.1": [
+    11394.0,
+    11394.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.f.55-59.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "f",
+   "age_band": "55-59",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 6037,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 11373.0,
+   "p1": 12791.0,
+   "p10": 14441.0,
+   "p25": 16004.0,
+   "p50": 18165.0,
+   "p75": 20974.0,
+   "p90": 23415.0,
+   "p99": 27508.0,
+   "p99.9": 31236.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 11373.0,
+     "p1": 12791.0,
+     "p10": 14441.0,
+     "p25": 16004.0,
+     "p50": 18165.0,
+     "p75": 20974.0,
+     "p90": 23415.0,
+     "p99": 27508.0,
+     "p99.9": 31236.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "6,037 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    18165.0,
+    18165.0
+   ],
+   "p10": [
+    14441.0,
+    14441.0
+   ],
+   "p1": [
+    12791.0,
+    12791.0
+   ],
+   "p0.1": [
+    11373.0,
+    11373.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.f.60-64.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "f",
+   "age_band": "60-64",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 2562,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 12267.0,
+   "p1": 13216.0,
+   "p10": 15287.0,
+   "p25": 16988.0,
+   "p50": 19494.0,
+   "p75": 21957.0,
+   "p90": 24202.0,
+   "p99": 27652.0,
+   "p99.9": 31012.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 12267.0,
+     "p1": 13216.0,
+     "p10": 15287.0,
+     "p25": 16988.0,
+     "p50": 19494.0,
+     "p75": 21957.0,
+     "p90": 24202.0,
+     "p99": 27652.0,
+     "p99.9": 31012.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "2,562 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    19494.0,
+    19494.0
+   ],
+   "p10": [
+    15287.0,
+    15287.0
+   ],
+   "p1": [
+    13216.0,
+    13216.0
+   ],
+   "p0.1": [
+    12267.0,
+    12267.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.f.65-69.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "f",
+   "age_band": "65-69",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 904,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 12511.0,
+   "p1": 13297.0,
+   "p10": 16289.0,
+   "p25": 18263.0,
+   "p50": 21005.0,
+   "p75": 23201.0,
+   "p90": 25304.0,
+   "p99": 30235.0,
+   "p99.9": 32161.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 12511.0,
+     "p1": 13297.0,
+     "p10": 16289.0,
+     "p25": 18263.0,
+     "p50": 21005.0,
+     "p75": 23201.0,
+     "p90": 25304.0,
+     "p99": 30235.0,
+     "p99.9": 32161.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "904 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    21005.0,
+    21005.0
+   ],
+   "p10": [
+    16289.0,
+    16289.0
+   ],
+   "p1": [
+    13297.0,
+    13297.0
+   ],
+   "p0.1": [
+    12511.0,
+    12511.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.f.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "f",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 265780,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9697.0,
+   "p1": 11401.0,
+   "p10": 13367.0,
+   "p25": 14682.0,
+   "p50": 16627.0,
+   "p75": 19099.0,
+   "p90": 21831.0,
+   "p99": 27698.0,
+   "p99.9": 31556.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9697.0,
+     "p1": 11401.0,
+     "p10": 13367.0,
+     "p25": 14682.0,
+     "p50": 16627.0,
+     "p75": 19099.0,
+     "p90": 21831.0,
+     "p99": 27698.0,
+     "p99.9": 31556.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "265,780 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16627.0,
+    16627.0
+   ],
+   "p10": [
+    13367.0,
+    13367.0
+   ],
+   "p1": [
+    11401.0,
+    11401.0
+   ],
+   "p0.1": [
+    9697.0,
+    9697.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.m.18-24.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "m",
+   "age_band": "18-24",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 13513,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 7950.0,
+   "p1": 9515.0,
+   "p10": 11373.0,
+   "p25": 12975.0,
+   "p50": 14863.0,
+   "p75": 17223.0,
+   "p90": 19928.0,
+   "p99": 26764.0,
+   "p99.9": 31666.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 7950.0,
+     "p1": 9515.0,
+     "p10": 11373.0,
+     "p25": 12975.0,
+     "p50": 14863.0,
+     "p75": 17223.0,
+     "p90": 19928.0,
+     "p99": 26764.0,
+     "p99.9": 31666.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "13,513 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14863.0,
+    14863.0
+   ],
+   "p10": [
+    11373.0,
+    11373.0
+   ],
+   "p1": [
+    9515.0,
+    9515.0
+   ],
+   "p0.1": [
+    7950.0,
+    7950.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.m.25-29.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "m",
+   "age_band": "25-29",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 25777,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 7916.0,
+   "p1": 9147.0,
+   "p10": 11231.0,
+   "p25": 12906.0,
+   "p50": 14741.0,
+   "p75": 17072.0,
+   "p90": 19518.0,
+   "p99": 24825.0,
+   "p99.9": 31021.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 7916.0,
+     "p1": 9147.0,
+     "p10": 11231.0,
+     "p25": 12906.0,
+     "p50": 14741.0,
+     "p75": 17072.0,
+     "p90": 19518.0,
+     "p99": 24825.0,
+     "p99.9": 31021.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "25,777 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14741.0,
+    14741.0
+   ],
+   "p10": [
+    11231.0,
+    11231.0
+   ],
+   "p1": [
+    9147.0,
+    9147.0
+   ],
+   "p0.1": [
+    7916.0,
+    7916.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.m.30-34.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "m",
+   "age_band": "30-34",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 35416,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8262.0,
+   "p1": 9510.0,
+   "p10": 11442.0,
+   "p25": 12966.0,
+   "p50": 14672.0,
+   "p75": 16977.0,
+   "p90": 19543.0,
+   "p99": 25078.0,
+   "p99.9": 30383.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8262.0,
+     "p1": 9510.0,
+     "p10": 11442.0,
+     "p25": 12966.0,
+     "p50": 14672.0,
+     "p75": 16977.0,
+     "p90": 19543.0,
+     "p99": 25078.0,
+     "p99.9": 30383.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "35,416 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14672.0,
+    14672.0
+   ],
+   "p10": [
+    11442.0,
+    11442.0
+   ],
+   "p1": [
+    9510.0,
+    9510.0
+   ],
+   "p0.1": [
+    8262.0,
+    8262.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.m.35-39.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "m",
+   "age_band": "35-39",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 39551,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8762.0,
+   "p1": 9996.0,
+   "p10": 11610.0,
+   "p25": 13013.0,
+   "p50": 14666.0,
+   "p75": 16880.0,
+   "p90": 19356.0,
+   "p99": 24605.0,
+   "p99.9": 30076.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8762.0,
+     "p1": 9996.0,
+     "p10": 11610.0,
+     "p25": 13013.0,
+     "p50": 14666.0,
+     "p75": 16880.0,
+     "p90": 19356.0,
+     "p99": 24605.0,
+     "p99.9": 30076.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "39,551 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14666.0,
+    14666.0
+   ],
+   "p10": [
+    11610.0,
+    11610.0
+   ],
+   "p1": [
+    9996.0,
+    9996.0
+   ],
+   "p0.1": [
+    8762.0,
+    8762.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.m.40-44.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "m",
+   "age_band": "40-44",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 43636,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9263.0,
+   "p1": 10247.0,
+   "p10": 11769.0,
+   "p25": 13087.0,
+   "p50": 14733.0,
+   "p75": 16953.0,
+   "p90": 19457.0,
+   "p99": 24666.0,
+   "p99.9": 30252.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9263.0,
+     "p1": 10247.0,
+     "p10": 11769.0,
+     "p25": 13087.0,
+     "p50": 14733.0,
+     "p75": 16953.0,
+     "p90": 19457.0,
+     "p99": 24666.0,
+     "p99.9": 30252.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "43,636 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14733.0,
+    14733.0
+   ],
+   "p10": [
+    11769.0,
+    11769.0
+   ],
+   "p1": [
+    10247.0,
+    10247.0
+   ],
+   "p0.1": [
+    9263.0,
+    9263.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.m.45-49.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "m",
+   "age_band": "45-49",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 36154,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9611.0,
+   "p1": 10530.0,
+   "p10": 12020.0,
+   "p25": 13199.0,
+   "p50": 14830.0,
+   "p75": 17039.0,
+   "p90": 19523.0,
+   "p99": 24847.0,
+   "p99.9": 30559.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9611.0,
+     "p1": 10530.0,
+     "p10": 12020.0,
+     "p25": 13199.0,
+     "p50": 14830.0,
+     "p75": 17039.0,
+     "p90": 19523.0,
+     "p99": 24847.0,
+     "p99.9": 30559.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "36,154 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14830.0,
+    14830.0
+   ],
+   "p10": [
+    12020.0,
+    12020.0
+   ],
+   "p1": [
+    10530.0,
+    10530.0
+   ],
+   "p0.1": [
+    9611.0,
+    9611.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.m.50-54.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "m",
+   "age_band": "50-54",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 28321,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 9873.0,
+   "p1": 10720.0,
+   "p10": 12342.0,
+   "p25": 13457.0,
+   "p50": 15192.0,
+   "p75": 17389.0,
+   "p90": 19849.0,
+   "p99": 25161.0,
+   "p99.9": 30630.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 9873.0,
+     "p1": 10720.0,
+     "p10": 12342.0,
+     "p25": 13457.0,
+     "p50": 15192.0,
+     "p75": 17389.0,
+     "p90": 19849.0,
+     "p99": 25161.0,
+     "p99.9": 30630.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "28,321 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15192.0,
+    15192.0
+   ],
+   "p10": [
+    12342.0,
+    12342.0
+   ],
+   "p1": [
+    10720.0,
+    10720.0
+   ],
+   "p0.1": [
+    9873.0,
+    9873.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.m.55-59.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "m",
+   "age_band": "55-59",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 16502,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 10308.0,
+   "p1": 11272.0,
+   "p10": 12837.0,
+   "p25": 13965.0,
+   "p50": 15870.0,
+   "p75": 18181.0,
+   "p90": 20773.0,
+   "p99": 25915.0,
+   "p99.9": 30534.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 10308.0,
+     "p1": 11272.0,
+     "p10": 12837.0,
+     "p25": 13965.0,
+     "p50": 15870.0,
+     "p75": 18181.0,
+     "p90": 20773.0,
+     "p99": 25915.0,
+     "p99.9": 30534.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "16,502 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    15870.0,
+    15870.0
+   ],
+   "p10": [
+    12837.0,
+    12837.0
+   ],
+   "p1": [
+    11272.0,
+    11272.0
+   ],
+   "p0.1": [
+    10308.0,
+    10308.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.m.60-64.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "m",
+   "age_band": "60-64",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 9043,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 10821.0,
+   "p1": 11839.0,
+   "p10": 13492.0,
+   "p25": 14604.0,
+   "p50": 16719.0,
+   "p75": 19200.0,
+   "p90": 21745.0,
+   "p99": 27101.0,
+   "p99.9": 30844.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 10821.0,
+     "p1": 11839.0,
+     "p10": 13492.0,
+     "p25": 14604.0,
+     "p50": 16719.0,
+     "p75": 19200.0,
+     "p90": 21745.0,
+     "p99": 27101.0,
+     "p99.9": 30844.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "9,043 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    16719.0,
+    16719.0
+   ],
+   "p10": [
+    13492.0,
+    13492.0
+   ],
+   "p1": [
+    11839.0,
+    11839.0
+   ],
+   "p0.1": [
+    10821.0,
+    10821.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.m.65-69.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "m",
+   "age_band": "65-69",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 3831,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 11263.0,
+   "p1": 12429.0,
+   "p10": 14205.0,
+   "p25": 15607.0,
+   "p50": 17781.0,
+   "p75": 20611.0,
+   "p90": 22989.0,
+   "p99": 27915.0,
+   "p99.9": 31809.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 11263.0,
+     "p1": 12429.0,
+     "p10": 14205.0,
+     "p25": 15607.0,
+     "p50": 17781.0,
+     "p75": 20611.0,
+     "p90": 22989.0,
+     "p99": 27915.0,
+     "p99.9": 31809.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "3,831 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    17781.0,
+    17781.0
+   ],
+   "p10": [
+    14205.0,
+    14205.0
+   ],
+   "p1": [
+    12429.0,
+    12429.0
+   ],
+   "p0.1": [
+    11263.0,
+    11263.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.m.70plus.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "m",
+   "age_band": "70+",
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 1778,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 11525.0,
+   "p1": 13319.0,
+   "p10": 15445.0,
+   "p25": 17434.0,
+   "p50": 19839.0,
+   "p75": 22401.0,
+   "p90": 25133.0,
+   "p99": 29510.0,
+   "p99.9": 31110.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 11525.0,
+     "p1": 13319.0,
+     "p10": 15445.0,
+     "p25": 17434.0,
+     "p50": 19839.0,
+     "p75": 22401.0,
+     "p90": 25133.0,
+     "p99": 29510.0,
+     "p99.9": 31110.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "1,778 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    19839.0,
+    19839.0
+   ],
+   "p10": [
+    15445.0,
+    15445.0
+   ],
+   "p1": [
+    13319.0,
+    13319.0
+   ],
+   "p0.1": [
+    11525.0,
+    11525.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ },
+ {
+  "id": "marathon_time.world.m.marathon_finishers.2013",
+  "metric": "marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "m",
+   "age_band": null,
+   "activity": "marathon_finishers",
+   "source_category": null
+  },
+  "year": 2013,
+  "n": 512967,
+  "n_source": "src-booth-marathon",
+  "n_source_name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p0.1": 8492.0,
+   "p1": 10000.0,
+   "p10": 11874.0,
+   "p25": 13210.0,
+   "p50": 14913.0,
+   "p75": 17215.0,
+   "p90": 19872.0,
+   "p99": 26085.0,
+   "p99.9": 31011.0
+  },
+  "sources": [
+   {
+    "id": "src-booth-marathon",
+    "name": "Allen, Dechow, Pope and Wu (2017), marathon finisher records",
+    "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
+    "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
+    "independent_of": [],
+    "accessed": "2026-10-14",
+    "values": {
+     "p0.1": 8492.0,
+     "p1": 10000.0,
+     "p10": 11874.0,
+     "p25": 13210.0,
+     "p50": 14913.0,
+     "p75": 17215.0,
+     "p90": 19872.0,
+     "p99": 26085.0,
+     "p99.9": 31011.0
+    }
+   }
+  ],
+  "definition": "Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.",
+  "derived_points": [],
+  "caveat": "512,967 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
+  "status": "curated",
+  "added": "2026-10-14",
+  "grade": "B",
+  "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
+  "range": {
+   "p50": [
+    14913.0,
+    14913.0
+   ],
+   "p10": [
+    11874.0,
+    11874.0
+   ],
+   "p1": [
+    10000.0,
+    10000.0
+   ],
+   "p0.1": [
+    8492.0,
+    8492.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p10": 0.0,
+   "p1": 0.0,
+   "p0.1": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p10": 1,
+   "p1": 1,
+   "p0.1": 1
+  }
+ }
+]

@@ -8,7 +8,7 @@ Design and copy follow [these standards](https://github.com/lyhjeremy/lyhjeremy/
 
 ## Headline numbers
 
-818 facts across 20 countries and the world, from 7 official or open sources, every one with a URL and an access date. 3 facts reach grade A (two independent official sources within 10%); 815 are grade B (one official source, or a percentile derived from a published mean). The rules parser that understands typed questions scores 90.0% exact-triple accuracy on a frozen 200-question gold set; the LLM parser is scored in `eval/results.md` once the Worker is deployed.
+911 facts across 20 countries and the world, from 8 official or open sources, every one with a URL and an access date. 3 facts reach grade A (two independent official sources within 10%); 908 are grade B (one official source, or a percentile derived from a published mean). The rules parser that understands typed questions scores 90.5% exact-triple accuracy on a frozen 200-question gold set; the LLM parser is scored in `eval/results.md` once the Worker is deployed.
 
 The fact that started the project, "earning $30,000 a year puts you in the global top 1%", is false under every definition on the site, but not by the same margin. By WID's pre-tax income per adult, $30k sits at the 75th percentile of adults worldwide and the top 1% starts at about $220,000. By the World Bank's consumption per person, $30k is the 94th percentile and the top 1% starts at about $57,000, which is where the "$60k" version of the claim comes from. See the overview for the full comparison.
 
@@ -55,6 +55,6 @@ A: two or more independent sources, at least one official, within 10% at every s
 
 ## What it cannot show
 
-Almost everything is grade B because, for a given definition, official statistics have one producer. Height percentiles outside the US are derived from NCD-RisC means under a normal assumption. BMI percentiles are interpolated inside published bands. The running family is empty until a licensed finisher-level dataset is in hand. Sensitive breakdowns (race and Hispanic origin) appear only for US body measures, exactly as NHANES publishes them. Full list in `writeup.md`.
+Almost everything is grade B because, for a given definition, official statistics have one producer. Height percentiles outside the US are derived from NCD-RisC means under a normal assumption. BMI percentiles are interpolated inside published bands. Marathon times come from a 2013 research sample of 897,000 finishers that skews to North America and Europe, so the "world" running facts describe that sample, not every marathon on earth. Sensitive breakdowns (race and Hispanic origin) appear only for US body measures, exactly as NHANES publishes them. Full list in `writeup.md`.
 
 [MIT](LICENSE) © 2026 Jeremy Lee

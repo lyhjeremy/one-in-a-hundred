@@ -4,7 +4,7 @@ _2026-10-14. Live at https://lyhjeremy.github.io/one-in-a-hundred/_
 
 ## The result
 
-818 percentile facts across 20 countries and the world, from 7 official or open sources, each with a URL and an access date, graded A to D by how much independent sources agree. Three facts reach A (life expectancy across countries, where the UN and WHO agree within 3%); 815 are B, because for a given definition official statistics tend to have one producer. The rules parser that turns a typed question into (group, measure, percentile) scores 90.0% exact-triple accuracy on a frozen 200-question gold set (`eval/results.md`); the LLM parser's score is filled in once the Worker is deployed.
+911 percentile facts across 20 countries and the world, from 8 official or open sources, each with a URL and an access date, graded A to D by how much independent sources agree. Three facts reach A (life expectancy across countries, where the UN and WHO agree within 3%); 908 are B, because for a given definition official statistics tend to have one producer. The rules parser that turns a typed question into (group, measure, percentile) scores 90.5% exact-triple accuracy on a frozen 200-question gold set (`eval/results.md`); the LLM parser's score is filled in once the Worker is deployed.
 
 ## The claim that started it
 
@@ -33,6 +33,7 @@ Each fact is one distribution: a metric, a population slice, a reference year, a
 | CDC NHANES 2021-2023 | US height, weight, BMI | Weighted quantiles of measured individuals; by sex, age band, and the survey's own race and Hispanic-origin categories |
 | NCD-RisC height | Height at 19 by country and sex | Mean plus an assumed SD (NHANES-measured, same sex), normal quantiles; flagged derived |
 | NCD-RisC BMI | BMI by country, sex, age | Interpolated inside published bands (18.5, 20, 25, 30, 35, 40); bottom band skipped |
+| Allen, Dechow, Pope and Wu (2017) | Marathon chip times, 9.8 million finisher records 1970 to 2013 | Plain quantiles of the 897,204 finishers in 2013, by sex, age band and country; treated as official-equivalent because the rows are races' own results |
 
 Grading rules, in full: A needs two or more mutually independent sources, at least one official, agreeing within 10% at every exposed percentile. B is one official source, or a derived point without a measured confirmation. C is disagreement above 10% or a definitional mismatch. D is a queued, unreviewed fact. Review can lower a grade with a reason and never raise one.
 
@@ -40,18 +41,18 @@ Grading rules, in full: A needs two or more mutually independent sources, at lea
 
 Two parsers return the same shape. The rules parser (`parser-rules.js`, about 200 lines) runs in the browser: regexes for percentiles, sex, age and value, a country alias table, and a phrasing match with a Dice-coefficient fallback for typos. The LLM parser runs in a Cloudflare Worker and asks Groq's Llama for JSON against the same catalogue; the browser falls back to the rules parser on a 2.5 s timeout or any error, and says so.
 
-Gold set: 200 questions in five buckets, frozen at sha1 `0b1dd183b3f8` after one correction pass. Rules parser: 95% canonical, 92% paraphrase, 60% value-bearing, 90% ambiguous, 92% out-of-scope with 3 hallucinated ids. The weak bucket is value extraction ("I ran a 1:45 half marathon as a 45 year old woman"), where the time, the age and the distance compete for the same digits. The rules parser was adjusted once after seeing its failures, so its number is optimistic by an unknown amount; the LLM parser will be scored cold.
+Gold set: 200 questions in five buckets, frozen at sha1 `0b1dd183b3f8` after one correction pass. Rules parser: 96% canonical, 92% paraphrase, 60% value-bearing, 90% ambiguous, 92% out-of-scope with 3 hallucinated ids. The weak bucket is value extraction ("I ran a 1:45 half marathon as a 45 year old woman"), where the time, the age and the distance compete for the same digits. The rules parser was adjusted twice after seeing failures (once on the gold set, once on a live question about "marathoners"), so its number is optimistic by an unknown amount; the LLM parser will be scored cold.
 
 ## What it cannot show
 
 - Almost everything is B. The A grade needs genuinely independent producers measuring the same definition, and for income, wealth, height and age there is usually one. The honest reading is "one official source, no second to compare", and that is what the panel says.
 - Height outside the US is derived, not measured: NCD-RisC publishes means, the SD is borrowed from NHANES, and the tails of real height distributions are a little heavier than normal. The Dutch 202 cm is probably a centimetre or two high.
 - BMI percentiles are linear interpolations inside bands, so a p99 that falls in the 35 to 40 band is placed by proportion, not measured.
-- The running family is empty. The best candidate (429,000 US finishers across 641 races in 2023) sits on Kaggle behind an account token; single-race files are either qualification-gated (Boston) or of unclear licence. `pipeline/fetch/running.py` is written and waits for the file.
+- Marathon facts describe a 2013 research sample (Allen, Dechow, Pope and Wu), not every marathon on earth: 61% of its 2013 finishers ran in the US and most of the rest in Europe, Canada and Australia. The "world" running group means "finishers in that sample", and the panel says so. A 2023 US dataset on Kaggle would be a second, more recent source once an account token exists; `pipeline/fetch/running.py` waits for it.
 - Population counts for age bands and categories are weighted shares of a survey sample applied to the UN count, so "that's about 2,900 people" lines are estimates.
 - Sensitive dimensions appear only where the source publishes them (NHANES race and Hispanic origin), with the source's category names, and are never combined across sources.
 - The LLM parser, the request queue and the research loop are built but not deployed: they need a Cloudflare account and a Groq key.
 
 ## Sources
 
-UN DESA, World Population Prospects 2024 (CC BY 3.0 IGO). WHO Global Health Observatory, indicator WHOSIS_000001 (CC BY-NC-SA 3.0 IGO). World Inequality Database, bulk download September 2026 (CC BY 4.0). World Bank Poverty and Inequality Platform, API release 20260922, 2021 PPP (CC BY 4.0). CDC NHANES August 2021 to August 2023, BMX_L and DEMO_L (public domain). NCD Risk Factor Collaboration, height (Lancet 2020) and adult BMI (Nature 2026) (CC BY 4.0). Full table with access dates at `/sources/`.
+UN DESA, World Population Prospects 2024 (CC BY 3.0 IGO). WHO Global Health Observatory, indicator WHOSIS_000001 (CC BY-NC-SA 3.0 IGO). World Inequality Database, bulk download September 2026 (CC BY 4.0). World Bank Poverty and Inequality Platform, API release 20260922, 2021 PPP (CC BY 4.0). CDC NHANES August 2021 to August 2023, BMX_L and DEMO_L (public domain). NCD Risk Factor Collaboration, height (Lancet 2020) and adult BMI (Nature 2026) (CC BY 4.0). Allen, Dechow, Pope and Wu (2017), Management Science, data published by the authors at faculty.chicagobooth.edu/george.wu/research/marathon/. Full table with access dates at `/sources/`.

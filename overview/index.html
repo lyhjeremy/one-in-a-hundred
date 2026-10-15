@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>How One in a Hundred works</title>
-<meta name="description" content="818 graded percentile facts from 7 official sources, and why the '$30k is the global top 1%' claim is wrong under every definition.">
+<meta name="description" content="911 graded percentile facts from 8 official sources, and why the '$30k is the global top 1%' claim is wrong under every definition.">
 <link rel="stylesheet" href="../assets/ledger.css"><link rel="stylesheet" href="../assets/app.css"></head>
 <body><main class="wrap prose-serif">
 <p class="kicker"><a href="../">One in a Hundred</a></p>
 <h1>How this works, and what it cannot show</h1>
 <p class="meta">Built 2026-10-14. <a href="https://github.com/lyhjeremy/one-in-a-hundred">Code and data on GitHub</a>.</p>
 
-<p>818 percentile facts across 20 countries and the world, from 7 official or open sources, every one with a source link and an access date, graded A to D by how much independent sources agree. Three facts reach A; 815 are B, because for a given definition official statistics usually have one producer. The parser that understands typed questions scores 90.0% exact-triple accuracy on a frozen 200-question test set.</p>
+<p>911 percentile facts across 20 countries and the world, from 8 official or open sources, every one with a source link and an access date, graded A to D by how much independent sources agree. Three facts reach A; 908 are B, because for a given definition official statistics usually have one producer. The parser that understands typed questions scores 90.5% exact-triple accuracy on a frozen 200-question test set.</p>
 
 <h2>The claim that started it</h2>
 <p>"Earning $30,000 a year puts you in the top 1% of earners worldwide." Sometimes the number is $60,000. Neither is the top 1%, but the gap between them is a difference of definition, and the site keeps the definitions apart rather than averaging them.</p>
@@ -25,7 +25,7 @@
 <p>One in a hundred people alive is at least <a href="../f/age_years.world.all.2025/">84.6 years old</a>; the median person is 31.9 (UN World Population Prospects, 2025). The tallest 1% of <a href="../f/height_adult_cm.nl.m.2019/">Dutch men</a> stand at least 202 cm, a number derived from a published mean and an assumed spread, which is why it is grade B and the panel says so.</p>
 
 <h2>How the numbers are made</h2>
-<p>Each fact is one distribution: a measure, a group, a reference year, and a grid of percentile points. One fetcher per source reads it into the same row shape; a build step merges rows into facts; a verify step computes the spread across sources at each shown percentile and assigns the grade by fixed rules, and refuses to build a fact with no source. The UN pyramid gives ages directly. WID publishes income and wealth thresholds, converted from local currency at its own PPP factor. The World Bank API answers "what welfare level is the 99th percentile" per country, and the world figure is found by bisection. NHANES gives measured US body data, weighted to the population, including the survey's own race and Hispanic-origin categories. NCD-RisC gives height means (so the percentiles are derived under a normal assumption) and BMI in bands (so the percentiles are interpolated).</p>
+<p>Each fact is one distribution: a measure, a group, a reference year, and a grid of percentile points. One fetcher per source reads it into the same row shape; a build step merges rows into facts; a verify step computes the spread across sources at each shown percentile and assigns the grade by fixed rules, and refuses to build a fact with no source. The UN pyramid gives ages directly. WID publishes income and wealth thresholds, converted from local currency at its own PPP factor. The World Bank API answers "what welfare level is the 99th percentile" per country, and the world figure is found by bisection. NHANES gives measured US body data, weighted to the population, including the survey's own race and Hispanic-origin categories. NCD-RisC gives height means (so the percentiles are derived under a normal assumption) and BMI in bands (so the percentiles are interpolated). Marathon times are plain quantiles of 897,204 finisher records from 2013, published by the authors of a Management Science paper and compiled from races' own results.</p>
 
 <h2>Grades</h2>
 <p><b>A</b>: two or more independent sources, at least one official, within 10% at every shown percentile. <b>B</b>: one official source, or a derived percentile. <b>C</b>: sources disagree by more than 10%, or a known definitional mismatch. <b>D</b>: produced by the automated research step and not yet checked by a person. A reviewer can lower a grade with a reason and never raise one; the way up is another source.</p>
@@ -38,14 +38,14 @@
 <li>Almost everything is B. The A grade needs independent producers measuring the same definition, and for income, wealth, height and age there is usually one.</li>
 <li>Height outside the US is derived, not measured, and real height tails are slightly heavier than normal: the Dutch 202 cm is probably a centimetre or two high.</li>
 <li>BMI percentiles are linear interpolations inside published bands.</li>
-<li>Running times are not on the site yet: the best finisher-level dataset needs an account to download, and single-race files are qualification-gated or unclearly licensed.</li>
+<li>Marathon facts describe a 2013 research sample of 897,000 finishers (Allen, Dechow, Pope and Wu), 61% of them in the US; the "world" running group means finishers in that sample, and the panel says so.</li>
 <li>Group counts for age bands and categories are survey shares applied to UN totals, so "that's about 2,900 people" is an estimate.</li>
 <li>Sensitive breakdowns appear only where the source publishes them, with the source's category names, never combined across sources.</li>
 <li>The LLM parser, the request queue and the research loop are built but not deployed; they need a Cloudflare account and a Groq key.</li>
 </ul>
 
 <h2>Sources</h2>
-<p>UN DESA, World Population Prospects 2024. WHO Global Health Observatory, life expectancy at birth. World Inequality Database, bulk download September 2026. World Bank Poverty and Inequality Platform, API release 20260922, 2021 PPP. CDC NHANES August 2021 to August 2023. NCD Risk Factor Collaboration, height (Lancet 2020) and adult BMI (Nature 2026). Licences and access dates on the <a href="../sources/">sources page</a>.</p>
+<p>UN DESA, World Population Prospects 2024. WHO Global Health Observatory, life expectancy at birth. Allen, Dechow, Pope and Wu (2017), marathon finisher records. World Inequality Database, bulk download September 2026. World Bank Poverty and Inequality Platform, API release 20260922, 2021 PPP. CDC NHANES August 2021 to August 2023. NCD Risk Factor Collaboration, height (Lancet 2020) and adult BMI (Nature 2026). Licences and access dates on the <a href="../sources/">sources page</a>.</p>
 </main>
 <footer class="wrap site-footer"><p><a href="../">Home</a> · <a href="../sources/">Sources</a> · <a href="../about/">About</a> · <a href="../privacy/">Privacy</a> · <a href="../terms/">Terms</a></p></footer>
 </body></html>

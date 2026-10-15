@@ -63,7 +63,8 @@ def _frame() -> pd.DataFrame | None:
     want = ["age", "gender", "chiptime", "year", "country", "marathon"]
     parts = []
     for f in files:
-        for chunk in pd.read_csv(f, usecols=lambda c: c.lower() in want, chunksize=500_000, low_memory=False):
+        # The file is Windows-1252, not UTF-8 (race names carry accented characters).
+        for chunk in pd.read_csv(f, usecols=lambda c: c.lower() in want, chunksize=500_000, low_memory=False, encoding="cp1252"):
             chunk.columns = [c.lower() for c in chunk.columns]
             chunk = chunk[chunk.year == REF_YEAR]
             if len(chunk):

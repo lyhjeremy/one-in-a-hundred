@@ -128,7 +128,9 @@ def group_name(population: dict, metric_id: str, year: int) -> str:
     elif sex == "f":
         noun = "women"
     else:
-        noun = base_noun if (country or band or activity or cat) else None
+        # An activity already says what people did, so "people who finished a
+        # marathon", not "finishers who finished a marathon".
+        noun = ("people" if activity else base_noun) if (country or band or activity or cat) else None
 
     parts: list[str] = []
     if noun is None:

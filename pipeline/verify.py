@@ -87,13 +87,13 @@ def structural_errors(fact: dict) -> list[str]:
     for k in fact["grid"]:
         if k not in GRID_KEYS:
             errs.append(f"bad grid key {k}")
-    # Monotone: for 'high' metrics values rise with percentile; for 'low' they fall.
+    # Grid keys are cumulative shares from the low end of the value scale, so
+    # values never decrease with the key, whatever the direction. Direction
+    # only decides which tail the UI calls "top".
     keys = sorted((k for k in fact["grid"] if k in GRID_KEYS), key=pct_of)
     vals = [fact["grid"][k] for k in keys]
-    ordered = all(a <= b for a, b in zip(vals, vals[1:])) if fact["direction"] == "high" \
-        else all(a >= b for a, b in zip(vals, vals[1:]))
-    if not ordered:
-        errs.append(f"grid not monotone for direction {fact['direction']}: {dict(zip(keys, vals))}")
+    if not all(a <= b for a, b in zip(vals, vals[1:])):
+        errs.append(f"grid not monotone: {dict(zip(keys, vals))}")
     if fact.get("n") is not None and fact["n"] <= 0:
         errs.append("n must be positive")
     return errs

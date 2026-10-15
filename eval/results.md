@@ -4,17 +4,17 @@ Run 2026-10-14. Gold set: 200 questions, sha1 0b1dd183b3f8.
 
 ## Rules parser (browser fallback, baseline)
 
-Exact-triple accuracy: **180/200 = 90.0%**
+Exact-triple accuracy: **181/200 = 90.5%**
 
 | Bucket | Exact | n | Accuracy |
 |---|---|---|---|
 | canonical | 76 | 80 | 95% |
 | paraphrase | 37 | 40 | 92% |
 | value | 12 | 20 | 60% |
-| ambiguous | 18 | 20 | 90% |
+| ambiguous | 19 | 20 | 95% |
 | out_of_scope | 37 | 40 | 92% |
 
-Per-field accuracy (in-scope questions): metric 151/160, country 160/160, sex 160/160, age_band 156/160, percentile 159/160, value 15/20
+Per-field accuracy (in-scope questions): metric 152/160, country 160/160, sex 160/160, age_band 156/160, percentile 159/160, value 15/20
 Hallucinated catalogue ids on out-of-scope questions: 3/40
 Latency: p50 0 ms, p95 1 ms
 
@@ -39,5 +39,5 @@ Not run: WORKER_URL not set. Deploy the Worker and rerun with WORKER_URL to fill
 
 ## Notes
 
-- The rules parser was adjusted once after seeing its failures on this set (superlative percentiles such as "oldest 10%", decade ages like "in their 30s", the "avg" synonym, and two metric phrasings), and two gold labels that were generation bugs were corrected at the same time. Its number is therefore optimistic by an unknown amount. The LLM parser is scored without any tuning on this set.
+- The rules parser was adjusted twice after seeing failures: once on this set (superlative percentiles such as "oldest 10%", decade ages like "in their 30s", the "avg" synonym, two metric phrasings; two gold labels that were generation bugs were corrected at the same time), and once on a live question ("marathoners" was not matched, so phrasings now match their inflections). Its number is therefore optimistic by an unknown amount. The LLM parser is scored without any tuning on this set.
 - Latency for the rules parser is in-process Node; for the LLM parser it is a round trip from this machine to the Worker.

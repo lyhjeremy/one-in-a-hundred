@@ -220,11 +220,20 @@ function renderPanel(fact) {
 function renderQueue(parsed) {
   const q = $("#queue");
   q.hidden = false;
-  const near = slicesFor(state.metric).filter((s) => popMatches(s, state.pop, "age_band") || popMatches(s, state.pop, "country") || popMatches(s, state.pop, "sex")).slice(0, 4);
-  $("#queue-text").textContent = parsed && parsed.unmatched && parsed.unmatched.metric
-    ? `We don't have "${parsed.unmatched.metric}" as a measure.`
-    : "This exact group has no fact yet.";
-  $("#queue-near").textContent = near.length ? " Nearest groups with data: " + near.map((s) => groupName(M, s, state.metric, s.year)).join("; ") + "." : "";
+  const unmatchedMetric = parsed && parsed.unmatched && parsed.unmatched.metric;
+  const emptyMetric = parsed && parsed.metric && M.metrics[parsed.metric] && !slicesFor(parsed.metric).length;
+  if (unmatchedMetric) {
+    $("#queue-text").textContent = `We don't have "${unmatchedMetric}" as a measure.`;
+    $("#queue-near").textContent = "";
+  } else if (emptyMetric) {
+    const fam = M.families[M.metrics[parsed.metric].family].label.toLowerCase();
+    $("#queue-text").textContent = `${M.metrics[parsed.metric].label} is a measure we plan to cover, but the ${fam} data is not in yet.`;
+    $("#queue-near").textContent = "";
+  } else {
+    const near = slicesFor(state.metric).filter((s) => popMatches(s, state.pop, "age_band") || popMatches(s, state.pop, "country") || popMatches(s, state.pop, "sex")).slice(0, 4);
+    $("#queue-text").textContent = "This exact group has no fact yet.";
+    $("#queue-near").textContent = near.length ? " Nearest groups with data: " + near.map((s) => groupName(M, s, state.metric, s.year)).join("; ") + "." : "";
+  }
 }
 
 // ---------- where do I land ----------
@@ -329,9 +338,13 @@ async function ask(q) {
   }
   if (!parsed) parsed = parseRules(q, M);
   applyParsed(parsed);
-  note.textContent = parsed.metric && slicesFor(parsed.metric).length
-    ? `Understood as ${describeParsed(parsed)}.${parsed.confidence === "low" ? " Adjust the menus above if that's wrong." : ""}`
-    : "Couldn't match that to a measure we have.";
+  if (parsed.metric && slicesFor(parsed.metric).length) {
+    note.textContent = `Understood as ${describeParsed(parsed)}.${parsed.confidence === "low" ? " Adjust the menus above if that's wrong." : ""}`;
+  } else if (parsed.metric && M.metrics[parsed.metric]) {
+    note.textContent = `Understood as ${M.metrics[parsed.metric].label.toLowerCase()}, but there is no data for that measure yet.`;
+  } else {
+    note.textContent = "Couldn't match that to a measure we have.";
+  }
 }
 function describeParsed(p) {
   const bits = [M.metrics[p.metric].label.toLowerCase()];

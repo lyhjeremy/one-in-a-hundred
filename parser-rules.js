@@ -118,7 +118,8 @@ export function parseRules(question, M) {
     for (const [id, md] of Object.entries(M.metrics)) {
       let score = 0;
       for (const p of md.phrasings) {
-        const re = new RegExp(`(^|\\s)${p.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?=\\s|$)`);
+        // A phrasing matches its own inflections too: marathon -> marathoners, earn -> earners, run -> running.
+        const re = new RegExp(`(^|\\s)${p.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?:s|es|er|ers|ner|ners|ing|ed)?(?=\\s|$)`);
         if (re.test(rest)) score = Math.max(score, 1 + p.length / 40);
       }
       if (!score) for (const p of md.phrasings) score = Math.max(score, dice(rest.trim(), p) * 0.9);

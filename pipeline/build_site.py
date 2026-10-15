@@ -25,6 +25,7 @@ LICENCES = {
     "src-ncdrisc-height": "CC BY 4.0",
     "src-ncdrisc-bmi": "CC BY 4.0",
     "src-kaggle-us-marathons-2023": "As stated on the Kaggle page",
+    "src-booth-marathon": "Research data published by the authors; cite Allen, Dechow, Pope and Wu (2017)",
 }
 
 PAGE = """<!doctype html>

@@ -17,7 +17,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from pipeline.fetch import common  # noqa: E402
-from pipeline.fetch import un_wpp, cdc_nhanes, ncdrisc_height, ncdrisc_bmi, wid, wb_pip, running, who_ghe  # noqa: E402
+from pipeline.fetch import un_wpp, cdc_nhanes, ncdrisc_height, ncdrisc_bmi, wid, wb_pip, running, who_ghe, booth_marathon  # noqa: E402
 from pipeline import verify  # noqa: E402
 
 ROOT = common.ROOT
@@ -25,7 +25,7 @@ METRICS = json.loads((ROOT / "data" / "metrics.json").read_text())
 FACTS_DIR = ROOT / "data" / "facts"
 INBOX = ROOT / "pipeline" / "inbox"
 
-FETCHERS = [un_wpp, who_ghe, wid, wb_pip, cdc_nhanes, ncdrisc_height, ncdrisc_bmi, running]
+FETCHERS = [un_wpp, who_ghe, wid, wb_pip, cdc_nhanes, ncdrisc_height, ncdrisc_bmi, booth_marathon, running]
 N_NAMES = {m.SOURCE["id"]: m.SOURCE["name"] for m in FETCHERS}
 
 

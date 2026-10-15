@@ -1,0 +1,25 @@
+{
+ "label": "Silent reading speed",
+ "short": "reading speed",
+ "unit": "wpm",
+ "direction": "high",
+ "format": "number",
+ "metric_phrase": "a silent reading speed",
+ "base_noun": "adult readers",
+ "definition": "Words per minute read silently, with comprehension, when reading ordinary continuous text at one's normal pace.",
+ "phrasings": [
+  "reading speed words per minute",
+  "how fast do people read wpm",
+  "average reading speed for adults",
+  "what reading speed is top 1 percent",
+  "is 400 wpm a fast reading speed",
+  "words per minute reading percentile",
+  "how many words per minute does the average person read",
+  "fast reader wpm",
+  "silent reading rate adults",
+  "reading wpm compared to other people"
+ ],
+ "activity": null,
+ "activity_label": null,
+ "id": "reading_speed_wpm"
+}

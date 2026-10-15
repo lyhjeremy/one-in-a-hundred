@@ -1,0 +1,71 @@
+{
+ "id": "instagram_followers.world.all.instagram_accounts.2026",
+ "metric": "instagram_followers",
+ "population": {
+  "base": "world",
+  "country": null,
+  "sex": "all",
+  "age_band": null,
+  "activity": "instagram_accounts",
+  "source_category": null
+ },
+ "year": 2026,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "followers",
+ "grid": {
+  "p50": 617.0,
+  "p90": 6654.0,
+  "p99": 1522437.0
+ },
+ "sources": [
+  {
+   "id": "src-q-lurk-data-drop-instagram-follower-concen",
+   "name": "Lurk data drop: Instagram follower concentration",
+   "url": "https://getlurk.app/data-drop/stat/instagram-follower-concentration",
+   "accessed": "2026-10-14",
+   "measures": "Follower count of Instagram profiles held in Lurk's own cached-profiles store (its live follow-graph), restricted to profiles with a known positive follower count. Percentiles computed exactly (percentile_cont) over all such profiles. Concentration figures rank accounts into 100 equal-count buckets.",
+   "values": {
+    "p50": 617.0,
+    "p90": 6654.0,
+    "p99": 1522437.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "followers",
+   "notes": "Snapshot captured 3 July 2026, published under CC BY 4.0. Top 1% of accounts hold 94.6% of all followers in the dataset. The publisher states explicitly that this is not a random sample of all of Instagram: the set is skewed toward searched, tracked and frequently-referenced accounts (2,021,740 mapped follow relationships, 1,505 accounts under active tracking). It does not state p99.9 or a mean."
+  }
+ ],
+ "definition": "Follower count of Instagram profiles held in Lurk's own cached-profiles store (its live follow-graph), restricted to profiles with a known positive follower count. Percentiles computed exactly (percentile_cont) over all such profiles. Concentration figures rank accounts into 100 equal-count buckets.",
+ "derived_points": [],
+ "caveat": "No national statistics office, UN agency, Meta disclosure or peer-reviewed paper publishes the follower distribution of all Instagram accounts; Meta does not release it and researchers cannot enumerate users (a 2014 Arizona State crawl of 1 million users, arXiv 1410.8099, publishes only log-log plots, no quantiles). The two usable sources are companies that hold their own account data and both samples are non-random. Lurk's set over-represents searched and tracked accounts and gives p99 of 1,522,437 followers; Mention's set is active posting accounts seen by a brand-monitoring tool, and its brackets place the top 1% boundary between 500,000 and 1,000,000 followers. A true random sample of every registered account, including inactive, private and spam accounts, would have a substantially lower 99th percentile than either figure. Treat any published value as describing visible, active public accounts rather than all Instagram accounts.",
+ "status": "queued",
+ "added": "2026-10-14",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Instagram follower count",
+  "short": "IG followers",
+  "unit": "followers",
+  "direction": "high",
+  "format": "count",
+  "metric_phrase": "an Instagram follower count",
+  "base_noun": "Instagram accounts",
+  "definition": "The number of accounts following a given public Instagram account, as displayed on its profile, across accounts observed on the platform.",
+  "phrasings": [
+   "how many Instagram followers puts you in the top 1% of accounts",
+   "how many Instagram followers is top 1 percent",
+   "what percentile is my Instagram follower count",
+   "how many Instagram followers does the average account have",
+   "median Instagram followers",
+   "is 10k Instagram followers a lot",
+   "how many followers do you need to be in the top 10% on Instagram",
+   "Instagram follower count percentile",
+   "what percent of Instagram accounts have over 1 million followers",
+   "how many followers makes you a top Instagram account"
+  ],
+  "activity": "instagram_accounts",
+  "activity_label": "who have an Instagram account",
+  "id": "instagram_followers"
+ }
+}

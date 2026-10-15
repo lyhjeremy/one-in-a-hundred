@@ -1,0 +1,25 @@
+{
+ "label": "Nightly sleep duration",
+ "short": "Sleep",
+ "unit": "hours",
+ "direction": "high",
+ "format": "number_1dp",
+ "metric_phrase": "a nightly sleep duration",
+ "base_noun": "adults",
+ "definition": "Hours of sleep obtained in a typical night, measured by a wrist accelerometer over at least three nights (self-reported figures run longer).",
+ "phrasings": [
+  "how many hours of sleep does the median adult get",
+  "average hours of sleep per night for adults",
+  "how much sleep do most adults get",
+  "typical adult sleep duration",
+  "how many hours do people sleep",
+  "what percent of adults sleep less than 7 hours",
+  "is 6 hours of sleep below average",
+  "how much sleep does the average person get a night",
+  "median sleep time adults",
+  "top 10% sleep duration"
+ ],
+ "activity": null,
+ "activity_label": null,
+ "id": "sleep_hours_nightly"
+}

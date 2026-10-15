@@ -4,7 +4,7 @@ _v0.3, 2026-10-14. Live at https://lyhjeremy.github.io/one-in-a-hundred/_
 
 ## The result
 
-913 percentile facts across 20 countries and the world, from 22 sources, each with a URL and an access date, graded A to D by how much independent sources agree. Three facts reach A (life expectancy across countries, where the UN and WHO agree within 3%); 906 are B, because for a given definition official statistics tend to have one producer; 4 are D, researched automatically from seed questions and not yet reviewed. 103 facts carry a time series back to 1980 (income and wealth) or 1989 (height cohorts). The rules parser that turns a typed question into (group, measure, percentile) scores 90.5% exact-triple accuracy on a frozen 200-question gold set (`eval/results.md`); the LLM parser's score is filled in once the Worker is deployed.
+918 percentile facts across 20 countries and the world, from 31 sources, each with a URL and an access date, graded A to D by how much independent sources agree. Three facts reach A (life expectancy across countries, where the UN and WHO agree within 3%); 906 are B, because for a given definition official statistics tend to have one producer; 9 are D, researched automatically from seed questions and not yet reviewed. 103 facts carry a time series back to 1980 (income and wealth) or 1989 (height cohorts). The rules parser that turns a typed question into (group, measure, percentile) scores 90.5% exact-triple accuracy on a frozen 200-question gold set (`eval/results.md`); the LLM parser's score is filled in once the Worker is deployed.
 
 ## The claim that started it
 

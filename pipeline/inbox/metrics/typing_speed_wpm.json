@@ -1,0 +1,25 @@
+{
+ "label": "Typing speed",
+ "short": "Typing",
+ "unit": "wpm",
+ "direction": "high",
+ "format": "number",
+ "metric_phrase": "a typing speed",
+ "base_noun": "online typing-test takers",
+ "definition": "Words per minute on a transcription typing test, where one word is five characters including spaces, measured over a timed test or fixed set of sentences on a physical keyboard.",
+ "phrasings": [
+  "typing speed",
+  "words per minute",
+  "wpm",
+  "how fast do people type",
+  "what is a good typing speed",
+  "average typing speed",
+  "typing speed top 1%",
+  "typing test wpm percentile",
+  "how many words per minute is fast",
+  "typing speed percentile"
+ ],
+ "activity": "typing_test_takers",
+ "activity_label": "who take online typing tests",
+ "id": "typing_speed_wpm"
+}

@@ -119,6 +119,20 @@
    ],
    "activity": "marathon_finishers"
   },
+  "half_marathon_time": {
+   "label": "Half marathon time",
+   "phrasings": [
+    "half marathon time",
+    "half marathon",
+    "half-marathon",
+    "half",
+    "13.1",
+    "21k",
+    "21 km",
+    "21.1"
+   ],
+   "activity": "half_marathon_finishers"
+  },
   "fivek_time": {
    "label": "5 km time",
    "phrasings": [
@@ -205,6 +219,70 @@
     "how many push ups is elite"
    ],
    "activity": "soldiers"
+  },
+  "instagram_followers": {
+   "label": "Instagram follower count",
+   "phrasings": [
+    "how many Instagram followers puts you in the top 1% of accounts",
+    "how many Instagram followers is top 1 percent",
+    "what percentile is my Instagram follower count",
+    "how many Instagram followers does the average account have",
+    "median Instagram followers",
+    "is 10k Instagram followers a lot",
+    "how many followers do you need to be in the top 10% on Instagram",
+    "Instagram follower count percentile",
+    "what percent of Instagram accounts have over 1 million followers",
+    "how many followers makes you a top Instagram account"
+   ],
+   "activity": "instagram_accounts"
+  },
+  "reading_speed_wpm": {
+   "label": "Silent reading speed",
+   "phrasings": [
+    "reading speed words per minute",
+    "how fast do people read wpm",
+    "average reading speed for adults",
+    "what reading speed is top 1 percent",
+    "is 400 wpm a fast reading speed",
+    "words per minute reading percentile",
+    "how many words per minute does the average person read",
+    "fast reader wpm",
+    "silent reading rate adults",
+    "reading wpm compared to other people"
+   ],
+   "activity": null
+  },
+  "sleep_hours_nightly": {
+   "label": "Nightly sleep duration",
+   "phrasings": [
+    "how many hours of sleep does the median adult get",
+    "average hours of sleep per night for adults",
+    "how much sleep do most adults get",
+    "typical adult sleep duration",
+    "how many hours do people sleep",
+    "what percent of adults sleep less than 7 hours",
+    "is 6 hours of sleep below average",
+    "how much sleep does the average person get a night",
+    "median sleep time adults",
+    "top 10% sleep duration"
+   ],
+   "activity": null
+  },
+  "typing_speed_wpm": {
+   "label": "Typing speed",
+   "phrasings": [
+    "typing speed",
+    "words per minute",
+    "wpm",
+    "how fast do people type",
+    "what is a good typing speed",
+    "average typing speed",
+    "typing speed top 1%",
+    "typing test wpm percentile",
+    "how many words per minute is fast",
+    "typing speed percentile"
+   ],
+   "activity": "typing_test_takers"
   }
  },
  "activities": {
@@ -214,7 +292,9 @@
   "fivek_finishers": "who finished a 5 km run",
   "chess_players": "who hold a FIDE rating",
   "powerlifters": "who compete in powerlifting",
-  "soldiers": "who are US Army soldiers"
+  "soldiers": "who are US Army soldiers",
+  "instagram_accounts": "who have an Instagram account",
+  "typing_test_takers": "who take online typing tests"
  },
  "countries": {
   "US": "United States",

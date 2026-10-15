@@ -1,0 +1,25 @@
+{
+ "label": "Instagram follower count",
+ "short": "IG followers",
+ "unit": "followers",
+ "direction": "high",
+ "format": "count",
+ "metric_phrase": "an Instagram follower count",
+ "base_noun": "Instagram accounts",
+ "definition": "The number of accounts following a given public Instagram account, as displayed on its profile, across accounts observed on the platform.",
+ "phrasings": [
+  "how many Instagram followers puts you in the top 1% of accounts",
+  "how many Instagram followers is top 1 percent",
+  "what percentile is my Instagram follower count",
+  "how many Instagram followers does the average account have",
+  "median Instagram followers",
+  "is 10k Instagram followers a lot",
+  "how many followers do you need to be in the top 10% on Instagram",
+  "Instagram follower count percentile",
+  "what percent of Instagram accounts have over 1 million followers",
+  "how many followers makes you a top Instagram account"
+ ],
+ "activity": "instagram_accounts",
+ "activity_label": "who have an Instagram account",
+ "id": "instagram_followers"
+}

@@ -132,6 +132,103 @@
   }
  },
  {
+  "id": "instagram_followers.world.all.instagram_accounts.2026",
+  "metric": "instagram_followers",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "all",
+   "age_band": null,
+   "activity": "instagram_accounts",
+   "source_category": null
+  },
+  "year": 2026,
+  "n": null,
+  "n_source": null,
+  "direction": "high",
+  "unit": "followers",
+  "grid": {
+   "p50": 617.0,
+   "p90": 6654.0,
+   "p99": 1522437.0
+  },
+  "sources": [
+   {
+    "id": "src-q-lurk-data-drop-instagram-follower-concen",
+    "name": "Lurk data drop: Instagram follower concentration",
+    "url": "https://getlurk.app/data-drop/stat/instagram-follower-concentration",
+    "accessed": "2026-10-14",
+    "measures": "Follower count of Instagram profiles held in Lurk's own cached-profiles store (its live follow-graph), restricted to profiles with a known positive follower count. Percentiles computed exactly (percentile_cont) over all such profiles. Concentration figures rank accounts into 100 equal-count buckets.",
+    "values": {
+     "p50": 617.0,
+     "p90": 6654.0,
+     "p99": 1522437.0
+    },
+    "independent_of": [],
+    "official": false,
+    "unit_as_published": "followers",
+    "notes": "Snapshot captured 3 July 2026, published under CC BY 4.0. Top 1% of accounts hold 94.6% of all followers in the dataset. The publisher states explicitly that this is not a random sample of all of Instagram: the set is skewed toward searched, tracked and frequently-referenced accounts (2,021,740 mapped follow relationships, 1,505 accounts under active tracking). It does not state p99.9 or a mean."
+   }
+  ],
+  "definition": "Follower count of Instagram profiles held in Lurk's own cached-profiles store (its live follow-graph), restricted to profiles with a known positive follower count. Percentiles computed exactly (percentile_cont) over all such profiles. Concentration figures rank accounts into 100 equal-count buckets.",
+  "derived_points": [],
+  "caveat": "No national statistics office, UN agency, Meta disclosure or peer-reviewed paper publishes the follower distribution of all Instagram accounts; Meta does not release it and researchers cannot enumerate users (a 2014 Arizona State crawl of 1 million users, arXiv 1410.8099, publishes only log-log plots, no quantiles). The two usable sources are companies that hold their own account data and both samples are non-random. Lurk's set over-represents searched and tracked accounts and gives p99 of 1,522,437 followers; Mention's set is active posting accounts seen by a brand-monitoring tool, and its brackets place the top 1% boundary between 500,000 and 1,000,000 followers. A true random sample of every registered account, including inactive, private and spam accounts, would have a substantially lower 99th percentile than either figure. Treat any published value as describing visible, active public accounts rather than all Instagram accounts.",
+  "status": "queued",
+  "added": "2026-10-14",
+  "questions_n": 1,
+  "new_metric": {
+   "label": "Instagram follower count",
+   "short": "IG followers",
+   "unit": "followers",
+   "direction": "high",
+   "format": "count",
+   "metric_phrase": "an Instagram follower count",
+   "base_noun": "Instagram accounts",
+   "definition": "The number of accounts following a given public Instagram account, as displayed on its profile, across accounts observed on the platform.",
+   "phrasings": [
+    "how many Instagram followers puts you in the top 1% of accounts",
+    "how many Instagram followers is top 1 percent",
+    "what percentile is my Instagram follower count",
+    "how many Instagram followers does the average account have",
+    "median Instagram followers",
+    "is 10k Instagram followers a lot",
+    "how many followers do you need to be in the top 10% on Instagram",
+    "Instagram follower count percentile",
+    "what percent of Instagram accounts have over 1 million followers",
+    "how many followers makes you a top Instagram account"
+   ],
+   "activity": "instagram_accounts",
+   "activity_label": "who have an Instagram account",
+   "id": "instagram_followers"
+  },
+  "grade": "D",
+  "reason": "Researched automatically on 2026-10-14; not yet checked by a person.",
+  "range": {
+   "p50": [
+    617.0,
+    617.0
+   ],
+   "p90": [
+    6654.0,
+    6654.0
+   ],
+   "p99": [
+    1522437.0,
+    1522437.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0,
+   "p99": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 1,
+   "p99": 1
+  }
+ },
+ {
   "id": "iq_score.world.all.2020",
   "metric": "iq_score",
   "population": {
@@ -405,6 +502,323 @@
    "p50": 3,
    "p90": 3,
    "p99": 3
+  }
+ },
+ {
+  "id": "reading_speed_wpm.world.all.18-60.2019",
+  "metric": "reading_speed_wpm",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "all",
+   "age_band": "18-60",
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2019,
+  "n": null,
+  "n_source": null,
+  "direction": "high",
+  "unit": "wpm",
+  "grid": {
+   "p50": 235.0
+  },
+  "sources": [
+   {
+    "id": "src-q-brysbaert-2019-how-many-words-do-we-read",
+    "name": "Brysbaert (2019), How many words do we read per minute? A review and meta-analysis of reading rate, Journal of Memory and Language 109:104047",
+    "url": "https://doi.org/10.1016/j.jml.2019.104047",
+    "accessed": "2026-10-14",
+    "measures": "Mean silent reading rate of healthy adult native speakers aged 17-60 reading normal text for comprehension, pooled across 190 published studies (1901-2019, mostly English, predominantly university students). Unweighted random-effects mean of study-level means. Words counted as published by each study (no character normalisation).",
+    "values": {
+     "p50": 235.0
+    },
+    "independent_of": [],
+    "official": false,
+    "unit_as_published": "words per minute (wpm)",
+    "notes": "238 wpm is the unweighted mean across studies (95% CI 230-246); 235 is the MEDIAN OF STUDY MEANS, not a person-level median. SD 51.2 is the between-study SD of study means, not the between-person SD. Weighted subset (87 studies, 10,201 participants, with reported SDs): mean 247.5 wpm, SD 47.4. Mean for fiction 260 wpm, non-fiction 238 wpm. Paper states 'most adults fall in the range of 175-300 wpm' for non-fiction and '200-320 wpm' for fiction; this is a descriptive range, not a stated percentile. Largest single study inside the meta-analysis: Taylor (1965), 12,143 readers grades 1 to college, college students 280 wpm. No percentile table of individual readers is published. Full text read from the author-archived PDF (gwern.net/doc/psychology/linguistics/2019-brysbaert.pdf); data at https://osf.io/3wfas/."
+   }
+  ],
+  "definition": "Mean silent reading rate of healthy adult native speakers aged 17-60 reading normal text for comprehension, pooled across 190 published studies (1901-2019, mostly English, predominantly university students). Unweighted random-effects mean of study-level means. Words counted as published by each study (no character normalisation).",
+  "derived_points": [],
+  "caveat": "No credible source publishes a 99th percentile (or any percentile) of adult silent reading speed; the best sources give only means, between-study SDs, and descriptive ranges, so a top-1% value cannot be reported without deriving it. Measurement is not standardised: Brysbaert's pooled figure mixes short one-minute tests and hour-long texts, counts 'words' as each study did (English word ~4.6-5.1 letters), and covers native-speaking adults 17-60 who are mostly university students (WEIRD samples), not all adults worldwide. The only person-level SD (260 ± 87 wpm) comes from 48 self-selected highly educated book readers. Bookmate data are Russian-language and truncated above 300 wpm. Comprehension is only loosely controlled; speed without comprehension (skimming, RSVP) can reach 790-1652 wpm in lab tests (Rubin & Turano 1992, n=9) but is a different construct. Rayner et al. 2016 argue rates above roughly 500-750 wpm are not compatible with normal comprehension.",
+  "status": "queued",
+  "added": "2026-10-14",
+  "questions_n": 1,
+  "new_metric": {
+   "label": "Silent reading speed",
+   "short": "reading speed",
+   "unit": "wpm",
+   "direction": "high",
+   "format": "number",
+   "metric_phrase": "a silent reading speed",
+   "base_noun": "adult readers",
+   "definition": "Words per minute read silently, with comprehension, when reading ordinary continuous text at one's normal pace.",
+   "phrasings": [
+    "reading speed words per minute",
+    "how fast do people read wpm",
+    "average reading speed for adults",
+    "what reading speed is top 1 percent",
+    "is 400 wpm a fast reading speed",
+    "words per minute reading percentile",
+    "how many words per minute does the average person read",
+    "fast reader wpm",
+    "silent reading rate adults",
+    "reading wpm compared to other people"
+   ],
+   "activity": null,
+   "activity_label": null,
+   "id": "reading_speed_wpm"
+  },
+  "grade": "D",
+  "reason": "Researched automatically on 2026-10-14; not yet checked by a person.",
+  "range": {
+   "p50": [
+    235.0,
+    235.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0
+  },
+  "n_sources": {
+   "p50": 1
+  }
+ },
+ {
+  "id": "sleep_hours_nightly.us.all.18plus.2013",
+  "metric": "sleep_hours_nightly",
+  "population": {
+   "base": "country",
+   "country": "US",
+   "sex": "all",
+   "age_band": "18+",
+   "activity": null,
+   "source_category": null
+  },
+  "year": 2013,
+  "n": null,
+  "n_source": null,
+  "direction": "high",
+  "unit": "hours",
+  "grid": {
+   "p10": 6.52,
+   "p25": 7.18,
+   "p50": 7.83,
+   "p75": 8.62,
+   "p90": 9.155
+  },
+  "sources": [
+   {
+    "id": "src-q-epidemiology-of-accelerometer-based-slee",
+    "name": "Epidemiology of accelerometer-based sleep parameters in US school-aged children and adults: NHANES 2011-2014 (Sleep Health, 2022, PMC9090869)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9090869/",
+    "accessed": "2026-10-15",
+    "measures": "Device-measured nightly sleep duration: duration of the sleep period time window (longest sleep block in each noon-to-noon day) minus summed wake bouts, from an ActiGraph GT3X+ worn on the wrist for 7 days; participants needed at least 3 valid days; nights under 3 h or over 15 h excluded. NHANES 2011-2012 and 2013-2014 cycles, 4-year survey weights.",
+    "values": {
+     "p10": 6.54,
+     "p25": 7.18,
+     "p50": 7.83,
+     "p75": 8.62,
+     "p90": 9.41
+    },
+    "independent_of": [],
+    "official": false,
+    "unit_as_published": "hours (decimal)",
+    "notes": "No all-adult median is published; Table 2 gives percentiles per adult age band only. The values above are the 46-55 band (n=1313), chosen because NHANES adult mean age is about 48. Full table, 5th/10th/25th/50th/75th/90th in hours: 18-25 (n=1047) 6.53/6.98/7.50/8.22/8.97/9.51; 26-35 (n=1148) 6.43/6.78/7.37/8.01/8.78/9.42; 36-45 (n=1277) 6.27/6.65/7.28/7.90/8.54/9.32; 46-55 (n=1313) 6.21/6.54/7.18/7.83/8.62/9.41; 56-65 (n=1385) 5.98/6.52/7.19/7.91/8.71/9.51; 66-75 (n=1011) 6.38/6.79/7.44/8.24/9.14/9.94; 76+ (n=742) 6.46/6.80/7.53/8.26/9.10/9.85. Adult medians therefore span 7.83 to 8.26 h. Whole-sample mean including children aged 6+ is 8.19 h (SE 0.02). n is the sum of the adult bands (7,923); total sample 11,279. Accelerometer sleep period time tends to run longer than polysomnography-measured sleep."
+   },
+   {
+    "id": "src-q-tracking-the-night-measuring-age-and-sex",
+    "name": "Tracking the night: measuring age and sex patterns in sleep duration using wearable technology (Sleep, 2026)",
+    "url": "https://academic.oup.com/sleep/advance-article-abstract/doi/10.1093/sleep/zsag130/8677396",
+    "accessed": "2026-10-15",
+    "measures": "Longest continuous nighttime sleep period between 6 pm and 6 am as recorded by a Samsung Galaxy Watch, averaged per person over February to April 2023; US adults aged 20-69 with at least 20 valid weekdays and 8 valid weekend days.",
+    "values": {
+     "p10": 6.5,
+     "p90": 8.9
+    },
+    "independent_of": [],
+    "official": false,
+    "unit_as_published": "hours",
+    "notes": "Median not reported in the available abstract text. Overall mean 7.57 h (7 h 34 min); 10th to 90th percentile 6.5 to 8.9 h; 23.0% sleep under 7 h. SD reported by sex only: women 1.61 h, men 1.54 h; women sleep 18 min more than men on average. Age-band means: 40-49 shortest at 7.54 h, 60-69 longest at 7.75 h. Sample is gated on owning and wearing a Samsung watch, so not population-representative."
+   }
+  ],
+  "definition": "Device-measured nightly sleep duration: duration of the sleep period time window (longest sleep block in each noon-to-noon day) minus summed wake bouts, from an ActiGraph GT3X+ worn on the wrist for 7 days; participants needed at least 3 valid days; nights under 3 h or over 15 h excluded. NHANES 2011-2012 and 2013-2014 cycles, 4-year survey weights.",
+  "derived_points": [],
+  "caveat": "No source publishes a single median for all adults. The only published medians are device-measured NHANES values by adult age band (7.83 to 8.26 h, 2011-2014); the 46-55 band is shown as representative. Wearable and under-mattress datasets (Samsung, Withings) give means around 7.1 to 7.6 h and are gated on owning the device. Self-reported means are 7.0 to 7.6 h on workdays, and the BLS time-diary average of 9.03 h counts time in bed, naps and wakefulness, so it is not comparable. The question names no country; US data were used because they are the only ones with published percentiles, while the world-level source gives a mean and SD only. All sources are independent of one another.",
+  "status": "queued",
+  "added": "2026-10-15",
+  "questions_n": 1,
+  "new_metric": {
+   "label": "Nightly sleep duration",
+   "short": "Sleep",
+   "unit": "hours",
+   "direction": "high",
+   "format": "number_1dp",
+   "metric_phrase": "a nightly sleep duration",
+   "base_noun": "adults",
+   "definition": "Hours of sleep obtained in a typical night, measured by a wrist accelerometer over at least three nights (self-reported figures run longer).",
+   "phrasings": [
+    "how many hours of sleep does the median adult get",
+    "average hours of sleep per night for adults",
+    "how much sleep do most adults get",
+    "typical adult sleep duration",
+    "how many hours do people sleep",
+    "what percent of adults sleep less than 7 hours",
+    "is 6 hours of sleep below average",
+    "how much sleep does the average person get a night",
+    "median sleep time adults",
+    "top 10% sleep duration"
+   ],
+   "activity": null,
+   "activity_label": null,
+   "id": "sleep_hours_nightly"
+  },
+  "grade": "D",
+  "reason": "Researched automatically on 2026-10-15; not yet checked by a person.",
+  "range": {
+   "p50": [
+    7.83,
+    7.83
+   ],
+   "p90": [
+    8.9,
+    9.41
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.0557
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 2
+  }
+ },
+ {
+  "id": "typing_speed_wpm.world.all.typing_test_takers.2018",
+  "metric": "typing_speed_wpm",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "all",
+   "age_band": null,
+   "activity": "typing_test_takers",
+   "source_category": null
+  },
+  "year": 2018,
+  "n": null,
+  "n_source": null,
+  "direction": "high",
+  "unit": "wpm",
+  "grid": {
+   "p10": 26.0,
+   "p90": 69.0,
+   "p50": 49.7,
+   "p99.9": 120.0
+  },
+  "sources": [
+   {
+    "id": "src-q-dhakal-feit-kristensson-oulasvirta-2018",
+    "name": "Dhakal, Feit, Kristensson & Oulasvirta (2018), Observations on Typing from 136 Million Keystrokes, CHI 2018",
+    "url": "https://www.pokristensson.com/pubs/DhakalEtAlCHI2018.pdf",
+    "accessed": "2026-10-14",
+    "measures": "Words per minute on a transcription task of 15 English sentences in an online study hosted with a commercial typing-test site. WPM = (characters in the transcribed string / 5) / minutes from first to last keypress, averaged over sentences. Participants self-selected; 12% excluded for uncorrected error rate above 25% or technical problems. Sample mostly young (mean age 24.5, 75% aged 11-30), 68% from the US, 85% native English speakers, 72% had taken a typing course.",
+    "values": {
+     "p10": 26.0,
+     "p90": 78.0
+    },
+    "independent_of": [],
+    "official": false,
+    "unit_as_published": "words per minute (WPM)",
+    "notes": "Paper gives mean 51.56 and SD 20.20 for all participants, and defines 'fast typists' as above approx. 78 WPM (faster than 90% of participants) and 'slow typists' as below approx. 26 WPM (slowest 10%). Fast-typist group: mean 89.56, SD 9.53. No p99 is published; the text says the fastest typists reach 120 WPM or more. Distribution described as slightly positively skewed (skewness 0.513, kurtosis -0.11). Data collected over three months in 2016-2017; paper published April 2018. Aalto project page and Cambridge/Aalto news releases repeat these figures and are not independent."
+   },
+   {
+    "id": "src-q-typelit-io-the-state-of-typing-updated-1",
+    "name": "TypeLit.io, The State of Typing (updated 16 April 2026)",
+    "url": "https://www.typelit.io/state-of-typing",
+    "accessed": "2026-10-14",
+    "measures": "Per-user average WPM from real typing sessions on TypeLit.io, where users transcribe passages from classic books in 9 languages. Includes users with at least 5 pages typed; users averaging above 150 WPM excluded from most aggregates. Word definition not stated.",
+    "values": {
+     "p50": 49.7,
+     "p99.9": 120.0
+    },
+    "independent_of": [],
+    "official": false,
+    "unit_as_published": "words per minute (WPM)",
+    "notes": "Published as threshold shares, not percentiles: 29.9% of users above 60 WPM, 7.3% above 80, 1.3% above 100, 0.1% at 120 or above. The non-standard keys above restate those thresholds as the implied percentile rank (e.g. 100 WPM is exceeded by 1.3% of users). No explicit p99 given. Distribution described as resembling log-normal with a long right tail. Sample is self-selected typing practice users; n stated as '30,000+'."
+   },
+   {
+    "id": "src-q-fastfingers-net-average-typing-speed-sta",
+    "name": "Fastfingers.net, Average Typing Speed & Statistics",
+    "url": "https://fastfingers.net/typing-speed-statistics",
+    "accessed": "2026-10-14",
+    "measures": "Per-test WPM across 7,204,168 timed typing tests on the site (98% are 60-second tests), all languages combined; Indonesian (2.1M tests) and English (2.1M tests) dominate. Scores outside 1-250 WPM excluded. Word definition not stated. Numbers refreshed periodically; no reference date given beyond the 2026 page footer.",
+    "values": {
+     "p90": 60.0
+    },
+    "independent_of": [],
+    "official": false,
+    "unit_as_published": "words per minute (WPM)",
+    "notes": "Published as bins: 0-19 WPM 15%; 20-39 48%; 40-59 28%; 60-79 8%; 80-99 2%; 100+ 0% (rounded). Page states 10% of tests are 60+ WPM, hence p90 = 60; 2% at 80 or above, hence p98 ≈ 80. English-only average is 33 WPM. Top recorded score 238 WPM. No p99 published; the 100+ bin rounds to 0%, so p99 lies in the 80-99 band on this sample."
+   }
+  ],
+  "definition": "Words per minute on a transcription task of 15 English sentences in an online study hosted with a commercial typing-test site. WPM = (characters in the transcribed string / 5) / minutes from first to last keypress, averaged over sentences. Participants self-selected; 12% excluded for uncorrected error rate above 25% or technical problems. Sample mostly young (mean age 24.5, 75% aged 11-30), 68% from the US, 85% native English speakers, 72% had taken a typing course.",
+  "derived_points": [],
+  "caveat": "No source publishes an explicit 99th-percentile typing speed. The best academic source (Dhakal et al. 2018, n=168,960) gives mean 51.56 WPM, SD 20.2, and a 90th percentile of about 78 WPM, with the fastest typists at 120+ WPM. Platform data place the top-1% cutoff between roughly 80 WPM (Ratatype, Fastfingers, per-test, large share of beginners and non-English tests) and about 100 WPM (TypeLit, per-user, 1.3% exceed 100). All samples are self-selected online typing-test or typing-practice users, skewed young and towards people interested in typing, not the general population. Per-test and per-user figures differ, test length and error handling vary by site, and the question gives no country, sex or age, so world/all is assumed.",
+  "status": "queued",
+  "added": "2026-10-14",
+  "questions_n": 1,
+  "new_metric": {
+   "label": "Typing speed",
+   "short": "Typing",
+   "unit": "wpm",
+   "direction": "high",
+   "format": "number",
+   "metric_phrase": "a typing speed",
+   "base_noun": "online typing-test takers",
+   "definition": "Words per minute on a transcription typing test, where one word is five characters including spaces, measured over a timed test or fixed set of sentences on a physical keyboard.",
+   "phrasings": [
+    "typing speed",
+    "words per minute",
+    "wpm",
+    "how fast do people type",
+    "what is a good typing speed",
+    "average typing speed",
+    "typing speed top 1%",
+    "typing test wpm percentile",
+    "how many words per minute is fast",
+    "typing speed percentile"
+   ],
+   "activity": "typing_test_takers",
+   "activity_label": "who take online typing tests",
+   "id": "typing_speed_wpm"
+  },
+  "grade": "D",
+  "reason": "Researched automatically on 2026-10-14; not yet checked by a person.",
+  "range": {
+   "p50": [
+    49.7,
+    49.7
+   ],
+   "p90": [
+    60.0,
+    78.0
+   ],
+   "p99.9": [
+    120.0,
+    120.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0,
+   "p90": 0.2609,
+   "p99.9": 0.0
+  },
+  "n_sources": {
+   "p50": 1,
+   "p90": 2,
+   "p99.9": 1
   }
  }
 ]

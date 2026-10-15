@@ -1,0 +1,79 @@
+{
+ "id": "half_marathon_time.world.all.half_marathon_finishers.2024",
+ "metric": "half_marathon_time",
+ "population": {
+  "base": "world",
+  "country": null,
+  "sex": "all",
+  "age_band": null,
+  "activity": "half_marathon_finishers",
+  "source_category": null
+ },
+ "year": 2024,
+ "n": null,
+ "n_source": null,
+ "direction": "low",
+ "unit": "seconds",
+ "grid": {
+  "p1": 5155.5,
+  "p10": 6470.0,
+  "p50": 8120.0,
+  "p90": 10751.0
+ },
+ "sources": [
+  {
+   "id": "src-q-runrepeat-runner-s-percentile-calculator",
+   "name": "RunRepeat, Runner's percentile calculator (half marathon tables, all / men / women)",
+   "url": "https://runrepeat.com/how-do-you-masure-up-the-runners-percentile-calculator",
+   "accessed": "2026-10-14",
+   "measures": "Finish time of half marathon finishers, all ages pooled, in a percentile table where the 1st percentile is the fastest 1%. Dataset described as about 35 million results from more than 28,000 races collected over the last 20 years, across all distances; races, countries and timing method (chip vs gun) not named; methodology not described. Author Vania Nikolova.",
+   "values": {
+    "p1": 5039.0,
+    "p10": 6430.0,
+    "p50": 8099.0,
+    "p90": 10758.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "h:mm:ss",
+   "notes": "Values given here in seconds only to satisfy the numeric field; as published, all runners: 1st 01:23:59, 10th 01:47:10, 20th 01:56:12, 30th 02:02:48, 40th 02:08:54, 50th 02:14:59, 60th 02:21:42, 70th 02:29:48, 80th 02:41:05, 90th 02:59:18. Men: 1st 01:18:37, 10th 01:40:35, 20th 01:49:13, 30th 01:55:03, 40th 01:58:16, 50th 01:59:48, 60th 02:09:58, 70th 02:16:31, 80th 02:25:57, 90th 02:42:48. Women: 1st 01:35:55, 10th 01:57:01, 20th 02:05:58, 30th 02:12:25, 40th 02:18:10, 50th 02:24:03, 60th 02:30:44, 70th 02:39:05, 80th 02:50:31, 90th 03:08:21. Page first published 15 Nov 2017, last updated 1 Mar 2024; the pool spans roughly 2004-2024 rather than one reference year. The men's 40th to 60th rows (01:58:16, 01:59:48, 02:09:58) are unevenly spaced, which a third-party review flagged as a possible table error. Secondary sites (Runsy, Rundida, UpbeatRun, Runify, Brooks) repeat these numbers and are not independent of this source."
+  },
+  {
+   "id": "src-q-outside-run-outside-online-what-s-a-good",
+   "name": "Outside Run (Outside Online), 'What's a Good Half Marathon Time? Here's What the Latest Data Says' (author's compilation of 2024 US race results)",
+   "url": "https://run.outsideonline.com/road/road-racing/whats-a-good-half-marathon-time-heres-what-the-latest-data-says/",
+   "accessed": "2026-10-14",
+   "measures": "Finish times of about one million half marathon finishers in races across the United States in 2024, compiled by the article's author (data resource runningwithrock.com). Reports median by sex, and median, 25th/75th percentile, top 10% and top 5% thresholds by sex and ten-year age group (20-29 to 70-79). No top 1% figure.",
+   "values": {
+    "p50": 7980.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "h:mm:ss",
+   "notes": "Published 24 Sep 2025, updated 19 Jan 2026. Overall median stated only as 'about 2:13' (7980 s here is that rounded figure). Men's median 2:03:28, women's 2:21:42. n is the sum of the published age-group counts (men 548,270; women 618,015), ages 20-79 only. Top 10% by age group, men: 20-29 1:33:57, 30-39 1:34:31, 40-49 1:37:21, 50-59 1:42:25, 60-69 1:48:25, 70-79 1:59:33; women: 1:49:42, 1:49:52, 1:52:44, 1:58:13, 2:04:40, 2:20:36. Top 5% men 20-29 1:26:20, women 20-29 1:42:51. Also quotes NYRR half marathon qualifying standards (men 18-34 1:21:00, women 18-34 1:32:00) and says they correspond to roughly the top 2-3% in younger age groups. Journalist-compiled, not peer reviewed; access to the page is sometimes gated behind a login redirect."
+  },
+  {
+   "id": "src-q-san-francisco-marathon-half-marathon-res",
+   "name": "San Francisco Marathon half marathon results 2008-2021, open data analysis by Debarghya Das",
+   "url": "https://debarghyadas.com/writes/sanfrancisco-marathon-data/",
+   "accessed": "2026-10-14",
+   "measures": "Finish times of 135,944 finishers of the San Francisco Marathon's half marathon events, 2008-2021 (no race in 2020), scraped from the RunRaceResults hosting site. Percentiles published with 99% meaning the fastest 1%.",
+   "values": {
+    "p1": 5272.0,
+    "p10": 6510.0,
+    "p50": 8281.0,
+    "p90": 10744.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "h:mm:ss",
+   "notes": "Keys here follow the site's lower-is-better convention (p1 = fastest 1%). As published: 99% 1:27:52, 90% 1:48:30, median 2:18:01, 10% 2:59:04, 1% 3:44:25. Men (62,623): mean 2:13:55, median 2:10:03, best 1:03:54; women (73,330): mean 2:28:10, median 2:24:25, best 1:10:45. A single hilly race series, so slower than a national pool; personal-site analysis of the race's own results, not an official publication."
+  }
+ ],
+ "definition": "Finish time of half marathon finishers, all ages pooled, in a percentile table where the 1st percentile is the fastest 1%. Dataset described as about 35 million results from more than 28,000 races collected over the last 20 years, across all distances; races, countries and timing method (chip vs gun) not named; methodology not described. Author Vania Nikolova.",
+ "derived_points": [],
+ "caveat": "The only source that publishes a top 1% (fastest 1%) threshold for a large multi-race pool is RunRepeat (1:23:59 all finishers, 1:18:37 men, 1:35:55 women), and its methodology, race mix, countries and exact years are undisclosed; the pool spans about 20 years rather than one reference year and is likely US-heavy, so it is not a true world population. The 2024 US compilation reported by Outside stops at the top 5% and gives a slower overall median (about 2:13 vs 2:14:59), and a single race (San Francisco) puts its fastest 1% at 1:27:52, so a top 1% near 1:24-1:28 for mixed-sex finishers is consistent across sources. No national statistics office or peer-reviewed study publishes half marathon finish-time percentiles for all finishers; the question did not specify sex, country or age, so the combined-sex, all-ages figure is the match.",
+ "status": "queued",
+ "added": "2026-10-14",
+ "questions_n": 1
+}

@@ -34,7 +34,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 0.9,
@@ -53,7 +53,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -122,7 +122,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 0.9,
@@ -141,7 +141,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -210,7 +210,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 0.8,
@@ -229,7 +229,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -298,7 +298,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 0.8,
@@ -317,7 +317,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -386,7 +386,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 0.9,
@@ -405,7 +405,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -474,7 +474,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 0.8,
@@ -493,7 +493,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -562,7 +562,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 1.1,
@@ -581,7 +581,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -650,7 +650,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 1.1,
@@ -669,7 +669,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -738,7 +738,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 1.1,
@@ -757,7 +757,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -826,7 +826,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 1.1,
@@ -845,7 +845,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -914,7 +914,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 1.1,
@@ -933,7 +933,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -1002,7 +1002,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 1.0,
@@ -1021,7 +1021,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -1090,7 +1090,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.2,
      "p1": 1.6,
@@ -1109,7 +1109,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -1178,7 +1178,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.2,
      "p1": 1.7,
@@ -1197,7 +1197,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -1266,7 +1266,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.2,
      "p1": 1.6,
@@ -1285,7 +1285,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -1354,7 +1354,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 1.2,
@@ -1373,7 +1373,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -1442,7 +1442,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 1.2,
@@ -1461,7 +1461,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -1530,7 +1530,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 1.1,
@@ -1549,7 +1549,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -1618,7 +1618,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.0,
      "p1": 0.3,
@@ -1637,7 +1637,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -1706,7 +1706,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.0,
      "p1": 0.3,
@@ -1725,7 +1725,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -1794,7 +1794,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.0,
      "p1": 0.3,
@@ -1813,7 +1813,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -1882,7 +1882,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 1.0,
@@ -1901,7 +1901,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -1970,7 +1970,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 1.1,
@@ -1989,7 +1989,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -2058,7 +2058,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 1.0,
@@ -2077,7 +2077,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -2146,7 +2146,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 1.0,
@@ -2165,7 +2165,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -2234,7 +2234,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 1.0,
@@ -2253,7 +2253,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -2322,7 +2322,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 1.0,
@@ -2341,7 +2341,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -2410,7 +2410,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.2,
      "p1": 1.9,
@@ -2429,7 +2429,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -2498,7 +2498,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.2,
      "p1": 2.1,
@@ -2517,7 +2517,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -2586,7 +2586,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.2,
      "p1": 1.6,
@@ -2605,7 +2605,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -2674,7 +2674,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 0.7,
@@ -2693,7 +2693,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -2762,7 +2762,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 0.7,
@@ -2781,7 +2781,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -2850,7 +2850,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 0.6,
@@ -2869,7 +2869,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -2938,7 +2938,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 0.6,
@@ -2957,7 +2957,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -3026,7 +3026,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 0.6,
@@ -3045,7 +3045,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -3114,7 +3114,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 0.6,
@@ -3133,7 +3133,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -3202,7 +3202,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.2,
      "p1": 1.6,
@@ -3221,7 +3221,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -3290,7 +3290,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.2,
      "p1": 1.7,
@@ -3309,7 +3309,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -3378,7 +3378,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.2,
      "p1": 1.6,
@@ -3397,7 +3397,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -3466,7 +3466,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.0,
      "p1": 0.4,
@@ -3485,7 +3485,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -3554,7 +3554,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.0,
      "p1": 0.4,
@@ -3573,7 +3573,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -3642,7 +3642,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.0,
      "p1": 0.4,
@@ -3661,7 +3661,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -3730,7 +3730,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.2,
      "p1": 2.1,
@@ -3749,7 +3749,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -3818,7 +3818,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.2,
      "p1": 2.2,
@@ -3837,7 +3837,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -3906,7 +3906,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.2,
      "p1": 2.1,
@@ -3925,7 +3925,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -3994,7 +3994,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 0.7,
@@ -4013,7 +4013,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -4082,7 +4082,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 0.7,
@@ -4101,7 +4101,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -4170,7 +4170,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 0.6,
@@ -4189,7 +4189,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -4258,7 +4258,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.0,
      "p1": 0.3,
@@ -4277,7 +4277,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -4346,7 +4346,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.0,
      "p1": 0.3,
@@ -4365,7 +4365,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -4434,7 +4434,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.0,
      "p1": 0.3,
@@ -4453,7 +4453,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -4522,7 +4522,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 1.0,
@@ -4541,7 +4541,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -4610,7 +4610,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 1.1,
@@ -4629,7 +4629,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -4698,7 +4698,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 1.0,
@@ -4717,7 +4717,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -4786,7 +4786,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 1.2,
@@ -4805,7 +4805,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -4874,7 +4874,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 1.2,
@@ -4893,7 +4893,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -4962,7 +4962,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 1.2,
@@ -4981,7 +4981,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -5050,7 +5050,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 0.9,
@@ -5069,7 +5069,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -5138,7 +5138,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 1.0,
@@ -5157,7 +5157,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -5226,7 +5226,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 0.9,
@@ -5245,7 +5245,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -5314,7 +5314,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 0.6,
@@ -5333,7 +5333,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -5402,7 +5402,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 0.6,
@@ -5421,7 +5421,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -5490,7 +5490,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 0.1,
      "p1": 0.6,
@@ -5509,7 +5509,7 @@
   "caveat": null,
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (UN World Population Prospects 2024); no second source to compare.",
   "range": {
@@ -5578,7 +5578,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 54.5,
      "p1": 57.4,
@@ -5599,7 +5599,7 @@
     "independent_of": [
      "src-un-wpp-2024"
     ],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 52.7,
      "p1": 55.6,
@@ -5618,7 +5618,7 @@
   "caveat": "distribution across countries, one value per country",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "A",
   "reason": "2 independent sources agree within 3% at every shown percentile.",
   "range": {
@@ -5687,7 +5687,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 54.7,
      "p1": 59.3,
@@ -5708,7 +5708,7 @@
     "independent_of": [
      "src-un-wpp-2024"
     ],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 56.3,
      "p1": 59.0,
@@ -5727,7 +5727,7 @@
   "caveat": "distribution across countries, one value per country",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "A",
   "reason": "2 independent sources agree within 2% at every shown percentile.",
   "range": {
@@ -5796,7 +5796,7 @@
     "url": "https://population.un.org/wpp/",
     "measures": "population by single year of age and sex, medium variant, mid-2025",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 53.2,
      "p1": 54.6,
@@ -5817,7 +5817,7 @@
     "independent_of": [
      "src-un-wpp-2024"
     ],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 48.9,
      "p1": 52.7,
@@ -5836,7 +5836,7 @@
   "caveat": "distribution across countries, one value per country",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "A",
   "reason": "2 independent sources agree within 2% at every shown percentile.",
   "range": {

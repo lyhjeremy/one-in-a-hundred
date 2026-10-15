@@ -94,6 +94,100 @@
    ],
    "activity": "soldiers",
    "family": "more"
+  },
+  "instagram_followers": {
+   "label": "Instagram follower count",
+   "short": "IG followers",
+   "unit": "followers",
+   "direction": "high",
+   "format": "count",
+   "metric_phrase": "an Instagram follower count",
+   "base_noun": "Instagram accounts",
+   "definition": "The number of accounts following a given public Instagram account, as displayed on its profile, across accounts observed on the platform.",
+   "phrasings": [
+    "how many Instagram followers puts you in the top 1% of accounts",
+    "how many Instagram followers is top 1 percent",
+    "what percentile is my Instagram follower count",
+    "how many Instagram followers does the average account have",
+    "median Instagram followers",
+    "is 10k Instagram followers a lot",
+    "how many followers do you need to be in the top 10% on Instagram",
+    "Instagram follower count percentile",
+    "what percent of Instagram accounts have over 1 million followers",
+    "how many followers makes you a top Instagram account"
+   ],
+   "activity": "instagram_accounts",
+   "family": "more"
+  },
+  "reading_speed_wpm": {
+   "label": "Silent reading speed",
+   "short": "reading speed",
+   "unit": "wpm",
+   "direction": "high",
+   "format": "number",
+   "metric_phrase": "a silent reading speed",
+   "base_noun": "adult readers",
+   "definition": "Words per minute read silently, with comprehension, when reading ordinary continuous text at one's normal pace.",
+   "phrasings": [
+    "reading speed words per minute",
+    "how fast do people read wpm",
+    "average reading speed for adults",
+    "what reading speed is top 1 percent",
+    "is 400 wpm a fast reading speed",
+    "words per minute reading percentile",
+    "how many words per minute does the average person read",
+    "fast reader wpm",
+    "silent reading rate adults",
+    "reading wpm compared to other people"
+   ],
+   "family": "more"
+  },
+  "sleep_hours_nightly": {
+   "label": "Nightly sleep duration",
+   "short": "Sleep",
+   "unit": "hours",
+   "direction": "high",
+   "format": "number_1dp",
+   "metric_phrase": "a nightly sleep duration",
+   "base_noun": "adults",
+   "definition": "Hours of sleep obtained in a typical night, measured by a wrist accelerometer over at least three nights (self-reported figures run longer).",
+   "phrasings": [
+    "how many hours of sleep does the median adult get",
+    "average hours of sleep per night for adults",
+    "how much sleep do most adults get",
+    "typical adult sleep duration",
+    "how many hours do people sleep",
+    "what percent of adults sleep less than 7 hours",
+    "is 6 hours of sleep below average",
+    "how much sleep does the average person get a night",
+    "median sleep time adults",
+    "top 10% sleep duration"
+   ],
+   "family": "more"
+  },
+  "typing_speed_wpm": {
+   "label": "Typing speed",
+   "short": "Typing",
+   "unit": "wpm",
+   "direction": "high",
+   "format": "number",
+   "metric_phrase": "a typing speed",
+   "base_noun": "online typing-test takers",
+   "definition": "Words per minute on a transcription typing test, where one word is five characters including spaces, measured over a timed test or fixed set of sentences on a physical keyboard.",
+   "phrasings": [
+    "typing speed",
+    "words per minute",
+    "wpm",
+    "how fast do people type",
+    "what is a good typing speed",
+    "average typing speed",
+    "typing speed top 1%",
+    "typing test wpm percentile",
+    "how many words per minute is fast",
+    "typing speed percentile"
+   ],
+   "activity": "typing_test_takers",
+   "family": "more"
   }
  },
  "activities": {
@@ -108,6 +202,14 @@
   "soldiers": {
    "label": "who are US Army soldiers",
    "metric": "pushups_max"
+  },
+  "instagram_accounts": {
+   "label": "who have an Instagram account",
+   "metric": "instagram_followers"
+  },
+  "typing_test_takers": {
+   "label": "who take online typing tests",
+   "metric": "typing_speed_wpm"
   }
  }
 }

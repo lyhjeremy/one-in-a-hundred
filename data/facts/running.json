@@ -105,6 +105,111 @@
   }
  },
  {
+  "id": "half_marathon_time.world.all.half_marathon_finishers.2024",
+  "metric": "half_marathon_time",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "all",
+   "age_band": null,
+   "activity": "half_marathon_finishers",
+   "source_category": null
+  },
+  "year": 2024,
+  "n": null,
+  "n_source": null,
+  "direction": "low",
+  "unit": "seconds",
+  "grid": {
+   "p1": 5155.5,
+   "p10": 6470.0,
+   "p50": 8120.0,
+   "p90": 10751.0
+  },
+  "sources": [
+   {
+    "id": "src-q-runrepeat-runner-s-percentile-calculator",
+    "name": "RunRepeat, Runner's percentile calculator (half marathon tables, all / men / women)",
+    "url": "https://runrepeat.com/how-do-you-masure-up-the-runners-percentile-calculator",
+    "accessed": "2026-10-14",
+    "measures": "Finish time of half marathon finishers, all ages pooled, in a percentile table where the 1st percentile is the fastest 1%. Dataset described as about 35 million results from more than 28,000 races collected over the last 20 years, across all distances; races, countries and timing method (chip vs gun) not named; methodology not described. Author Vania Nikolova.",
+    "values": {
+     "p1": 5039.0,
+     "p10": 6430.0,
+     "p50": 8099.0,
+     "p90": 10758.0
+    },
+    "independent_of": [],
+    "official": false,
+    "unit_as_published": "h:mm:ss",
+    "notes": "Values given here in seconds only to satisfy the numeric field; as published, all runners: 1st 01:23:59, 10th 01:47:10, 20th 01:56:12, 30th 02:02:48, 40th 02:08:54, 50th 02:14:59, 60th 02:21:42, 70th 02:29:48, 80th 02:41:05, 90th 02:59:18. Men: 1st 01:18:37, 10th 01:40:35, 20th 01:49:13, 30th 01:55:03, 40th 01:58:16, 50th 01:59:48, 60th 02:09:58, 70th 02:16:31, 80th 02:25:57, 90th 02:42:48. Women: 1st 01:35:55, 10th 01:57:01, 20th 02:05:58, 30th 02:12:25, 40th 02:18:10, 50th 02:24:03, 60th 02:30:44, 70th 02:39:05, 80th 02:50:31, 90th 03:08:21. Page first published 15 Nov 2017, last updated 1 Mar 2024; the pool spans roughly 2004-2024 rather than one reference year. The men's 40th to 60th rows (01:58:16, 01:59:48, 02:09:58) are unevenly spaced, which a third-party review flagged as a possible table error. Secondary sites (Runsy, Rundida, UpbeatRun, Runify, Brooks) repeat these numbers and are not independent of this source."
+   },
+   {
+    "id": "src-q-outside-run-outside-online-what-s-a-good",
+    "name": "Outside Run (Outside Online), 'What's a Good Half Marathon Time? Here's What the Latest Data Says' (author's compilation of 2024 US race results)",
+    "url": "https://run.outsideonline.com/road/road-racing/whats-a-good-half-marathon-time-heres-what-the-latest-data-says/",
+    "accessed": "2026-10-14",
+    "measures": "Finish times of about one million half marathon finishers in races across the United States in 2024, compiled by the article's author (data resource runningwithrock.com). Reports median by sex, and median, 25th/75th percentile, top 10% and top 5% thresholds by sex and ten-year age group (20-29 to 70-79). No top 1% figure.",
+    "values": {
+     "p50": 7980.0
+    },
+    "independent_of": [],
+    "official": false,
+    "unit_as_published": "h:mm:ss",
+    "notes": "Published 24 Sep 2025, updated 19 Jan 2026. Overall median stated only as 'about 2:13' (7980 s here is that rounded figure). Men's median 2:03:28, women's 2:21:42. n is the sum of the published age-group counts (men 548,270; women 618,015), ages 20-79 only. Top 10% by age group, men: 20-29 1:33:57, 30-39 1:34:31, 40-49 1:37:21, 50-59 1:42:25, 60-69 1:48:25, 70-79 1:59:33; women: 1:49:42, 1:49:52, 1:52:44, 1:58:13, 2:04:40, 2:20:36. Top 5% men 20-29 1:26:20, women 20-29 1:42:51. Also quotes NYRR half marathon qualifying standards (men 18-34 1:21:00, women 18-34 1:32:00) and says they correspond to roughly the top 2-3% in younger age groups. Journalist-compiled, not peer reviewed; access to the page is sometimes gated behind a login redirect."
+   },
+   {
+    "id": "src-q-san-francisco-marathon-half-marathon-res",
+    "name": "San Francisco Marathon half marathon results 2008-2021, open data analysis by Debarghya Das",
+    "url": "https://debarghyadas.com/writes/sanfrancisco-marathon-data/",
+    "accessed": "2026-10-14",
+    "measures": "Finish times of 135,944 finishers of the San Francisco Marathon's half marathon events, 2008-2021 (no race in 2020), scraped from the RunRaceResults hosting site. Percentiles published with 99% meaning the fastest 1%.",
+    "values": {
+     "p1": 5272.0,
+     "p10": 6510.0,
+     "p50": 8281.0,
+     "p90": 10744.0
+    },
+    "independent_of": [],
+    "official": false,
+    "unit_as_published": "h:mm:ss",
+    "notes": "Keys here follow the site's lower-is-better convention (p1 = fastest 1%). As published: 99% 1:27:52, 90% 1:48:30, median 2:18:01, 10% 2:59:04, 1% 3:44:25. Men (62,623): mean 2:13:55, median 2:10:03, best 1:03:54; women (73,330): mean 2:28:10, median 2:24:25, best 1:10:45. A single hilly race series, so slower than a national pool; personal-site analysis of the race's own results, not an official publication."
+   }
+  ],
+  "definition": "Finish time of half marathon finishers, all ages pooled, in a percentile table where the 1st percentile is the fastest 1%. Dataset described as about 35 million results from more than 28,000 races collected over the last 20 years, across all distances; races, countries and timing method (chip vs gun) not named; methodology not described. Author Vania Nikolova.",
+  "derived_points": [],
+  "caveat": "The only source that publishes a top 1% (fastest 1%) threshold for a large multi-race pool is RunRepeat (1:23:59 all finishers, 1:18:37 men, 1:35:55 women), and its methodology, race mix, countries and exact years are undisclosed; the pool spans about 20 years rather than one reference year and is likely US-heavy, so it is not a true world population. The 2024 US compilation reported by Outside stops at the top 5% and gives a slower overall median (about 2:13 vs 2:14:59), and a single race (San Francisco) puts its fastest 1% at 1:27:52, so a top 1% near 1:24-1:28 for mixed-sex finishers is consistent across sources. No national statistics office or peer-reviewed study publishes half marathon finish-time percentiles for all finishers; the question did not specify sex, country or age, so the combined-sex, all-ages figure is the match.",
+  "status": "queued",
+  "added": "2026-10-14",
+  "questions_n": 1,
+  "grade": "D",
+  "reason": "Researched automatically on 2026-10-14; not yet checked by a person.",
+  "range": {
+   "p50": [
+    7980.0,
+    8281.0
+   ],
+   "p10": [
+    6430.0,
+    6510.0
+   ],
+   "p1": [
+    5039.0,
+    5272.0
+   ]
+  },
+  "agreement": {
+   "p50": 0.0371,
+   "p10": 0.0124,
+   "p1": 0.0452
+  },
+  "n_sources": {
+   "p50": 3,
+   "p10": 2,
+   "p1": 2
+  }
+ },
+ {
   "id": "marathon_time.au.all.marathon_finishers.2013",
   "metric": "marathon_time",
   "population": {
@@ -139,7 +244,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8542.0,
      "p1": 9880.0,
@@ -158,7 +263,7 @@
   "caveat": "16,232 finishers across 15 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -227,7 +332,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9118.0,
      "p1": 10907.0,
@@ -246,7 +351,7 @@
   "caveat": "4,867 finishers across 15 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -315,7 +420,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8061.0,
      "p1": 9743.0,
@@ -334,7 +439,7 @@
   "caveat": "11,365 finishers across 15 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -403,7 +508,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8743.0,
      "p1": 10209.0,
@@ -422,7 +527,7 @@
   "caveat": "19,024 finishers across 51 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -491,7 +596,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9183.0,
      "p1": 11215.0,
@@ -510,7 +615,7 @@
   "caveat": "6,954 finishers across 51 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -579,7 +684,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8560.0,
      "p1": 9987.0,
@@ -598,7 +703,7 @@
   "caveat": "12,070 finishers across 51 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -667,7 +772,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 7841.0,
      "p1": 9316.0,
@@ -686,7 +791,7 @@
   "caveat": "2,452 finishers across 1 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -755,7 +860,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8744.0,
      "p1": 9653.0,
@@ -774,7 +879,7 @@
   "caveat": "461 finishers across 1 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -843,7 +948,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 7825.0,
      "p1": 9297.0,
@@ -862,7 +967,7 @@
   "caveat": "1,991 finishers across 1 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -931,7 +1036,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8273.0,
      "p1": 9864.0,
@@ -950,7 +1055,7 @@
   "caveat": "71,758 finishers across 7 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -1019,7 +1124,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8982.0,
      "p1": 10964.0,
@@ -1038,7 +1143,7 @@
   "caveat": "16,041 finishers across 7 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -1107,7 +1212,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8121.0,
      "p1": 9728.0,
@@ -1126,7 +1231,7 @@
   "caveat": "55,717 finishers across 7 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -1195,7 +1300,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8881.0,
      "p1": 10197.0,
@@ -1214,7 +1319,7 @@
   "caveat": "41,471 finishers across 2 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -1283,7 +1388,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9355.0,
      "p1": 11624.0,
@@ -1302,7 +1407,7 @@
   "caveat": "8,304 finishers across 2 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -1371,7 +1476,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8670.0,
      "p1": 10115.0,
@@ -1390,7 +1495,7 @@
   "caveat": "33,167 finishers across 2 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -1459,7 +1564,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8904.0,
      "p1": 10053.0,
@@ -1478,7 +1583,7 @@
   "caveat": "54,597 finishers across 31 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -1547,7 +1652,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9606.0,
      "p1": 11297.0,
@@ -1566,7 +1671,7 @@
   "caveat": "17,690 finishers across 31 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -1635,7 +1740,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8828.0,
      "p1": 9831.0,
@@ -1654,7 +1759,7 @@
   "caveat": "36,907 finishers across 31 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -1723,7 +1828,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8115.0,
      "p1": 10423.0,
@@ -1742,7 +1847,7 @@
   "caveat": "6,732 finishers across 2 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -1811,7 +1916,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9048.0,
      "p1": 9619.0,
@@ -1830,7 +1935,7 @@
   "caveat": "811 finishers across 2 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -1899,7 +2004,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8111.0,
      "p1": 10441.0,
@@ -1918,7 +2023,7 @@
   "caveat": "5,921 finishers across 2 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -1987,7 +2092,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 7758.0,
      "p1": 8171.0,
@@ -2006,7 +2111,7 @@
   "caveat": "1,177 finishers across 1 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -2075,7 +2180,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 7758.0,
      "p1": 8171.0,
@@ -2094,7 +2199,7 @@
   "caveat": "1,177 finishers across 1 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -2163,7 +2268,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8487.0,
      "p1": 9905.0,
@@ -2182,7 +2287,7 @@
   "caveat": "23,810 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -2251,7 +2356,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8312.0,
      "p1": 9682.0,
@@ -2270,7 +2375,7 @@
   "caveat": "46,315 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -2339,7 +2444,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8519.0,
      "p1": 9930.0,
@@ -2358,7 +2463,7 @@
   "caveat": "55,353 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -2427,7 +2532,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9096.0,
      "p1": 10307.0,
@@ -2446,7 +2551,7 @@
   "caveat": "56,815 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -2515,7 +2620,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9440.0,
      "p1": 10542.0,
@@ -2534,7 +2639,7 @@
   "caveat": "58,228 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -2603,7 +2708,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9789.0,
      "p1": 10738.0,
@@ -2622,7 +2727,7 @@
   "caveat": "44,912 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -2691,7 +2796,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 10072.0,
      "p1": 10989.0,
@@ -2710,7 +2815,7 @@
   "caveat": "33,850 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -2779,7 +2884,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 10465.0,
      "p1": 11533.0,
@@ -2798,7 +2903,7 @@
   "caveat": "19,178 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -2867,7 +2972,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 11006.0,
      "p1": 12133.0,
@@ -2886,7 +2991,7 @@
   "caveat": "9,887 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -2955,7 +3060,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 11538.0,
      "p1": 12676.0,
@@ -2974,7 +3079,7 @@
   "caveat": "4,009 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -3043,7 +3148,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 11525.0,
      "p1": 13447.0,
@@ -3062,7 +3167,7 @@
   "caveat": "1,720 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -3131,7 +3236,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8901.0,
      "p1": 10381.0,
@@ -3150,7 +3255,7 @@
   "caveat": "474,410 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -3219,7 +3324,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9755.0,
      "p1": 11187.0,
@@ -3238,7 +3343,7 @@
   "caveat": "12,279 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -3307,7 +3412,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9346.0,
      "p1": 11135.0,
@@ -3326,7 +3431,7 @@
   "caveat": "24,526 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -3395,7 +3500,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9697.0,
      "p1": 11125.0,
@@ -3414,7 +3519,7 @@
   "caveat": "26,028 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -3483,7 +3588,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 10325.0,
      "p1": 11418.0,
@@ -3502,7 +3607,7 @@
   "caveat": "25,031 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -3571,7 +3676,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 10631.0,
      "p1": 11769.0,
@@ -3590,7 +3695,7 @@
   "caveat": "23,695 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -3659,7 +3764,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 10941.0,
      "p1": 12044.0,
@@ -3678,7 +3783,7 @@
   "caveat": "16,838 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -3747,7 +3852,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 11409.0,
      "p1": 12436.0,
@@ -3766,7 +3871,7 @@
   "caveat": "11,061 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -3835,7 +3940,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 11305.0,
      "p1": 12846.0,
@@ -3854,7 +3959,7 @@
   "caveat": "5,562 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -3923,7 +4028,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 12491.0,
      "p1": 13342.0,
@@ -3942,7 +4047,7 @@
   "caveat": "2,343 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -4011,7 +4116,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 12662.0,
      "p1": 13617.0,
@@ -4030,7 +4135,7 @@
   "caveat": "829 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -4099,7 +4204,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 10033.0,
      "p1": 11507.0,
@@ -4118,7 +4223,7 @@
   "caveat": "192,268 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -4187,7 +4292,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8169.0,
      "p1": 9507.0,
@@ -4206,7 +4311,7 @@
   "caveat": "11,531 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -4275,7 +4380,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8032.0,
      "p1": 9182.0,
@@ -4294,7 +4399,7 @@
   "caveat": "21,789 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -4363,7 +4468,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8332.0,
      "p1": 9517.0,
@@ -4382,7 +4487,7 @@
   "caveat": "29,325 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -4451,7 +4556,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8786.0,
      "p1": 10035.0,
@@ -4470,7 +4575,7 @@
   "caveat": "31,784 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -4539,7 +4644,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9263.0,
      "p1": 10260.0,
@@ -4558,7 +4663,7 @@
   "caveat": "34,533 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -4627,7 +4732,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9704.0,
      "p1": 10576.0,
@@ -4646,7 +4751,7 @@
   "caveat": "28,074 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -4715,7 +4820,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9920.0,
      "p1": 10762.0,
@@ -4734,7 +4839,7 @@
   "caveat": "22,789 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -4803,7 +4908,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 10356.0,
      "p1": 11363.0,
@@ -4822,7 +4927,7 @@
   "caveat": "13,616 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -4891,7 +4996,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 10956.0,
      "p1": 11984.0,
@@ -4910,7 +5015,7 @@
   "caveat": "7,544 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -4979,7 +5084,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 11518.0,
      "p1": 12527.0,
@@ -4998,7 +5103,7 @@
   "caveat": "3,180 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -5067,7 +5172,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 11525.0,
      "p1": 13327.0,
@@ -5086,7 +5191,7 @@
   "caveat": "1,480 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -5155,7 +5260,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8631.0,
      "p1": 10076.0,
@@ -5174,7 +5279,7 @@
   "caveat": "282,142 finishers across 586 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -5243,7 +5348,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8280.0,
      "p1": 9905.0,
@@ -5262,7 +5367,7 @@
   "caveat": "26,431 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -5331,7 +5436,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8177.0,
      "p1": 9645.0,
@@ -5350,7 +5455,7 @@
   "caveat": "51,718 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -5419,7 +5524,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8464.0,
      "p1": 9892.0,
@@ -5438,7 +5543,7 @@
   "caveat": "63,132 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -5507,7 +5612,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9028.0,
      "p1": 10241.0,
@@ -5526,7 +5631,7 @@
   "caveat": "66,303 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -5595,7 +5700,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9425.0,
      "p1": 10480.0,
@@ -5614,7 +5719,7 @@
   "caveat": "69,246 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -5683,7 +5788,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9743.0,
      "p1": 10661.0,
@@ -5702,7 +5807,7 @@
   "caveat": "54,713 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -5771,7 +5876,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9996.0,
      "p1": 10845.0,
@@ -5790,7 +5895,7 @@
   "caveat": "40,376 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -5859,7 +5964,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 10362.0,
      "p1": 11423.0,
@@ -5878,7 +5983,7 @@
   "caveat": "22,539 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -5947,7 +6052,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 10836.0,
      "p1": 11967.0,
@@ -5966,7 +6071,7 @@
   "caveat": "11,605 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -6035,7 +6140,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 11298.0,
      "p1": 12527.0,
@@ -6054,7 +6159,7 @@
   "caveat": "4,735 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -6123,7 +6228,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 11949.0,
      "p1": 13365.0,
@@ -6142,7 +6247,7 @@
   "caveat": "2,044 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -6211,7 +6316,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8713.0,
      "p1": 10217.0,
@@ -6230,7 +6335,7 @@
   "caveat": "778,747 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -6299,7 +6404,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9644.0,
      "p1": 11187.0,
@@ -6318,7 +6423,7 @@
   "caveat": "12,918 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -6387,7 +6492,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9226.0,
      "p1": 11076.0,
@@ -6406,7 +6511,7 @@
   "caveat": "25,941 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -6475,7 +6580,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9633.0,
      "p1": 11109.0,
@@ -6494,7 +6599,7 @@
   "caveat": "27,716 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -6563,7 +6668,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 10237.0,
      "p1": 11386.0,
@@ -6582,7 +6687,7 @@
   "caveat": "26,752 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -6651,7 +6756,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 10388.0,
      "p1": 11727.0,
@@ -6670,7 +6775,7 @@
   "caveat": "25,610 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -6739,7 +6844,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 10774.0,
      "p1": 12006.0,
@@ -6758,7 +6863,7 @@
   "caveat": "18,559 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -6827,7 +6932,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 11394.0,
      "p1": 12396.0,
@@ -6846,7 +6951,7 @@
   "caveat": "12,055 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -6915,7 +7020,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 11373.0,
      "p1": 12791.0,
@@ -6934,7 +7039,7 @@
   "caveat": "6,037 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -7003,7 +7108,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 12267.0,
      "p1": 13216.0,
@@ -7022,7 +7127,7 @@
   "caveat": "2,562 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -7091,7 +7196,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 12511.0,
      "p1": 13297.0,
@@ -7110,7 +7215,7 @@
   "caveat": "904 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -7179,7 +7284,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9697.0,
      "p1": 11401.0,
@@ -7198,7 +7303,7 @@
   "caveat": "265,780 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -7267,7 +7372,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 7950.0,
      "p1": 9515.0,
@@ -7286,7 +7391,7 @@
   "caveat": "13,513 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -7355,7 +7460,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 7916.0,
      "p1": 9147.0,
@@ -7374,7 +7479,7 @@
   "caveat": "25,777 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -7443,7 +7548,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8262.0,
      "p1": 9510.0,
@@ -7462,7 +7567,7 @@
   "caveat": "35,416 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -7531,7 +7636,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8762.0,
      "p1": 9996.0,
@@ -7550,7 +7655,7 @@
   "caveat": "39,551 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -7619,7 +7724,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9263.0,
      "p1": 10247.0,
@@ -7638,7 +7743,7 @@
   "caveat": "43,636 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -7707,7 +7812,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9611.0,
      "p1": 10530.0,
@@ -7726,7 +7831,7 @@
   "caveat": "36,154 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -7795,7 +7900,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 9873.0,
      "p1": 10720.0,
@@ -7814,7 +7919,7 @@
   "caveat": "28,321 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -7883,7 +7988,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 10308.0,
      "p1": 11272.0,
@@ -7902,7 +8007,7 @@
   "caveat": "16,502 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -7971,7 +8076,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 10821.0,
      "p1": 11839.0,
@@ -7990,7 +8095,7 @@
   "caveat": "9,043 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -8059,7 +8164,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 11263.0,
      "p1": 12429.0,
@@ -8078,7 +8183,7 @@
   "caveat": "3,831 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -8147,7 +8252,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 11525.0,
      "p1": 13319.0,
@@ -8166,7 +8271,7 @@
   "caveat": "1,778 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {
@@ -8235,7 +8340,7 @@
     "url": "https://faculty.chicagobooth.edu/george.wu/research/marathon/",
     "measures": "chip finish times of individual marathon finishers compiled from official race results, 1970 to 2013; by age, sex, race and country",
     "independent_of": [],
-    "accessed": "2026-10-14",
+    "accessed": "2026-10-15",
     "values": {
      "p0.1": 8492.0,
      "p1": 10000.0,
@@ -8254,7 +8359,7 @@
   "caveat": "512,967 finishers across 735 marathons in the sample; the sample skews to North America and Europe",
   "series": null,
   "status": "curated",
-  "added": "2026-10-14",
+  "added": "2026-10-15",
   "grade": "B",
   "reason": "One official source (Allen, Dechow, Pope and Wu (2017), marathon finisher records); no second source to compare.",
   "range": {

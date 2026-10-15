@@ -1,0 +1,25 @@
+{
+ "label": "Bench press one-rep max",
+ "short": "Bench press",
+ "unit": "kg",
+ "direction": "high",
+ "format": "weight",
+ "metric_phrase": "a one-rep-max bench press",
+ "base_noun": "men who bench press",
+ "definition": "Heaviest weight a person can bench press for a single repetition, in kilograms; competition sources use the best successful raw (unequipped) lift at a sanctioned powerlifting meet, app sources use an estimated one-rep max from logged sets.",
+ "phrasings": [
+  "how much can the top 1% of men bench press",
+  "bench press percentile",
+  "what percentile is a 225 bench",
+  "how much should i be able to bench press",
+  "average bench press for men",
+  "top 10% bench press",
+  "is a 100 kg bench good",
+  "bench press top 1 percent",
+  "how rare is a 315 bench",
+  "bench press standards by bodyweight"
+ ],
+ "activity": "powerlifters",
+ "activity_label": "who compete in powerlifting",
+ "id": "bench_press_1rm"
+}

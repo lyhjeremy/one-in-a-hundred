@@ -1,0 +1,133 @@
+{
+ "id": "pushups_max.us.m.17-46.soldiers.1988",
+ "metric": "pushups_max",
+ "population": {
+  "base": "country",
+  "country": "US",
+  "sex": "m",
+  "age_band": "17-46",
+  "activity": "soldiers",
+  "source_category": null
+ },
+ "year": 1988,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "reps",
+ "grid": {
+  "p1": 26.5,
+  "p10": 29.0,
+  "p25": 29.0,
+  "p50": 45.3333,
+  "p75": 46.0,
+  "p90": 66.3333,
+  "p99": 86.3333
+ },
+ "sources": [
+  {
+   "id": "src-q-us-army-research-institute-of-environmen",
+   "name": "US Army Research Institute of Environmental Medicine, Technical Report T94-7: Army Physical Fitness Test (APFT): Normative Data on 6022 Soldiers (Knapik et al., 1994; data from the 1988 Active Army Physical Fitness Survey)",
+   "url": "https://archive.org/details/DTIC_ADA274547",
+   "accessed": "2026-10-14",
+   "measures": "Number of correct push-ups completed in 2 minutes on the APFT; 5,346 male and 676 female soldiers at 14 US installations, age-banded as the APFT standards are. Percentile tables run from the 1st to the 99th percentile per age band.",
+   "values": {
+    "p1": 28.0,
+    "p10": 40.0,
+    "p25": 45.0,
+    "p50": 51.0,
+    "p75": 60.0,
+    "p90": 71.0,
+    "p99": 84.0
+   },
+   "independent_of": [],
+   "official": true,
+   "unit_as_published": "repetitions (2 minutes)",
+   "notes": "Values above are Table 5, males 22-26 years (n=1688, the largest band). Other male bands (Tables 4, 6-9), read from the scanned PDF at archive.org (DTIC mirror ADA274547 returned 403): 17-21 (n=1157) p50 52, p90 70, p95 74, p99 83, mean 53.1, SD 11.6; 27-31 (n=1017) p50 49, p90 69, p95 76, p99 82, mean 50.7, SD 12.7; 32-36 (n=825) p50 46, p90 65, p95 73, p99 84, mean 47.4, SD 13.1; 37-41 (n=382) p50 41, p90 62, p95 70, p99 80, mean 44.2, SD 12.4; 42-46 (n=217) p90 53, p95 61, p99 70, mean 38.4, SD 11.5 (p50 for 42-46 came from OCR text and was out of sequence, so it is not reported). Table 3, all male soldiers regardless of age: mean 50.4, SD 13.0 (no all-age percentiles are given). Bands 27-31 to 42-46 were taken from the archive.org OCR text, Tables 4-5 from the page images. Sample is serving soldiers who must pass the APFT, so it is fitter and younger than the general male population; the 2-minute limit means counts are higher than one-minute or untimed-to-failure protocols."
+  },
+  {
+   "id": "src-q-cooper-institute-fitness-norms-one-minut",
+   "name": "Cooper Institute fitness norms (one-minute push-ups) as reproduced in McKenzie County Sheriff's Office 'New Cooper Standards Age & Gender' table",
+   "url": "https://mckenziesheriff.net/usrfiles/cp/Cooper_Standards_Fitness_Test.pdf",
+   "accessed": "2026-10-14",
+   "measures": "Push-ups completed in one minute, males, percentile rows 5 to 99 by age decade (20-29, 30-39, 40-49, 50-59, 60+). The sheriff's office reproduces Cooper Institute norms; the underlying Cooper publication (Physical Fitness Assessments and Norms for Adults and Law Enforcement) could not be opened directly, so the edition and sample size are unverified.",
+   "values": {
+    "p10": 18.0,
+    "p25": 24.0,
+    "p50": 33.0,
+    "p75": 44.0,
+    "p90": 57.0,
+    "p99": 100.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "repetitions (1 minute)",
+   "notes": "Values above are males 20-29. Other male bands: 30-39 p50 27, p90 46, p95 52, p99 86; 40-49 p50 21, p90 36, p95 40, p99 64; 50-59 p50 15, p90 30, p95 39, p99 51; 60+ p50 15, p90 26, p95 28, p99 39. Cooper norms come from Cooper Clinic patients and law-enforcement applicants, not a population sample; the p99 of 100 for 20-29 is a large jump from p95 (62) and may reflect a small tail. Document date is the reproduction date (March 2018), not the data year."
+  },
+  {
+   "id": "src-q-texas-department-of-public-safety-perfor",
+   "name": "Texas Department of Public Safety, Performance Standards for Males by Age (physical readiness test chart)",
+   "url": "https://www.dps.texas.gov/sites/default/files/documents/etr/docs/standardsprtchart.pdf",
+   "accessed": "2026-10-14",
+   "measures": "Push-ups with no time limit, percentile rows 1 to 99 for males in 5-year bands (20-24 to 50+). The chart does not state its data source or year and the rows rise in near-constant steps, so it reads as a constructed standards table rather than a published distribution.",
+   "values": {
+    "p1": 25.0,
+    "p10": 29.0,
+    "p25": 38.0,
+    "p50": 52.0,
+    "p75": 65.0,
+    "p90": 71.0,
+    "p99": 75.0
+   },
+   "independent_of": [],
+   "official": true,
+   "unit_as_published": "repetitions (no time limit)",
+   "notes": "Values above are males 20-24. p99 by band: 25-29 72; 30-34 68; 35-39 66; 40-44 63; 45-49 61; 50+ 59. p50 by band: 25-29 49; 30-34 47; 35-39 45; 40-44 43; 45-49 42; 50+ 40. Year is unknown; 2024 is the approximate fetch-era posting. Treat as low confidence because provenance is unstated."
+  },
+  {
+   "id": "src-q-kj-r-igh-torstveit-mk-kolle-e-hansen-bh",
+   "name": "Kjær IGH, Torstveit MK, Kolle E, Hansen BH, Anderssen SA. Normative values for musculoskeletal- and neuromotor fitness in apparently healthy Norwegian adults. BMC Sports Science, Medicine and Rehabilitation 2016;8:37",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5116214/",
+   "accessed": "2026-10-14",
+   "measures": "Modified push-ups (with a hand-clap behind the back between reps) completed in 40 seconds, nationally sampled Norwegian adults aged 20-64.9, data 2008-2009; 342 men completed the test.",
+   "values": {
+    "p25": 9.0,
+    "p75": 15.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "repetitions per 40 s",
+   "notes": "Only mean, SD and quartiles are published; no median or upper percentiles. Men 20-29.9 (n=39): mean 14.2, SD 3.2, Q1-Q3 12-16. Protocol is not comparable to a standard push-up count. Included to show that the only random population sample found uses a different test and gives no p99."
+  }
+ ],
+ "definition": "Number of correct push-ups completed in 2 minutes on the APFT; 5,346 male and 676 female soldiers at 14 US installations, age-banded as the APFT standards are. Percentile tables run from the 1st to the 99th percentile per age band.",
+ "derived_points": [],
+ "caveat": "No national statistics office or population survey publishes a 99th percentile for standard push-ups. The only official source with a p99 is the US Army's 1988 APFT normative study (male soldiers, 2-minute test): about 83-84 push-ups for men under 37, falling to 70 at ages 42-46. Cooper Institute norms (1-minute test, clinic and law-enforcement clientele) give a p99 of 100 for men 20-29 and 86 for 30-39, but the Cooper tables were only reachable through a sheriff's office reproduction. Protocols differ (1 minute, 2 minutes, untimed, cadence-capped) and are not interchangeable, and every source is a gated or self-selected sample fitter than the general male population. If shipped, label the fact as 'US Army male soldiers, 2-minute test, 1988' rather than 'men'.",
+ "status": "queued",
+ "added": "2026-10-14",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Push-ups in one test",
+  "short": "Push-ups",
+  "unit": "reps",
+  "direction": "high",
+  "format": "count",
+  "metric_phrase": "a push-up count",
+  "base_noun": "men tested on push-ups",
+  "definition": "Number of correctly performed push-ups completed in a single test; the US Army APFT allows two minutes, Cooper Institute norms use one minute or no time limit.",
+  "phrasings": [
+   "how many push ups can the top 1% of men do",
+   "push up percentile",
+   "how many pushups should i be able to do",
+   "average number of push ups for men",
+   "top 10% push ups",
+   "push ups top 1 percent",
+   "pushup norms by age",
+   "is 50 push ups good",
+   "what percentile is 40 push ups",
+   "how many push ups is elite"
+  ],
+  "activity": "soldiers",
+  "activity_label": "who are US Army soldiers",
+  "id": "pushups_max"
+ }
+}

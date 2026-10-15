@@ -46,12 +46,68 @@
     "what IQ do you need for Mensa"
    ],
    "family": "more"
+  },
+  "bench_press_1rm": {
+   "label": "Bench press one-rep max",
+   "short": "Bench press",
+   "unit": "kg",
+   "direction": "high",
+   "format": "weight",
+   "metric_phrase": "a one-rep-max bench press",
+   "base_noun": "men who bench press",
+   "definition": "Heaviest weight a person can bench press for a single repetition, in kilograms; competition sources use the best successful raw (unequipped) lift at a sanctioned powerlifting meet, app sources use an estimated one-rep max from logged sets.",
+   "phrasings": [
+    "how much can the top 1% of men bench press",
+    "bench press percentile",
+    "what percentile is a 225 bench",
+    "how much should i be able to bench press",
+    "average bench press for men",
+    "top 10% bench press",
+    "is a 100 kg bench good",
+    "bench press top 1 percent",
+    "how rare is a 315 bench",
+    "bench press standards by bodyweight"
+   ],
+   "activity": "powerlifters",
+   "family": "more"
+  },
+  "pushups_max": {
+   "label": "Push-ups in one test",
+   "short": "Push-ups",
+   "unit": "reps",
+   "direction": "high",
+   "format": "count",
+   "metric_phrase": "a push-up count",
+   "base_noun": "men tested on push-ups",
+   "definition": "Number of correctly performed push-ups completed in a single test; the US Army APFT allows two minutes, Cooper Institute norms use one minute or no time limit.",
+   "phrasings": [
+    "how many push ups can the top 1% of men do",
+    "push up percentile",
+    "how many pushups should i be able to do",
+    "average number of push ups for men",
+    "top 10% push ups",
+    "push ups top 1 percent",
+    "pushup norms by age",
+    "is 50 push ups good",
+    "what percentile is 40 push ups",
+    "how many push ups is elite"
+   ],
+   "activity": "soldiers",
+   "family": "more"
   }
  },
  "activities": {
   "chess_players": {
    "label": "who hold a FIDE rating",
    "metric": "chess_rating_fide"
+  },
+  "powerlifters": {
+   "label": "who compete in powerlifting",
+   "metric": "bench_press_1rm"
+  },
+  "soldiers": {
+   "label": "who are US Army soldiers",
+   "metric": "pushups_max"
   }
  }
 }

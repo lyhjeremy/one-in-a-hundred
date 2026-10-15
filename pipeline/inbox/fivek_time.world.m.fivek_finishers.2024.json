@@ -1,0 +1,79 @@
+{
+ "id": "fivek_time.world.m.fivek_finishers.2024",
+ "metric": "fivek_time",
+ "population": {
+  "base": "world",
+  "country": null,
+  "sex": "m",
+  "age_band": null,
+  "activity": "fivek_finishers",
+  "source_category": null
+ },
+ "year": 2024,
+ "n": null,
+ "n_source": null,
+ "direction": "low",
+ "unit": "seconds",
+ "grid": {
+  "p1": 1059.5,
+  "p10": 1366.0,
+  "p50": 1895.3333,
+  "p90": 2972.5
+ },
+ "sources": [
+  {
+   "id": "src-q-runrepeat-runner-s-percentile-calculator",
+   "name": "RunRepeat, Runner's percentile calculator (5K men's table)",
+   "url": "https://runrepeat.com/how-do-you-masure-up-the-runners-percentile-calculator",
+   "accessed": "2026-10-14",
+   "measures": "Chip or gun finish time of male finishers in timed road 5K races, all ages pooled; percentile table where the 1st percentile is the fastest 1%. Dataset described as '35 million results collected in the last 20 years from more than 28,000 races'; races and countries not named, methodology not described.",
+   "values": {
+    "p1": 1050.0,
+    "p10": 1406.0,
+    "p50": 1888.0,
+    "p90": 2743.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "h:mm:ss",
+   "notes": "Values converted here only from h:mm:ss to seconds for the values field; as published: 1st 00:17:30, 10th 00:23:26, 20th 00:26:04, 30th 00:27:58, 40th 00:29:41, 50th 00:31:28, 60th 00:33:28, 70th 00:35:55, 80th 00:39:21, 90th 00:45:43. Page first published 15 Nov 2017, last updated 1 Mar 2024; the 35M-result pool spans roughly 2004-2024 rather than a single reference year. Author Vania Nikolova. Women's table: 1st 21:39, 50th 37:28, 90th 52:24."
+  },
+  {
+   "id": "src-q-runrepeat-with-iaaf-133-stats-on-5k-runn",
+   "name": "RunRepeat with IAAF, '133 stats on 5K running races in the US' (men's recreational percentiles)",
+   "url": "https://runrepeat.com/the-us-5k-stats-page",
+   "accessed": "2026-10-14",
+   "measures": "Finish times of male recreational 5K race participants in the United States, 2009-2018 (2,616,876 participants in 2018, 1,015,180 men). Percentile table labelled 'men's recreational finish times' is undated. Parkrun events explicitly excluded because timing is not individual.",
+   "values": {
+    "p1": 1069.0,
+    "p10": 1326.0,
+    "p50": 1878.0,
+    "p90": 3202.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "mm:ss",
+   "notes": "As published: 1st 17:49, 10th 22:06, 20th 24:38, 30th 26:48, 40th 28:56, 50th 31:18, 60th 34:15, 70th 38:17, 80th 44:24, 90th 53:22. Mean given here is the 2018 men's average of 35:22 (men's average rose from 32:12 in 2009). Same organisation and compiler (Vania Nikolova) as the percentile calculator, so not an independent dataset; the two RunRepeat tables disagree on p1 (17:49 vs 17:30) and p90 (53:22 vs 45:43). Also lists 'American recreational 5k record: 15:37' (2018)."
+  },
+  {
+   "id": "src-q-outside-run-what-s-a-good-5k-time-here-s",
+   "name": "Outside Run, 'What's a Good 5K Time? Here's What the Latest Data Says'",
+   "url": "https://run.outsideonline.com/road/road-racing/whats-a-good-5k-time-heres-what-the-latest-data-says/",
+   "accessed": "2026-10-14",
+   "measures": "2.2 million individual finish times gathered by the author from US 5K road races in 2024; medians, 25th/75th percentiles and top-5%/top-10% cutoffs by sex and age group. Overall men's median only; no overall men's top 10% or top 1%.",
+   "values": {
+    "p50": 1920.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "mm:ss",
+   "notes": "Men's overall median 32:00 (women 39:00, all 36:00). By age group, men's top 10% cutoffs: 15-18 19:10, 19-22 20:09, 23-29 20:09, 30-39 22:13, 40-49 23:05, 50-59 24:11, 60-69 25:28, 70-79 28:06; top 5%: 15-18 18:03, 23-29 18:14, 30-39 20:19, 40-49 21:14. Only 1.85% of all results (41,150) were under 20:00, both sexes combined. Article updated 15 Apr 2026, no author named, raw data not published; included as the only independent large-sample check on the RunRepeat median."
+  }
+ ],
+ "definition": "Chip or gun finish time of male finishers in timed road 5K races, all ages pooled; percentile table where the 1st percentile is the fastest 1%. Dataset described as '35 million results collected in the last 20 years from more than 28,000 races'; races and countries not named, methodology not described.",
+ "derived_points": [],
+ "caveat": "No national statistics office, peer-reviewed paper or parkrun publication gives a men's 5K percentile table; the top-1% figure rests on RunRepeat's aggregated race-result pool, which does not name its races, countries or method. RunRepeat's two tables put the fastest 1% of male 5K race finishers at 17:30 (global calculator, updated 2024) and 17:49 (US 2009-2018 page), and both derive from the same organisation. The population is self-selected timed race finishers, all ages pooled, not men in general; the 2024 US sample from Outside Run says fewer than 2% of all finishers broke 20:00, which is consistent with a men's top-1% mark in the 17-18 minute range. parkrun data is excluded from RunRepeat's US figures. The question gives no country, so the global calculator table is the primary match.",
+ "status": "queued",
+ "added": "2026-10-14",
+ "questions_n": 1
+}

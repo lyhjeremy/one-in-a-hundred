@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>One in a Hundred</title>
-<meta name="description" content="What it takes to be in the top 1%, top 10% or the median of any group, on income, height, running and age. Every number graded and sourced.">
+<meta name="description" content="What it takes to be in the top 1%, top 10% or the median of any group, on income, height, weight, age and more. Every number graded and sourced.">
 <meta property="og:title" content="One in a Hundred">
 <meta property="og:description" content="What it takes to be in the top 1% of any group. Every number graded and sourced.">
 <meta property="og:type" content="website">
@@ -12,18 +12,44 @@
 <link rel="stylesheet" href="assets/app.css">
 </head>
 <body>
-<a class="skip-link" href="#answer">Skip to the answer</a>
-<header class="wrap top">
-  <p class="kicker"><a href="./">One in a Hundred</a></p>
-  <h1>What does it take to be in the top 1%?</h1>
-  <p class="lede">Pick a group, narrow it, pick a measure. Every number carries a grade, a range across sources, and the sources themselves.</p>
-</header>
-
 <main class="wrap">
+  <p class="kicker"><a href="./">One in a Hundred</a></p>
+
+  <section id="controls" aria-label="Choose a measure and a group">
+    <div class="row">
+      <label for="sel-metric">Measure</label>
+      <select id="sel-metric"></select>
+    </div>
+    <div class="row" id="row-group">
+      <label for="sel-country">Group</label>
+      <div class="selects">
+        <select id="sel-country" aria-label="Country"></select>
+        <select id="sel-sex" aria-label="Sex"></select>
+        <select id="sel-age" aria-label="Age"></select>
+        <select id="sel-cat" aria-label="Category as published by the source" hidden></select>
+      </div>
+    </div>
+    <div class="row">
+      <span class="lbl">Show</span>
+      <div class="seg" id="pct-seg" role="group" aria-label="Percentile"></div>
+    </div>
+  </section>
+
+  <section id="answer" aria-live="polite">
+    <h1 id="punchline" class="punchline skeleton skeleton--title"></h1>
+    <p id="subline" class="subline"></p>
+    <div id="panel" class="panel" hidden></div>
+    <form id="land-form" class="land" hidden>
+      <label for="v" id="v-label">Your value</label>
+      <input id="v" name="v" type="text" inputmode="decimal" autocomplete="off">
+      <button class="btn" type="submit">Place me</button>
+      <span id="land-out" class="land-out"></span>
+    </form>
+  </section>
+
   <section id="ask" aria-labelledby="ask-h">
-    <h2 id="ask-h" class="sr">Ask in words</h2>
-    <form id="ask-form" class="field">
-      <label for="q">Or type a question</label>
+    <form id="ask-form">
+      <label for="q" id="ask-h">Or ask in words</label>
       <div class="ask-row">
         <input id="q" name="q" type="text" maxlength="300" autocomplete="off" placeholder="how tall is the top 1% of Dutch men">
         <button class="btn" type="submit">Ask</button>
@@ -32,74 +58,21 @@
     </form>
   </section>
 
-  <section id="pop" aria-labelledby="pop-h">
-    <h2 id="pop-h" class="rowlabel">Group</h2>
-    <div id="pop-chips" class="chips"></div>
-    <div id="pop-narrow" class="narrow"></div>
-    <p id="pop-count" class="small"></p>
-  </section>
-
-  <section id="metric" aria-labelledby="metric-h">
-    <h2 id="metric-h" class="rowlabel">Measure</h2>
-    <div id="family-chips" class="chips"></div>
-    <div id="metric-chips" class="chips"></div>
-  </section>
-
-  <section id="pct" aria-labelledby="pct-h">
-    <h2 id="pct-h" class="rowlabel">Percentile</h2>
-    <div id="pct-chips" class="chips"></div>
-  </section>
-
-  <section id="answer" aria-live="polite">
-    <div id="punchline" class="punchline skeleton skeleton--title"></div>
-    <p id="subline" class="subline"></p>
-    <div id="panel" class="panel" hidden></div>
-    <div id="compare-wrap" class="two-col compare" hidden>
-      <div></div>
-      <div id="compare-b"></div>
-    </div>
-  </section>
-
-  <section id="land" aria-labelledby="land-h" hidden>
-    <h2 id="land-h" class="rowlabel">Where do I land?</h2>
-    <form id="land-form" class="field">
-      <label for="v" id="v-label">Your value</label>
-      <div class="ask-row">
-        <input id="v" name="v" type="text" inputmode="decimal" autocomplete="off">
-        <button class="btn" type="submit">Place me</button>
-        <button class="btn" type="button" id="v-clear">Erase</button>
-      </div>
-      <p id="land-out" class="land-out"></p>
-      <p class="small">Stays in this browser only. Nothing is sent anywhere.</p>
-    </form>
-  </section>
-
-  <section id="actions" class="actions">
-    <button class="btn" id="btn-compare">Compare with another group</button>
-    <button class="btn" id="btn-surprise">Surprise me</button>
-    <span class="spacer"></span>
-    <button class="btn" id="btn-link">Copy link</button>
-    <a class="btn" id="btn-card" href="#" download>Download card</a>
-    <button class="btn" id="btn-share" hidden>Share</button>
-  </section>
-
-  <section id="today" aria-labelledby="today-h" hidden>
-    <h2 id="today-h" class="rowlabel">Today's fact</h2>
-    <p id="today-text"></p>
-    <p id="today-note" class="small"></p>
-  </section>
-
   <section id="queue" class="callout" hidden>
     <b>No data for that yet.</b> <span id="queue-text"></span>
-    <p id="queue-near" class="small"></p>
-    <button class="btn" id="btn-queue" hidden>Queue this question</button>
-    <p id="queue-out" class="small"></p>
+    <span id="queue-near" class="small"></span>
+  </section>
+
+  <section class="actions">
+    <button class="btn" id="btn-surprise">Surprise me</button>
+    <button class="btn" id="btn-link">Copy link</button>
+    <a class="btn" id="btn-card" href="#" download>Download card</a>
   </section>
 </main>
 
 <footer class="wrap site-footer">
-  <p><a href="overview/">How this works</a> · <a href="sources/">All sources</a> · <a href="about/">About</a> · <a href="privacy/">Privacy</a> · <a href="terms/">Terms</a></p>
-  <p>Built by <a href="about/">Jeremy Lee</a>. Data last built <span id="built"></span>. Numbers can be wrong; the grade says how likely.</p>
+  <p><a href="overview/">How this works</a> · <a href="sources/">Sources</a> · <a href="about/">About</a> · <a href="privacy/">Privacy</a> · <a href="terms/">Terms</a></p>
+  <p>Built by <a href="about/">Jeremy Lee</a>. Data built <span id="built"></span>. Numbers can be wrong; the grade says how likely.</p>
 </footer>
 <script type="module" src="app.js"></script>
 </body>

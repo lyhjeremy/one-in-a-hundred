@@ -1,6 +1,6 @@
 # One in a Hundred
 
-What does it take to be in the top 1% (or top 10%, or the median) of some group, on income, wealth, height, weight, BMI, age or life expectancy? Pick a group, narrow it by country, sex and age, pick a measure and a percentile, and get one sentence back with a confidence grade, the spread across sources, and the sources themselves. Or type the question.
+What does it take to be in the top 1% (or top 10%, or the median) of some group, on income, wealth, height, weight, BMI, age or life expectancy? Pick a measure, a group and a percentile from three controls and get one sentence back with a confidence grade, the spread across sources, and the sources themselves. Type your own number to see where you land, or type the question in words.
 
 > Overview: https://lyhjeremy.github.io/one-in-a-hundred/overview/ · Live: https://lyhjeremy.github.io/one-in-a-hundred/
 
@@ -25,10 +25,9 @@ The site is static files on GitHub Pages. A Cloudflare Worker (`worker/`) parses
 
 | Path | What |
 |---|---|
-| `index.html`, `app.js`, `format.js`, `cards.js`, `parser-rules.js` | The site. No framework, no build step for the page itself. |
+| `index.html`, `app.js`, `format.js`, `parser-rules.js` | The site: three controls, the answer, a where-do-I-land line, a question box. No framework. |
 | `data/metrics.json` | Metric catalogue: ids, units, direction, punchline templates, phrasings. |
 | `data/facts/<family>.json`, `data/index.json` | The facts and the lookup index, generated. |
-| `data/themes.json` | Hand-ordered "today's fact" list. |
 | `f/<id>/`, `cards/<id>.png` | One static page and one share image per fact, generated. |
 | `pipeline/fetch/*.py` | One fetcher per source. Raw downloads are git-ignored. |
 | `pipeline/build_facts.py`, `verify.py`, `render_cards.py`, `build_site.py` | Build, grade, render. `verify.py` refuses a fact with no source. |

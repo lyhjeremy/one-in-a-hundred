@@ -1,0 +1,73 @@
+{
+ "id": "body_fat_pct.us.m.20plus.2004",
+ "metric": "body_fat_pct",
+ "population": {
+  "base": "country",
+  "country": "US",
+  "sex": "m",
+  "age_band": "20+",
+  "activity": null,
+  "source_category": null
+ },
+ "year": 2004,
+ "n": null,
+ "n_source": null,
+ "direction": "low",
+ "unit": "percent",
+ "grid": {
+  "p10": 19.5,
+  "p25": 24.1,
+  "p50": 28.0,
+  "p75": 32.1,
+  "p90": 35.9
+ },
+ "sources": [
+  {
+   "id": "src-q-borrud-lg-flegal-km-looker-ac-everhart-j",
+   "name": "Borrud LG, Flegal KM, Looker AC, Everhart JE, et al. Body composition data for individuals 8 years of age and older: U.S. population, 1999-2004. Vital and Health Statistics Series 11, No. 250 (NCHS/CDC), Table 3",
+   "url": "https://www.cdc.gov/nchs/data/series/sr_11/sr11_250.pdf",
+   "accessed": "2026-10-15",
+   "measures": "Total (whole-body) percentage body fat measured by dual-energy X-ray absorptiometry (Hologic QDR 4500A) in examined NHANES participants. Values are survey-weighted and use multiple imputation for missing or invalid DXA scans. Row used: males, all races and ethnicities, age 20 years and older, crude.",
+   "values": {
+    "p10": 19.5,
+    "p25": 24.1,
+    "p50": 28.0,
+    "p75": 32.1,
+    "p90": 35.9
+   },
+   "independent_of": [],
+   "official": true,
+   "unit_as_published": "percent",
+   "notes": "Survey years are 1999-2004, published April 2010; the year field is the last survey year. The lowest percentile published is p5, and no p1 is given. The standard error of the mean is 0.1; no SD is published. Age-specific rows for all-race males: 20-39 years (n=2,183, mean 26.1): p5 15.5, p10 17.4, p25 21.2, p50 26.1, p90 34.6, p95 37.2. 40-59 years (n=2,024, mean 28.6): p5 19.3, p10 21.5, p50 28.5, p95 37.7. 60-79 years (n=1,851, mean 30.8): p5 22.0, p10 24.2, p50 30.7, p95 39.6. 80+ years (n=501): p5 21.9, p10 24.2, p50 30.8, p95 38.8. For comparison, males aged 16-19 (n=1,751): p5 14.0, p10 14.9, p50 20.7."
+  }
+ ],
+ "definition": "Total (whole-body) percentage body fat measured by dual-energy X-ray absorptiometry (Hologic QDR 4500A) in examined NHANES participants. Values are survey-weighted and use multiple imputation for missing or invalid DXA scans. Row used: males, all races and ethnicities, age 20 years and older, crude.",
+ "derived_points": [],
+ "caveat": "The question asks for the top 1% leanest men, which is p1 on a lower-is-better scale. No credible population source publishes p1 for adult male body fat. The best national source, the NHANES 1999-2004 DXA tables, stops at p5 (17.4% for US men 20+; 15.5% for men 20-39), so the site will have to extrapolate below p5. I found only one source on this exact definition (Hologic DXA, US men 20+, population-weighted). Kelly, Wilson & Heymsfield 2009 (PLoS ONE, doi 10.1371/journal.pone.0007038) publishes DXA %fat reference percentiles from the same NHANES 1999-2004 scans, broken out by ethnicity only. It is not independent of the CDC report, so it is left out of sources. Comparison, not for averaging: Imboden et al. 2017 (PLoS ONE, doi 10.1371/journal.pone.0175110) measured Caucasian adults on GE Lunar Prodigy or iDXA scanners at two US university labs. This is a convenience sample, not population-weighted, and GE and Hologic scanners give systematically different %fat readings. Its table labels the leanest value as the '90th' percentile (fitness-ranking convention). Rewritten in conventional low-is-lean terms, its men's p10 is 11.0% at 20-29 (n=384, mean 21.1 ± SD 8.3, median 20.2), 11.2% at 30-39, 15.8% at 40-49, 20.0% at 50-59, 21.0% at 60-69 and 23.0% at 70-79. Its overall men's mean is 28.3 ± 9.4%. It has no all-ages row and no p1 or p5. Its leanest decile is well below NHANES p10 (17.4% at 20-39), so sample and scanner differences are large. Other methods (BIA, skinfolds, smart scales, calipers) are not comparable to DXA and were not used. The NHANES data are 20 years old, and US adiposity has risen since, so current percentiles are probably somewhat higher. Body fat rises with age, so an age-specific band (20-39) gives a leaner threshold than the all-adult row.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Body fat percentage",
+  "short": "Body fat",
+  "unit": "percent",
+  "direction": "low",
+  "format": "number_1dp",
+  "metric_phrase": "a body fat percentage",
+  "base_noun": "adults",
+  "definition": "Whole-body fat mass as a percentage of total body mass, measured by dual-energy X-ray absorptiometry (DXA).",
+  "phrasings": [
+   "what body fat percentage is top 1% leanest for men",
+   "how rare is 10% body fat",
+   "what percentile is 15% body fat for a man",
+   "average body fat percentage for men",
+   "is 12% body fat top 1%",
+   "body fat percentage percentile chart",
+   "how lean are the leanest 1% of people",
+   "what body fat percentage is top 10% for women"
+  ],
+  "activity": null,
+  "activity_label": null,
+  "id": "body_fat_pct"
+ }
+}

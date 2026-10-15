@@ -1,0 +1,24 @@
+{
+ "label": "Age at first marriage",
+ "short": "First marriage age",
+ "unit": "years",
+ "direction": "high",
+ "format": "years_1dp",
+ "metric_phrase": "an age at first marriage",
+ "base_noun": "people who marry",
+ "definition": "Age in years at which a person first marries, as estimated by national statistics offices from census or survey data on marital status by age.",
+ "phrasings": [
+  "median age at first marriage",
+  "average age people get married",
+  "what age do most people get married",
+  "age of first marriage in the US",
+  "how old are people when they first marry",
+  "typical marriage age for men",
+  "typical marriage age for women",
+  "am I old to get married at 35",
+  "age at first wedding"
+ ],
+ "activity": null,
+ "activity_label": null,
+ "id": "age_first_marriage"
+}

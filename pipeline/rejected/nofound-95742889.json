@@ -1,0 +1,7 @@
+{
+ "group": "q|what is the top 1% wordle average guesses",
+ "result": {
+  "found": false,
+  "why": "The question needs the distribution of per-player Wordle averages, i.e. the average guesses per solved puzzle that would put a player in the top 1%. I couldn't find a credible source that publishes this. The New York Times (WordleBot) publishes only daily guess distributions pooled across all players. It does not publish the spread of individual players' long-run averages. The Twitter-based analyses also report only pooled averages: the NYT December 2023 country ranking (about 140,000 shared scores, US average about 3.92) and Puzzle London (Nov 2021 to Oct 2023, average 4.15). Neither gives per-player percentiles. The arXiv paper 2311.16777 models how hard each word is, not how skilled each player is. Pages that claim 'top 5%' or 'top 1%' cutoffs are SEO or statistics-aggregator sites with no stated method. A pooled per-game distribution can't stand in for a per-player one, because a player's long-run average spreads much less than single-game scores do. For reference only (these measure other things): solver benchmarks put the theoretical best at about 3.42 guesses, and a fixed replay policy over 1,929 puzzles averages 3.51."
+ }
+}

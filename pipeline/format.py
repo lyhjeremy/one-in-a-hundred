@@ -111,6 +111,8 @@ def age_band_phrase(band: str | None) -> str:
         return ""
     if band.endswith("+"):
         return f"aged {band[:-1]} and over"
+    if "-" not in band:
+        return f"aged {band}"
     lo, hi = band.split("-")
     return f"aged {lo} to {hi}"
 

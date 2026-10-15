@@ -1,0 +1,24 @@
+{
+ "label": "Squat one-rep max",
+ "short": "Squat",
+ "unit": "kg",
+ "direction": "high",
+ "format": "weight",
+ "metric_phrase": "a one-rep-max squat",
+ "base_noun": "people who squat",
+ "definition": "Heaviest weight a person can back squat to competition depth for a single repetition, in kilograms, taken as the best successful raw (unequipped) squat at a sanctioned powerlifting meet.",
+ "phrasings": [
+  "what squat is top 1% for women",
+  "squat percentile",
+  "average squat for women",
+  "top 10% squat for men",
+  "is a 100 kg squat good for a woman",
+  "how rare is a 315 squat",
+  "what percentile is a 225 squat",
+  "squat standards by bodyweight",
+  "how much can the strongest 1% squat"
+ ],
+ "activity": "powerlifters",
+ "activity_label": "who compete in powerlifting",
+ "id": "squat_1rm"
+}

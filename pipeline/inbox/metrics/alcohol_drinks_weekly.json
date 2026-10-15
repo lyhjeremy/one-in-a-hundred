@@ -1,0 +1,23 @@
+{
+ "label": "Alcoholic drinks per week",
+ "short": "Drinks/week",
+ "unit": "drinks_week",
+ "direction": "high",
+ "format": "number",
+ "metric_phrase": "a weekly alcohol intake",
+ "base_noun": "adults",
+ "definition": "The usual number of standard alcoholic drinks a person consumes per week, self-reported over the past 12 months, with non-drinkers counted as zero.",
+ "phrasings": [
+  "how much alcohol does the top 10% of drinkers drink per week",
+  "how many drinks a week is a lot",
+  "how many drinks per week does the average American have",
+  "am I a heavy drinker at 20 drinks a week",
+  "what percentile is 14 drinks a week",
+  "how much do the heaviest drinkers drink",
+  "drinks per week percentile US",
+  "how much alcohol does the median adult drink weekly"
+ ],
+ "activity": null,
+ "activity_label": null,
+ "id": "alcohol_drinks_weekly"
+}

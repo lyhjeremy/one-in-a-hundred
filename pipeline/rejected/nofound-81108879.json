@@ -1,0 +1,7 @@
+{
+ "group": "q|how many languages does the top 1% of people speak",
+ "result": {
+  "found": false,
+  "why": "No credible source publishes a 99th-percentile value, or a full distribution, for how many languages a person speaks. The best official source is Eurostat's Adult Education Survey (dataset edat_aes_l21, 2022, EU adults aged 25-64). It is self-reported, counts only foreign languages (the native language is excluded), and its highest category is open-ended at '3 or more'. EU 2022 shares: about 25.4% know no foreign language, 37.6% know 1, 24.7% know 2, and 12.3% know 3 or more (13.3% of women, 11.4% of men). Because roughly 12% of adults are in that top bucket, the 99th percentile sits somewhere inside '3 or more' and its value cannot be read from the published data. The Special Eurobarometer 386 (2012) uses the same kind of capped categories ('at least three foreign languages', about 10%) and has the same problem. Searches turned up no census in the US, Canada or Australia that tabulates the count of languages spoken per person. The only sources that give a single figure for the top 1% are forums and unsourced articles, which are excluded. If the site could accept a p90-level fact, the Eurostat buckets would support roughly '3 foreign languages (about 4 including the native language)' for EU adults aged 25-64. That figure has to be read off a capped categorical distribution, and it does not answer the top-1% question."
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "id": "grip_strength_kg.world.m.35-39.2025",
+ "metric": "grip_strength_kg",
+ "population": {
+  "base": "world",
+  "country": null,
+  "sex": "m",
+  "age_band": "35-39",
+  "activity": null,
+  "source_category": null
+ },
+ "year": 2025,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "kg",
+ "grid": {
+  "p10": 38.15,
+  "p50": 50.25,
+  "p90": 62.9,
+  "p25": 45.0,
+  "p75": 58.0
+ },
+ "sources": [
+  {
+   "id": "src-q-tomkinson-et-al-2025-international-norms",
+   "name": "Tomkinson et al. (2025), International norms for adult handgrip strength: a systematic review of data on 2.4 million adults aged 20 to 100+ years from 69 countries and regions, Journal of Sport and Health Science 14:101014",
+   "url": "https://europepmc.org/article/PMC/PMC11863340",
+   "accessed": "2026-10-15",
+   "measures": "Absolute handgrip strength in kg, harmonised to a reference protocol: both hands tested, 3 repetitions per hand, summary statistic = maximum irrespective of hand, hydraulic dynamometer, seated, elbow flexed. Population-weighted GAMLSS norms built from Monte Carlo pseudo-data pooled from 100 studies (tests from 2000 onward). Values are for males aged 35-39.",
+   "values": {
+    "p10": 37.3,
+    "p50": 49.5,
+    "p90": 61.8
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "kg",
+   "notes": "n is all adults of both sexes (51.9% female); no male-only count is published. The table stops at P95, so there is no P99. Other male rows: 30-34 p50 49.7, p90 61.5, p95 64.9; 40-44 p50 48.8, p90 61.5, p95 65.1; 20-24 p50 48.0, p90 60.1, p95 63.6. The highest male P95 in any age band is 65.3 kg (35-39). Peak median is 49.7 kg at 30-34."
+  },
+  {
+   "id": "src-q-dodds-et-al-2014-grip-strength-across-th",
+   "name": "Dodds et al. (2014), Grip strength across the life course: normative data from twelve British studies, PLoS ONE 9(12):e113637",
+   "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0113637",
+   "accessed": "2026-10-15",
+   "measures": "Maximum grip strength in kg across all trials (usually 3 per hand, both hands; two studies used the dominant hand only), Jamar-type and other dynamometers. GAMLSS centiles from 12 pooled general-population British studies. Values are for males at exact age 35.",
+   "values": {
+    "p10": 39.0,
+    "p25": 45.0,
+    "p50": 51.0,
+    "p75": 58.0,
+    "p90": 64.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "kg",
+   "notes": "n is the number of male observations within ±2.5 years of age 35 (28,257 male observations in total). Age 30 gives the same centiles (p50 51, p90 64) with mean 51.6 and SD 9.6. Centiles are published only up to p90, so there is no p99. Great Britain only. Some of the 12 British cohorts may also be among the 100 studies pooled by Tomkinson et al. (2025), so the two sources may partly overlap. Neither is built from the other's published figures."
+  }
+ ],
+ "definition": "Absolute handgrip strength in kg, harmonised to a reference protocol: both hands tested, 3 repetitions per hand, summary statistic = maximum irrespective of hand, hydraulic dynamometer, seated, elbow flexed. Population-weighted GAMLSS norms built from Monte Carlo pseudo-data pooled from 100 studies (tests from 2000 onward). Values are for males aged 35-39.",
+ "derived_points": [],
+ "caveat": "Neither credible normative source publishes a 99th percentile for men's grip strength. The highest published percentile is P95 = 65.3 kg (Tomkinson 2025, men aged 35-39, the peak age band). Dodds 2014 stops at P90 = 64 kg but gives mean 51.6 kg and SD 10.1 kg at age 35. Any top-1% figure would have to be extrapolated, and I have not done that. The question gives no age, so the peak age band (35-39 in Tomkinson; 30-35 in Dodds) is used. Top-1% thresholds for all adult men would be lower because grip declines after about 40 (Tomkinson men 60-64: P95 59.3 kg). Protocol matters. Tomkinson harmonises to a seated hydraulic (Jamar-type) test and Dodds pools seated and standing tests, but both use the maximum single-hand reading. NHANES 2011-12 (Perna et al. 2016, J Strength Cond Res 30(3):867-874) is a different definition and is kept out of sources. It uses a standing Takei digital dynamometer, sums the best of each hand, and reports in pounds. US men 30-39 there: mean 216.4 lb, p20 184.7, p40 209.5, p50 216.1, p60 224.6, p80 245.3, with no higher percentiles. Dividing by roughly 2 to get one hand is only approximate.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Handgrip strength",
+  "short": "Grip strength",
+  "unit": "kg",
+  "direction": "high",
+  "format": "number_1dp",
+  "metric_phrase": "a grip strength",
+  "base_noun": "adults",
+  "definition": "Maximum force in kilograms squeezed on a handgrip dynamometer, taken as the best single trial from either hand.",
+  "phrasings": [
+   "what grip strength is top 1% for men",
+   "how strong is my grip compared to others",
+   "average grip strength for men",
+   "is 60 kg grip strength good",
+   "grip strength percentile",
+   "handgrip dynamometer score percentile",
+   "what is a strong grip in kg",
+   "grip strength norms by age"
+  ],
+  "activity": null,
+  "activity_label": null,
+  "id": "grip_strength_kg"
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "label": "English vocabulary size",
+ "short": "Vocabulary",
+ "unit": "lemmas",
+ "direction": "high",
+ "format": "count",
+ "metric_phrase": "an English vocabulary size",
+ "base_noun": "native English speakers",
+ "definition": "The estimated number of distinct English lemmas (dictionary headwords without inflections, proper nouns excluded) a native speaker recognises as known on a word-recognition test.",
+ "phrasings": [
+  "how many words does the average person know",
+  "how many English words do I know",
+  "vocabulary size of top 1% of adults",
+  "average native English speaker vocabulary size",
+  "how big is a large English vocabulary",
+  "number of words known by an adult",
+  "what is a good vocabulary size in English",
+  "how many words does an educated person know"
+ ],
+ "activity": "native_english_speakers",
+ "activity_label": "who speak English as a first language",
+ "id": "vocabulary_size_lemmas"
+}

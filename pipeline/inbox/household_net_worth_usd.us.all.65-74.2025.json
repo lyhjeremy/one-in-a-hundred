@@ -1,0 +1,79 @@
+{
+ "id": "household_net_worth_usd.us.all.65-74.2025",
+ "metric": "household_net_worth_usd",
+ "population": {
+  "base": "country",
+  "country": "US",
+  "sex": "all",
+  "age_band": "65-74",
+  "activity": null,
+  "source_category": null
+ },
+ "year": 2025,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "usd",
+ "grid": {
+  "p50": 420600.0
+ },
+ "sources": [
+  {
+   "id": "src-q-federal-reserve-board-changes-in-u-s-fam",
+   "name": "Federal Reserve Board, Changes in U.S. Family Finances from 2022 to 2025: Evidence from the Survey of Consumer Finances (Table 2)",
+   "url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+   "accessed": "2026-10-15",
+   "measures": "Family net worth (gross assets minus liabilities, including retirement accounts), families grouped by age of the reference person 65-74, United States, 2025 SCF wave",
+   "values": {
+    "p50": 431300.0
+   },
+   "independent_of": [],
+   "official": true,
+   "unit_as_published": "thousands of 2025 US dollars",
+   "notes": "Table 2 gives 65-74 median 431.3 and mean 1,897.6 (thousands of 2025 dollars). The same table restates the 2022 wave in 2025 dollars: median 448.6, mean 1,963.9. Neighbouring bands for 2025: 55-64 median 411.9, 75+ median 504.9; all families median 215.9. n is total completed interviews (3,188 area-probability plus 1,179 list sample), not the 65-74 subsample. Report released October 2026."
+  },
+  {
+   "id": "src-q-federal-reserve-board-changes-in-u-s-fam",
+   "name": "Federal Reserve Board, Changes in U.S. Family Finances from 2019 to 2022: Evidence from the Survey of Consumer Finances (Table 2)",
+   "url": "https://www.federalreserve.gov/publications/files/scf23.pdf",
+   "accessed": "2026-10-15",
+   "measures": "Family net worth, families grouped by age of the reference person 65-74, United States, 2022 SCF wave",
+   "values": {
+    "p50": 409900.0
+   },
+   "independent_of": [],
+   "official": true,
+   "unit_as_published": "thousands of 2022 US dollars",
+   "notes": "Same survey series and definition as the 2025 source, but a separate wave with its own sample, so it is not derived from the 2025 figures. The 2022 values (median 409.9, mean 1,794.6, in thousands of 2022 dollars) are confirmed by several secondary pages citing the Fed. I did not open the Fed's own 2023 PDF in this session. n is total 2022 interviews (3,298 area-probability plus 1,304 list sample), as stated in the 2025 report."
+  }
+ ],
+ "definition": "Family net worth (gross assets minus liabilities, including retirement accounts), families grouped by age of the reference person 65-74, United States, 2025 SCF wave",
+ "derived_points": [],
+ "caveat": "The question asks about age 65. The SCF reports a 65-74 band, not single years of age. Census SIPP has a closer band, but its wealth definition leaves out equity in pension plans and home furnishings, and it counts households, not SCF family units, so it is listed here only for comparison: the Census Bureau's Wealth of Households: 2024 (P70BR-218, July 2026, 2025 SIPP, https://www2.census.gov/library/publications/2026/demo/p70br-218.pdf) gives a median household wealth of $376,100 for householders aged 65-69 and $426,700 for 70-74 (2024 dollars), against $204,900 for all households. Its p90 for all households is $1,810,000. The SCF counts the 'primary economic unit' (family) rather than every household member, and its list sample oversamples wealthy families while excluding the Forbes 400. The 2022 and 2025 SCF waves are in different dollar years, so they should be inflation-adjusted before averaging. In 2025 dollars the 2022 median is 448,600.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Household net worth",
+  "short": "Net worth (household)",
+  "unit": "usd",
+  "direction": "high",
+  "format": "money",
+  "metric_phrase": "a household net worth",
+  "base_noun": "US households",
+  "definition": "Value of all assets a household or family owns (homes, retirement accounts, businesses, financial and other assets) minus all its debts, measured for the household as a unit and grouped by the age of the head of household.",
+  "phrasings": [
+   "median net worth of American households by age",
+   "household net worth at 65",
+   "how much are retirees worth on average",
+   "median net worth for 65 year olds",
+   "what net worth puts my household in the top 10%",
+   "family net worth by age of head",
+   "average retirement net worth US",
+   "household wealth percentile by age"
+  ],
+  "activity": null,
+  "activity_label": null,
+  "id": "household_net_worth_usd"
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "id": "books_read_annual.us.all.18plus.2021",
+ "metric": "books_read_annual",
+ "population": {
+  "base": "country",
+  "country": "US",
+  "sex": "all",
+  "age_band": "18+",
+  "activity": null,
+  "source_category": null
+ },
+ "year": 2021,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "books",
+ "grid": {
+  "p50": 5.0
+ },
+ "sources": [
+  {
+   "id": "src-q-pew-research-center-three-in-ten-america",
+   "name": "Pew Research Center, 'Three-in-ten Americans now read e-books' (survey of U.S. adults, Jan 25 to Feb 8, 2021)",
+   "url": "https://www.pewresearch.org/short-reads/2022/01/06/three-in-ten-americans-now-read-e-books/",
+   "accessed": "2026-10-15",
+   "measures": "Self-reported number of books read in whole or in part in the previous 12 months, any format (print, e-book, audiobook), U.S. adults 18+, phone survey (cell and landline)",
+   "values": {
+    "p50": 5.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "books in the past 12 months",
+   "notes": "Publishes only the mean ('roughly 14', same as 2011) and the median (5). No upper-tail percentiles and no top-bracket share. Pew's 2015 survey gave median 4, mean 12."
+  },
+  {
+   "id": "src-q-gallup-about-half-of-americans-reading-a",
+   "name": "Gallup, 'About Half of Americans Reading a Book' (trend table, May 20-22, 2005 poll)",
+   "url": "https://news.gallup.com/poll/16582/About-Half-Americans-Reading-Book.aspx",
+   "accessed": "2026-10-15",
+   "measures": "Self-reported number of books read, either all or part of the way through, during the past year, U.S. adults 18+, telephone poll",
+   "values": {
+    "p50": 5.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "books in the past year",
+   "notes": "Banded distribution for 2005: none 16%, 1-5 38%, 6-10 14%, 11-50 25%, 51+ 6%, no answer 1%. The top band is open-ended (51+), so the p99 value cannot be read off the table. Shares in the 51+ band in earlier polls: 2002 8%, 2001 8%, Sep 1999 7%, Jul 1999 10%, 1990 7%, 1978 13%. Gallup's Dec 2021 poll (n=811, https://news.gallup.com/poll/388541/americans-reading-fewer-books-than-past.aspx) gives a mean of 12.6, with none 17%, 1-5 40%, 6-10 15% and more than 10 27%. That release gives no median and no 51+ share."
+  }
+ ],
+ "definition": "Self-reported number of books read in whole or in part in the previous 12 months, any format (print, e-book, audiobook), U.S. adults 18+, phone survey (cell and landline)",
+ "derived_points": [],
+ "caveat": "Neither source publishes a 99th-percentile value. Both give only the median (5 books, Pew 2021 and Gallup 2005) and the mean (about 12.6 to 14.2). Gallup's banded tables put about 6-8% of U.S. adults at 51 or more books a year (6% in 2005, 8% in 2001 and 2002), so the top 1% threshold is somewhere above 51 books/year. Neither source states the exact figure, and this research does not estimate it. All figures are self-reported recall, not measured. They count books read 'all or part of the way through' and include e-books and audiobooks, so they will overstate completed books. Gallup and Pew are independent surveys with their own samples. The Statista chart and Book Riot article that turn up in searches only repeat Gallup and Pew, so they were not used. The Gallup 2021 PDF with the full 2021 distribution (news.gallup.com/file/poll/388568/220110Books.pdf) could not be parsed here. It may contain a 2021 51+ share.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Books read per year",
+  "short": "Books/yr",
+  "unit": "books",
+  "direction": "high",
+  "format": "count",
+  "metric_phrase": "a yearly book count",
+  "base_noun": "adults",
+  "definition": "Self-reported number of books read, all or part of the way through, in the past 12 months, in any format including print, e-books and audiobooks.",
+  "phrasings": [
+   "how many books a year does the top 1% read",
+   "how many books does the average American read per year",
+   "books read per year percentile",
+   "is reading 50 books a year a lot",
+   "how many books do heavy readers read a year",
+   "median books read per year US",
+   "how many books a year puts you in the top 10%",
+   "what percentile is reading 20 books a year"
+  ],
+  "activity": null,
+  "activity_label": null,
+  "id": "books_read_annual"
+ }
+}

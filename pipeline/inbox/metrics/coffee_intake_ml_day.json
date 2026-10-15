@@ -1,0 +1,23 @@
+{
+ "label": "Daily coffee intake",
+ "short": "Coffee/day",
+ "unit": "ml_day",
+ "direction": "high",
+ "format": "count",
+ "metric_phrase": "a daily coffee intake",
+ "base_noun": "adult coffee drinkers",
+ "definition": "Usual average volume of brewed coffee beverages (caffeinated and decaf) drunk per day, in millilitres, among adults who drink coffee.",
+ "phrasings": [
+  "how much coffee does the top 1% of drinkers drink per day",
+  "how many cups of coffee is a lot per day",
+  "how much coffee does the average coffee drinker drink",
+  "am I a heavy coffee drinker",
+  "what percentile is 5 cups of coffee a day",
+  "how much coffee do heavy coffee drinkers drink",
+  "median coffee consumption per day",
+  "how many cups of coffee do people drink a day"
+ ],
+ "activity": "coffee_drinkers",
+ "activity_label": "who drink coffee",
+ "id": "coffee_intake_ml_day"
+}

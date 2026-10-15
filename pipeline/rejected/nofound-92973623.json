@@ -1,0 +1,65 @@
+{
+ "group": "q|how many youtube subscribers is top 1% of channels",
+ "result": {
+  "found": true,
+  "triple": {
+   "metric_phrase": "YouTube channel subscriber count",
+   "catalogue_metric": null,
+   "direction": "high",
+   "unit": "subscribers",
+   "population": {
+    "base": "world",
+    "country": null,
+    "sex": "all",
+    "age_band": null,
+    "activity": "youtube_channels"
+   },
+   "percentile": 99
+  },
+  "sources": [
+   {
+    "name": "vidIQ Research: YouTube Subscriber Benchmarks 2026",
+    "url": "https://vidiq.com/research/youtube-subscriber-benchmarks-2026/",
+    "publisher_type": "organisation_own_data",
+    "measures": "Public subscriber count of YouTube channels that had at least one public subscriber, from vidIQ's channel database, July 2026. The report gives the share of channels at or above fixed thresholds and the matching 'ahead of' percentage. Each threshold's percentile rank is listed below as a key (for example p98.7 = 100000 means 100,000 subscribers is ahead of 98.70% of the sample).",
+    "year": 2026,
+    "unit_as_published": "subscribers",
+    "n": 61186246,
+    "values": {
+     "p59.4": 1000,
+     "p92.1": 10000,
+     "p98.7": 100000,
+     "p99.87": 1000000
+    },
+    "mean": null,
+    "sd": null,
+    "derives_from": [],
+    "notes": "Published shares reaching each threshold: 40.6% reached 1,000, 7.9% reached 10,000, 1.30% reached 100,000 and 0.13% reached 1 million. The report gives no exact p99 value. By the table, the top-1% line falls between 100,000 (top 1.30%) and 1,000,000 (top 0.13%). The report page returned HTTP 429 when I tried to fetch it, so these figures come from search-result extracts of the vidIQ page and were not read from the page directly. The vidIQ blog post 'YouTube Subscriber Growth Statistics' (vidiq.com/blog/post/youtube-subscriber-growth-statistics/) is from the same publisher and the same dataset, so it is not an independent second source. vidIQ notes that YouTube rounds public subscriber counts for larger channels. The methodology for how channels enter vidIQ's database was not available."
+   }
+  ],
+  "caveat": "Only one source was found for this definition (channels with at least one public subscriber), and it does not publish an exact p99. It brackets the top 1% between 100,000 and 1,000,000 subscribers. vidIQ's 61.2M-channel base is probably not all YouTube channels. It includes only channels with at least one public subscriber that vidIQ tracks, which likely leaves out many tiny or dormant channels and pushes percentiles upward relative to all channels. A peer-reviewed comparison on a different definition, kept out of sources: McGrady, Zheng, Curran, Baumgartner and Zuckerman (2023), 'Dialing for Videos: A Random Sample of YouTube', Journal of Quantitative Description: Digital Media 3, doi 10.51685/jqd.2023.022 (https://journalqd.org/article/view/4066). It sampled 10,016 random public videos (collected Oct 5 to Dec 13, 2022) from 9,997 unique channels. Subscriber count per channel: mean 55,100.04, median 61, max 33,100,000, min 0, and 9,066 channels had 1 or more subscribers. Zero-subscriber channels are included, and channels are picked with probability proportional to how many videos they upload, so the sample is video-weighted rather than a uniform sample of channels. The paper publishes no p90 or p99. Its Figure 10 histogram of ln(subscribers+1) puts about 101 of roughly 10,000 sampled videos (about 1%) in bins above ln = 14, which is about 1.2 million subscribers. That is my reading of a figure, not a published percentile. The two sources disagree sharply at the median (61 in the random sample vs above 1,000 for about 40% of vidIQ channels) because their populations differ. TubeCensus (Eggleston, Handler and Pacheco, arXiv 2605.06999, ICWSM 2026) lists at least 106M unique channels mined from the Internet Archive, but it publishes no subscriber percentiles. Commercial top-1%-by-niche figures (OutlierKit, about 1.0M to 5.9M among about 112k 'active' channels) cover only a small pre-selected set of channels and are not comparable.",
+  "new_metric": {
+   "id": "youtube_subscribers",
+   "label": "YouTube subscribers",
+   "short": "YT subs",
+   "unit": "subscribers",
+   "direction": "high",
+   "format": "count",
+   "metric_phrase": "a YouTube subscriber count",
+   "base_noun": "YouTube channels",
+   "definition": "The public subscriber count shown on a YouTube channel, counted per channel at the time of measurement.",
+   "phrasings": [
+    "how many YouTube subscribers is top 1% of channels",
+    "how many subscribers to be in the top 1% of YouTubers",
+    "what percent of YouTube channels have 100k subscribers",
+    "median YouTube channel subscriber count",
+    "how many subscribers does the average YouTube channel have",
+    "is 10,000 subscribers good on YouTube",
+    "what percentile is 1000 YouTube subscribers",
+    "top 10% YouTube channel subscribers"
+   ],
+   "activity": "youtube_channels",
+   "activity_label": "that run a YouTube channel"
+  }
+ }
+}

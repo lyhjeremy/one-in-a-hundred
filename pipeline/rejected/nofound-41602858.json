@@ -1,0 +1,7 @@
+{
+ "group": "q|how much savings does the top 1% of american households aged 35 to 44 have",
+ "result": {
+  "found": false,
+  "why": "The question asks for the 99th percentile of household savings (transaction accounts, or more broadly financial assets) for US households whose reference person is 35 to 44. The authoritative source is the Federal Reserve's Survey of Consumer Finances (2022 wave, https://www.federalreserve.gov/publications/changes-in-us-family-finances-from-2019-to-2022.htm), but it publishes only the median and mean of transaction accounts and financial assets by age group. It gives no 90th, 99th or 99.9th percentile within an age band, and I found no peer-reviewed paper or other official source that does. The sites that do give percentile tables by age (compoundladder.com, financer.com, switchwize.com, choosefi.com) are secondary calculators or blogs. Their figures are unverified recomputations of SCF microdata, some of them conflict with each other, and some look AI-generated. They also mostly report net worth rather than savings, so they fail the source requirements. A defensible p99 would need someone to compute it directly from the public SCF 2022 summary extract microdata (variables LIQ or FIN, AGECL=2, weighted by WGT across the five implicates). That is our own computation, not a published value. Separately, the catalogue's net_worth_adult_usd measures per-adult net worth, a different definition, so it should not be used as a substitute."
+ }
+}

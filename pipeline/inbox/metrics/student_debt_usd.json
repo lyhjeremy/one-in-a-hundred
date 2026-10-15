@@ -1,0 +1,23 @@
+{
+ "label": "Student loan debt",
+ "short": "Student debt",
+ "unit": "usd",
+ "direction": "high",
+ "format": "money",
+ "metric_phrase": "a student loan balance",
+ "base_noun": "families with student loan debt",
+ "definition": "Outstanding balance of education loans (federal and private student loans) owed by a family that holds any such debt, as reported in the Federal Reserve Survey of Consumer Finances.",
+ "phrasings": [
+  "median student loan debt",
+  "how much student debt does the average borrower have",
+  "typical student loan balance in the US",
+  "is my student loan debt high",
+  "student loan debt percentile",
+  "how much do people owe in student loans",
+  "average student loan debt per borrower",
+  "top 1% student loan debt"
+ ],
+ "activity": "student_loan_borrowers",
+ "activity_label": "who have student loan debt",
+ "id": "student_debt_usd"
+}

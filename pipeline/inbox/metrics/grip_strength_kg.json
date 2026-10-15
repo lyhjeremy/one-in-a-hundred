@@ -1,0 +1,23 @@
+{
+ "label": "Handgrip strength",
+ "short": "Grip strength",
+ "unit": "kg",
+ "direction": "high",
+ "format": "number_1dp",
+ "metric_phrase": "a grip strength",
+ "base_noun": "adults",
+ "definition": "Maximum force in kilograms squeezed on a handgrip dynamometer, taken as the best single trial from either hand.",
+ "phrasings": [
+  "what grip strength is top 1% for men",
+  "how strong is my grip compared to others",
+  "average grip strength for men",
+  "is 60 kg grip strength good",
+  "grip strength percentile",
+  "handgrip dynamometer score percentile",
+  "what is a strong grip in kg",
+  "grip strength norms by age"
+ ],
+ "activity": null,
+ "activity_label": null,
+ "id": "grip_strength_kg"
+}

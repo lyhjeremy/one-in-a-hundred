@@ -1,0 +1,88 @@
+{
+ "id": "deadlift_1rm.world.m.powerlifters.2025",
+ "metric": "deadlift_1rm",
+ "population": {
+  "base": "world",
+  "country": null,
+  "sex": "m",
+  "age_band": null,
+  "activity": "powerlifters",
+  "source_category": null
+ },
+ "year": 2025,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "kg",
+ "grid": {
+  "p10": 180.0,
+  "p25": 205.0,
+  "p50": 224.0,
+  "p75": 260.0,
+  "p90": 288.0
+ },
+ "sources": [
+  {
+   "id": "src-q-strength-origins-deadlift-standards-2025",
+   "name": "Strength Origins, Deadlift Standards (2025 competition percentiles)",
+   "url": "https://strengthorigins.com/strength-standards/deadlift/",
+   "accessed": "2026-10-15",
+   "measures": "Best competition deadlift in kg for male lifters at raw (unequipped), drug-tested, sanctioned full-power (squat-bench-deadlift) meets held 1 Jan to 20 Dec 2025, ages 16-65, one best result per lifter. All bodyweights pooled. Percentiles computed by Strength Origins from OpenPowerlifting.",
+   "values": {
+    "p10": 180.0,
+    "p25": 205.0,
+    "p50": 230.0,
+    "p75": 260.0,
+    "p90": 288.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "lb with kg equivalents (kg shown here)",
+   "notes": "n is unique male lifters across all of the site's 2025 analysis. The page gives no deadlift-only count. No p95 or p99 is displayed. The page says it computes weight-class percentiles but lists no class values for men."
+  },
+  {
+   "id": "src-q-stronger-app-deadlift-standards-competit",
+   "name": "Stronger app, Deadlift Standards (competition data)",
+   "url": "https://strongermobileapp.com/standards/deadlift",
+   "accessed": "2026-10-15",
+   "measures": "Best successful raw deadlift in kg per lifter per meet at sanctioned meets, men, all bodyweights, from OpenPowerlifting. Equipped and para divisions excluded. Tested and untested divisions pooled, all years.",
+   "values": {
+    "p50": 218.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "lb and kg",
+   "notes": "n is competition results for all sexes (480,472 lifters); the page gives no count for men only. Data updated September 2026. Tested men median 474 lb, untested 496 lb. Shares of men who have deadlifted at least 500 lb (227 kg): 43%; at least 600 lb (272 kg): 13%. No p90 or p99 is published. The definition differs from Strength Origins in two ways: it pools tested and untested lifters across all years, and it counts one result per meet rather than one per lifter."
+  }
+ ],
+ "definition": "Best competition deadlift in kg for male lifters at raw (unequipped), drug-tested, sanctioned full-power (squat-bench-deadlift) meets held 1 Jan to 20 Dec 2025, ages 16-65, one best result per lifter. All bodyweights pooled. Percentiles computed by Strength Origins from OpenPowerlifting.",
+ "derived_points": [],
+ "caveat": "No source I found publishes a 99th-percentile deadlift for all men across bodyweights. The sources above stop at p90 (288 kg, Strength Origins) or give only the median. The only p99 figures are per weight class: Fitness Volt (fitnessvolt.com/strength-standards/deadlift/) computes raw competition percentiles from OpenPowerlifting, tested and untested pooled, date range not stated, refreshed June 2026. Its male p99 values are 287.5 kg at 74 kg, 305 kg at 83 kg (n 80,506), 320 kg at 93 kg (n 82,658), 332.5 kg at 105 kg, 347.5 kg at 120 kg and 360 kg at 125 kg. Its p50 values are 217.5 kg at 83 kg and 230 kg at 93 kg, and p90 is 265 kg at 83 kg and 280 kg at 93 kg. Because these are per class, they are left out of sources. The peer-reviewed source, van den Hoek et al. 2024 (J Sci Med Sport 27(10):734-742, doi 10.1016/j.jsams.2024.07.005, 571,650 male drug-tested raw entries), reports deadlift as a multiple of bodyweight and stops at the 90th decile: 3.25x bodyweight for men aged 18-35. That is a different scale, so it is not in sources either. Strength Level (strengthlevel.com, self-reported estimated 1RMs from app users, 5,398,185 male results, 2015-2026) gives a different, weaker distribution: p50 154 kg, p80 202 kg, p95 253 kg, with no p99. Symmetric Strength gym data via Fitness Volt (self-reported, n 376,573 men) gives p50 147.2 kg and p90 204 kg. Every competition source draws on the same OpenPowerlifting database, so none is independent of the others. They describe competitive raw powerlifters, a far stronger group than men in general. The question asks about men without qualification, and no measured general-population deadlift data exists.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Deadlift one-rep max",
+  "short": "Deadlift",
+  "unit": "kg",
+  "direction": "high",
+  "format": "weight",
+  "metric_phrase": "a one-rep-max deadlift",
+  "base_noun": "men who deadlift",
+  "definition": "Heaviest weight a person can deadlift from the floor for a single repetition, in kilograms, taken as the best successful raw (unequipped) deadlift at a sanctioned powerlifting meet.",
+  "phrasings": [
+   "what deadlift is top 1% for men",
+   "deadlift percentile",
+   "how rare is a 500 lb deadlift",
+   "average deadlift for men",
+   "top 10% deadlift",
+   "is a 200 kg deadlift good",
+   "what percentile is a 405 deadlift",
+   "deadlift standards by bodyweight",
+   "how much can the strongest 1% deadlift"
+  ],
+  "activity": "powerlifters",
+  "activity_label": "who compete in powerlifting",
+  "id": "deadlift_1rm"
+ }
+}

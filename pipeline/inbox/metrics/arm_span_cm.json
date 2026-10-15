@@ -1,0 +1,23 @@
+{
+ "label": "Arm span (wingspan)",
+ "short": "Wingspan",
+ "unit": "cm",
+ "direction": "high",
+ "format": "height",
+ "metric_phrase": "an arm span",
+ "base_noun": "adults",
+ "definition": "Arm span is the horizontal distance from one middle fingertip to the other with both arms stretched straight out to the sides at shoulder height, measured standing.",
+ "phrasings": [
+  "what wingspan is top 1% for men",
+  "how long is a 99th percentile arm span",
+  "average wingspan for a man",
+  "is a 6'8 wingspan rare",
+  "what percentile is my wingspan",
+  "arm span percentile chart male",
+  "how rare is a 200 cm wingspan",
+  "top 10% wingspan for men"
+ ],
+ "activity": "us_army_soldiers",
+ "activity_label": "who are US Army soldiers",
+ "id": "arm_span_cm"
+}

@@ -1,0 +1,88 @@
+{
+ "id": "act_composite_score.us.all.act_test_takers.2025",
+ "metric": "act_composite_score",
+ "population": {
+  "base": "country",
+  "country": "US",
+  "sex": "all",
+  "age_band": null,
+  "activity": "act_test_takers",
+  "source_category": null
+ },
+ "year": 2025,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "points",
+ "grid": {
+  "p50": 18.0,
+  "p90": 28.0,
+  "p99": 34.0,
+  "p99.9": 36.0
+ },
+ "sources": [
+  {
+   "id": "src-q-act-profile-report-national-graduating-c",
+   "name": "ACT Profile Report – National, Graduating Class 2025 (Table 2.1, ACT Score Distributions, Cumulative Percents, and Score Averages)",
+   "url": "https://www.act.org/content/dam/act/unsecured/documents/2025-act-profile-report-us.pdf",
+   "accessed": "2026-10-15",
+   "measures": "ACT Composite score (1–36) of 2025 US high school graduates who took the ACT as sophomores, juniors or seniors under standard or extended time and got a college-reportable composite. Uses each student's most recent test. CP is the cumulative percent of students at or below a score.",
+   "values": {
+    "p50": 18.0,
+    "p90": 28.0,
+    "p99": 34.0,
+    "p99.9": 36.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "ACT scale score points (1–36)",
+   "notes": "Percentiles read off the published composite counts and CP column. Counts at the top: 36 = 2,958 students; 35 = 9,447; 34 = 12,329. CP: 34 = 99, 33 = 98, 28 = 91, 27 = 89, 18 = 51, 17 = 45. From the counts, 0.90% scored 35 or 36 and 1.79% scored 34 or higher, so 99.1% are at or below 34. The score needed to land inside the top 1% is therefore 35, while p99 is 34. Only 0.21% scored 36."
+  },
+  {
+   "id": "src-q-act-test-scores-national-ranks-composite",
+   "name": "ACT Test Scores: National Ranks (Composite)",
+   "url": "https://www.act.org/content/act/en/products-and-services/the-act/scores/national-ranks.html",
+   "accessed": "2026-10-15",
+   "measures": "Cumulative percent of ACT-tested US high school graduates scoring at or below each ACT Composite score. Pools three graduating classes and is used to report ranks to examinees.",
+   "values": {
+    "p50": 18.0,
+    "p90": 28.0,
+    "p99": 34.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "ACT scale score points (1–36); rank = percent at or below",
+   "notes": "When fetched (Oct 2026) the page showed the table for tests taken Sept 2026 to Aug 2027, based on the 2024–2026 graduating classes. A search snippet described an earlier version (2023–2025 graduates, tests Sept 2025 to Aug 2026). Composite ranks: 35 = 99, 34 = 99, 33 = 98, 28 = 91, 27 = 89, 18 = 52, 17 = 47. The rounding to whole percents puts both 34 and 35 at 99. This is not independent: it uses the same ACT records as the Class of 2025 report, pooled with neighbouring cohorts."
+  }
+ ],
+ "definition": "ACT Composite score (1–36) of 2025 US high school graduates who took the ACT as sophomores, juniors or seniors under standard or extended time and got a college-reportable composite. Uses each student's most recent test. CP is the cumulative percent of students at or below a score.",
+ "derived_points": [],
+ "caveat": "The population is students who chose or were required to take the ACT (about 36% of the 2025 US graduating class), not all US 17–18-year-olds. States that test everyone sit alongside self-selected college-bound students in other states. 'Top 1%' can mean two things. 99% of test-takers scored 34 or lower, so p99 = 34. To be inside the top 1% you need a 35 or 36 (0.90% of the 2025 class). Both ACT sources are built from ACT's own records, so they are not independent. The national ranks table pools three graduating classes and rounds to whole percents. Only one score per student is counted, the most recent; superscores are not used. ACT changed the test from 2025 (enhanced ACT: shorter, science optional, composite from English, math and reading). The Class of 2025 composite mostly reflects the legacy four-section format, so later cohorts may not be directly comparable. SAT scores are a different scale and are not included.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "ACT composite score",
+  "short": "ACT score",
+  "unit": "points",
+  "direction": "high",
+  "format": "number",
+  "metric_phrase": "an ACT composite score",
+  "base_noun": "ACT-tested high school graduates",
+  "definition": "The ACT Composite score on the 1–36 scale, as reported by ACT for US high school graduates who took the test, counting each student's most recent score.",
+  "phrasings": [
+   "what is the top 1% of ACT scores",
+   "what ACT score is top 1 percent",
+   "ACT score percentiles",
+   "what is a 99th percentile ACT score",
+   "average ACT score",
+   "is a 34 on the ACT top 1%",
+   "what ACT score is top 10%",
+   "median ACT composite score",
+   "how rare is a 36 on the ACT"
+  ],
+  "activity": "act_test_takers",
+  "activity_label": "who took the ACT",
+  "id": "act_composite_score"
+ }
+}

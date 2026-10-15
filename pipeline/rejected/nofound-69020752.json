@@ -1,0 +1,60 @@
+{
+ "group": "q|how fast does the top 1% swim 100m freestyle for masters swimmers",
+ "result": {
+  "found": true,
+  "triple": {
+   "metric_phrase": "100 m freestyle swim time (long course)",
+   "catalogue_metric": null,
+   "direction": "low",
+   "unit": "seconds",
+   "population": {
+    "base": "world",
+    "country": null,
+    "sex": "all",
+    "age_band": "25plus",
+    "activity": "masters_swimmers"
+   },
+   "percentile": 99
+  },
+  "sources": [
+   {
+    "name": "Ahmad W, Wilhelm M, Moreitz S, et al., Knechtle B. Freestyle master's swimming: Nationality, sex, and performance trends in World Aquatics competitions (1986\u20132024). PLOS One 20(9): e0332040",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12422501/",
+    "publisher_type": "academic",
+    "measures": "Official race times for the 100 m freestyle (long course, 50 m pool) at the FINA/World Aquatics Masters Championships, 1986\u20132024. All swimmers aged 25 and over, all age groups pooled, both sexes.",
+    "year": 2025,
+    "unit_as_published": "seconds",
+    "n": 20961,
+    "values": {},
+    "mean": 75.66,
+    "sd": 20.86,
+    "derives_from": [],
+    "notes": "The paper gives a mean and SD only, with no medians or percentiles. By sex: women 84.72 \u00b1 20.59... correction: women 84.72 \u00b1 24.59 s (min 56.89, max 1200.51, n=8,796); men 69.10 \u00b1 14.50 s (min 50.88, max 277.58, n=12,165). The women's maximum of 1200.51 s looks like a data-entry error and inflates the SD. Tables 2\u20133 give the mean of the 10 fastest per nation: men about 53.0\u201354.0 s (overall range 50.88\u201356.91 s), women about 60.7\u201361.9 s (overall range 56.89\u201367.78 s). The paper's discussion cites different means (men 52.64 s, women 61.08 s) that match neither the results nor the tables. Age-group means are shown only in a figure, with no numbers in the text."
+   }
+  ],
+  "caveat": "Only one credible source turned up, and it gives a mean and SD, not percentiles. The distribution is strongly right-skewed (one result is 1200 s), so a normal-distribution percentile from this mean and SD is invalid: mean minus 2.33 SD gives about 27 s, which is faster than the world record. Do not derive p99 from these figures. The sample is entrants to the World Masters Championships, which is self-selected and not all masters swimmers. The championships have used entry standards (qualifying times) in some editions, so the sample may be faster than masters swimmers in general. Results are long course (50 m pool); short-course yards (USMS) and short-course metre times are faster and must not be mixed in. Sexes and age groups 25\u201329 to 90+ are pooled, while the question names no sex or age. The fastest anchors in the source are the minimums (men 50.88 s, women 56.89 s) and the per-nation top-10 means (men about 53\u201354 s, women about 61 s). These describe roughly the top 0.5\u20131% of championship entries, but the paper does not state them as percentiles. Two other papers from the same group, Moser et al. 2020 (IJERPH 17:3875, pacing in 100/200 m events at the 2014\u20132019 Worlds, n=11,100 100 m swims) and Knechtle et al. 2017 (J Hum Kinet, butterfly), give no numeric 100 m freestyle times or percentiles. USMS publishes top-10 lists by age group but no percentile tables.",
+  "new_metric": {
+   "id": "swim_100m_free_time",
+   "label": "100 m freestyle time",
+   "short": "100 free",
+   "unit": "seconds",
+   "direction": "low",
+   "format": "time_ms",
+   "metric_phrase": "a 100 m freestyle time",
+   "base_noun": "masters swimmers",
+   "definition": "Official race time to swim 100 metres freestyle in a 50 m (long course) pool at a sanctioned competition.",
+   "phrasings": [
+    "how fast is a good 100m freestyle time",
+    "top 1% 100 meter freestyle masters swimmer",
+    "average 100m freestyle time for adults",
+    "100m free time percentile",
+    "how fast do masters swimmers swim 100 free",
+    "is a 1 minute 100m freestyle fast",
+    "median 100m freestyle time masters",
+    "100 metre freestyle time by age"
+   ],
+   "activity": "masters_swimmers",
+   "activity_label": "who swim in masters competitions"
+  }
+ }
+}

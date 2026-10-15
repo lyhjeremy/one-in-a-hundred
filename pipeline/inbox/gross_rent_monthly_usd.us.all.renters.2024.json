@@ -1,0 +1,79 @@
+{
+ "id": "gross_rent_monthly_usd.us.all.renters.2024",
+ "metric": "gross_rent_monthly_usd",
+ "population": {
+  "base": "country",
+  "country": "US",
+  "sex": "all",
+  "age_band": null,
+  "activity": "renters",
+  "source_category": null
+ },
+ "year": 2024,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "usd_month",
+ "grid": {
+  "p50": 1446.5
+ },
+ "sources": [
+  {
+   "id": "src-q-u-s-census-bureau-american-community-sur",
+   "name": "U.S. Census Bureau, American Community Survey 2024 1-year estimates, tables B25064 (Median Gross Rent) and B25063 (Gross Rent)",
+   "url": "https://data.census.gov/table/ACSDT1Y2024.B25064",
+   "accessed": "2026-10-15",
+   "measures": "Gross rent (contract rent plus estimated monthly cost of utilities and fuels paid by the renter) for renter-occupied housing units paying cash rent, United States, survey year 2024",
+   "values": {
+    "p50": 1487.0
+   },
+   "independent_of": [],
+   "official": true,
+   "unit_as_published": "US dollars per month",
+   "notes": "The median is $1,487 with a margin of error of ±$3 (B25064001). n is the weighted count of renter-occupied units with cash rent (B25063002), not a sample size. Census publishes no 90th percentile for gross rent. The bracket table B25063 (read through the Census Reporter API, release acs2024_1yr) gives these counts out of 43,914,060 units: $3,500 or more 1,865,136 (4.2%); $3,000–3,499 1,386,714; $2,500–2,999 2,841,215; $2,000–2,499 5,802,287. That puts 7.4% of cash-rent units at $3,000 or more and 13.9% at $2,500 or more, so the 90th percentile falls inside the $2,500–2,999 bracket. The published table does not give an exact p90."
+  },
+  {
+   "id": "src-q-u-s-census-bureau-american-community-sur",
+   "name": "U.S. Census Bureau, American Community Survey 2023 1-year estimates, table B25064 (Median Gross Rent)",
+   "url": "https://data.census.gov/table/ACSDT1Y2023.B25064",
+   "accessed": "2026-10-15",
+   "measures": "Gross rent (contract rent plus utilities and fuels paid by the renter) for renter-occupied housing units paying cash rent, United States, survey year 2023",
+   "values": {
+    "p50": 1406.0
+   },
+   "independent_of": [],
+   "official": true,
+   "unit_as_published": "US dollars per month",
+   "notes": "This figure was confirmed through Hawaii DBEDT State Data Book table 14.08, which cites ACS 2023 1-year B25064. It was not read directly from data.census.gov. It is the same survey program and definition as the 2024 source but a different annual sample and year, so the two are not pooled observations of the same year."
+  }
+ ],
+ "definition": "Gross rent (contract rent plus estimated monthly cost of utilities and fuels paid by the renter) for renter-occupied housing units paying cash rent, United States, survey year 2024",
+ "derived_points": [],
+ "caveat": "The Census Bureau publishes only the median gross rent and bracket counts, not a 90th percentile, so no credible source gives an exact top-10% value. From the official 2024 ACS bracket counts, the US 90th percentile of monthly gross rent for cash-rent renter households is somewhere between $2,500 and $2,999. Linear interpolation inside that bracket would put it near the upper-middle of the range, but no source publishes that number. An exact figure would need a weighted quantile of GRNTP (weight WGTP, TEN=3) from the 2024 ACS PUMS. CBPP has computed ZIP-level 90th, 95th and 98th percentile rents from 2017–2021 PUMS this way, but did not publish a national figure. For comparison only, a different measure: listing-based sites report a 90th-percentile asking rent of about $3,069 (October 2026). Asking rent for currently listed units runs higher than gross rent paid by all sitting tenants, and those figures are not from an official source, so they are excluded from sources. Gross rent includes utilities, while contract rent (ACS B25056–B25059) does not. ACS also publishes contract-rent quartiles, which are a separate definition and are not used here. Units with no cash rent (2,187,581 in 2024) are excluded from the distribution.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Monthly gross rent",
+  "short": "Rent",
+  "unit": "usd_month",
+  "direction": "high",
+  "format": "money",
+  "metric_phrase": "a monthly rent",
+  "base_noun": "renter households",
+  "definition": "Monthly contract rent plus the estimated cost of utilities and fuels paid by the renter, for renter-occupied housing units paying cash rent (US Census ACS definition).",
+  "phrasings": [
+   "what rent is top 10% in the US",
+   "how much rent do the top 10% pay",
+   "is my rent high compared to other Americans",
+   "median rent in the United States",
+   "what percentile is my rent",
+   "how expensive is $3000 rent",
+   "top 1% rent US",
+   "average monthly rent America"
+  ],
+  "activity": "renters",
+  "activity_label": "who rent their home",
+  "id": "gross_rent_monthly_usd"
+ }
+}

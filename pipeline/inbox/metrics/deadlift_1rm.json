@@ -1,0 +1,24 @@
+{
+ "label": "Deadlift one-rep max",
+ "short": "Deadlift",
+ "unit": "kg",
+ "direction": "high",
+ "format": "weight",
+ "metric_phrase": "a one-rep-max deadlift",
+ "base_noun": "men who deadlift",
+ "definition": "Heaviest weight a person can deadlift from the floor for a single repetition, in kilograms, taken as the best successful raw (unequipped) deadlift at a sanctioned powerlifting meet.",
+ "phrasings": [
+  "what deadlift is top 1% for men",
+  "deadlift percentile",
+  "how rare is a 500 lb deadlift",
+  "average deadlift for men",
+  "top 10% deadlift",
+  "is a 200 kg deadlift good",
+  "what percentile is a 405 deadlift",
+  "deadlift standards by bodyweight",
+  "how much can the strongest 1% deadlift"
+ ],
+ "activity": "powerlifters",
+ "activity_label": "who compete in powerlifting",
+ "id": "deadlift_1rm"
+}

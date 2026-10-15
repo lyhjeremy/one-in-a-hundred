@@ -1,0 +1,67 @@
+{
+ "id": "coffee_intake_ml_day.us.all.20plus.coffee_drinkers.2006",
+ "metric": "coffee_intake_ml_day",
+ "population": {
+  "base": "country",
+  "country": "US",
+  "sex": "all",
+  "age_band": "20+",
+  "activity": "coffee_drinkers",
+  "source_category": null
+ },
+ "year": 2006,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "ml_day",
+ "grid": {
+  "p50": 337.0,
+  "p75": 583.0
+ },
+ "sources": [
+  {
+   "id": "src-q-loftfield-e-freedman-nd-dodd-kw-et-al-co",
+   "name": "Loftfield E, Freedman ND, Dodd KW et al. Coffee Drinking Is Widespread in the United States, but Usual Intake Varies by Key Demographic and Lifestyle Factors. Journal of Nutrition 2016;146(9):1762-1768",
+   "url": "https://www.sciencedirect.com/science/article/pii/S0022316623007046",
+   "accessed": "2026-10-15",
+   "measures": "Usual (long-run average) daily intake of coffee-containing beverages, caffeinated and decaf, among US adults aged 20 and over who drink coffee. NHANES 2003-2006, estimated from up to two nonconsecutive 24-hour recalls plus a food frequency questionnaire using the NCI usual-intake method, survey-weighted to the US adult population.",
+   "values": {
+    "p50": 337.0,
+    "p75": 583.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "fluid ounces per day (mL per day also given)",
+   "notes": "Values above are the mL/day figures as published. The fl oz/day figures are p50 11.4 ± 0.4, p75 19.7 ± 0.6, p95 39.0 ± 1.8 and mean 14.1 ± 0.5 (mean 417 ± 15 mL/d). The authors use 8 fl oz (237 mL) per cup and report that about 95% of adult coffee drinkers drink fewer than five 8-oz cups a day. They found the 95th percentile of single-day (acute) intake was more than 20% higher than the usual-intake 95th percentile. No 90th or 99th percentile is published. Both the PMC copy (PMC4997286) and the publisher page blocked direct fetch, so the values were taken from search-indexed text of the paper and not checked against the table itself. The sample size could not be confirmed. The reference year is the end of the 2003-2006 survey window, and the paper was published in 2016."
+  }
+ ],
+ "definition": "Usual (long-run average) daily intake of coffee-containing beverages, caffeinated and decaf, among US adults aged 20 and over who drink coffee. NHANES 2003-2006, estimated from up to two nonconsecutive 24-hour recalls plus a food frequency questionnaire using the NCI usual-intake method, survey-weighted to the US adult population.",
+ "derived_points": [],
+ "caveat": "The question asks for the top 1% of coffee drinkers, but no credible source found publishes a 99th percentile of coffee volume. The highest published point is the 95th percentile of usual intake among US adult coffee drinkers: 1154 mL/day (39 fl oz, about 4.9 eight-ounce cups). The 99th percentile is higher than that, but it was not estimated here because the rules forbid extrapolating. Only one source on this definition was found. Comparisons that measure something else and were kept out of sources: (1) Rehm et al., Nutrients 2020 (NHANES 2011-2016, PMC7469044) reports a mean of 544.7 g/day among people who drank coffee on the recall day. That is single-day intake in grams, a different definition, and percentiles could not be retrieved because the page blocked access. (2) Caffeine surveys report caffeine, not coffee volume: the Dutch DNFCS 2012-2016 gives a P95 of 646 mg/day caffeine for the whole population, and Swiss menuCH 2014-2015 gives a P95 of 426 mg/day (coffee supplies 83% of it). (3) The National Coffee Association's cups-per-day figures are self-reported market research without published percentiles. The source covers the US only, adults aged 20 and over, and counts decaf as coffee. The data are from 2003-2006 and may understate current intake.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Daily coffee intake",
+  "short": "Coffee/day",
+  "unit": "ml_day",
+  "direction": "high",
+  "format": "count",
+  "metric_phrase": "a daily coffee intake",
+  "base_noun": "adult coffee drinkers",
+  "definition": "Usual average volume of brewed coffee beverages (caffeinated and decaf) drunk per day, in millilitres, among adults who drink coffee.",
+  "phrasings": [
+   "how much coffee does the top 1% of drinkers drink per day",
+   "how many cups of coffee is a lot per day",
+   "how much coffee does the average coffee drinker drink",
+   "am I a heavy coffee drinker",
+   "what percentile is 5 cups of coffee a day",
+   "how much coffee do heavy coffee drinkers drink",
+   "median coffee consumption per day",
+   "how many cups of coffee do people drink a day"
+  ],
+  "activity": "coffee_drinkers",
+  "activity_label": "who drink coffee",
+  "id": "coffee_intake_ml_day"
+ }
+}

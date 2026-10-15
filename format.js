@@ -70,6 +70,7 @@ export const FORMATTERS = {
 export function ageBandPhrase(band) {
   if (!band) return "";
   if (band.endsWith("+")) return `aged ${band.slice(0, -1)} and over`;
+  if (!band.includes("-")) return `aged ${band}`;
   const [lo, hi] = band.split("-");
   return `aged ${lo} to ${hi}`;
 }

@@ -1,0 +1,69 @@
+{
+ "id": "gre_verbal_score.world.all.gre_test_takers.2025",
+ "metric": "gre_verbal_score",
+ "population": {
+  "base": "world",
+  "country": null,
+  "sex": "all",
+  "age_band": null,
+  "activity": "gre_test_takers",
+  "source_category": null
+ },
+ "year": 2025,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "points",
+ "grid": {
+  "p50": 152.0,
+  "p90": 163.0,
+  "p99": 169.0
+ },
+ "sources": [
+  {
+   "id": "src-q-ets-gre-general-test-interpretive-data-t",
+   "name": "ETS, GRE General Test Interpretive Data, Tables 1A and 1B (Verbal Reasoning percentile ranks)",
+   "url": "https://www.ets.org/gre/percentile",
+   "accessed": "2026-10-15",
+   "measures": "GRE General Test Verbal Reasoning scaled score (130 to 170, 1-point steps). The population is every individual who took the GRE General Test anywhere in the world between 1 July 2022 and 30 June 2025. Takers who got No Score on the measure are excluded. Percentile rank is the percent of test takers scoring lower than a given scaled score.",
+   "values": {
+    "p50": 152.0,
+    "p90": 163.0,
+    "p99": 169.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "scaled score points (130-170)",
+   "notes": "Values were read off Table 1B, which gives a percentile rank for each score, so each value above is the lowest score with at least that rank. 152 = 48th percentile rank and 153 = 54th, so the median falls at 152. 163 = 90th. 169 and 170 both = 99th, so the top 1% is reached at 169. Other ranks: 160 = 82, 165 = 95, 167 = 97, 168 = 98. The same 2022–2025 figures (n = 788,021, mean 151.39, SD 8.43) are repeated in ETS's 'Interpreting Your GRE Scores: 2026–27' (https://www.ets.org/pdfs/gre/interpreting-gre-scores.pdf). That guide is the same dataset, so it is not listed as a separate source."
+  }
+ ],
+ "definition": "GRE General Test Verbal Reasoning scaled score (130 to 170, 1-point steps). The population is every individual who took the GRE General Test anywhere in the world between 1 July 2022 and 30 June 2025. Takers who got No Score on the measure are excluded. Percentile rank is the percent of test takers scoring lower than a given scaled score.",
+ "derived_points": [],
+ "caveat": "A 'GRE score' can mean three things: Verbal Reasoning (130–170), Quantitative Reasoning (130–170) or the unofficial Verbal+Quant total (260–340). ETS publishes percentile ranks only for each section separately, never for the combined total. Any 99th-percentile figure for a total score (often quoted as about 330 or more) comes from third-party prep sites and is not an official number, so it is left out here. Verbal Reasoning is the chosen definition because it is the only section where the 99th percentile can be resolved below the score ceiling. For comparison, in the same ETS 2022–2025 table (n = 790,864, mean 157.62, SD 9.90), a perfect Quantitative Reasoning score of 170 is only the 89th percentile rank. That means more than 10% of takers hit the 170 ceiling, so the Quant p90 and p99 are both 170 and the scale cannot separate them. Quant median is about 160 (rank 50). The ETS Verbal and Quant correlation is 0.44. The population is self-selected (people applying to graduate and business school), not the general public. Percentile ranks shift with each three-year reference window. Search results suggest the earlier July 2020–June 2023 table gave Verbal 170 = 99th and Quant 170 = 92nd (mean V 151.29, SD 8.27; Q 156.93, SD 9.89). I could not open that table to check it, so it is not listed as a source. No second independent source on the same definition exists, because ETS is the only body that holds the raw scores.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "GRE Verbal Reasoning score",
+  "short": "GRE Verbal",
+  "unit": "points",
+  "direction": "high",
+  "format": "number",
+  "metric_phrase": "a GRE Verbal Reasoning score",
+  "base_noun": "GRE test takers",
+  "definition": "Scaled score on the Verbal Reasoning section of the ETS GRE General Test, from 130 to 170 in one-point steps, ranked against everyone who took the test over the latest three-year ETS reference period.",
+  "phrasings": [
+   "what GRE score is the 99th percentile",
+   "what is a good GRE verbal score",
+   "top 1% GRE verbal score",
+   "average GRE verbal score",
+   "GRE verbal percentile",
+   "what GRE score puts you in the top 10%",
+   "median GRE score",
+   "is 165 verbal a good GRE score"
+  ],
+  "activity": "gre_test_takers",
+  "activity_label": "who took the GRE General Test",
+  "id": "gre_verbal_score"
+ }
+}

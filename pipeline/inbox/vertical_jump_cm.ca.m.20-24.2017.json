@@ -1,0 +1,69 @@
+{
+ "id": "vertical_jump_cm.ca.m.20-24.2017",
+ "metric": "vertical_jump_cm",
+ "population": {
+  "base": "country",
+  "country": "CA",
+  "sex": "m",
+  "age_band": "20-24",
+  "activity": null,
+  "source_category": null
+ },
+ "year": 2017,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "cm",
+ "grid": {
+  "p10": 36.6,
+  "p50": 49.4,
+  "p90": 60.7
+ },
+ "sources": [
+  {
+   "id": "src-q-statistics-canada-health-reports-82-003",
+   "name": "Statistics Canada, Health Reports 82-003-X: Hoffmann, Colley, Doyon, Wong, Tomkinson, Lang, 'Normative-referenced percentile values for physical fitness among Canadians' (Table 4, jumping height percentile values by age group and sex)",
+   "url": "https://www150.statcan.gc.ca/n1/pub/82-003-x/2019010/article/00002/tbl/tbl04-eng.htm",
+   "accessed": "2026-10-15",
+   "measures": "Measured peak jump height of a two-leg vertical countermovement jump on a Leonardo Mechanograph ground reaction force plate, arm swing allowed, best of 3 valid trials. Sample is the Canadian Health Measures Survey cycle 5 (2016-2017), nationally representative, household population. These values are for males aged 20 to 24.",
+   "values": {
+    "p10": 36.6,
+    "p50": 49.4,
+    "p90": 60.7
+   },
+   "independent_of": [],
+   "official": true,
+   "unit_as_published": "cm",
+   "notes": "n=5188 is the full CHMS cycle 5 fitness subsample (ages 3-79, 50.1% female). The jump-specific n by age and sex is in Figure 1 and was not retrieved. The table stops at p95, so no p99 is published. Male p50/p90/p95 for the other adult bands, in cm: 18-19: 48.7/60.1/63.2; 25-29: 48.0/59.0/61.9; 30-34: 45.8/56.3/59.1; 35-39: 43.5/53.5/56.2; 40-44: 41.1/50.7/53.3; 45-49: 38.8/48.0/50.5; 50-54: 36.4/45.1/47.6; 55-59: 33.9/42.2/44.5; 60-64: 31.3/39.0/41.2; 65-69: 28.5/35.5/37.6. Percentiles are smoothed by age (the paper describes the curves as normative-referenced). Peak male jump height is in the 20-24 band."
+  }
+ ],
+ "definition": "Measured peak jump height of a two-leg vertical countermovement jump on a Leonardo Mechanograph ground reaction force plate, arm swing allowed, best of 3 valid trials. Sample is the Canadian Health Measures Survey cycle 5 (2016-2017), nationally representative, household population. These values are for males aged 20 to 24.",
+ "derived_points": [],
+ "caveat": "Only one source on this definition was found: measured force-plate countermovement jump with free arms in a general, non-athlete population. Its highest published percentile is p95 (63.8 cm for men aged 20-24), so the requested p99 is not published and has not been computed here. The population is Canada, not the world. The question says 'men' with no age, and the source gives no pooled adult value, so 20-24 (the peak band) was chosen. Older bands are lower; see the notes. Comparison sources on different definitions, not averaged in: (1) He et al. 2023, 'The normative values of vertical jump and sit-and-reach in a large general Chinese population aged 8-80 years: The China National Health Survey', Global Transitions 5:141-148, doi:10.1016/j.glt.2023.08.003. It uses a different test device and protocol. Its press summary gives male p5 = 17.7 cm and p95 = 41.3 cm at the age-18 peak, far lower than the CHMS figures, which shows how much the protocol matters (full tables were paywalled and not checked). (2) Morassutti, van Wyk and Duquette 2025, Biomedical Human Kinetics 17(1), doi:10.2478/bhk-2025-0014. It covers 960 Canadian university students aged 20-29 using the Sargent jump-and-reach (wall scale), published in metres, a different measure. The male percentile table could not be extracted. (3) Payne et al. 2000, 'Canadian Musculoskeletal Fitness Norms', Can J Appl Physiol 25(6):430-442. It used a jump-and-reach test with n=259 males aged 15-69 and was not retrieved. Athlete samples (NFL Combine, NCAA force-plate studies) are selected populations and were excluded. Popular web figures such as Topend Sports' '16-20 inches average' are unsourced and were excluded.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Vertical jump height",
+  "short": "Vertical jump",
+  "unit": "cm",
+  "direction": "high",
+  "format": "number_1dp",
+  "metric_phrase": "a vertical jump",
+  "base_noun": "adults",
+  "definition": "Peak height of the body's centre of mass in a standing two-leg countermovement jump with free arm swing, measured on a force plate, in centimetres.",
+  "phrasings": [
+   "how high can the top 1% of men jump vertically",
+   "what is a good vertical jump for a man",
+   "average vertical jump height",
+   "vertical jump percentile",
+   "is a 60 cm vertical jump good",
+   "how high can the average person jump",
+   "top 10% vertical leap",
+   "vertical jump norms by age"
+  ],
+  "activity": null,
+  "activity_label": null,
+  "id": "vertical_jump_cm"
+ }
+}

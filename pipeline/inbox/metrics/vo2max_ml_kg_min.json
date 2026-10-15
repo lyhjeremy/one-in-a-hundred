@@ -1,0 +1,23 @@
+{
+ "label": "VO2 max",
+ "short": "VO2 max",
+ "unit": "ml_kg_min",
+ "direction": "high",
+ "format": "number_1dp",
+ "metric_phrase": "a VO2 max",
+ "base_noun": "adults",
+ "definition": "Maximal oxygen uptake measured directly by gas analysis during a maximal treadmill exercise test, in millilitres of oxygen per kilogram of body weight per minute.",
+ "phrasings": [
+  "what VO2 max is top 1% for men aged 30 to 39",
+  "what is a good VO2 max for my age",
+  "VO2 max percentile by age",
+  "top 10% VO2 max for women",
+  "average VO2 max for a 35 year old man",
+  "is a VO2 max of 55 good",
+  "elite VO2 max by age and sex",
+  "what VO2 max puts you in the top 1 percent"
+ ],
+ "activity": null,
+ "activity_label": null,
+ "id": "vo2max_ml_kg_min"
+}

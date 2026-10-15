@@ -1,0 +1,23 @@
+{
+ "label": "Head circumference",
+ "short": "Head circ.",
+ "unit": "mm",
+ "direction": "high",
+ "format": "number",
+ "metric_phrase": "a head circumference",
+ "base_noun": "adults",
+ "definition": "Maximum circumference of the head, measured with a tape passing just above the brow ridges and around the back of the head, in millimetres.",
+ "phrasings": [
+  "how big is a large head circumference for an adult",
+  "top 1% head circumference",
+  "what is a big head size in cm",
+  "average adult head circumference",
+  "head circumference percentile adult",
+  "is my head big for an adult",
+  "largest 1 percent hat size head",
+  "adult head size percentile"
+ ],
+ "activity": null,
+ "activity_label": null,
+ "id": "head_circumference_mm"
+}

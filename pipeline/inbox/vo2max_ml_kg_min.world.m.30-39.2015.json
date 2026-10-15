@@ -1,0 +1,73 @@
+{
+ "id": "vo2max_ml_kg_min.world.m.30-39.2015",
+ "metric": "vo2max_ml_kg_min",
+ "population": {
+  "base": "world",
+  "country": null,
+  "sex": "m",
+  "age_band": "30-39",
+  "activity": null,
+  "source_category": null
+ },
+ "year": 2015,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "ml_kg_min",
+ "grid": {
+  "p10": 30.2,
+  "p25": 35.9,
+  "p50": 42.4,
+  "p75": 49.2,
+  "p90": 56.5
+ },
+ "sources": [
+  {
+   "id": "src-q-kaminsky-la-arena-r-myers-j-reference-st",
+   "name": "Kaminsky LA, Arena R, Myers J. Reference Standards for Cardiorespiratory Fitness Measured With Cardiopulmonary Exercise Testing: Data From the Fitness Registry and the Importance of Exercise National Database (FRIEND). Mayo Clinic Proceedings 2015;90(11):1515-1523, Table 3",
+   "url": "https://www.mayoclinicproceedings.org/article/S0025-6196(15)00642-4/pdf",
+   "accessed": "2026-10-15",
+   "measures": "VO2max measured directly by cardiopulmonary exercise testing (gas exchange) on a maximal treadmill test. Sample is US adults aged 20-79 without cardiovascular disease, from 8 US laboratories. Percentiles are given by sex and decade of age.",
+   "values": {
+    "p10": 30.2,
+    "p25": 35.9,
+    "p50": 42.4,
+    "p75": 49.2,
+    "p90": 56.5
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "mL/kg/min",
+   "notes": "n=7783 is the total of tests across all ages and both sexes. The size of the men 30-39 subgroup was not retrieved. The publisher's PDF and the PMC copy (PMC4919021, not open access) blocked automated access. The p10-p90 values come from a secondary reproduction (afasteryou.com, which says it uses the FRIEND 2015 table). p95 = 59.8 and the p50/p90 values come from a search-engine excerpt of Table 3 in the publisher PDF. The table's top column is p95, so it gives no p99. The data were collected January 2014 to February 2015."
+  }
+ ],
+ "definition": "VO2max measured directly by cardiopulmonary exercise testing (gas exchange) on a maximal treadmill test. Sample is US adults aged 20-79 without cardiovascular disease, from 8 US laboratories. Percentiles are given by sex and decade of age.",
+ "derived_points": [],
+ "caveat": "Neither source publishes a 99th percentile. FRIEND 2015 stops at p95 (59.8 mL/kg/min for US men 30-39), and HUNT 3 gives only mean 49.1 and SD 7.5 for Norwegian men 30-39. Any p99 figure would be an extrapolation the site has to make. The two samples also differ: the HUNT 3 mean (49.1) sits well above the FRIEND median (42.4), so the cohorts are not interchangeable and a plain average will blur that difference. Neither is a random national sample. FRIEND is US lab-tested adults without cardiovascular disease, and HUNT 3 is healthy Norwegian volunteers, so treating them as 'world' is a stretch. The 2022 FRIEND update (Kaminsky et al., Mayo Clin Proc 97(2):285-293, n=16,278 treadmill tests from 34 US labs) reports treadmill standards 1.5-4.6 mL/kg/min lower than the 2015 values. Its men 30-39 table could not be retrieved, and secondary blogs quoting it disagree (medians of 38.6 and 39.7 both appear), so it is left out of sources. Excluded on definition: (1) Cooper Institute/Cooper Clinic tables (reprinted by Garmin, p95 'Superior' = 54.0 for men 30-39) use VO2max predicted from treadmill time, not measured gas exchange. (2) Peterman et al. 2021 JAHA FRIEND tables cover patients with cardiovascular disease (men 30-39 treadmill p90 = 40.3), not the general population. (3) Smartwatch VO2 max estimates (Garmin, Apple) are algorithmic estimates on a different basis. Elite endurance athletes routinely exceed 70-80 mL/kg/min, so the true population p99 is probably above the FRIEND p95, but no credible source states it.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "VO2 max",
+  "short": "VO2 max",
+  "unit": "ml_kg_min",
+  "direction": "high",
+  "format": "number_1dp",
+  "metric_phrase": "a VO2 max",
+  "base_noun": "adults",
+  "definition": "Maximal oxygen uptake measured directly by gas analysis during a maximal treadmill exercise test, in millilitres of oxygen per kilogram of body weight per minute.",
+  "phrasings": [
+   "what VO2 max is top 1% for men aged 30 to 39",
+   "what is a good VO2 max for my age",
+   "VO2 max percentile by age",
+   "top 10% VO2 max for women",
+   "average VO2 max for a 35 year old man",
+   "is a VO2 max of 55 good",
+   "elite VO2 max by age and sex",
+   "what VO2 max puts you in the top 1 percent"
+  ],
+  "activity": null,
+  "activity_label": null,
+  "id": "vo2max_ml_kg_min"
+ }
+}

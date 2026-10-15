@@ -1,0 +1,76 @@
+{
+ "group": "q|what is the median commute time in the united states",
+ "result": {
+  "found": true,
+  "triple": {
+   "metric_phrase": "one-way commute time to work",
+   "catalogue_metric": null,
+   "direction": "high",
+   "unit": "minutes",
+   "population": {
+    "base": "country",
+    "country": "US",
+    "sex": "all",
+    "age_band": "16+",
+    "activity": "workers who commute (did not work from home)"
+   },
+   "percentile": 50
+  },
+  "sources": [
+   {
+    "name": "U.S. Census Bureau, American Community Survey 2024 1-year estimates, tables B08303 (Travel Time to Work) and S0801 / B08013",
+    "url": "https://www.census.gov/topics/employment/commuting/guidance/acs-1yr.html",
+    "publisher_type": "official",
+    "measures": "Usual one-way travel time from home to work in the prior week, self-reported on the ACS questionnaire. Covers workers aged 16 and over who did not work from home.",
+    "year": 2024,
+    "unit_as_published": "minutes",
+    "n": 143334080,
+    "values": {},
+    "mean": 27.2,
+    "sd": null,
+    "derives_from": [],
+    "notes": "The Census Bureau publishes no median or percentiles for travel time. It publishes the mean (27.2 min, MOE about 0.1) and a 12-band count distribution in B08303, as retrieved via the Census Reporter API from the acs2024_1yr release. Worker counts by band: <5 min 4,016,189; 5-9 13,437,083; 10-14 18,708,412; 15-19 21,486,146; 20-24 20,158,776; 25-29 10,071,608; 30-34 19,640,508; 35-39 4,818,401; 40-44 5,834,411; 45-59 11,868,366; 60-89 9,017,169; 90+ 4,277,010; total 143,334,080. Cumulative share through 19 min is about 40.2% and through 24 min about 54.3%, so the median falls in the 20-24 minute band. The share at 60+ minutes is 9.3%, so p90 falls in the 45-59 minute band. Within-band values are not published and were not interpolated here."
+   },
+   {
+    "name": "U.S. Census Bureau, American Community Survey 2023 1-year estimates (mean travel time to work)",
+    "url": "https://www.census.gov/topics/employment/commuting/guidance/acs-1yr.html",
+    "publisher_type": "official",
+    "measures": "Same ACS definition: usual one-way travel time to work, workers 16+ who did not work from home, self-reported.",
+    "year": 2023,
+    "unit_as_published": "minutes",
+    "n": null,
+    "values": {},
+    "mean": 26.8,
+    "sd": null,
+    "derives_from": [
+     "U.S. Census Bureau, American Community Survey 2024 1-year estimates, tables B08303 (Travel Time to Work) and S0801 / B08013"
+    ],
+    "notes": "This is the same survey series one year earlier, so it is not independent of the 2024 source. The share at 60+ minutes was 8.9%. No median is published."
+   }
+  ],
+  "caveat": "The Census Bureau does not publish a national median commute time, and I found no official or peer-reviewed source that does. The ACS gives only the mean (27.2 minutes in 2024; 26.8 in 2023; 26.4 in 2022; peak 27.6 in 2019) and a binned distribution. In the 2024 ACS the median falls in the 20-24 minute band, so the median is below the mean because the distribution has a long right tail. A precise median would require ACS PUMS microdata, and even then the answers cluster at round numbers (15, 20, 30 minutes). The values are self-reported usual travel times, not measured trips. People who work from home (13.3% of workers in 2024) are excluded. NHTS 2022 reports a mean commute trip time of about 27.7 minutes, but that is a per-trip travel-diary measure on a different definition, so it is not listed in sources. I also left out an October 2026 arXiv paper (2610.05218) from a volunteer-run group. It only restates the ACS means and does not meet the sourcing bar. Direction is set to 'high' so the top percentiles are the longest commutes, which is how 'one in a hundred' would read; flip it if the site should rank shorter commutes as better.",
+  "new_metric": {
+   "id": "commute_time_oneway",
+   "label": "One-way commute time",
+   "short": "Commute",
+   "unit": "minutes",
+   "direction": "high",
+   "format": "number_1dp",
+   "metric_phrase": "a one-way commute time",
+   "base_noun": "workers who commute",
+   "definition": "Usual one-way travel time from home to work, in minutes, as reported by workers aged 16 and over who do not work from home.",
+   "phrasings": [
+    "what is the median commute time in the united states",
+    "average commute time us",
+    "how long is the typical commute to work",
+    "is a 45 minute commute long",
+    "what percent of people commute over an hour",
+    "how long do americans commute to work",
+    "median travel time to work",
+    "how does my commute compare"
+   ],
+   "activity": "commuters",
+   "activity_label": "who commute to work"
+  }
+ }
+}

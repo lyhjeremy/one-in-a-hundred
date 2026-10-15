@@ -1,0 +1,77 @@
+{
+ "id": "arm_span_cm.us.m.17-51.us_army_soldiers.1988",
+ "metric": "arm_span_cm",
+ "population": {
+  "base": "country",
+  "country": "US",
+  "sex": "m",
+  "age_band": "17-51",
+  "activity": "us_army_soldiers",
+  "source_category": null
+ },
+ "year": 1988,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "cm",
+ "grid": {
+  "p1": 164.79,
+  "p10": 171.94,
+  "p25": 176.6,
+  "p50": 182.09,
+  "p75": 187.77,
+  "p90": 192.96,
+  "p99": 201.62
+ },
+ "sources": [
+  {
+   "id": "src-q-gordon-c-c-et-al-1988-anthropometric-sur",
+   "name": "Gordon, C.C. et al., 1988 Anthropometric Survey of U.S. Army Personnel (ANSUR I): Summary Statistics Interim Report, March 1989 (U.S. Army Natick RD&E Center); 'Span' table as excerpted by the NC State University Ergonomics Center",
+   "url": "https://multisite.eos.ncsu.edu/www-ergocenter-ncsu-edu/wp-content/uploads/sites/18/2016/06/Anthropometric-Detailed-Data-Tables.pdf",
+   "accessed": "2026-10-15",
+   "measures": "Span: maximum horizontal distance between the fingertips of both hands with the arms stretched out sideways, measured by trained anthropometrists on minimally clothed US Army soldiers. This is the ANSUR I working sample, ages about 17-51.",
+   "values": {
+    "p1": 164.79,
+    "p10": 171.94,
+    "p25": 176.6,
+    "p50": 182.09,
+    "p75": 187.77,
+    "p90": 192.96,
+    "p99": 201.62
+   },
+   "independent_of": [],
+   "official": true,
+   "unit_as_published": "cm (inches also given)",
+   "notes": "Male table, page 31 of the NCSU excerpt. It reproduces the Army report's numbers unchanged, so it is not a separate source. Other values in the table: max 215.90 cm, min 147.40 cm. Inch values: p50 71.69, p90 75.97, p99 79.38. Stature for the same sample: mean 175.58 cm, p99 190.87 cm."
+  }
+ ],
+ "definition": "Span: maximum horizontal distance between the fingertips of both hands with the arms stretched out sideways, measured by trained anthropometrists on minimally clothed US Army soldiers. This is the ANSUR I working sample, ages about 17-51.",
+ "derived_points": [],
+ "caveat": "Only one source on this definition could be retrieved. The source measures US Army men in 1988, not all men. Army entry rules on height and weight, and the narrow age range (about 17-51), mean the extremes may be cut off compared with civilians, though stature in this sample (mean 175.6 cm) is close to US civilian men. The 2012 follow-up survey (ANSUR II, Gordon et al. 2014, NATICK/TR-15/007; 4,082 men, values in mm) also measured span and would be the more current second source. Its summary report (https://apps.dtic.mil/sti/tr/pdf/ADA611869.pdf, mirrored at tools.openlab.psu.edu/publicData/ANSURII-TR15-007.pdf) could not be fetched: HTTP 403 and certificate errors. Its percentiles should be added when it can be read. For comparison only, not on the same basis: a City University of Hong Kong anthropometry compilation lists span for US men aged 19-65 as p5 1670 mm, p50 1810 mm, p95 1950 mm, SD 84 mm, and p95 1925 mm for British men aged 19-65. It cites no primary survey (it appears to be estimated in the style of Pheasant's Bodyspace) and gives no p99. Arm span runs a few cm longer than height in adult men: in this sample the median span is 182.1 cm against a median height of 175.5 cm. The question says 'men' without a country; this answer uses US data.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Arm span (wingspan)",
+  "short": "Wingspan",
+  "unit": "cm",
+  "direction": "high",
+  "format": "height",
+  "metric_phrase": "an arm span",
+  "base_noun": "adults",
+  "definition": "Arm span is the horizontal distance from one middle fingertip to the other with both arms stretched straight out to the sides at shoulder height, measured standing.",
+  "phrasings": [
+   "what wingspan is top 1% for men",
+   "how long is a 99th percentile arm span",
+   "average wingspan for a man",
+   "is a 6'8 wingspan rare",
+   "what percentile is my wingspan",
+   "arm span percentile chart male",
+   "how rare is a 200 cm wingspan",
+   "top 10% wingspan for men"
+  ],
+  "activity": "us_army_soldiers",
+  "activity_label": "who are US Army soldiers",
+  "id": "arm_span_cm"
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "label": "Adjusted gross income per tax return",
+ "short": "Income (AGI)",
+ "unit": "usd_year",
+ "direction": "high",
+ "format": "money",
+ "metric_phrase": "an adjusted gross income",
+ "base_noun": "US federal income tax returns",
+ "definition": "Adjusted gross income reported on one US federal individual income tax return (a single filer or a married couple filing jointly) for one tax year, in nominal US dollars, counting all returns except those filed by dependents.",
+ "phrasings": [
+  "what household income is top 1% in the united states",
+  "how much do you need to earn to be in the top 1% in the us",
+  "top 1 percent income threshold usa",
+  "what income puts you in the top 10% in america",
+  "median household income us",
+  "top 1% AGI cutoff",
+  "how much money do the top 1% make per year in the us",
+  "what salary is top 1 percent in america"
+ ],
+ "activity": null,
+ "activity_label": null,
+ "id": "income_agi_tax_return_usd"
+}

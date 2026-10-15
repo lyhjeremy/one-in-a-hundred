@@ -1,6 +1,6 @@
 # Parser evaluation
 
-Run 2026-10-14. Gold set: 200 questions, sha1 0b1dd183b3f8.
+Run 2026-10-15. Gold set: 200 questions, sha1 0b1dd183b3f8.
 
 ## Rules parser (browser fallback, baseline)
 

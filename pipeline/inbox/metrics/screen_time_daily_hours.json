@@ -1,0 +1,23 @@
+{
+ "label": "Daily recreational screen time",
+ "short": "Screen time",
+ "unit": "hours",
+ "direction": "high",
+ "format": "number_1dp",
+ "metric_phrase": "a daily screen time",
+ "base_noun": "adults",
+ "definition": "Average hours per day spent on screens outside work or school (TV, videos, games, computer and internet use), as reported by the person for a typical recent week.",
+ "phrasings": [
+  "what screen time per day is top 10% of adults",
+  "how many hours of screen time is a lot",
+  "average daily screen time for adults",
+  "is 6 hours of screen time a day normal",
+  "how much screen time do adults have per day",
+  "top 1% screen time",
+  "median screen time per day",
+  "how many hours a day do people spend on screens"
+ ],
+ "activity": null,
+ "activity_label": null,
+ "id": "screen_time_daily_hours"
+}

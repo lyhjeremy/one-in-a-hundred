@@ -53973,6 +53973,62 @@
   }
  },
  {
+  "id": "height_adult_cm.world.m.nba_players.2026",
+  "metric": "height_adult_cm",
+  "population": {
+   "base": "world",
+   "country": null,
+   "sex": "m",
+   "age_band": null,
+   "activity": "nba_players",
+   "source_category": null
+  },
+  "year": 2026,
+  "n": null,
+  "n_source": null,
+  "direction": "high",
+  "unit": "cm",
+  "grid": {
+   "p99": 86.0
+  },
+  "sources": [
+   {
+    "id": "src-q-sports-illustrated-tallest-nba-players-o",
+    "name": "Sports Illustrated, 'Tallest NBA Players of 2025–26 (and All Time)' (table taken from the NBA's official roster listings)",
+    "url": "https://www.si.com/nba/tallest-players-all-time",
+    "accessed": "2026-10-15",
+    "measures": "Official NBA listed height, without shoes (the league has required barefoot measurements since 2019-20), for players on 2025-26 rosters. Gives the ten tallest players, not the full distribution.",
+    "values": {
+     "p99": 86.0
+    },
+    "independent_of": [],
+    "official": false,
+    "unit_as_published": "feet and inches",
+    "notes": "Values are in inches, converted from feet and inches as published. Listed heights at the top: Wembanyama 7'4\" (88 in); Edey and Zikarsky 7'3\" (87 in); Clingan, Porzingis and Kessler 7'2\" (86 in); Gobert, Holmgren, Lively and Lopez 7'1\" (85 in). The source does not publish a percentile. The p99 figure comes from ranking players: about 530-570 players appear on 2025-26 rosters, so the top 1% is about the 5-6 tallest, and the cutoff falls at 7'2\" (86 in, 218.4 cm). The article gives two different counts of 7-footers (42 and 10) and does not explain the difference. Published 2026-06-08."
+   }
+  ],
+  "definition": "Official NBA listed height, without shoes (the league has required barefoot measurements since 2019-20), for players on 2025-26 rosters. Gives the ten tallest players, not the full distribution.",
+  "derived_points": [],
+  "caveat": "Neither source is independent: both rest on the NBA's own listed heights, through SI and Basketball-Reference. No official NBA publication or peer-reviewed paper gives height percentiles for the whole league. The p99 is a rank cutoff on a small population of roughly 550 players, so it amounts to the sixth or so tallest player, and it moves by a full inch depending on who is counted (two-way and G League call-ups such as Zikarsky). Wembanyama's height is disputed: some reports say the Spurs listed him at 7'5\" for 2025-26. Comparison on a different population: a peer-reviewed summary of ten years of NBA Draft Combine data (PMC10593457) gives 197.7 ± 7.6 cm, range 181.6-212.7 cm. That covers draft prospects, not league players. The suggested value is about 218 cm (7'2\"), with 221 cm (7'3\") as the upper bound.",
+  "status": "queued",
+  "added": "2026-10-15",
+  "questions_n": 1,
+  "grade": "D",
+  "reason": "Researched automatically on 2026-10-15; not yet checked by a person.",
+  "range": {
+   "p99": [
+    86.0,
+    86.0
+   ]
+  },
+  "agreement": {
+   "p99": 0.0
+  },
+  "n_sources": {
+   "p99": 1
+  }
+ },
+ {
   "id": "weight_adult_kg.us.all.20-29.2022",
   "metric": "weight_adult_kg",
   "population": {

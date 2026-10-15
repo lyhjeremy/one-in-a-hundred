@@ -1,0 +1,23 @@
+{
+ "label": "Golf Handicap Index",
+ "short": "Handicap",
+ "unit": "strokes",
+ "direction": "low",
+ "format": "number_1dp",
+ "metric_phrase": "a golf handicap",
+ "base_noun": "golfers with an official Handicap Index",
+ "definition": "A golfer's World Handicap System Handicap Index: the average of the best 8 of the last 20 score differentials, in strokes relative to course difficulty. Lower is better, and plus handicaps (written +2.0) are better than scratch (0.0) and stored as negative numbers.",
+ "phrasings": [
+  "what is a top 1% golf handicap",
+  "what golf handicap is top 10%",
+  "average golf handicap",
+  "what percentile is a 10 handicap",
+  "is a scratch golfer top 1%",
+  "how good is a single digit handicap",
+  "what handicap do the best amateur golfers have",
+  "median golf handicap for men"
+ ],
+ "activity": "golfers",
+ "activity_label": "who hold an official golf Handicap Index",
+ "id": "golf_handicap_index"
+}

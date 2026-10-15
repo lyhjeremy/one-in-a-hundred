@@ -1,0 +1,7 @@
+{
+ "group": "q|how many countries has the top 1% of travellers visited",
+ "result": {
+  "found": false,
+  "why": "No credible source publishes a percentile value (p50, p90 or p99) for the number of countries a person has visited. The best source is Pew Research Center's Spring 2023 Global Attitudes Survey of 24 countries (https://www.pewresearch.org/global/2023/12/06/international-travel/). It reports only four bands: none, 1\u20134, 5\u20139 and 10 or more countries. Its 24-country medians are 21% none, 34% 1\u20134, 17% 5\u20139 and 13% 10+. For US adults, 11% have visited 10 or more. The top band is 10+, so the p99 value is not identifiable from Pew; it only shows that p90 is near or slightly above 10 in many surveyed countries. The Agoda/YouGov Well Traveled Survey (2019, 11 markets, https://www.agoda.com/press/well-traveled-survey-2019) is a commercial survey with self-reported banded answers. Its 31+ band held 5% of UK, 4% of Australian, 3% of Thai and 2% of US respondents. That suggests p99 lies above 31 in those markets but does not give a value, and its bands are 'destinations', which may not match Pew's 'countries'. Country-counting communities such as NomadMania and Most Traveled People rank their members, but they publish no distribution of countries visited. Their members are a self-selected group of enthusiasts, not 'travellers' in general. Turning either survey's bands into a p99 would mean extrapolating, which the brief does not allow."
+ }
+}

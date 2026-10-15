@@ -1,0 +1,85 @@
+{
+ "id": "rowing_2k_time.world.m.indoor_rowers.2025",
+ "metric": "rowing_2k_time",
+ "population": {
+  "base": "world",
+  "country": null,
+  "sex": "m",
+  "age_band": null,
+  "activity": "indoor_rowers",
+  "source_category": null
+ },
+ "year": 2025,
+ "n": null,
+ "n_source": null,
+ "direction": "low",
+ "unit": "seconds",
+ "grid": {
+  "p1": 376.05,
+  "p10": 409.05,
+  "p50": 466.65
+ },
+ "sources": [
+  {
+   "id": "src-q-concept2-logbook-2025-2000m-rowerg-ranki",
+   "name": "Concept2 Logbook, 2025 2000m RowErg Rankings (men, all ages, all weights)",
+   "url": "https://log.concept2.com/rankings/2025/rower/2000?gender=M",
+   "accessed": "2026-10-15",
+   "measures": "Each man's best 2000m RowErg time logged during the 2025 Concept2 season. Filters: all ages, all weights, all countries, all results (verified and unverified), adaptive excluded. Percentiles are read from rank position: p99 = position 96 of 9,561, p90 = position 956, p50 = position 4,781.",
+   "values": {
+    "p1": 375.6,
+    "p10": 408.4,
+    "p50": 466.8
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "min:sec.tenths",
+   "notes": "Times as published: position 95 (ties) 6:15.6, position 97 6:15.7, so p1 = 6:15.6. Position 956 = 6:48.4. Position 4,781 sits in a tie at 7:46.8 (positions 4,777 to 4,781). Values are converted to seconds only for the key format. The 2025 season is assumed to run 1 May 2024 to 30 April 2025, which is Concept2's usual season convention; the page itself shows no dates."
+  },
+  {
+   "id": "src-q-concept2-logbook-2024-2000m-rowerg-ranki",
+   "name": "Concept2 Logbook, 2024 2000m RowErg Rankings (men, all ages, all weights)",
+   "url": "https://log.concept2.com/rankings/2024/rower/2000?gender=M",
+   "accessed": "2026-10-15",
+   "measures": "Same definition as the 2025 row, for the 2024 season: each man's best 2000m RowErg time, all ages and weights, all results, adaptive excluded. p99 = position 97 of 9,688, p90 = position 969, p50 = position 4,844.",
+   "values": {
+    "p1": 376.5,
+    "p10": 409.7,
+    "p50": 466.5
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "min:sec.tenths",
+   "notes": "Position 97 = 6:16.5. Position 969 falls in the tie at position 967, 6:49.6. Position 4,844 falls in the tie at position 4,842, 7:46.5. This is a different season of the same database, so it is a separate yearly sample from the same publisher, not an independent organisation. Many rowers likely appear in both seasons."
+  }
+ ],
+ "definition": "Each man's best 2000m RowErg time logged during the 2025 Concept2 season. Filters: all ages, all weights, all countries, all results (verified and unverified), adaptive excluded. Percentiles are read from rank position: p99 = position 96 of 9,561, p90 = position 956, p50 = position 4,781.",
+ "derived_points": [],
+ "caveat": "The population is self-selected: men who row on a Concept2 RowErg and choose to log a 2000m piece online. Many are club, masters or former competitive rowers, so these times are much faster than the general male population would manage. 'Top 1%' here means the top 1% of ranked men, not of all men. Unverified results are included. Percentiles come from rank positions, not from a distribution Concept2 publishes itself. For comparison only, on a different sample: Silva Alonso, Iglesias Pérez and García Soidán (2018), J. Hum. Sport Exerc. 13(4):731-742, doi:10.14198/JHSE.2018.134.02, fitted age-specific GAMLSS percentile curves to 15,420 online-ranking 2000m results from 2010 to 2014. Its abstract gives no numeric men's values, so it is not listed as a source.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "2000m indoor rowing time",
+  "short": "2k erg time",
+  "unit": "seconds",
+  "direction": "low",
+  "format": "time_ms",
+  "metric_phrase": "a 2000m rowing time",
+  "base_noun": "ranked indoor rowers",
+  "definition": "Best time to row 2000 metres on a Concept2 RowErg indoor rowing machine within one season, as logged in the Concept2 online rankings.",
+  "phrasings": [
+   "2000m rowing time",
+   "2k erg time",
+   "2k row time",
+   "2000 meter rowing machine time",
+   "concept2 2k time",
+   "indoor rowing 2000m",
+   "rowing ergometer 2000m time",
+   "how fast is a good 2k erg"
+  ],
+  "activity": "indoor_rowers",
+  "activity_label": "who log indoor rowing results",
+  "id": "rowing_2k_time"
+ }
+}

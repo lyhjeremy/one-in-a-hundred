@@ -1,0 +1,23 @@
+{
+ "label": "Household net worth",
+ "short": "Net worth (household)",
+ "unit": "usd",
+ "direction": "high",
+ "format": "money",
+ "metric_phrase": "a household net worth",
+ "base_noun": "US households",
+ "definition": "Value of all assets a household or family owns (homes, retirement accounts, businesses, financial and other assets) minus all its debts, measured for the household as a unit and grouped by the age of the head of household.",
+ "phrasings": [
+  "median net worth of American households by age",
+  "household net worth at 65",
+  "how much are retirees worth on average",
+  "median net worth for 65 year olds",
+  "what net worth puts my household in the top 10%",
+  "family net worth by age of head",
+  "average retirement net worth US",
+  "household wealth percentile by age"
+ ],
+ "activity": null,
+ "activity_label": null,
+ "id": "household_net_worth_usd"
+}

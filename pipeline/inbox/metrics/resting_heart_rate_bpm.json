@@ -1,0 +1,24 @@
+{
+ "label": "Resting heart rate",
+ "short": "Resting HR",
+ "unit": "bpm",
+ "direction": "low",
+ "format": "number",
+ "metric_phrase": "a resting heart rate",
+ "base_noun": "adults",
+ "definition": "Heartbeats per minute measured at the wrist (radial pulse) after about 4 minutes of quiet seated rest, as taken in a clinical examination.",
+ "phrasings": [
+  "what resting heart rate is top 1% of adults",
+  "lowest resting heart rate percentile",
+  "is a resting heart rate of 50 good",
+  "what percentile is my resting heart rate",
+  "average resting heart rate for adults",
+  "resting pulse rate percentiles",
+  "how rare is a resting heart rate under 50",
+  "median resting heart rate",
+  "what resting heart rate do athletes have compared to everyone"
+ ],
+ "activity": null,
+ "activity_label": null,
+ "id": "resting_heart_rate_bpm"
+}

@@ -1,6 +1,14 @@
 # Changelog
 
-All three versions shipped on 2026-10-14. Dates below are the same day; the order is what matters.
+v0.1 to v0.3 shipped on 2026-10-14; v0.3.1 on 2026-10-15.
+
+## v0.3.1: the seed research batch finished
+
+- All 60 seed questions run. 42 produced a fact, 18 found nothing credible (Wordle average guesses, number of marathons the top 1% have finished). 41 ship as grade D; the bench press fact is held because its grid is not monotone. Totals: 950 facts, 72 sources, grades A 3 / B 906 / D 41.
+- `research_queue.py --from-file` is resumable: questions already researched are listed in `pipeline/seeds/done.txt` and skipped, so a run that stops on quota picks up where it left off.
+- `build_facts.py` registers a group introduced by a researched fact on an existing measure (height of NBA players), which had crashed the share-card renderer.
+- A single age as a group ("aged 20") formats in both `format.py` and `format.js` instead of raising; parity fixtures still agree.
+- Rules parser unchanged at 90.5% on the frozen gold set after the new measures joined the catalogue.
 
 ## v0.3: three columns, five modes, the curve, researched measures
 

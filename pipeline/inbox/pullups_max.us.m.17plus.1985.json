@@ -1,0 +1,73 @@
+{
+ "id": "pullups_max.us.m.17plus.1985",
+ "metric": "pullups_max",
+ "population": {
+  "base": "country",
+  "country": "US",
+  "sex": "m",
+  "age_band": "17+",
+  "activity": null,
+  "source_category": null
+ },
+ "year": 1985,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "reps",
+ "grid": {
+  "p90": 15.0,
+  "p75": 11.0,
+  "p50": 7.0,
+  "p25": 5.0,
+  "p10": 2.0
+ },
+ "sources": [
+  {
+   "id": "src-q-president-s-council-on-physical-fitness",
+   "name": "President's Council on Physical Fitness and Sports 1985 National School Population Fitness Survey (Reiff et al., University of Michigan, 1986), Appendix D Table 2 and Appendix C Table 1",
+   "url": "https://files.eric.ed.gov/fulltext/ED291714.pdf",
+   "accessed": "2026-10-15",
+   "measures": "Maximum number of overhand dead-hang pull-ups in one untimed attempt. The sample is US public-school boys aged 17 and over (the oldest band, called '17+'), drawn as a national probability sample of students in grades 1 to 12.",
+   "values": {
+    "p90": 15.0,
+    "p75": 11.0,
+    "p50": 7.0,
+    "p25": 5.0,
+    "p10": 2.0
+   },
+   "independent_of": [],
+   "official": true,
+   "unit_as_published": "number of pull-ups",
+   "notes": "The percentile table is published in 5-point steps. It has no 99th percentile: p95 is 17 and the observed maximum (p100) is 26. Mean, SD and n are from the simple-random-sample descriptive statistics for boys 17+ (Appendix C, Table 1; range 0 to 26). The full survey covered 9,678 boys and 9,179 girls aged 6 to 17+ in 32 states. I read the values from the scanned report pages: the percentile table is on report p.69 (PDF p.73) and the descriptives are on report p.65 (PDF p.70)."
+  }
+ ],
+ "definition": "Maximum number of overhand dead-hang pull-ups in one untimed attempt. The sample is US public-school boys aged 17 and over (the oldest band, called '17+'), drawn as a national probability sample of students in grades 1 to 12.",
+ "derived_points": [],
+ "caveat": "Only one credible source matches this definition, and it does not cover adult men. It measures US schoolboys aged 17 and over in 1985, and it does not publish a 99th percentile. The closest published values are p95 = 17 and the sample maximum = 26 (n = 575). Mean 8.34 and SD 4.73 are also reported, but the distribution is skewed and has a floor at zero, so a normal approximation for p99 is unreliable. No values were computed here. No national statistics office tests pull-ups in adults (NHANES and the national Army test data cover push-ups, sit-ups and runs, not pull-ups), and no peer-reviewed adult general-population percentile table turned up. The following are comparisons only, not the same definition. (1) Male US Marines are a selected, trained population tested under PFT rules. A study of 19,678 active-duty enlisted USMC males reported a mean of 18.0 and SD of 5.0 pull-ups (https://pmc.ncbi.nlm.nih.gov/articles/PMC7745917, not fully verified because the page was blocked behind a browser check). Military Times reported that men aged 21 to 25 averaged 17.6 in 2017. A perfect PFT score needs 18 to 23 pull-ups depending on age. (2) Chinese university men are tested on pull-ups under the National Student Physical Health Standard, but no national percentile table was found and the protocol differs. (3) Fitness websites (ExRx, Marathon Handbook, FitnessVolt, Men's Health) repeat youth tables from the President's Challenge, which derive from this same 1985 survey, or use unsourced gym data. ExRx lists p95 = 15 for boys 17+, which does not match the survey's own table (17), so those sites were not used.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Max pull-ups",
+  "short": "Pull-ups",
+  "unit": "reps",
+  "direction": "high",
+  "format": "count",
+  "metric_phrase": "a pull-up count",
+  "base_noun": "boys aged 17 and over",
+  "definition": "The most overhand-grip, dead-hang pull-ups a person can do in one attempt without letting go of the bar, each rep starting from straight arms with the chin rising over the bar.",
+  "phrasings": [
+   "how many pull ups can the top 1% of men do",
+   "how many pull ups is good for a man",
+   "average number of pull ups for men",
+   "how many pull ups can the average man do",
+   "pull up percentile",
+   "is 20 pull ups good",
+   "how rare is it to do 15 pull ups",
+   "max pull ups percentile by age"
+  ],
+  "activity": null,
+  "activity_label": null,
+  "id": "pullups_max"
+ }
+}

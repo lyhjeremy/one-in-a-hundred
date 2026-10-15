@@ -32,6 +32,8 @@ from pipeline.catalog import CATALOG as METRICS  # noqa: E402
 INDEX = json.loads((ROOT / "data" / "index.json").read_text())
 INBOX_CAP = 60
 RUN_CAP = 60
+# Seed questions already researched (not visitor text, so safe to commit).
+DONE = ROOT / "pipeline" / "seeds" / "done.txt"
 
 UNIT_FOR = {m: v["unit"] for m, v in METRICS["metrics"].items()}
 
@@ -187,6 +189,9 @@ def main() -> int:
     for gk, es in groups.items():
         if processed >= limit:
             break
+        done = set(DONE.read_text().splitlines()) if DONE.exists() else set()
+        if "--from-file" in sys.argv and normalise(es[0]["q"]) in done:
+            continue
         if already_answered(es[0]):
             done_keys += [e["key"] for e in es if "key" in e]
             continue
@@ -207,6 +212,9 @@ def main() -> int:
             continue
         failures = 0
         processed += 1
+        if "--from-file" in sys.argv:
+            with DONE.open("a") as fh:
+                fh.write(normalise(qs[0]) + "\n")
         if not fact:
             REJECTED.mkdir(exist_ok=True)
             (REJECTED / f"nofound-{abs(hash(gk)) % 10**8}.json").write_text(json.dumps({"group": gk, "result": res}, indent=1))

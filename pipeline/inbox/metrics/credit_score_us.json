@@ -1,0 +1,23 @@
+{
+ "label": "Credit score",
+ "short": "Credit score",
+ "unit": "points",
+ "direction": "high",
+ "format": "number",
+ "metric_phrase": "a credit score",
+ "base_noun": "US adults with a credit score",
+ "definition": "A consumer credit score on the 300/280–850 scale, computed by a US credit bureau from the person's credit report; values here are the Equifax Risk Score in the NY Fed Consumer Credit Panel.",
+ "phrasings": [
+  "what credit score is top 10% in the US",
+  "what percentile is an 800 credit score",
+  "is 750 a good credit score compared to others",
+  "top 1% credit score",
+  "median credit score in America",
+  "how rare is an 850 credit score",
+  "what credit score beats 90% of Americans",
+  "average FICO score US"
+ ],
+ "activity": "adults_with_a_credit_report_and_a_score",
+ "activity_label": "who are adults with a credit report and a score",
+ "id": "credit_score_us"
+}

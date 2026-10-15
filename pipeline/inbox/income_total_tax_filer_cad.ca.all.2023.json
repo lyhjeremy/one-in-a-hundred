@@ -1,0 +1,67 @@
+{
+ "id": "income_total_tax_filer_cad.ca.all.2023",
+ "metric": "income_total_tax_filer_cad",
+ "population": {
+  "base": "country",
+  "country": "CA",
+  "sex": "all",
+  "age_band": null,
+  "activity": null,
+  "source_category": null
+ },
+ "year": 2023,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "cad_year",
+ "grid": {
+  "p99": 293800.0,
+  "p99.9": 930100.0
+ },
+ "sources": [
+  {
+   "id": "src-q-statistics-canada-the-daily-2025-10-31-h",
+   "name": "Statistics Canada, The Daily (2025-10-31), High-income tax filers in Canada, 2023, Table 1: Selected statistics by income group, Canada, 2022 to 2023 (from Table 11-10-0055-01 and Longitudinal Administrative Databank custom tabulations)",
+   "url": "https://www150.statcan.gc.ca/daily-quotidien/251031/t001b-eng.htm",
+   "accessed": "2026-10-15",
+   "measures": "Threshold of total income needed to be in the top 1%, 0.1% and 0.01% of individual Canadian tax filers. Total income covers earnings, investments, pensions, spousal support, other taxable income, government transfers and refundable tax credits. The unit is the individual tax filer, not the household or family. Thresholds use the national distribution.",
+   "values": {
+    "p99": 293800.0,
+    "p99.9": 930100.0
+   },
+   "independent_of": [],
+   "official": true,
+   "unit_as_published": "Canadian dollars per year, 2023 constant dollars",
+   "notes": "Same table, 2022 values in 2023 constant dollars: p99 294,300, p99.9 942,100, p99.99 3,537,600. Average income in 2023 was 606,000 for the top 1% and 21,500 for the bottom 50%. The release gives no median, no p90 and no filer count. The page does not say whether these thresholds include capital gains. The 2021 release of the same series reported top-group figures excluding capital gains, so the published headline is probably the excluding-capital-gains concept, but that is unverified for 2023."
+  }
+ ],
+ "definition": "Threshold of total income needed to be in the top 1%, 0.1% and 0.01% of individual Canadian tax filers. Total income covers earnings, investments, pensions, spousal support, other taxable income, government transfers and refundable tax credits. The unit is the individual tax filer, not the household or family. Thresholds use the national distribution.",
+ "derived_points": [],
+ "caveat": "The question asks about household income, but Statistics Canada publishes no top-1% threshold for households or economic families. The Canadian Income Survey decile tables (Table 11-10-0192-01) stop at decile upper limits. The 2021 Census household income brackets top out at an open-ended bracket, so they cannot locate the 99th percentile. The figure here is for individual tax filers, so it is lower than a true household top-1% cutoff would be for two-earner households. A Better Dwelling article reports 2019 thresholds of $250,300 (top 1%), $790,100 (top 0.1%) and $2,973,200 (top 0.01%) as household income. Those numbers are Statistics Canada's individual tax-filer thresholds for 2019, so the article mislabels them and is not an independent source. Secondary pages (MetaFilter, a Spring Financial blog) quote a 2021 threshold of $271,300 from the same StatCan series and are not independent either. Only one primary source measures this definition. Statistics Canada is the only body that holds the full tax-filer data, so no second independent source on the same definition was found.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Total income per tax filer (Canada)",
+  "short": "Income (CA filer)",
+  "unit": "cad_year",
+  "direction": "high",
+  "format": "money",
+  "metric_phrase": "a total income",
+  "base_noun": "Canadian tax filers",
+  "definition": "Total income reported by one individual Canadian tax filer for one tax year, in Canadian dollars. It includes earnings, investment income, pensions, spousal support, other taxable income, government transfers and refundable tax credits, ranked against all tax filers nationally by Statistics Canada.",
+  "phrasings": [
+   "what is the top 1% income in canada by household",
+   "how much do you need to earn to be in the top 1% in canada",
+   "top 1 percent income threshold canada",
+   "what income puts you in the top 1% in canada",
+   "canada top 0.1% income cutoff",
+   "how much do the richest 1% of canadians make",
+   "what salary is top 1 percent in canada",
+   "top one per cent income canada statistics canada"
+  ],
+  "activity": null,
+  "activity_label": null,
+  "id": "income_total_tax_filer_cad"
+ }
+}

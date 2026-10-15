@@ -1,0 +1,77 @@
+{
+ "id": "head_circumference_mm.us.all.18-66.2003",
+ "metric": "head_circumference_mm",
+ "population": {
+  "base": "country",
+  "country": "US",
+  "sex": "all",
+  "age_band": "18-66",
+  "activity": null,
+  "source_category": null
+ },
+ "year": 2003,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "mm",
+ "grid": {
+  "p1": 522.0,
+  "p10": 543.0,
+  "p25": 555.0,
+  "p50": 568.0,
+  "p75": 582.0,
+  "p90": 594.0,
+  "p99": 615.0
+ },
+ "sources": [
+  {
+   "id": "src-q-bradtmiller-b-friess-m-anthrotech-for-ni",
+   "name": "Bradtmiller B, Friess M (Anthrotech) for NIOSH/NPPTL: A Head-and-Face Anthropometric Survey of U.S. Respirator Users, Final Report (May 28, 2004), Table 9",
+   "url": "https://nap.nationalacademies.org/resource/11815/Anthrotech_report.pdf",
+   "accessed": "2026-10-15",
+   "measures": "Maximum head circumference measured with a steel tape by trained measurers on U.S. civilian workers who use respirators, men and women combined. Values are weighted by sex, age and race to the 2000 U.S. Census population aged 18-66. Data were collected in the first half of 2003 at 41 sites in 8 states.",
+   "values": {
+    "p1": 522.0,
+    "p10": 543.0,
+    "p25": 555.0,
+    "p50": 568.0,
+    "p75": 582.0,
+    "p90": 594.0,
+    "p99": 615.0
+   },
+   "independent_of": [],
+   "official": true,
+   "unit_as_published": "mm",
+   "notes": "Table 9, combined sex. Observed range 475-654 mm. Table 8 gives the same survey by sex. Men (n=2544): mean 575.7, SD 17.1, p1 536, p5 547, p50 575, p90 597, p95 604, p98 613, p99 618. Women (n=1453): mean 554.9, SD 17.8, p1 515, p5 527, p50 555, p90 578, p95 585, p98 594, p99 604. The NIOSH journal paper (Zhuang & Bradtmiller 2005, J Occup Environ Hyg) reports the same dataset and is not independent."
+  }
+ ],
+ "definition": "Maximum head circumference measured with a steel tape by trained measurers on U.S. civilian workers who use respirators, men and women combined. Values are weighted by sex, age and race to the 2000 U.S. Census population aged 18-66. Data were collected in the first half of 2003 at 41 sites in 8 states.",
+ "derived_points": [],
+ "caveat": "Only one source was found that publishes combined-sex adult head circumference percentiles from tape measurements. It is the NIOSH survey: U.S. civilian respirator-wearing workers aged 18-66, measured in 2003 and weighted to the 2000 U.S. Census. The question asks about adults in general. This sample is U.S.-only and drawn from industrial and service workplaces, and it excludes people over 66. The one-in-a-hundred figure for both sexes together (615 mm) mixes two different distributions. By sex the p99 is 618 mm for men and 604 mm for women, so the site may want to split by sex. The following measure the same tape circumference but could not be used as sources. (1) The U.S. Army ANSUR II survey (Gordon et al. 2014, NATICK/TR-15/007; 4,082 men and 1,986 women in the public set) publishes sex-specific percentiles in its summary report. The report could not be retrieved, because DTIC and the Penn State mirror blocked access. Its sample is military, so it is younger and fitter than the general population. A non-primary blog puts the ANSUR II male median at 574 mm. (2) The 1987-88 Army ANSUR, reweighted by NIOSH to the U.S. civilian workforce (Table 10 of the same NIOSH report): men n=1774, mean 570.9, SD 15.5; women n=2208, mean 546.5, SD 14.3. Only means and SDs are given, and it is military. (3) Bushby et al. 1992, Arch Dis Child 67:1286: centile charts for 354 British adults, conditioned on height. The tables could not be retrieved. (4) Örmeci et al. 1997, Turkey, 408 adults: men mean 55.90 cm, SD 1.85; women mean 54.57 cm, SD 1.61. Only means and SDs are given. No national statistics office or WHO source publishes adult head circumference percentiles. WHO and CDC growth charts stop at age 5 and 36 months respectively.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Head circumference",
+  "short": "Head circ.",
+  "unit": "mm",
+  "direction": "high",
+  "format": "number",
+  "metric_phrase": "a head circumference",
+  "base_noun": "adults",
+  "definition": "Maximum circumference of the head, measured with a tape passing just above the brow ridges and around the back of the head, in millimetres.",
+  "phrasings": [
+   "how big is a large head circumference for an adult",
+   "top 1% head circumference",
+   "what is a big head size in cm",
+   "average adult head circumference",
+   "head circumference percentile adult",
+   "is my head big for an adult",
+   "largest 1 percent hat size head",
+   "adult head size percentile"
+  ],
+  "activity": null,
+  "activity_label": null,
+  "id": "head_circumference_mm"
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "group": "q|how many children does the median woman have worldwide",
+ "result": {
+  "found": true,
+  "triple": {
+   "metric_phrase": "number of children per woman (total fertility rate)",
+   "catalogue_metric": null,
+   "direction": "high",
+   "unit": "children",
+   "population": {
+    "base": "world",
+    "country": null,
+    "sex": "f",
+    "age_band": "15-49",
+    "activity": null
+   },
+   "percentile": 50
+  },
+  "sources": [
+   {
+    "name": "United Nations Population Division, World Population Prospects 2024 (world total fertility rate, as reported by INED)",
+    "url": "https://www.ined.fr/en/everything_about_population/demographic-facts-sheets/focus-on/2024-les-nations-unies-publient-de-nouvelles-projections-de-population-mondiale/",
+    "publisher_type": "official",
+    "measures": "Period total fertility rate for the world: the mean number of live births a woman would have by age 50 if she lived through the age-specific fertility rates of a single year. This is a synthetic-cohort mean, not a distribution of real women.",
+    "year": 2024,
+    "unit_as_published": "children per woman",
+    "n": null,
+    "values": {},
+    "mean": 2.25,
+    "sd": null,
+    "derives_from": [],
+    "notes": "Only a mean is published. INED is quoting UN WPP 2024 directly; 1990 value 3.31, 2050 medium-variant projection 2.07. No percentiles or SD are given."
+   },
+   {
+    "name": "World Bank, World Development Indicators SP.DYN.TFRT.IN (Fertility rate, total, World), via FRED series SPDYNTFRTINWLD",
+    "url": "https://fred.stlouisfed.org/series/SPDYNTFRTINWLD",
+    "publisher_type": "official",
+    "measures": "Period total fertility rate for the world (births per woman), same definition as UN WPP.",
+    "year": 2023,
+    "unit_as_published": "births per woman",
+    "n": null,
+    "values": {},
+    "mean": 2.19591,
+    "sd": null,
+    "derives_from": [
+     "United Nations Population Division, World Population Prospects 2024 (world total fertility rate, as reported by INED)"
+    ],
+    "notes": "Only a mean is published. WDI builds this from UN WPP and UN Statistics Division vital statistics, so it is not independent of the UN source. 2022 value 2.21523, 2019 value 2.35327. FRED republishes the World Bank figures without changes."
+   }
+  ],
+  "caveat": "I found no credible source that gives a worldwide median (or any percentile) of children per woman. Both sources give only the period total fertility rate, which is a mean for a synthetic cohort and has no SD, so the p50 the question asks for cannot be read from them. The two means also differ slightly (UN WPP 2024 gives 2.25 for 2024; World Bank WDI gives 2.196 for 2023) because of the year and how the aggregate is built. A better match would be the distribution of children ever born to women aged 45-49 (completed parity). That is published country by country (DHS surveys, census tables, the UN World Fertility Data series, which reports mean CEB and percent childless), but I found no global pooled distribution. For comparison only (different population): in the US NSFG 2017-2019, women aged 40-49 were 16.9% childless, 17.6% one child, 32.7% two, 22.6% three and 10.1% four or more, which puts the US median at 2. A global median would probably also be 2, but no published source states it, so I have not reported it as a value.",
+  "new_metric": {
+   "id": "children_per_woman",
+   "label": "Children per woman",
+   "short": "Children",
+   "unit": "children",
+   "direction": "high",
+   "format": "number_1dp",
+   "metric_phrase": "a number of children",
+   "base_noun": "women",
+   "definition": "Number of live births per woman. UN and World Bank publish it as the period total fertility rate, the mean number of children a woman would have over ages 15-49 at current age-specific fertility rates.",
+   "phrasings": [
+    "how many children does the average woman have",
+    "how many kids does the median woman have worldwide",
+    "children per woman worldwide",
+    "global fertility rate",
+    "average number of children per woman",
+    "how many babies do women have on average",
+    "what is the world total fertility rate",
+    "number of children ever born per woman"
+   ],
+   "activity": null,
+   "activity_label": null
+  }
+ }
+}

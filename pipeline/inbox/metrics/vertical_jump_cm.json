@@ -1,0 +1,23 @@
+{
+ "label": "Vertical jump height",
+ "short": "Vertical jump",
+ "unit": "cm",
+ "direction": "high",
+ "format": "number_1dp",
+ "metric_phrase": "a vertical jump",
+ "base_noun": "adults",
+ "definition": "Peak height of the body's centre of mass in a standing two-leg countermovement jump with free arm swing, measured on a force plate, in centimetres.",
+ "phrasings": [
+  "how high can the top 1% of men jump vertically",
+  "what is a good vertical jump for a man",
+  "average vertical jump height",
+  "vertical jump percentile",
+  "is a 60 cm vertical jump good",
+  "how high can the average person jump",
+  "top 10% vertical leap",
+  "vertical jump norms by age"
+ ],
+ "activity": null,
+ "activity_label": null,
+ "id": "vertical_jump_cm"
+}

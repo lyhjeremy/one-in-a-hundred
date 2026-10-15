@@ -1,0 +1,60 @@
+{
+ "group": "q|how long can the top 1% of adults hold a plank",
+ "result": {
+  "found": true,
+  "triple": {
+   "metric_phrase": "prone forearm plank hold time",
+   "catalogue_metric": null,
+   "direction": "high",
+   "unit": "seconds",
+   "population": {
+    "base": "world",
+    "country": null,
+    "sex": "all",
+    "age_band": "18-25",
+    "activity": null
+   },
+   "percentile": 99
+  },
+  "sources": [
+   {
+    "name": "Strand SL, Hjelm J, Shoepe TC, Fajardo MA. Norms for an Isometric Muscle Endurance Test. Journal of Human Kinetics 40:93-102",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4096102/",
+    "publisher_type": "academic",
+    "measures": "Prone forearm plank held to volitional or technique failure, measured once by investigators in US college students (mean age about 20.4). The test ended after two uncorrected form cues.",
+    "year": 2014,
+    "unit_as_published": "seconds",
+    "n": 471,
+    "values": {},
+    "mean": 100,
+    "sd": 63,
+    "derives_from": [],
+    "notes": "The paper gives no sex-combined percentiles, and its tables stop at the 90th percentile. Its by-sex percentiles are: males (n=194) p10 62, p50 110, p90 201; females (n=275) p10 35, p50 72, p90 142. By sex, mean \u00b1 SD is 124 \u00b1 72 for males and 83 \u00b1 63 for females. Varsity athletes in the sample reach p90 of 228 s (men) and 194 s (women). The paper's sample counts are not internally consistent (194 vs 192 males, 277 vs 273 females). The sex-combined mean and SD above are as published."
+   }
+  ],
+  "caveat": "No credible source publishes a 99th percentile for plank hold time, a sex-combined percentile, or norms for adults of all ages. Strand et al. 2014 is the largest published norm set found (n=471), and it covers US college students only, with percentiles up to p90. Its sex-combined figure is only mean 100 s and SD 63 s, and the distribution is right-skewed, so a normal-curve p99 would be unreliable. Two other measured studies use the same protocol but are not listed as sources because their populations or statistics differ. Pandit, Bisen and Kalra 2021 (Natl J Integr Res Med 12(4):51-55, n=206 Indian students aged 18-25, best of 3 trials) report only by-sex mean \u00b1 SD: males 97 \u00b1 49 s, females 51 \u00b1 36 s. The percentile tables its abstract promises are not in the paper. Brigham and Chase, Linfield College (IJESAB vol 8 iss 2, n=102 self-described athletes aged 18-25), report only quartiles. Males are 84/110/135 s and females 73.5/95/122.5 s at p25/p50/p75, and an earlier version of the same work gives 77/106/128.5 and 63/90/121. Crowd-sourced figures such as strengthlevel.com are self-reported and excluded. All the samples are young adults, so values for all adults would be lower. Men hold about 1.5 to 1.9 times longer than women in every study. Recommendation: present this as p90 by sex (men about 200 s, women about 140 s) rather than as a p99.",
+  "new_metric": {
+   "id": "plank_hold_seconds",
+   "label": "Plank hold time",
+   "short": "Plank",
+   "unit": "seconds",
+   "direction": "high",
+   "format": "time_ms",
+   "metric_phrase": "a plank hold time",
+   "base_noun": "adults",
+   "definition": "The longest time a person can hold a prone forearm plank (forearms and toes on the floor, body straight) before form breaks or they stop, timed by an observer.",
+   "phrasings": [
+    "how long can the top 1% of adults hold a plank",
+    "average plank hold time",
+    "how long should I be able to hold a plank",
+    "what is a good plank time",
+    "plank time percentile",
+    "is a 3 minute plank good",
+    "longest plank hold for normal people",
+    "plank hold norms by age and sex"
+   ],
+   "activity": null,
+   "activity_label": null
+  }
+ }
+}

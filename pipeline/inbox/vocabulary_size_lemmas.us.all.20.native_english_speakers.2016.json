@@ -1,0 +1,65 @@
+{
+ "id": "vocabulary_size_lemmas.us.all.20.native_english_speakers.2016",
+ "metric": "vocabulary_size_lemmas",
+ "population": {
+  "base": "country",
+  "country": "US",
+  "sex": "all",
+  "age_band": "20",
+  "activity": "native_english_speakers",
+  "source_category": null
+ },
+ "year": 2016,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "lemmas",
+ "grid": {
+  "p50": 42000.0
+ },
+ "sources": [
+  {
+   "id": "src-q-brysbaert-stevens-mandera-keuleers-2016",
+   "name": "Brysbaert, Stevens, Mandera & Keuleers (2016), How Many Words Do We Know? Practical Estimates of Vocabulary Size Dependent on Word Definition, the Degree of Language Input and the Participant's Age, Frontiers in Psychology 7:1116",
+   "url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2016.01116/full",
+   "accessed": "2026-10-15",
+   "measures": "Estimated number of English lemmas known by American native English speakers aged 20. Lemmas are uninflected words with proper nouns excluded, taken from a list of 61,800 entries. Knowledge was measured by yes/no word recognition with pseudoword correction in an online crowdsourced test.",
+   "values": {
+    "p50": 42000.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "lemmas",
+   "notes": "n = 221,268 is the total number of individuals tested (265,346 sessions), not the age-20 American subsample, which the paper does not state in the parts read. The abstract gives the range as 27,000 lemmas (lowest 5%) to 52,000 (highest 5%). Table 4 gives the 20-year-old upper value as 51,700, and that value is used here. For 60-year-olds the paper gives a median of 48,200 lemmas and a 5th to 95th range of 35,100 to 56,400. In word families (base words) it gives a median of 11,100 at age 20 (5th to 95th: 6,100 to 14,900) and 13,400 at age 60 (9,000 to 16,700). No p99 or p99.9 is published."
+  }
+ ],
+ "definition": "Estimated number of English lemmas known by American native English speakers aged 20. Lemmas are uninflected words with proper nouns excluded, taken from a list of 61,800 entries. Knowledge was measured by yes/no word recognition with pseudoword correction in an online crowdsourced test.",
+ "derived_points": [],
+ "caveat": "The question asks for the top 1% of adults, but the only source on this definition publishes no value above the 95th percentile. Its p95 for 20-year-olds is about 52,000 lemmas and for 60-year-olds 56,400 lemmas, so the true p99 lies above those figures, capped by the 61,800-lemma test list. The sample is self-selected online test takers, restricted to American native speakers and split by age. It is not a representative sample of all adults, and non-native speakers are excluded. Comparison on a different scale, not averaged: myvocab.info (BRAVE project) counts word families with an adaptive IRT test on about 29,000 self-selected native speakers. It reports p25 14,400, p50 17,100, p75 19,900 and p90 22,700 word families, with no p95 or p99. Its word-family definition differs from Brysbaert's base words, and Brysbaert's word-family median is 11,100. Older rule-of-thumb estimates (Nation; Goulden, Nation & Read 1990) put educated native speakers near 20,000 word families. Those figures are also word families and are not comparable with lemmas.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "English vocabulary size",
+  "short": "Vocabulary",
+  "unit": "lemmas",
+  "direction": "high",
+  "format": "count",
+  "metric_phrase": "an English vocabulary size",
+  "base_noun": "native English speakers",
+  "definition": "The estimated number of distinct English lemmas (dictionary headwords without inflections, proper nouns excluded) a native speaker recognises as known on a word-recognition test.",
+  "phrasings": [
+   "how many words does the average person know",
+   "how many English words do I know",
+   "vocabulary size of top 1% of adults",
+   "average native English speaker vocabulary size",
+   "how big is a large English vocabulary",
+   "number of words known by an adult",
+   "what is a good vocabulary size in English",
+   "how many words does an educated person know"
+  ],
+  "activity": "native_english_speakers",
+  "activity_label": "who speak English as a first language",
+  "id": "vocabulary_size_lemmas"
+ }
+}

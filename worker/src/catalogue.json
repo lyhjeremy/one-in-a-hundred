@@ -133,6 +133,19 @@
    ],
    "activity": "half_marathon_finishers"
   },
+  "tenk_time": {
+   "label": "10 km time",
+   "phrasings": [
+    "10k",
+    "10 k",
+    "10km",
+    "10 km",
+    "ten k",
+    "10 kilometres",
+    "10 kilometers"
+   ],
+   "activity": "tenk_finishers"
+  },
   "fivek_time": {
    "label": "5 km time",
    "phrasings": [
@@ -283,6 +296,432 @@
     "typing speed percentile"
    ],
    "activity": "typing_test_takers"
+  },
+  "act_composite_score": {
+   "label": "ACT composite score",
+   "phrasings": [
+    "what is the top 1% of ACT scores",
+    "what ACT score is top 1 percent",
+    "ACT score percentiles",
+    "what is a 99th percentile ACT score",
+    "average ACT score",
+    "is a 34 on the ACT top 1%",
+    "what ACT score is top 10%",
+    "median ACT composite score",
+    "how rare is a 36 on the ACT"
+   ],
+   "activity": "act_test_takers"
+  },
+  "age_first_marriage": {
+   "label": "Age at first marriage",
+   "phrasings": [
+    "median age at first marriage",
+    "average age people get married",
+    "what age do most people get married",
+    "age of first marriage in the US",
+    "how old are people when they first marry",
+    "typical marriage age for men",
+    "typical marriage age for women",
+    "am I old to get married at 35",
+    "age at first wedding"
+   ],
+   "activity": null
+  },
+  "alcohol_drinks_weekly": {
+   "label": "Alcoholic drinks per week",
+   "phrasings": [
+    "how much alcohol does the top 10% of drinkers drink per week",
+    "how many drinks a week is a lot",
+    "how many drinks per week does the average American have",
+    "am I a heavy drinker at 20 drinks a week",
+    "what percentile is 14 drinks a week",
+    "how much do the heaviest drinkers drink",
+    "drinks per week percentile US",
+    "how much alcohol does the median adult drink weekly"
+   ],
+   "activity": null
+  },
+  "arm_span_cm": {
+   "label": "Arm span (wingspan)",
+   "phrasings": [
+    "what wingspan is top 1% for men",
+    "how long is a 99th percentile arm span",
+    "average wingspan for a man",
+    "is a 6'8 wingspan rare",
+    "what percentile is my wingspan",
+    "arm span percentile chart male",
+    "how rare is a 200 cm wingspan",
+    "top 10% wingspan for men"
+   ],
+   "activity": "us_army_soldiers"
+  },
+  "body_fat_pct": {
+   "label": "Body fat percentage",
+   "phrasings": [
+    "what body fat percentage is top 1% leanest for men",
+    "how rare is 10% body fat",
+    "what percentile is 15% body fat for a man",
+    "average body fat percentage for men",
+    "is 12% body fat top 1%",
+    "body fat percentage percentile chart",
+    "how lean are the leanest 1% of people",
+    "what body fat percentage is top 10% for women"
+   ],
+   "activity": null
+  },
+  "books_read_annual": {
+   "label": "Books read per year",
+   "phrasings": [
+    "how many books a year does the top 1% read",
+    "how many books does the average American read per year",
+    "books read per year percentile",
+    "is reading 50 books a year a lot",
+    "how many books do heavy readers read a year",
+    "median books read per year US",
+    "how many books a year puts you in the top 10%",
+    "what percentile is reading 20 books a year"
+   ],
+   "activity": null
+  },
+  "coffee_intake_ml_day": {
+   "label": "Daily coffee intake",
+   "phrasings": [
+    "how much coffee does the top 1% of drinkers drink per day",
+    "how many cups of coffee is a lot per day",
+    "how much coffee does the average coffee drinker drink",
+    "am I a heavy coffee drinker",
+    "what percentile is 5 cups of coffee a day",
+    "how much coffee do heavy coffee drinkers drink",
+    "median coffee consumption per day",
+    "how many cups of coffee do people drink a day"
+   ],
+   "activity": "coffee_drinkers"
+  },
+  "credit_score_us": {
+   "label": "Credit score",
+   "phrasings": [
+    "what credit score is top 10% in the US",
+    "what percentile is an 800 credit score",
+    "is 750 a good credit score compared to others",
+    "top 1% credit score",
+    "median credit score in America",
+    "how rare is an 850 credit score",
+    "what credit score beats 90% of Americans",
+    "average FICO score US"
+   ],
+   "activity": "adults_with_a_credit_report_and_a_score"
+  },
+  "daily_steps": {
+   "label": "Daily steps",
+   "phrasings": [
+    "how many steps a day is top 10%",
+    "is 10000 steps a day a lot",
+    "average steps per day for adults",
+    "what percentile is 12000 steps a day",
+    "how many steps does the average person walk",
+    "daily step count percentile",
+    "how many steps a day puts me in the top 1%",
+    "median steps per day"
+   ],
+   "activity": null
+  },
+  "deadlift_1rm": {
+   "label": "Deadlift one-rep max",
+   "phrasings": [
+    "what deadlift is top 1% for men",
+    "deadlift percentile",
+    "how rare is a 500 lb deadlift",
+    "average deadlift for men",
+    "top 10% deadlift",
+    "is a 200 kg deadlift good",
+    "what percentile is a 405 deadlift",
+    "deadlift standards by bodyweight",
+    "how much can the strongest 1% deadlift"
+   ],
+   "activity": "powerlifters"
+  },
+  "golf_handicap_index": {
+   "label": "Golf Handicap Index",
+   "phrasings": [
+    "what is a top 1% golf handicap",
+    "what golf handicap is top 10%",
+    "average golf handicap",
+    "what percentile is a 10 handicap",
+    "is a scratch golfer top 1%",
+    "how good is a single digit handicap",
+    "what handicap do the best amateur golfers have",
+    "median golf handicap for men"
+   ],
+   "activity": "golfers"
+  },
+  "gre_verbal_score": {
+   "label": "GRE Verbal Reasoning score",
+   "phrasings": [
+    "what GRE score is the 99th percentile",
+    "what is a good GRE verbal score",
+    "top 1% GRE verbal score",
+    "average GRE verbal score",
+    "GRE verbal percentile",
+    "what GRE score puts you in the top 10%",
+    "median GRE score",
+    "is 165 verbal a good GRE score"
+   ],
+   "activity": "gre_test_takers"
+  },
+  "grip_strength_kg": {
+   "label": "Handgrip strength",
+   "phrasings": [
+    "what grip strength is top 1% for men",
+    "how strong is my grip compared to others",
+    "average grip strength for men",
+    "is 60 kg grip strength good",
+    "grip strength percentile",
+    "handgrip dynamometer score percentile",
+    "what is a strong grip in kg",
+    "grip strength norms by age"
+   ],
+   "activity": null
+  },
+  "gross_rent_monthly_usd": {
+   "label": "Monthly gross rent",
+   "phrasings": [
+    "what rent is top 10% in the US",
+    "how much rent do the top 10% pay",
+    "is my rent high compared to other Americans",
+    "median rent in the United States",
+    "what percentile is my rent",
+    "how expensive is $3000 rent",
+    "top 1% rent US",
+    "average monthly rent America"
+   ],
+   "activity": "renters"
+  },
+  "head_circumference_mm": {
+   "label": "Head circumference",
+   "phrasings": [
+    "how big is a large head circumference for an adult",
+    "top 1% head circumference",
+    "what is a big head size in cm",
+    "average adult head circumference",
+    "head circumference percentile adult",
+    "is my head big for an adult",
+    "largest 1 percent hat size head",
+    "adult head size percentile"
+   ],
+   "activity": null
+  },
+  "home_value_usd": {
+   "label": "Home value",
+   "phrasings": [
+    "what is the top 1% of home values in the United States",
+    "how much is a top 1% house worth",
+    "what home value puts you in the top 10%",
+    "median home value in the US",
+    "is my house worth more than most homes in America",
+    "what percentile is a $1 million home",
+    "how expensive is a top 1 percent home",
+    "home value percentile calculator"
+   ],
+   "activity": "homeowners"
+  },
+  "household_net_worth_usd": {
+   "label": "Household net worth",
+   "phrasings": [
+    "median net worth of American households by age",
+    "household net worth at 65",
+    "how much are retirees worth on average",
+    "median net worth for 65 year olds",
+    "what net worth puts my household in the top 10%",
+    "family net worth by age of head",
+    "average retirement net worth US",
+    "household wealth percentile by age"
+   ],
+   "activity": null
+  },
+  "income_agi_tax_return_usd": {
+   "label": "Adjusted gross income per tax return",
+   "phrasings": [
+    "what household income is top 1% in the united states",
+    "how much do you need to earn to be in the top 1% in the us",
+    "top 1 percent income threshold usa",
+    "what income puts you in the top 10% in america",
+    "median household income us",
+    "top 1% AGI cutoff",
+    "how much money do the top 1% make per year in the us",
+    "what salary is top 1 percent in america"
+   ],
+   "activity": null
+  },
+  "income_total_tax_filer_cad": {
+   "label": "Total income per tax filer (Canada)",
+   "phrasings": [
+    "what is the top 1% income in canada by household",
+    "how much do you need to earn to be in the top 1% in canada",
+    "top 1 percent income threshold canada",
+    "what income puts you in the top 1% in canada",
+    "canada top 0.1% income cutoff",
+    "how much do the richest 1% of canadians make",
+    "what salary is top 1 percent in canada",
+    "top one per cent income canada statistics canada"
+   ],
+   "activity": null
+  },
+  "pullups_max": {
+   "label": "Max pull-ups",
+   "phrasings": [
+    "how many pull ups can the top 1% of men do",
+    "how many pull ups is good for a man",
+    "average number of pull ups for men",
+    "how many pull ups can the average man do",
+    "pull up percentile",
+    "is 20 pull ups good",
+    "how rare is it to do 15 pull ups",
+    "max pull ups percentile by age"
+   ],
+   "activity": null
+  },
+  "resting_heart_rate_bpm": {
+   "label": "Resting heart rate",
+   "phrasings": [
+    "what resting heart rate is top 1% of adults",
+    "lowest resting heart rate percentile",
+    "is a resting heart rate of 50 good",
+    "what percentile is my resting heart rate",
+    "average resting heart rate for adults",
+    "resting pulse rate percentiles",
+    "how rare is a resting heart rate under 50",
+    "median resting heart rate",
+    "what resting heart rate do athletes have compared to everyone"
+   ],
+   "activity": null
+  },
+  "retirement_age": {
+   "label": "Age at retirement",
+   "phrasings": [
+    "what age does the median person retire",
+    "average retirement age in the US",
+    "at what age do most Americans retire",
+    "median retirement age",
+    "how old are people when they retire",
+    "typical age people stop working",
+    "is retiring at 60 early",
+    "what percent of people retire before 62"
+   ],
+   "activity": "retirees"
+  },
+  "rowing_2k_time": {
+   "label": "2000m indoor rowing time",
+   "phrasings": [
+    "2000m rowing time",
+    "2k erg time",
+    "2k row time",
+    "2000 meter rowing machine time",
+    "concept2 2k time",
+    "indoor rowing 2000m",
+    "rowing ergometer 2000m time",
+    "how fast is a good 2k erg"
+   ],
+   "activity": "indoor_rowers"
+  },
+  "sat_total_score": {
+   "label": "SAT total score",
+   "phrasings": [
+    "what SAT score is the 99th percentile",
+    "what is a top 1% SAT score",
+    "what SAT score puts you in the top 10%",
+    "average SAT score",
+    "median SAT score",
+    "is 1500 a good SAT score",
+    "what percentile is a 1400 on the SAT",
+    "SAT score percentiles",
+    "how rare is a 1550 SAT"
+   ],
+   "activity": "sat_takers"
+  },
+  "screen_time_daily_hours": {
+   "label": "Daily recreational screen time",
+   "phrasings": [
+    "what screen time per day is top 10% of adults",
+    "how many hours of screen time is a lot",
+    "average daily screen time for adults",
+    "is 6 hours of screen time a day normal",
+    "how much screen time do adults have per day",
+    "top 1% screen time",
+    "median screen time per day",
+    "how many hours a day do people spend on screens"
+   ],
+   "activity": null
+  },
+  "squat_1rm": {
+   "label": "Squat one-rep max",
+   "phrasings": [
+    "what squat is top 1% for women",
+    "squat percentile",
+    "average squat for women",
+    "top 10% squat for men",
+    "is a 100 kg squat good for a woman",
+    "how rare is a 315 squat",
+    "what percentile is a 225 squat",
+    "squat standards by bodyweight",
+    "how much can the strongest 1% squat"
+   ],
+   "activity": "powerlifters"
+  },
+  "student_debt_usd": {
+   "label": "Student loan debt",
+   "phrasings": [
+    "median student loan debt",
+    "how much student debt does the average borrower have",
+    "typical student loan balance in the US",
+    "is my student loan debt high",
+    "student loan debt percentile",
+    "how much do people owe in student loans",
+    "average student loan debt per borrower",
+    "top 1% student loan debt"
+   ],
+   "activity": "student_loan_borrowers"
+  },
+  "vertical_jump_cm": {
+   "label": "Vertical jump height",
+   "phrasings": [
+    "how high can the top 1% of men jump vertically",
+    "what is a good vertical jump for a man",
+    "average vertical jump height",
+    "vertical jump percentile",
+    "is a 60 cm vertical jump good",
+    "how high can the average person jump",
+    "top 10% vertical leap",
+    "vertical jump norms by age"
+   ],
+   "activity": null
+  },
+  "vo2max_ml_kg_min": {
+   "label": "VO2 max",
+   "phrasings": [
+    "what VO2 max is top 1% for men aged 30 to 39",
+    "what is a good VO2 max for my age",
+    "VO2 max percentile by age",
+    "top 10% VO2 max for women",
+    "average VO2 max for a 35 year old man",
+    "is a VO2 max of 55 good",
+    "elite VO2 max by age and sex",
+    "what VO2 max puts you in the top 1 percent"
+   ],
+   "activity": null
+  },
+  "vocabulary_size_lemmas": {
+   "label": "English vocabulary size",
+   "phrasings": [
+    "how many words does the average person know",
+    "how many English words do I know",
+    "vocabulary size of top 1% of adults",
+    "average native English speaker vocabulary size",
+    "how big is a large English vocabulary",
+    "number of words known by an adult",
+    "what is a good vocabulary size in English",
+    "how many words does an educated person know"
+   ],
+   "activity": "native_english_speakers"
   }
  },
  "activities": {
@@ -294,7 +733,22 @@
   "powerlifters": "who compete in powerlifting",
   "soldiers": "who are US Army soldiers",
   "instagram_accounts": "who have an Instagram account",
-  "typing_test_takers": "who take online typing tests"
+  "typing_test_takers": "who take online typing tests",
+  "act_test_takers": "who took the ACT",
+  "us_army_soldiers": "who are US Army soldiers",
+  "coffee_drinkers": "who drink coffee",
+  "adults_with_a_credit_report_and_a_score": "who are adults with a credit report and a score",
+  "golfers": "who hold an official golf Handicap Index",
+  "gre_test_takers": "who took the GRE General Test",
+  "renters": "who rent their home",
+  "homeowners": "who own their home",
+  "retirees": "who have retired",
+  "indoor_rowers": "who log indoor rowing results",
+  "sat_takers": "who took the SAT",
+  "student_loan_borrowers": "who have student loan debt",
+  "native_english_speakers": "who speak English as a first language",
+  "nba_players": "nba players",
+  "10k_race_finishers": "10k race finishers"
  },
  "countries": {
   "US": "United States",

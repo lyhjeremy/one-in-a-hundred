@@ -1,0 +1,24 @@
+{
+ "label": "SAT total score",
+ "short": "SAT",
+ "unit": "points",
+ "direction": "high",
+ "format": "number",
+ "metric_phrase": "an SAT score",
+ "base_noun": "recent SAT test takers",
+ "definition": "Total score on the SAT (Evidence-Based Reading and Writing plus Math, each 200–800), on the 400–1600 scale, ranked against students who took the SAT in the past three graduating classes.",
+ "phrasings": [
+  "what SAT score is the 99th percentile",
+  "what is a top 1% SAT score",
+  "what SAT score puts you in the top 10%",
+  "average SAT score",
+  "median SAT score",
+  "is 1500 a good SAT score",
+  "what percentile is a 1400 on the SAT",
+  "SAT score percentiles",
+  "how rare is a 1550 SAT"
+ ],
+ "activity": "sat_takers",
+ "activity_label": "who took the SAT",
+ "id": "sat_total_score"
+}

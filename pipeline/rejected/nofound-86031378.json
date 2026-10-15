@@ -1,0 +1,21 @@
+{
+ "group": "q|how many marathons has the top 1% of marathon runners finished",
+ "result": {
+  "found": false,
+  "why": "I could not find a credible source that gives percentiles (median, p90, p99) for how many marathons a runner has finished in their lifetime, across a general population of marathon finishers. What exists covers other things or skewed samples. (1) Running USA's 2013 National Runner Survey (30,425 core runners, collected Aug-Dec 2012) reports only the share who have finished at least one marathon: 65.9% of men and 49.2% of women. It gives no breakdown above that. (2) The National Runners' Health Study reports marathons per year, not lifetime counts: 3.8% of men and 1.5% of women averaged 2 or more a year. (3) A Strava study of 292,323 runners covers only 2014-2017 and gives only means, about 1.57 marathons per woman and 1.79 per man over that window. (4) A PLoS ONE 2024 survey of 830 multi-marathoners, recruited through multi-marathon clubs, reports a mean of 146.5 marathons with an SD of 201.8 (PMC11078339). (5) A hip and knee arthritis study of 675 marathoners who had each finished at least 5 marathons reports a mean of 76 and a range of 5-1,016. Samples 4 and 5 are selected for heavy racers, so their means badly overstate the typical marathoner and cannot stand in for a p99 of all finishers. No race, timing company or platform that holds the raw data (Athlinks, RunRepeat, the Marathon Majors) seems to publish a lifetime-count distribution. The one hard-number lead is the 2013 survey's 'core runners', and only about half to two thirds of them have run a marathon at all. A top-1% figure is very likely in the tens to low hundreds, but no source states it, so I am not reporting a number.",
+  "triple": {
+   "metric_phrase": "number of marathons completed in a lifetime",
+   "catalogue_metric": null,
+   "direction": "high",
+   "unit": "count",
+   "population": {
+    "base": "world",
+    "country": null,
+    "sex": "all",
+    "age_band": null,
+    "activity": "marathon finishers"
+   },
+   "percentile": 99
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "id": "retirement_age.us.all.retirees.2025",
+ "metric": "retirement_age",
+ "population": {
+  "base": "country",
+  "country": "US",
+  "sex": "all",
+  "age_band": null,
+  "activity": "retirees",
+  "source_category": null
+ },
+ "year": 2025,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "years",
+ "grid": {
+  "p50": 62.0
+ },
+ "sources": [
+  {
+   "id": "src-q-ebri-greenwald-research-2025-retirement",
+   "name": "EBRI/Greenwald Research, 2025 Retirement Confidence Survey (35th annual)",
+   "url": "https://www.ebri.org/content/2025-ebri-greenwald-retirement-confidence-survey",
+   "accessed": "2026-10-15",
+   "measures": "Self-reported age at which current US retirees retired, in a nationally representative online survey of Americans aged 25 and older. Retirees report their own retirement age.",
+   "values": {
+    "p50": 62.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "years of age",
+   "notes": "Fielded January 2 to February 3, 2025. 2,767 total respondents, 1,005 of them retirees in the general sample. The report says 3 in 5 retirees retired before 65 and the median retirement age is 62. It also gives the workers' median expected retirement age as 65. A secondary site says the 2026 edition repeats the 62 figure. That claim is unverified and not used here."
+  },
+  {
+   "id": "src-q-transamerica-center-for-retirement-studi",
+   "name": "Transamerica Center for Retirement Studies, The Current State of Retirement: Pre-Retiree Expectations and Retiree Realities",
+   "url": "https://www.transamericainstitute.org/research/publications/details/the-current-state-of-retirement-pre-retiree-expectations-and-retiree-realities",
+   "accessed": "2026-10-15",
+   "measures": "Self-reported age at which US retirees aged 50 and older (fully or semi-retired) considered themselves retired, from a nationally representative survey of retirees.",
+   "values": {
+    "p50": 62.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "years of age",
+   "notes": "Published December 2015 and based on 2015 surveys of more than 2,100 workers aged 50+ and about 2,000 retirees (the related 2015 TCRS retiree survey reports n = 2,012). Collected independently of EBRI. Most of its retirees said they retired earlier than they had planned."
+  }
+ ],
+ "definition": "Self-reported age at which current US retirees retired, in a nationally representative online survey of Americans aged 25 and older. Retirees report their own retirement age.",
+ "derived_points": [],
+ "caveat": "Both sources are surveys in which retirees report the age they retired, taken over the stock of current retirees. They are not cohort or administrative measures, and the two survey frames differ: EBRI's retirees come from an adult 25+ sample, Transamerica's are aged 50+. Other definitions were kept out of sources because they measure something else. (1) Gallup's April 2026 retiree survey gives a self-reported mean of about 61, not a median, and this figure was seen only through secondary sites. (2) The Center for Retirement Research at Boston College (from Census CPS data) defines the average retirement age as the age at which a cohort's labour force participation falls below 50%. For 2025 that is about 64.8 for men and 63.3 for women, published rounded as 65 and 63, with no combined figure. (3) The Federal Reserve SHED (2018 data, 2019 report) says nearly half of self-identified retirees retired before 62 and a quarter between 62 and 64. That fits a median near 62, but SHED does not publish a median. (4) Social Security claiming age is a different measure again. The question asks for the median person, which matches the survey medians. Answers to 'median retirement age' run about 62 for self-reported actual retirement and about 64 to 65 under the participation-based CRR definition.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Age at retirement",
+  "short": "Retirement age",
+  "unit": "years",
+  "direction": "high",
+  "format": "years",
+  "metric_phrase": "a retirement age",
+  "base_noun": "retirees",
+  "definition": "The age at which a retired person says they retired from the workforce, as reported by current retirees in a nationally representative survey.",
+  "phrasings": [
+   "what age does the median person retire",
+   "average retirement age in the US",
+   "at what age do most Americans retire",
+   "median retirement age",
+   "how old are people when they retire",
+   "typical age people stop working",
+   "is retiring at 60 early",
+   "what percent of people retire before 62"
+  ],
+  "activity": "retirees",
+  "activity_label": "who have retired",
+  "id": "retirement_age"
+ }
+}

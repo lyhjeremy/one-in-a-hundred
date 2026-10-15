@@ -1,0 +1,23 @@
+{
+ "label": "Daily steps",
+ "short": "Steps/day",
+ "unit": "steps_per_day",
+ "direction": "high",
+ "format": "count",
+ "metric_phrase": "a daily step count",
+ "base_noun": "adults",
+ "definition": "Average number of steps a person takes per day, measured by a worn device (accelerometer, pedometer or fitness tracker) over at least several days.",
+ "phrasings": [
+  "how many steps a day is top 10%",
+  "is 10000 steps a day a lot",
+  "average steps per day for adults",
+  "what percentile is 12000 steps a day",
+  "how many steps does the average person walk",
+  "daily step count percentile",
+  "how many steps a day puts me in the top 1%",
+  "median steps per day"
+ ],
+ "activity": null,
+ "activity_label": null,
+ "id": "daily_steps"
+}

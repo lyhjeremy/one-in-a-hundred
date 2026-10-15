@@ -1,0 +1,46 @@
+{
+ "group": "q|how many hours a week does the top 1% of workers work in the us",
+ "result": {
+  "found": false,
+  "why": "No credible source publishes percentiles (median, p90 or p99) of weekly hours worked by individual US workers. The best official source, BLS CPS annual-average Table 19 (2025, 11-month average without October, 157.7 million people at work), reports only hours bands. The cumulative shares are 86.2% at 48 hours or fewer, 94.5% at 59 hours or fewer, and 5.5% at 60 hours or more. The table has no band above 60, so the 99th percentile cannot be read from it, and the brief forbids computing it. The Census ACS (UHRSWORK) publishes means only. Percentiles would have to be computed from CPS or ACS microdata (IPUMS), and no published table doing that was found. The St. Louis Fed's 2024 NLSY lifetime-hours analysis reports p90 of about 54.4 h/week and p95 of about 57.7 h/week, but that is annualized lifetime hours for one birth cohort, not current weekly hours, so it does not match the question.",
+  "triple": {
+   "metric_phrase": "weekly hours worked",
+   "catalogue_metric": null,
+   "direction": "high",
+   "unit": "hours_week",
+   "population": {
+    "base": "country",
+    "country": "US",
+    "sex": "all",
+    "age_band": "16+",
+    "activity": "employed workers"
+   },
+   "percentile": 99
+  },
+  "sources": [],
+  "caveat": "The catalogue metric hours_worked_annual is a country-average annual figure per employed person, not a per-worker distribution, so it does not fit this question. BLS Table 19 (https://www.bls.gov/cps/cpsaat19.htm) measures hours at work in the survey reference week, not usual hours. It gives an average of 38.3 h for all people at work and 41.9 h for people who usually work full time, with 5.5% working 60 or more hours. Under this table the median falls in the 40-hour band, p90 in the 49-59 band and p99 somewhere at 60 or above. CPS usual hours are top-coded at 99. Comparison only, not usable: St. Louis Fed 2024 (https://www.stlouisfed.org/on-the-economy/2024/mar/relationship-hours-lifetime-hours-worked-lifetime-earnings), NLSY lifetime hours, p90 about 54.4 and p95 about 57.7 h/week.",
+  "new_metric": {
+   "id": "hours_worked_weekly",
+   "label": "Hours worked per week",
+   "short": "Weekly hours",
+   "unit": "hours_week",
+   "direction": "high",
+   "format": "number_1dp",
+   "metric_phrase": "a working week",
+   "base_noun": "employed workers",
+   "definition": "Hours usually worked per week at all jobs by an employed person, as reported in a labour force survey.",
+   "phrasings": [
+    "hours a week",
+    "hours per week",
+    "work hours per week",
+    "how many hours do people work a week",
+    "long working week",
+    "weekly working hours",
+    "work 80 hours a week",
+    "hours worked weekly"
+   ],
+   "activity": null,
+   "activity_label": null
+  }
+ }
+}

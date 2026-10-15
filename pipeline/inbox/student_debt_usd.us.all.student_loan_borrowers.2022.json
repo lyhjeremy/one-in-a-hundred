@@ -1,0 +1,79 @@
+{
+ "id": "student_debt_usd.us.all.student_loan_borrowers.2022",
+ "metric": "student_debt_usd",
+ "population": {
+  "base": "country",
+  "country": "US",
+  "sex": "all",
+  "age_band": null,
+  "activity": "student_loan_borrowers",
+  "source_category": null
+ },
+ "year": 2022,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "usd",
+ "grid": {
+  "p50": 25.15
+ },
+ "sources": [
+  {
+   "id": "src-q-federal-reserve-board-changes-in-u-s-fam",
+   "name": "Federal Reserve Board, Changes in U.S. Family Finances from 2019 to 2022: Evidence from the Survey of Consumer Finances (Federal Reserve Bulletin, Oct 2023), Table 4",
+   "url": "https://www.federalreserve.gov/publications/files/scf23.pdf",
+   "accessed": "2026-10-15",
+   "measures": "Conditional median value of education installment loans (student debt) held by US families with any education loan debt, family (household) level, 2022 SCF wave",
+   "values": {
+    "p50": 24.5
+   },
+   "independent_of": [],
+   "official": true,
+   "unit_as_published": "thousands of 2022 dollars",
+   "notes": "21.8% of families held education loans in 2022. Text on p.26: 'Median balances decreased from $25,800 to $24,500, and mean balances decreased from $46,800 to $46,600.' The survey was fielded while most federal student loans were in pandemic zero-interest forbearance. The SCF sample is about 4,600 families, but the bulletin table does not state the n for the education-loan subsample."
+  },
+  {
+   "id": "src-q-federal-reserve-board-survey-of-consumer",
+   "name": "Federal Reserve Board, Survey of Consumer Finances 2019 wave, as restated in the Oct 2023 Federal Reserve Bulletin, Table 4",
+   "url": "https://www.federalreserve.gov/publications/files/scf23.pdf",
+   "accessed": "2026-10-15",
+   "measures": "Conditional median value of education installment loans held by US families with any education loan debt, family level, 2019 SCF wave (inflation-adjusted to 2022 dollars)",
+   "values": {
+    "p50": 25.8
+   },
+   "independent_of": [],
+   "official": true,
+   "unit_as_published": "thousands of 2022 dollars",
+   "notes": "This is the same survey and definition as the 2022 source, one wave earlier, so it is not independent. 21.5% of families held education loans in 2019."
+  }
+ ],
+ "definition": "Conditional median value of education installment loans (student debt) held by US families with any education loan debt, family (household) level, 2022 SCF wave",
+ "derived_points": [],
+ "caveat": "The question asks about student loan debt in the US. The SCF measures it per family among families that hold education loans, not per individual borrower, and a family can contain more than one borrower. Among all families the median is $0, because only about 22% hold student debt. One comparison is the Federal Reserve SHED (Report on the Economic Well-Being of U.S. Households in 2024, May 2025, https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-higher-education-and-student-loans.htm). It is individual-level and self-reported, counts debt for the respondent's own education only, and publishes the median only as a bracket: 'between $20,000 and $24,999'. It also reports that 28% of borrowers owed under $10,000 and most owed under $25,000. That puts it in line with the SCF, but it is a different unit of observation and is left out of sources. The Cleveland Fed Economic Commentary 2024-10 restates the SCF figures (about $25,000 median, $47,000 mean) and is not independent. The SCF is known to understate aggregate student debt relative to Fed G.19 and NY Fed credit-bureau totals, by roughly 25% in one secondary estimate. Neither official source publishes p90 or p99 values.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Student loan debt",
+  "short": "Student debt",
+  "unit": "usd",
+  "direction": "high",
+  "format": "money",
+  "metric_phrase": "a student loan balance",
+  "base_noun": "families with student loan debt",
+  "definition": "Outstanding balance of education loans (federal and private student loans) owed by a family that holds any such debt, as reported in the Federal Reserve Survey of Consumer Finances.",
+  "phrasings": [
+   "median student loan debt",
+   "how much student debt does the average borrower have",
+   "typical student loan balance in the US",
+   "is my student loan debt high",
+   "student loan debt percentile",
+   "how much do people owe in student loans",
+   "average student loan debt per borrower",
+   "top 1% student loan debt"
+  ],
+  "activity": "student_loan_borrowers",
+  "activity_label": "who have student loan debt",
+  "id": "student_debt_usd"
+ }
+}

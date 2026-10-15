@@ -1,0 +1,69 @@
+{
+ "id": "home_value_usd.us.all.homeowners.2024",
+ "metric": "home_value_usd",
+ "population": {
+  "base": "country",
+  "country": "US",
+  "sex": "all",
+  "age_band": null,
+  "activity": "homeowners",
+  "source_category": null
+ },
+ "year": 2024,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "usd",
+ "grid": {
+  "p25": 209300.0,
+  "p50": 360600.0,
+  "p75": 603900.0
+ },
+ "sources": [
+  {
+   "id": "src-q-u-s-census-bureau-american-community-sur",
+   "name": "U.S. Census Bureau, American Community Survey 2024 1-year estimates, tables B25075 (Value), B25076 (Lower value quartile), B25077 (Median value), B25078 (Upper value quartile), United States",
+   "url": "https://data.census.gov/table/ACSDT1Y2024.B25075?g=010XX00US",
+   "accessed": "2026-10-15",
+   "measures": "The respondent's estimate of how much the property (house and lot, or condominium unit) would sell for if it were for sale, across all owner-occupied housing units in the United States. The value is self-reported, not an appraisal or a sale price.",
+   "values": {
+    "p25": 209300.0,
+    "p50": 360600.0,
+    "p75": 603900.0
+   },
+   "independent_of": [],
+   "official": true,
+   "unit_as_published": "US dollars",
+   "notes": "Figures were retrieved through the Census Reporter API mirror of acs2024_1yr (api.censusreporter.org), which reproduces the Census estimates. ACS publishes only the quartiles, not p90 or p99. Bin counts in B25075 (total 86,635,504 units, MOE 272,877): $750,000-$999,999 = 6,489,948; $1,000,000-$1,499,999 = 3,710,737; $1,500,000-$1,999,999 = 1,340,487; $2,000,000 or more = 1,886,140 (MOE 20,315). That puts about 2.2% of owner-occupied homes in the top-coded $2,000,000+ bin, so the 99th percentile is above $2,000,000 and cannot be read from the table. Units valued at $1,000,000 or more are about 8.0% of the total, so the 90th percentile falls in the $750,000-$999,999 bin. These shares are simple bin-count arithmetic, not published percentiles."
+  }
+ ],
+ "definition": "The respondent's estimate of how much the property (house and lot, or condominium unit) would sell for if it were for sale, across all owner-occupied housing units in the United States. The value is self-reported, not an appraisal or a sale price.",
+ "derived_points": [],
+ "caveat": "No official, academic or platform source found publishes a 99th-percentile (or 90th-percentile) value of U.S. homes. The ACS gives the 25th, 50th and 75th percentiles, plus a value distribution whose top bin, $2,000,000 or more, holds about 2.2% of owner-occupied homes. The top-1% threshold is therefore somewhere above $2 million, and no published figure pins it down. Getting an exact p99 would mean computing it from ACS PUMS microdata (VALP) or Survey of Consumer Finances microdata, which this task does not do. ACS values are owners' own estimates, not appraisals or sales prices, and they cover owner-occupied units only (rentals, vacant homes and second homes are excluded). Not usable as sources but worth noting: Zillow's top-tier ZHVI is the typical value of homes in the 65th-95th percentile range of each region, not a national p99. Redfin's luxury reports define luxury as the top 5% of estimated values within each metro. The Federal Reserve Distributional Financial Accounts report real estate held by net-worth percentile groups (for example, about $6.5 trillion held by the top 1% of households by wealth in Q1 2026), which describes household wealth, not a home-value distribution. The 2019-2023 ACS 5-year median was $303,400 (2023 dollars). It comes from the same survey, so it is not an independent second source. A second independent source on the same definition, the American Housing Survey 2023 national value table, could not be retrieved; its table creator page did not load.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Home value",
+  "short": "Home value",
+  "unit": "usd",
+  "direction": "high",
+  "format": "money",
+  "metric_phrase": "a home value",
+  "base_noun": "owner-occupied homes",
+  "definition": "The owner's estimate of what an owner-occupied home (house and lot, or condominium unit) would sell for if it were on the market, in US dollars.",
+  "phrasings": [
+   "what is the top 1% of home values in the United States",
+   "how much is a top 1% house worth",
+   "what home value puts you in the top 10%",
+   "median home value in the US",
+   "is my house worth more than most homes in America",
+   "what percentile is a $1 million home",
+   "how expensive is a top 1 percent home",
+   "home value percentile calculator"
+  ],
+  "activity": "homeowners",
+  "activity_label": "who own their home",
+  "id": "home_value_usd"
+ }
+}

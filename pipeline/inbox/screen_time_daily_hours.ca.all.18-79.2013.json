@@ -1,0 +1,67 @@
+{
+ "id": "screen_time_daily_hours.ca.all.18-79.2013",
+ "metric": "screen_time_daily_hours",
+ "population": {
+  "base": "country",
+  "country": "CA",
+  "sex": "all",
+  "age_band": "18-79",
+  "activity": null,
+  "source_category": null
+ },
+ "year": 2013,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "hours",
+ "grid": {
+  "p50": 3.0,
+  "p90": 6.0
+ },
+ "sources": [
+  {
+   "id": "src-q-statistics-canada-health-reports-82-003",
+   "name": "Statistics Canada, Health Reports 82-003-X: \"How sedentary are Canadian adults? It depends on the measure\" (Canadian Health Measures Survey Cycle 3)",
+   "url": "https://www150.statcan.gc.ca/n1/pub/82-003-x/2022010/article/00002-eng.htm",
+   "accessed": "2026-10-15",
+   "measures": "Self-reported leisure screen time (TV, videos, video games, computer and internet use for email, games etc.) in hours per day, averaged over a typical week in the past three months. Work and school computer use is excluded. Canadian adults aged 18 to 79.",
+   "values": {
+    "p50": 3.0,
+    "p90": 6.0
+   },
+   "independent_of": [],
+   "official": true,
+   "unit_as_published": "hours per day",
+   "notes": "Data collected 2012-2013 and published 2022. The report gives the median (3.0 h) directly. It gives no p90, but it publishes the weighted share of adults at each whole hour: 0 h 9.93%, 1 h 16.39%, 2 h 22.83%, 3 h 20.32%, 4 h 12.58%, 5 h 5.71%, 6 h 5.70%, 7 h 2.42%, 8 h 1.20%, 9 h 0.80%, 10 h 1.42%, 11 h 0.27%, 12 h 0.31%, 13 h 0.00%, 14+ h 0.12%. Cumulative share through 5 h is 87.76% and through 6 h is 93.46%, so the 90th percentile falls in the 6 h bin. The p90 of 6.0 is read off this published binned distribution, not stated in the text. Mean 3.2 h (95% CI 3.0 to 3.5). Range 0 to 14.4 h. Means by age: 18-34 3.3 h, 35-49 2.8 h, 50-64 3.3 h, 65-79 3.8 h. Men 3.4 h, women 3.1 h. 57.7% reported 3 hours or less."
+  }
+ ],
+ "definition": "Self-reported leisure screen time (TV, videos, video games, computer and internet use for email, games etc.) in hours per day, averaged over a typical week in the past three months. Work and school computer use is excluded. Canadian adults aged 18 to 79.",
+ "derived_points": [],
+ "caveat": "Only one source on this definition was found. The question asks about 'adults' with no country and does not say whether all screen use counts. No official or peer-reviewed source found publishes a p90 for total adult screen time (work plus leisure, all devices). This answer uses the Canadian self-reported leisure measure for ages 18 to 79, collected in 2012-2013. The authors say the figures are outdated, and current values are probably higher. It leaves out work and school screen use and is self-reported, so it is far lower than total device time. For comparison only, on different definitions that are not averaged here: Winbush et al., PNAS 2025 (doi 10.1073/pnas.2427311122) logged smartphone use objectively in a large US adult sample. Secondary write-ups report a mean of about 338 min/day on the phone, a median of 295 min/day on non-social-media apps and a median of 42.7 min/day on social media, with a strongly right-skewed distribution. The full text could not be retrieved to check these or to find percentiles. The Health eHeart study (PMC5102460, n=653, objective smartphone logging) reports a median of 38.4 h per 30 days (IQR 21.4 to 61.3). CHMS 2018-2019 reports 60.8% of Canadian adults at 3 h/day or less of recreational screen time. Belgium's 2022-2023 food consumption survey reports 33% (weekdays) and 41% (weekend days) of adults aged 18 to 64 at 4 h/day or more. NHANES 2015-2016 reports 65% of US adults watching TV or videos 2 h/day or more. Commercial survey figures (for example WhistleOut, 6.9 h/day on phones) are self-reported, non-probability samples and are excluded.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Daily recreational screen time",
+  "short": "Screen time",
+  "unit": "hours",
+  "direction": "high",
+  "format": "number_1dp",
+  "metric_phrase": "a daily screen time",
+  "base_noun": "adults",
+  "definition": "Average hours per day spent on screens outside work or school (TV, videos, games, computer and internet use), as reported by the person for a typical recent week.",
+  "phrasings": [
+   "what screen time per day is top 10% of adults",
+   "how many hours of screen time is a lot",
+   "average daily screen time for adults",
+   "is 6 hours of screen time a day normal",
+   "how much screen time do adults have per day",
+   "top 1% screen time",
+   "median screen time per day",
+   "how many hours a day do people spend on screens"
+  ],
+  "activity": null,
+  "activity_label": null,
+  "id": "screen_time_daily_hours"
+ }
+}

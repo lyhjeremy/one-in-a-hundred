@@ -1,0 +1,23 @@
+{
+ "label": "Monthly gross rent",
+ "short": "Rent",
+ "unit": "usd_month",
+ "direction": "high",
+ "format": "money",
+ "metric_phrase": "a monthly rent",
+ "base_noun": "renter households",
+ "definition": "Monthly contract rent plus the estimated cost of utilities and fuels paid by the renter, for renter-occupied housing units paying cash rent (US Census ACS definition).",
+ "phrasings": [
+  "what rent is top 10% in the US",
+  "how much rent do the top 10% pay",
+  "is my rent high compared to other Americans",
+  "median rent in the United States",
+  "what percentile is my rent",
+  "how expensive is $3000 rent",
+  "top 1% rent US",
+  "average monthly rent America"
+ ],
+ "activity": "renters",
+ "activity_label": "who rent their home",
+ "id": "gross_rent_monthly_usd"
+}

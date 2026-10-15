@@ -141,6 +141,13 @@ def main() -> int:
             m["activity"] = act
         m.setdefault("family", "more")
         extra["metrics"][mid] = {**extra["metrics"].get(mid, {}), **m}
+    # A researched fact can reuse a catalogue measure with a group of its own
+    # (height of NBA players); register that group so its label resolves.
+    for p in sorted(INBOX.glob("*.json")):
+        f = json.loads(p.read_text())
+        act = f.get("population", {}).get("activity")
+        if act and act not in METRICS["activities"] and act not in extra["activities"]:
+            extra["activities"][act] = {"label": act.replace("_", " "), "metric": f["metric"]}
     extra_path.write_text(json.dumps(extra, indent=1, ensure_ascii=False) + "\n")
     for mid, m in extra["metrics"].items():
         METRICS["metrics"].setdefault(mid, m)

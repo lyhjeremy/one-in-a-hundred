@@ -1,0 +1,23 @@
+{
+ "label": "Body fat percentage",
+ "short": "Body fat",
+ "unit": "percent",
+ "direction": "low",
+ "format": "number_1dp",
+ "metric_phrase": "a body fat percentage",
+ "base_noun": "adults",
+ "definition": "Whole-body fat mass as a percentage of total body mass, measured by dual-energy X-ray absorptiometry (DXA).",
+ "phrasings": [
+  "what body fat percentage is top 1% leanest for men",
+  "how rare is 10% body fat",
+  "what percentile is 15% body fat for a man",
+  "average body fat percentage for men",
+  "is 12% body fat top 1%",
+  "body fat percentage percentile chart",
+  "how lean are the leanest 1% of people",
+  "what body fat percentage is top 10% for women"
+ ],
+ "activity": null,
+ "activity_label": null,
+ "id": "body_fat_pct"
+}

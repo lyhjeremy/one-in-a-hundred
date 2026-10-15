@@ -1,0 +1,23 @@
+{
+ "label": "GRE Verbal Reasoning score",
+ "short": "GRE Verbal",
+ "unit": "points",
+ "direction": "high",
+ "format": "number",
+ "metric_phrase": "a GRE Verbal Reasoning score",
+ "base_noun": "GRE test takers",
+ "definition": "Scaled score on the Verbal Reasoning section of the ETS GRE General Test, from 130 to 170 in one-point steps, ranked against everyone who took the test over the latest three-year ETS reference period.",
+ "phrasings": [
+  "what GRE score is the 99th percentile",
+  "what is a good GRE verbal score",
+  "top 1% GRE verbal score",
+  "average GRE verbal score",
+  "GRE verbal percentile",
+  "what GRE score puts you in the top 10%",
+  "median GRE score",
+  "is 165 verbal a good GRE score"
+ ],
+ "activity": "gre_test_takers",
+ "activity_label": "who took the GRE General Test",
+ "id": "gre_verbal_score"
+}

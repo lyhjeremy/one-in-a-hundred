@@ -1,0 +1,48 @@
+{
+ "id": "tenk_time.world.f.10k_race_finishers.2017",
+ "metric": "tenk_time",
+ "population": {
+  "base": "world",
+  "country": null,
+  "sex": "f",
+  "age_band": null,
+  "activity": "10k_race_finishers",
+  "source_category": null
+ },
+ "year": 2017,
+ "n": null,
+ "n_source": null,
+ "direction": "low",
+ "unit": "seconds",
+ "grid": {
+  "p1": 2472.0,
+  "p10": 3215.0,
+  "p50": 4014.0,
+  "p90": 5594.0
+ },
+ "sources": [
+  {
+   "id": "src-q-runrepeat-compare-running-finish-times-r",
+   "name": "RunRepeat: Compare Running Finish Times (runner percentile calculator), female 10K table",
+   "url": "https://runrepeat.com/how-do-you-masure-up-the-runners-percentile-calculator",
+   "accessed": "2026-10-15",
+   "measures": "Official chip or gun finish times of female finishers in timed 10K road races, pooled across all ages, taken from race results RunRepeat collected. p1 is the time that only the fastest 1% of female finishers beat.",
+   "values": {
+    "p1": 2472.0,
+    "p10": 3215.0,
+    "p50": 4014.0,
+    "p90": 5594.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "hh:mm:ss (published as 00:41:12 etc.); converted here to seconds only because the schema needs numbers. Published values: p1 00:41:12, p10 00:53:35, p20 00:58:01, p30 01:01:02, p40 01:03:50, p50 01:06:54, p60 01:10:38, p70 01:15:36, p80 01:22:46, p90 01:33:14",
+   "notes": "Percentiles are counted from the fast end, so p1 is the top 1% and p90 is the slow tail. The page says its results come from '35 million results collected in the last 20 years from more than 28,000 races' across 5K, 10K, half and marathon. It does not give a 10K-only or female-only count, or exact years. It was first published on 15 Nov 2017 and updated on 1 Mar 2024, so the reference year is approximate. Some secondary copies of the page show 36:18 as the 1st percentile. That figure belongs to a different table (mixed or male), not the female table. The female table fetched directly from runrepeat.com shows 41:12."
+  }
+ ],
+ "definition": "Official chip or gun finish times of female finishers in timed 10K road races, pooled across all ages, taken from race results RunRepeat collected. p1 is the time that only the fastest 1% of female finishers beat.",
+ "derived_points": [],
+ "caveat": "Only one source matches this definition (all female finishers of timed 10K races, every age). I could not find a second independent large-sample percentile table for that population. Sources not merged, because their definitions differ: (1) Runbundle (runbundle.com/stats/average-race-times/10k, updated Sep 2026) reports a women's mean of 1:08:44 and medians by age group (20-29 59:42, 30-39 1:00:14, 40-49 1:01:45, 50-59 1:04:54, 60-69 1:10:37, 70-79 1:19:04). Its data is 644,865 results that users entered into its calculators, not race results, and it gives no p1. (2) Running Level gives a women's average of 54:13 for 50 competitive UK races from 2016 to 2020. That field is faster and more selective, and the figure is a mean with no p1. (3) RunRepeat's 2019 State of Running (107.9M results, 1986-2018) gives women's average 10K times by age only. (4) A PeerJ study of the Bolder Boulder 10K (2008-2013, 191,693 performances) splits finishers into sex-specific sextiles, but I could not open the full text to read the cutoffs. Mismatch with the question: these are race finishers, a self-selected group that runs faster than women in general, and the pool is mostly US and UK races. The schema has no slot for a text value, so the published hh:mm:ss times appear in seconds in values and verbatim in unit_as_published.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1
+}

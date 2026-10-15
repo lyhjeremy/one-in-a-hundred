@@ -1,0 +1,88 @@
+{
+ "id": "income_agi_tax_return_usd.us.all.2023",
+ "metric": "income_agi_tax_return_usd",
+ "population": {
+  "base": "country",
+  "country": "US",
+  "sex": "all",
+  "age_band": null,
+  "activity": null,
+  "source_category": null
+ },
+ "year": 2023,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "usd_year",
+ "grid": {
+  "p99": 669383.0,
+  "p90": 183109.5,
+  "p75": 102730.5,
+  "p50": 52070.0
+ },
+ "sources": [
+  {
+   "id": "src-q-irs-statistics-of-income-individual-stat",
+   "name": "IRS Statistics of Income, Individual statistical tables by tax rate and income percentile, Table 4.1 (all returns excluding dependents, AGI floor on percentiles), tax year 2023",
+   "url": "https://www.irs.gov/statistics/soi-tax-stats-individual-statistical-tables-by-tax-rate-and-income-percentile",
+   "accessed": "2026-10-15",
+   "measures": "Minimum adjusted gross income (AGI floor) needed for an individual federal income tax return to fall into each top percentile. All returns filed for tax year 2023, excluding returns filed by dependents. The unit is the tax return (single filer or married couple filing jointly), not the Census household.",
+   "values": {
+    "p99": 675602.0,
+    "p90": 187608.0,
+    "p75": 105604.0,
+    "p50": 53801.0
+   },
+   "independent_of": [],
+   "official": true,
+   "unit_as_published": "US dollars (nominal, tax year 2023) of adjusted gross income per return",
+   "notes": "Primary source. The IRS file (23in41ts.xlsx) was downloaded but could not be parsed in this session, so these figures are taken from Tax Foundation's reproduction of this IRS table (https://taxfoundation.org/data/all/federal/who-pays-federal-income-taxes-tax-year-2023/). NTU Foundation and First Trust quote the same $675,602 top 1% cutoff. Re-read the IRS spreadsheet directly before shipping. Top 1% group: 1,530,764 returns."
+  },
+  {
+   "id": "src-q-tax-foundation-summary-of-the-latest-fed",
+   "name": "Tax Foundation, Summary of the Latest Federal Income Tax Data, 2025 Update (IRS SOI data for tax year 2022)",
+   "url": "https://taxfoundation.org/data/all/federal/latest-federal-income-tax-data-2025/",
+   "accessed": "2026-10-15",
+   "measures": "Income split point, defined as the minimum AGI for a tax return to fall into each percentile. All returns excluding dependents, tax year 2022.",
+   "values": {
+    "p99": 663164.0,
+    "p90": 178611.0,
+    "p75": 99857.0,
+    "p50": 50339.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "US dollars (nominal, tax year 2022) of adjusted gross income per return",
+   "notes": "Not independent: this is a reproduction of the IRS SOI table for the earlier tax year 2022. The article text gives the bottom-50% cutoff as $50,399, but its table says $50,339; the table figure is reported here. Top 1% group: 1,538,014 returns."
+  }
+ ],
+ "definition": "Minimum adjusted gross income (AGI floor) needed for an individual federal income tax return to fall into each top percentile. All returns filed for tax year 2023, excluding returns filed by dependents. The unit is the tax return (single filer or married couple filing jointly), not the Census household.",
+ "derived_points": [],
+ "caveat": "The question asks about household income, but the only official top 1% cutoffs found are for federal tax returns (tax units). A Census household can contain several tax units, and a married couple filing separately counts as two returns. Non-filers are not counted. AGI includes realized capital gains and excludes most untaxed transfers and employer benefits. As a result, the tax-return cutoff is not the same number as a household cutoff. Only one independent source exists on this definition: both entries come from IRS SOI, for two different tax years. Comparisons on other definitions, kept out of sources: (1) Survey of Consumer Finances 2022 household income for the previous calendar year (2021), tabulated by Arthur Kennickell for the CUNY Stone Center (https://stonecenter.gc.cuny.edu/changes-in-household-wealth-and-income-1989-2022-an-analysis-by-arthur-b-kennickell/). Search excerpts of that table give p50 $70,259, p90 $248,610, p95 $390,209, p97 $546,941 and p98 $742,586. Its 99th percentile could not be retrieved, but it is above $742,586, so on a household basis the top 1% cutoff is clearly higher than the IRS per-return figure. (2) CBO, The Distribution of Household Income in 2021 (September 2024), puts the top 1% of households at an average income before transfers and taxes of about $3.1 million (as quoted by Tax Foundation). No CBO threshold could be retrieved because cbo.gov blocked the fetch. (3) The Census CPS ASEC household tables (HINC series) publish only up to the top 5%, not a 99th percentile. All dollar figures are nominal for their year.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Adjusted gross income per tax return",
+  "short": "Income (AGI)",
+  "unit": "usd_year",
+  "direction": "high",
+  "format": "money",
+  "metric_phrase": "an adjusted gross income",
+  "base_noun": "US federal income tax returns",
+  "definition": "Adjusted gross income reported on one US federal individual income tax return (a single filer or a married couple filing jointly) for one tax year, in nominal US dollars, counting all returns except those filed by dependents.",
+  "phrasings": [
+   "what household income is top 1% in the united states",
+   "how much do you need to earn to be in the top 1% in the us",
+   "top 1 percent income threshold usa",
+   "what income puts you in the top 10% in america",
+   "median household income us",
+   "top 1% AGI cutoff",
+   "how much money do the top 1% make per year in the us",
+   "what salary is top 1 percent in america"
+  ],
+  "activity": null,
+  "activity_label": null,
+  "id": "income_agi_tax_return_usd"
+ }
+}

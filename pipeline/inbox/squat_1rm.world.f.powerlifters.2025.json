@@ -1,0 +1,88 @@
+{
+ "id": "squat_1rm.world.f.powerlifters.2025",
+ "metric": "squat_1rm",
+ "population": {
+  "base": "world",
+  "country": null,
+  "sex": "f",
+  "age_band": null,
+  "activity": "powerlifters",
+  "source_category": null
+ },
+ "year": 2025,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "kg",
+ "grid": {
+  "p10": 85.0,
+  "p25": 102.0,
+  "p50": 114.0,
+  "p75": 142.0,
+  "p90": 162.0
+ },
+ "sources": [
+  {
+   "id": "src-q-strength-origins-squat-standards-2025-co",
+   "name": "Strength Origins, Squat Standards (2025 competition percentiles)",
+   "url": "https://strengthorigins.com/strength-standards/squat/",
+   "accessed": "2026-10-15",
+   "measures": "Best competition squat in kg for female lifters at raw (unequipped), drug-tested, sanctioned full-power (squat-bench-deadlift) meets held 1 Jan to 20 Dec 2025, ages 16-65. Valid non-zero results only, one best result per lifter for the year. All bodyweights pooled. Strength Origins computed the percentiles from OpenPowerlifting.",
+   "values": {
+    "p10": 85.0,
+    "p25": 102.0,
+    "p50": 120.0,
+    "p75": 142.0,
+    "p90": 162.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "lb with kg equivalents (kg shown here)",
+   "notes": "n is 19,712 women out of 58,154 lifters. The page publishes no p95 or p99. Its calculator adjusts for weight class, but the page lists no class values. Male values from the same page for comparison: p50 205 kg, p90 265 kg (n 38,441)."
+  },
+  {
+   "id": "src-q-stronger-app-squat-standards-competition",
+   "name": "Stronger app, Squat Standards (competition data)",
+   "url": "https://strongermobileapp.com/standards/squat",
+   "accessed": "2026-10-15",
+   "measures": "Best successful raw squat in kg for women at sanctioned meets, all bodyweights, from the OpenPowerlifting dataset dated 2026-09-05. Equipped and para divisions excluded. Tested and untested lifters pooled. The year range is not stated.",
+   "values": {
+    "p50": 108.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "lb and kg",
+   "notes": "The page gives no count for women. The pooled figure is 1,160,161 squat results from 422,537 lifters of all sexes. In one place the page says one result per lifter per meet and in another says each lifter's best squat, so the counting unit is unclear. No women's p90 or p99 is published. Women's medians by bodyweight: under 55 kg 88 kg, 55-65 kg 100 kg, 65-75 kg 112 kg, 75-85 kg 117 kg, 85-95 kg 120 kg, 95-105 kg 125 kg, 105 kg+ 130 kg. Updated September 2026. This median sits below Strength Origins' 120 kg because it pools untested lifters and all years and may count one result per meet. Strength Origins uses tested 2025 meets only, one best result per lifter."
+  }
+ ],
+ "definition": "Best competition squat in kg for female lifters at raw (unequipped), drug-tested, sanctioned full-power (squat-bench-deadlift) meets held 1 Jan to 20 Dec 2025, ages 16-65. Valid non-zero results only, one best result per lifter for the year. All bodyweights pooled. Strength Origins computed the percentiles from OpenPowerlifting.",
+ "derived_points": [],
+ "caveat": "No source I found publishes a 99th-percentile squat for all women across bodyweights. The two sources above stop at p90 (162 kg, Strength Origins) or give only the median (108 kg, Stronger). The only p99 values come per weight class from Fitness Volt (fitnessvolt.com/strength-standards/squat/), which computes them from OpenPowerlifting raw competition results. Fitness Volt does not say whether lifters were drug-tested or what date range it used. Its refresh date is listed as 10 June 2026, but its metadata says 2 October 2026. Its female p99 values, in lb as published, are: 337 at 56 kg, 358 at 57 kg (n 25,812), 375 at 63 kg (n 36,890), 387 at 67.5 kg, 386 at 72 kg, 419 at 75 kg, 435 at 82.5 kg and 84 kg, 446 at 90 kg, 467 at 100 kg and 507 at 110 kg. Its p50 and p90 are 237 and 309 lb at 63 kg, and 254 and 337 lb at 75 kg. These are per class, so they are left out of sources. All three competition sources draw on the same OpenPowerlifting database, so none is independent of the others. They describe women who compete in raw powerlifting, a far stronger group than women in general. The question asks about women without qualification, and I found no measured squat data for the general population. For comparison, Strength Level (strengthlevel.com) uses self-reported estimated 1RMs from 1,024,968 female results logged from 2015 to 2026. It gives an average female squat of 76 kg and an 'Elite' (95th percentile of its users) standard of 129 kg at 60 kg bodyweight and 140 kg at 70 kg bodyweight. It publishes no p99. Symmetric Strength self-reported gym data, as shown on Fitness Volt, gives a women's p90 of only 206-265 lb across the 57-76 kg classes. Both are self-reported, so they are a different definition.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Squat one-rep max",
+  "short": "Squat",
+  "unit": "kg",
+  "direction": "high",
+  "format": "weight",
+  "metric_phrase": "a one-rep-max squat",
+  "base_noun": "people who squat",
+  "definition": "Heaviest weight a person can back squat to competition depth for a single repetition, in kilograms, taken as the best successful raw (unequipped) squat at a sanctioned powerlifting meet.",
+  "phrasings": [
+   "what squat is top 1% for women",
+   "squat percentile",
+   "average squat for women",
+   "top 10% squat for men",
+   "is a 100 kg squat good for a woman",
+   "how rare is a 315 squat",
+   "what percentile is a 225 squat",
+   "squat standards by bodyweight",
+   "how much can the strongest 1% squat"
+  ],
+  "activity": "powerlifters",
+  "activity_label": "who compete in powerlifting",
+  "id": "squat_1rm"
+ }
+}

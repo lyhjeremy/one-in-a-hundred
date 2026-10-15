@@ -1,0 +1,70 @@
+{
+ "id": "sat_total_score.us.all.sat_takers.2025",
+ "metric": "sat_total_score",
+ "population": {
+  "base": "country",
+  "country": "US",
+  "sex": "all",
+  "age_band": null,
+  "activity": "sat_takers",
+  "source_category": null
+ },
+ "year": 2025,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "points",
+ "grid": {
+  "p50": 1020.0,
+  "p90": 1360.0,
+  "p99": 1530.0
+ },
+ "sources": [
+  {
+   "id": "src-q-college-board-understanding-sat-scores-t",
+   "name": "College Board, Understanding SAT Scores: total score percentile ranks (SAT User group)",
+   "url": "https://research.collegeboard.org/reports/sat-suite/understanding-scores/sat",
+   "accessed": "2026-10-15",
+   "measures": "Percentile rank of the digital SAT total score (400–1600 scale, ERW plus Math) among students who took the SAT and graduated high school in the past three school years (User percentile)",
+   "values": {
+    "p50": 1020.0,
+    "p90": 1360.0,
+    "p99": 1530.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "SAT total score points (400–1600)",
+   "notes": "Values are the lowest total score that the table assigns to each percentile rank. The User percentile first reads 99 at 1530 and stays at 99 through 1550. It reads 99+ from 1560 up. The page does not name the three cohort years; the current edition most likely covers the classes of 2023–2025. No mean or SD is given on the page."
+  }
+ ],
+ "definition": "Percentile rank of the digital SAT total score (400–1600 scale, ERW plus Math) among students who took the SAT and graduated high school in the past three school years (User percentile)",
+ "derived_points": [],
+ "caveat": "The SAT has two official percentile scales, and they disagree near the top. The User percentile, used in sources, ranks a score against actual recent SAT takers. That group is self-selected toward college-bound students, and in some states it includes all 11th graders through SAT School Day. The Nationally Representative percentile comes from a College Board research study weighted to represent all US 11th and 12th graders, including students who never take the SAT. On that scale the 99th percentile starts at 1450, the 90th at 1290 and the 50th at 1010, and the scale reads 99+ from 1520. It is a different population, so it is kept out of sources. Because many students take the SAT more than once, the 'most recent score' basis can differ from a superscore or a best score. All figures are for the digital SAT (from 2024 in the US). Percentiles from the pre-2016 2400-point SAT or the 2016–2023 paper SAT are not comparable. Only one source gives percentiles; the annual report adds a mean (1029) but no percentile or SD. A truly independent second source on this definition does not exist, because College Board holds all the score data.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "SAT total score",
+  "short": "SAT",
+  "unit": "points",
+  "direction": "high",
+  "format": "number",
+  "metric_phrase": "an SAT score",
+  "base_noun": "recent SAT test takers",
+  "definition": "Total score on the SAT (Evidence-Based Reading and Writing plus Math, each 200–800), on the 400–1600 scale, ranked against students who took the SAT in the past three graduating classes.",
+  "phrasings": [
+   "what SAT score is the 99th percentile",
+   "what is a top 1% SAT score",
+   "what SAT score puts you in the top 10%",
+   "average SAT score",
+   "median SAT score",
+   "is 1500 a good SAT score",
+   "what percentile is a 1400 on the SAT",
+   "SAT score percentiles",
+   "how rare is a 1550 SAT"
+  ],
+  "activity": "sat_takers",
+  "activity_label": "who took the SAT",
+  "id": "sat_total_score"
+ }
+}

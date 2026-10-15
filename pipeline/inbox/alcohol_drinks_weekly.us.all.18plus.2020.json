@@ -1,0 +1,82 @@
+{
+ "id": "alcohol_drinks_weekly.us.all.18plus.2020",
+ "metric": "alcohol_drinks_weekly",
+ "population": {
+  "base": "country",
+  "country": "US",
+  "sex": "all",
+  "age_band": "18+",
+  "activity": null,
+  "source_category": null
+ },
+ "year": 2020,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "drinks_week",
+ "grid": {
+  "p50": 1.0,
+  "p90": 12.5
+ },
+ "sources": [
+  {
+   "id": "src-q-alcohol-research-group-public-health-ins",
+   "name": "Alcohol Research Group / Public Health Institute, Alcohol Consumption Norms for U.S. Adults (2020 National Alcohol Survey)",
+   "url": "https://arg.org/wp-content/uploads/2021/07/AlcoholConsumptionNorms2021.pdf",
+   "accessed": "2026-10-15",
+   "measures": "Self-reported usual number of standard drinks per week over the past 12 months, as a cumulative distribution of all US adults including past-year abstainers (0 drinks). Rounded to the nearest percentile.",
+   "values": {
+    "p50": 1.0,
+    "p90": 14.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "drinks per week",
+   "notes": "Cumulative shares for the total: 0 drinks (abstainers) 28%, 1 drink 58%, 10 drinks 87%, 12 drinks 89%, 13 drinks 89%, 14 drinks 90%, 15 drinks 91%, 16-17 drinks 92%, 18-19 drinks 93%, 50-59 drinks 98%, 60-69 drinks 99%, 70+ drinks 99%. The 99th percentile falls in the 60-69 drinks per week bin; no single value is published for it. Men: p50 is 1, p90 falls in the 18-19 bin (91%), p99 falls in the 70+ bin. Women: p50 is 0-1 (65% at 1), p90 is 10, p99 falls in 43-49. The ARG web page text gives 38% abstainers for women, but the table shows 31%. Funded by NIAAA grant P50AA005595."
+  },
+  {
+   "id": "src-q-alcohol-research-group-us-drinking-norms",
+   "name": "Alcohol Research Group, US drinking norms (2015 National Alcohol Survey, fielded 2014-15)",
+   "url": "https://arg.org/news/drinking-norms-in-the-us/",
+   "accessed": "2026-10-15",
+   "measures": "Self-reported usual number of drinks per week over the past 12 months, as a cumulative distribution of all US adults including past-year abstainers. Same table format and survey series as the 2020 norms.",
+   "values": {
+    "p50": 1.0,
+    "p90": 11.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "drinks per week",
+   "notes": "Cumulative shares for the total: 0 drinks 33%, 1 drink 61%, 10 drinks 89%, 11 drinks 90%, 16-17 drinks 93%, 50-59 drinks 99%, 60-69 drinks 99%, 70+ drinks 100%. The 99th percentile falls in the 50-59 drinks per week bin. This is an independent sample from the 2020 wave, but the publisher and methods are the same."
+  }
+ ],
+ "definition": "Self-reported usual number of standard drinks per week over the past 12 months, as a cumulative distribution of all US adults including past-year abstainers (0 drinks). Rounded to the nearest percentile.",
+ "derived_points": [],
+ "caveat": "The question asks about the top 10% of drinkers, but both sources rank all US adults, including the 28% (2020) to 33% (2015) who did not drink in the past year. So the p90 of 14 drinks a week (2020) is the cutoff for the top 10% of all adults. Restricting to drinkers would push the cutoff higher. In the 2020 table, the top 10% of drinkers is roughly the top 7% of all adults, which lands in the 18-19 drinks per week bin. That figure is read from the table, not published by ARG. Both sources are self-reported, and self-reports in US surveys cover only about half of alcohol sales, so true consumption is likely higher. The widely quoted figure that the top 10% of Americans average 74 drinks a week comes from Philip J. Cook's 'Paying the Tab' (2007). It uses NESARC 2001-02 data with each respondent's self-reported drinks multiplied by 1.97 to match sales. It is the mean within the top decile of adults, not a cutoff, so it measures something different and is not listed as a source. Cook's ninth decile averages about 15.3 drinks a week (as reported secondhand by Inc.). For comparison, NIAAA defines heavy drinking as more than 14 drinks a week for men and more than 7 for women. NCHS reported that 5.1% of US adults met the NHIS heavy-drinking definition in 2018.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Alcoholic drinks per week",
+  "short": "Drinks/week",
+  "unit": "drinks_week",
+  "direction": "high",
+  "format": "number",
+  "metric_phrase": "a weekly alcohol intake",
+  "base_noun": "adults",
+  "definition": "The usual number of standard alcoholic drinks a person consumes per week, self-reported over the past 12 months, with non-drinkers counted as zero.",
+  "phrasings": [
+   "how much alcohol does the top 10% of drinkers drink per week",
+   "how many drinks a week is a lot",
+   "how many drinks per week does the average American have",
+   "am I a heavy drinker at 20 drinks a week",
+   "what percentile is 14 drinks a week",
+   "how much do the heaviest drinkers drink",
+   "drinks per week percentile US",
+   "how much alcohol does the median adult drink weekly"
+  ],
+  "activity": null,
+  "activity_label": null,
+  "id": "alcohol_drinks_weekly"
+ }
+}

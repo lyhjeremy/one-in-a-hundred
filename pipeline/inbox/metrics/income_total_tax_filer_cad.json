@@ -1,0 +1,23 @@
+{
+ "label": "Total income per tax filer (Canada)",
+ "short": "Income (CA filer)",
+ "unit": "cad_year",
+ "direction": "high",
+ "format": "money",
+ "metric_phrase": "a total income",
+ "base_noun": "Canadian tax filers",
+ "definition": "Total income reported by one individual Canadian tax filer for one tax year, in Canadian dollars. It includes earnings, investment income, pensions, spousal support, other taxable income, government transfers and refundable tax credits, ranked against all tax filers nationally by Statistics Canada.",
+ "phrasings": [
+  "what is the top 1% income in canada by household",
+  "how much do you need to earn to be in the top 1% in canada",
+  "top 1 percent income threshold canada",
+  "what income puts you in the top 1% in canada",
+  "canada top 0.1% income cutoff",
+  "how much do the richest 1% of canadians make",
+  "what salary is top 1 percent in canada",
+  "top one per cent income canada statistics canada"
+ ],
+ "activity": null,
+ "activity_label": null,
+ "id": "income_total_tax_filer_cad"
+}

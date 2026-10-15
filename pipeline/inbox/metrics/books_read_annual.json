@@ -1,0 +1,23 @@
+{
+ "label": "Books read per year",
+ "short": "Books/yr",
+ "unit": "books",
+ "direction": "high",
+ "format": "count",
+ "metric_phrase": "a yearly book count",
+ "base_noun": "adults",
+ "definition": "Self-reported number of books read, all or part of the way through, in the past 12 months, in any format including print, e-books and audiobooks.",
+ "phrasings": [
+  "how many books a year does the top 1% read",
+  "how many books does the average American read per year",
+  "books read per year percentile",
+  "is reading 50 books a year a lot",
+  "how many books do heavy readers read a year",
+  "median books read per year US",
+  "how many books a year puts you in the top 10%",
+  "what percentile is reading 20 books a year"
+ ],
+ "activity": null,
+ "activity_label": null,
+ "id": "books_read_annual"
+}

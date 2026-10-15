@@ -1,0 +1,80 @@
+{
+ "id": "age_first_marriage.us.m.2025",
+ "metric": "age_first_marriage",
+ "population": {
+  "base": "country",
+  "country": "US",
+  "sex": "m",
+  "age_band": null,
+  "activity": null,
+  "source_category": null
+ },
+ "year": 2025,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "years",
+ "grid": {
+  "p50": 30.8
+ },
+ "sources": [
+  {
+   "id": "src-q-u-s-census-bureau-america-s-families-and",
+   "name": "U.S. Census Bureau, America's Families and Living Arrangements 2025 (CPS ASEC; historical Table MS-2)",
+   "url": "https://www.census.gov/newsroom/press-releases/2025/families-and-living-arrangements.html",
+   "accessed": "2026-10-15",
+   "measures": "Estimated median age at first marriage, men, United States, from the Current Population Survey Annual Social and Economic Supplement. Census derives it indirectly from the share of each age group that has never married (Table MS-2 method), not from reported marriage dates.",
+   "values": {
+    "p50": 30.8
+   },
+   "independent_of": [],
+   "official": true,
+   "unit_as_published": "years of age",
+   "notes": "The same release gives 28.4 for women in 2025. The 1975 values were 23.5 (men) and 21.1 (women). The release does not state the CPS ASEC sample size."
+  },
+  {
+   "id": "src-q-ncfmr-family-profile-fp-26-01-median-age",
+   "name": "NCFMR Family Profile FP-26-01, Median Age at First Marriage: Geographic Variation, 2024 (Bowling Green State University, from ACS Table B12007)",
+   "url": "https://www.bgsu.edu/ncfmr/resources/data/family-profiles/fp-26-01.html",
+   "accessed": "2026-10-15",
+   "measures": "Median age at first marriage, men, United States, from American Community Survey 1-year estimates (Census Table B12007). The universe is people aged 15 to 54.",
+   "values": {
+    "p50": 30.8
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "years of age",
+   "notes": "Margin of error is ±0.1 for men. Women: 28.8 (±0.2). This is the highest value in the ACS series, which started in 2008. The value rose 2.8 years for men and 2.6 years for women between 2008 and 2024. NCFMR repackages the Census ACS table, so this source is independent of the CPS figure but not of the Census Bureau as data producer."
+  }
+ ],
+ "definition": "Estimated median age at first marriage, men, United States, from the Current Population Survey Annual Social and Economic Supplement. Census derives it indirectly from the share of each age group that has never married (Table MS-2 method), not from reported marriage dates.",
+ "derived_points": [],
+ "caveat": "The question asks about all adults, but neither the Census Bureau nor NCFMR publishes a combined median for both sexes. Both report men and women separately. This fact uses men. The matching women's medians are 28.4 (CPS ASEC 2025) and 28.8 (ACS 2024), so the median for both sexes together would be somewhere between the women's and men's values. A combined figure would need its own separate fact, since averaging the sexes is not a published statistic. Both sources estimate the median indirectly from never-married shares by age, not from a distribution of observed wedding ages. Higher percentiles (p90, p99) are not published, and the median applies only to people who marry. The two surveys differ in method and universe: the ACS uses ages 15 to 54. They usually differ by a few tenths of a year, and for men in these years they happen to match at 30.8. One secondary report (Peter Norman, US Marriage Age Report 2026) quotes 30.2 for men and 28.6 for women as the latest Census figures. Those values do not match the 2025 Census release, so the report is excluded.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Age at first marriage",
+  "short": "First marriage age",
+  "unit": "years",
+  "direction": "high",
+  "format": "years_1dp",
+  "metric_phrase": "an age at first marriage",
+  "base_noun": "people who marry",
+  "definition": "Age in years at which a person first marries, as estimated by national statistics offices from census or survey data on marital status by age.",
+  "phrasings": [
+   "median age at first marriage",
+   "average age people get married",
+   "what age do most people get married",
+   "age of first marriage in the US",
+   "how old are people when they first marry",
+   "typical marriage age for men",
+   "typical marriage age for women",
+   "am I old to get married at 35",
+   "age at first wedding"
+  ],
+  "activity": null,
+  "activity_label": null,
+  "id": "age_first_marriage"
+ }
+}

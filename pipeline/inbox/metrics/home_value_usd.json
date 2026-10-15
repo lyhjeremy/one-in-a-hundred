@@ -1,0 +1,23 @@
+{
+ "label": "Home value",
+ "short": "Home value",
+ "unit": "usd",
+ "direction": "high",
+ "format": "money",
+ "metric_phrase": "a home value",
+ "base_noun": "owner-occupied homes",
+ "definition": "The owner's estimate of what an owner-occupied home (house and lot, or condominium unit) would sell for if it were on the market, in US dollars.",
+ "phrasings": [
+  "what is the top 1% of home values in the United States",
+  "how much is a top 1% house worth",
+  "what home value puts you in the top 10%",
+  "median home value in the US",
+  "is my house worth more than most homes in America",
+  "what percentile is a $1 million home",
+  "how expensive is a top 1 percent home",
+  "home value percentile calculator"
+ ],
+ "activity": "homeowners",
+ "activity_label": "who own their home",
+ "id": "home_value_usd"
+}

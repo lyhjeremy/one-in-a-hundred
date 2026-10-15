@@ -1,0 +1,81 @@
+{
+ "id": "golf_handicap_index.us.m.golfers.2025",
+ "metric": "golf_handicap_index",
+ "population": {
+  "base": "country",
+  "country": "US",
+  "sex": "m",
+  "age_band": null,
+  "activity": "golfers",
+  "source_category": null
+ },
+ "year": 2025,
+ "n": null,
+ "n_source": null,
+ "direction": "low",
+ "unit": "strokes",
+ "grid": {
+  "p10": 4.95,
+  "p50": 13.9
+ },
+ "sources": [
+  {
+   "id": "src-q-usga-u-s-handicapping-statistics-year-en",
+   "name": "USGA U.S. Handicapping Statistics, year-end 2025 (as tabulated by TheGrint)",
+   "url": "https://thegrint.com/range/post/golfers-handicap-distribution-average-golf-handicap",
+   "accessed": "2026-10-15",
+   "measures": "Distribution of the current Handicap Index among male golfers holding a USGA Handicap Index (GHIN), grouped into 5-stroke bands. Plus handicaps are the band 'better than 0.0'.",
+   "values": {
+    "p10": 5.0
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "Handicap Index strokes (plus indexes reported as 'better than 0.0')",
+   "notes": "Men's cumulative share from the best end: plus (better than 0.0) 2.0%; 0.0 to 4.9 8.2% (cumulative 10.2%); 5.0 to 9.9 19.6% (29.8%); 10.0 to 14.9 26.5% (56.3%); 15.0 to 19.9 22.2% (78.5%); 20.0 to 24.9 12.4% (90.9%); 25.0 to 29.9 5.6% (96.5%); 30.0 to 39.9 3.0% (99.5%); 40.0 to 54.0 0.5%. The page says the top 10% of men are 'under 5.0'. No median or top 1% cutoff is published. The p1 boundary is therefore better than 0.0 (a plus index), but the bands are too coarse to say how far."
+  },
+  {
+   "id": "src-q-golf-com-here-s-how-your-handicap-index",
+   "name": "Golf.com, 'Here's how your handicap index stacks up against golfers in the United States' (reporting USGA statistics)",
+   "url": "https://golf.com/news/how-your-handicap-index-compares/",
+   "accessed": "2026-10-15",
+   "measures": "Distribution of the Handicap Index among male golfers registered in USGA GHIN, in 1-stroke bands as published by the USGA at the time.",
+   "values": {
+    "p10": 4.9,
+    "p50": 13.9
+   },
+   "independent_of": [],
+   "official": false,
+   "unit_as_published": "Handicap Index strokes",
+   "notes": "The article is dated 9 Sep 2020 and calls the USGA statistics 'recently updated'. Men: 1.85% hold a plus index; 9.77% are below 5.0 ('top 10% needs 4.9 or better'); 50.5% are below 14.0 ('13.9 or lower is better than half'). For top 5% it says only 'the 2-handicap range'. 35,883 men and women combined hold plus indexes. No top 1% cutoff is published."
+  }
+ ],
+ "definition": "Distribution of the current Handicap Index among male golfers holding a USGA Handicap Index (GHIN), grouped into 5-stroke bands. Plus handicaps are the band 'better than 0.0'.",
+ "derived_points": [],
+ "caveat": "Neither source publishes a top 1% value. Both put about 2% of US men with a Handicap Index below scratch (1.85% in about 2020, 2.0% at year-end 2025), so the top 1% of men are plus handicappers, better than 0.0. The exact plus value is not stated. Non-authoritative sites (CaddieHQ, Hireko) say 'about +2 or better', but they cite no fine-grained data, so they are left out. The USGA's own statistics page (usga.org handicapping-stats), which has finer bands, returned HTTP 403 and could not be read directly. Both listed sources rely on the same USGA GHIN dataset, a few years apart, so they are not independent. The population is only golfers who hold an official index: about 3.0 million US men in 2025, roughly 15% of US golfers. Casual golfers without an index are typically weaker, so this overstates skill relative to all golfers. For comparison on the same scale: US women (year-end 2025, n about 650,000) average 28.8, 0.9% hold a plus index, and the top 10% are about 14.9 or better. Globally, the R&A/USGA World Handicap System Data Report for 2025 (6.5 million golfers, 57 national associations) gives a male average of 16.9. One secondary summary says 0.9% of men worldwide are below 0.0. England Golf says about 1% of all English golfers are 0 or better. Plus indexes are written '+2.0' but are better than 0.0, so on a numeric low-is-better scale +2.0 corresponds to -2.0. The sex was not specified in the question; men were chosen because they are about 82% of US index holders.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Golf Handicap Index",
+  "short": "Handicap",
+  "unit": "strokes",
+  "direction": "low",
+  "format": "number_1dp",
+  "metric_phrase": "a golf handicap",
+  "base_noun": "golfers with an official Handicap Index",
+  "definition": "A golfer's World Handicap System Handicap Index: the average of the best 8 of the last 20 score differentials, in strokes relative to course difficulty. Lower is better, and plus handicaps (written +2.0) are better than scratch (0.0) and stored as negative numbers.",
+  "phrasings": [
+   "what is a top 1% golf handicap",
+   "what golf handicap is top 10%",
+   "average golf handicap",
+   "what percentile is a 10 handicap",
+   "is a scratch golfer top 1%",
+   "how good is a single digit handicap",
+   "what handicap do the best amateur golfers have",
+   "median golf handicap for men"
+  ],
+  "activity": "golfers",
+  "activity_label": "who hold an official golf Handicap Index",
+  "id": "golf_handicap_index"
+ }
+}

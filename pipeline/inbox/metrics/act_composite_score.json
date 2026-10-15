@@ -1,0 +1,24 @@
+{
+ "label": "ACT composite score",
+ "short": "ACT score",
+ "unit": "points",
+ "direction": "high",
+ "format": "number",
+ "metric_phrase": "an ACT composite score",
+ "base_noun": "ACT-tested high school graduates",
+ "definition": "The ACT Composite score on the 1–36 scale, as reported by ACT for US high school graduates who took the test, counting each student's most recent score.",
+ "phrasings": [
+  "what is the top 1% of ACT scores",
+  "what ACT score is top 1 percent",
+  "ACT score percentiles",
+  "what is a 99th percentile ACT score",
+  "average ACT score",
+  "is a 34 on the ACT top 1%",
+  "what ACT score is top 10%",
+  "median ACT composite score",
+  "how rare is a 36 on the ACT"
+ ],
+ "activity": "act_test_takers",
+ "activity_label": "who took the ACT",
+ "id": "act_composite_score"
+}

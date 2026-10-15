@@ -1,0 +1,23 @@
+{
+ "label": "Age at retirement",
+ "short": "Retirement age",
+ "unit": "years",
+ "direction": "high",
+ "format": "years",
+ "metric_phrase": "a retirement age",
+ "base_noun": "retirees",
+ "definition": "The age at which a retired person says they retired from the workforce, as reported by current retirees in a nationally representative survey.",
+ "phrasings": [
+  "what age does the median person retire",
+  "average retirement age in the US",
+  "at what age do most Americans retire",
+  "median retirement age",
+  "how old are people when they retire",
+  "typical age people stop working",
+  "is retiring at 60 early",
+  "what percent of people retire before 62"
+ ],
+ "activity": "retirees",
+ "activity_label": "who have retired",
+ "id": "retirement_age"
+}

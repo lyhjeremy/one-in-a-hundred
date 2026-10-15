@@ -1,0 +1,78 @@
+{
+ "id": "resting_heart_rate_bpm.us.all.20-39.2008",
+ "metric": "resting_heart_rate_bpm",
+ "population": {
+  "base": "country",
+  "country": "US",
+  "sex": "all",
+  "age_band": "20-39",
+  "activity": null,
+  "source_category": null
+ },
+ "year": 2008,
+ "n": null,
+ "n_source": null,
+ "direction": "low",
+ "unit": "bpm",
+ "grid": {
+  "p1": 48.0,
+  "p10": 57.0,
+  "p25": 64.0,
+  "p50": 71.0,
+  "p75": 79.0,
+  "p90": 87.0,
+  "p99": 103.0
+ },
+ "sources": [
+  {
+   "id": "src-q-nchs-national-health-statistics-reports",
+   "name": "NCHS National Health Statistics Reports No. 41: Resting Pulse Rate Reference Data for Children, Adolescents, and Adults: United States, 1999-2008 (Ostchega et al., 2011), Table 1",
+   "url": "https://www.cdc.gov/nchs/data/nhsr/nhsr041.pdf",
+   "accessed": "2026-10-15",
+   "measures": "Resting radial pulse counted by a physician for 30 seconds and doubled, taken after about 4 minutes of seated rest, in the NHANES mobile examination centre. Covers a normative sample that excludes people with a current medical condition or medication that affects pulse rate (beta-blockers, calcium channel blockers, thyroid disorders, pregnancy, irregular pulse, likely infection). Weighted to the US civilian noninstitutionalized population. Both sexes, age 20-39.",
+   "values": {
+    "p1": 48.0,
+    "p10": 57.0,
+    "p25": 64.0,
+    "p50": 71.0,
+    "p75": 79.0,
+    "p90": 87.0,
+    "p99": 103.0
+   },
+   "independent_of": [],
+   "official": true,
+   "unit_as_published": "beats per minute",
+   "notes": "Survey years 1999-2008, so the reference year is the end of the pooled period. The values are from the 20-39 row of Table 1 (both sexes). The report has no single all-adults row. Other adult bands in Table 1 (both sexes): 40-59 (n=4,968), p1 47, p5 54, p50 70, p95 91, p99 102, mean 72. 60-79 (n=2,310), p1 47, p5 54, p50 69, p95 91, p99 102, mean 72. 80+ (n=416), p1 not calculated, p2.5 51, p5 54, p50 70, mean 72. By sex, age 20-39: males (n=3,445) p1 47, p5 52, p50 69, mean 71; females (n=3,061) p1 52, p5 57, p50 74, mean 76. The SE of the mean is 0.2; no SD is published. The pulse is a 30-second count doubled, so raw values are even numbers only."
+  }
+ ],
+ "definition": "Resting radial pulse counted by a physician for 30 seconds and doubled, taken after about 4 minutes of seated rest, in the NHANES mobile examination centre. Covers a normative sample that excludes people with a current medical condition or medication that affects pulse rate (beta-blockers, calcium channel blockers, thyroid disorders, pregnancy, irregular pulse, likely infection). Weighted to the US civilian noninstitutionalized population. Both sexes, age 20-39.",
+ "derived_points": [],
+ "caveat": "Only one source was found that publishes a 1st percentile for directly measured resting heart rate in a nationally representative adult sample: NHANES 1999-2008 via NCHS. I found no second independent source on the same definition. The question asks about 'adults'. The NCHS tables give age bands, not an all-adult row. The 1st percentile is stable across adult bands (48 bpm at 20-39, 47 at 40-59 and 60-79), so about 47-48 bpm is the top-1% (lowest) value for US adults of both sexes. Because lower is better here, 'top 1%' maps to the published 1st percentile. Mismatches: (1) the normative sample excludes people on heart-rate-affecting drugs or with relevant conditions, about 28% of those examined, so the full adult population's lower tail could differ slightly, since beta-blocker users would push it lower; (2) it is a single seated clinic reading, not a morning or sleeping value; (3) the data are from 1999-2008. Comparison on a different definition, not averaged in: Quer et al. 2020, PLOS ONE (Scripps, 92,457 US adults with Fitbit wrist trackers, 2016-2018, about 33 million daily resting-HR values) reports that individual average daily resting heart rate ranged from 40 to 109 bpm, with a mean of 65 bpm. Wearable resting HR is computed largely from inactive and sleep periods and runs lower than a seated clinic pulse, so its tails are not comparable. Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC7001906/. The SCAPIS study (Heart, 2024; 30,154 Swedish adults aged 50-65) gives 2.5th-97.5th ranges of 57-90 bpm (men) and 61-92 bpm (women), but for 24-hour ambulatory heart rate, which is also a different definition.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Resting heart rate",
+  "short": "Resting HR",
+  "unit": "bpm",
+  "direction": "low",
+  "format": "number",
+  "metric_phrase": "a resting heart rate",
+  "base_noun": "adults",
+  "definition": "Heartbeats per minute measured at the wrist (radial pulse) after about 4 minutes of quiet seated rest, as taken in a clinical examination.",
+  "phrasings": [
+   "what resting heart rate is top 1% of adults",
+   "lowest resting heart rate percentile",
+   "is a resting heart rate of 50 good",
+   "what percentile is my resting heart rate",
+   "average resting heart rate for adults",
+   "resting pulse rate percentiles",
+   "how rare is a resting heart rate under 50",
+   "median resting heart rate",
+   "what resting heart rate do athletes have compared to everyone"
+  ],
+  "activity": null,
+  "activity_label": null,
+  "id": "resting_heart_rate_bpm"
+ }
+}

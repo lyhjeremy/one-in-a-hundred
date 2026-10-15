@@ -1,10 +1,10 @@
 # One in a Hundred: writeup
 
-_v0.3, 2026-10-14. Live at https://lyhjeremy.github.io/one-in-a-hundred/_
+_v0.3.1, 2026-10-15. Live at https://lyhjeremy.github.io/one-in-a-hundred/_
 
 ## The result
 
-918 percentile facts across 20 countries and the world, from 31 sources, each with a URL and an access date, graded A to D by how much independent sources agree. Three facts reach A (life expectancy across countries, where the UN and WHO agree within 3%); 906 are B, because for a given definition official statistics tend to have one producer; 9 are D, researched automatically from seed questions and not yet reviewed. 103 facts carry a time series back to 1980 (income and wealth) or 1989 (height cohorts). The rules parser that turns a typed question into (group, measure, percentile) scores 90.5% exact-triple accuracy on a frozen 200-question gold set (`eval/results.md`); the LLM parser's score is filled in once the Worker is deployed.
+950 percentile facts across 20 countries and the world, from 72 sources, each with a URL and an access date, graded A to D by how much independent sources agree. Three facts reach A (life expectancy across countries, where the UN and WHO agree within 3%); 906 are B, because for a given definition official statistics tend to have one producer; 41 are D, researched automatically from seed questions and not yet reviewed. 103 facts carry a time series back to 1980 (income and wealth) or 1989 (height cohorts). The rules parser that turns a typed question into (group, measure, percentile) scores 90.5% exact-triple accuracy on a frozen 200-question gold set (`eval/results.md`); the LLM parser's score is filled in once the Worker is deployed.
 
 ## The claim that started it
 
@@ -50,7 +50,7 @@ Each fact is one distribution: a measure, a population slice, a reference year, 
 
 ## Unexplored categories
 
-The original brief asked for an answer to whatever someone types, even outside the curated set. Instant answers need a server with a search-enabled model; that route is written (`worker/src/research.js`, a Cloudflare Worker calling Groq) and waits for accounts. Two things work today. A seed list of sixty popular questions (`pipeline/seeds/popular_questions.jsonl`: chess ratings, IQ, push-ups, typing speed, Instagram followers, VO2 max, savings by age, SAT scores and so on) is being run through the offline loop, and each result ships as a grade D fact with an unreviewed stamp the moment it is built. A question that still misses offers "Request this fact", which files a GitHub issue the loop picks up.
+The original brief asked for an answer to whatever someone types, even outside the curated set. Instant answers need a server with a search-enabled model; that route is written (`worker/src/research.js`, a Cloudflare Worker calling Groq) and waits for accounts. Two things work today. A seed list of sixty popular questions (`pipeline/seeds/popular_questions.jsonl`: chess ratings, IQ, push-ups, typing speed, Instagram followers, VO2 max, savings by age, SAT scores and so on) has been run through the offline loop. 42 questions produced a fact; 18 found nothing the model would stand behind (Wordle average guesses, how many marathons the top 1% have run). Each result ships as a grade D fact with an unreviewed stamp the moment it is built. One, the bench press, is held back because its grid ran backwards (the median was below the 25th percentile), which the build refuses. A question that still misses offers "Request this fact", which files a GitHub issue the loop picks up.
 
 The first researched fact shows both the promise and the hazard. For "what chess rating is the top 1%" the model found four sources, wrote a careful caveat about FIDE's rating floor and the difference between FIDE, US Chess and Lichess pools, and then averaged values from those different pools into one grid. The grade D and the stamp are there for exactly this; `review.py` is where a person picks one definition. The prompt now tells the model to keep other scales in the caveat, not the sources.
 

@@ -1,0 +1,23 @@
+{
+ "label": "2000m indoor rowing time",
+ "short": "2k erg time",
+ "unit": "seconds",
+ "direction": "low",
+ "format": "time_ms",
+ "metric_phrase": "a 2000m rowing time",
+ "base_noun": "ranked indoor rowers",
+ "definition": "Best time to row 2000 metres on a Concept2 RowErg indoor rowing machine within one season, as logged in the Concept2 online rankings.",
+ "phrasings": [
+  "2000m rowing time",
+  "2k erg time",
+  "2k row time",
+  "2000 meter rowing machine time",
+  "concept2 2k time",
+  "indoor rowing 2000m",
+  "rowing ergometer 2000m time",
+  "how fast is a good 2k erg"
+ ],
+ "activity": "indoor_rowers",
+ "activity_label": "who log indoor rowing results",
+ "id": "rowing_2k_time"
+}

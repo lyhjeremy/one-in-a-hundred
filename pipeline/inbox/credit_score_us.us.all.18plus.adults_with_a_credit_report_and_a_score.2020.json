@@ -1,0 +1,73 @@
+{
+ "id": "credit_score_us.us.all.18plus.adults_with_a_credit_report_and_a_score.2020",
+ "metric": "credit_score_us",
+ "population": {
+  "base": "country",
+  "country": "US",
+  "sex": "all",
+  "age_band": "18+",
+  "activity": "adults_with_a_credit_report_and_a_score",
+  "source_category": null
+ },
+ "year": 2020,
+ "n": null,
+ "n_source": null,
+ "direction": "high",
+ "unit": "points",
+ "grid": {
+  "p10": 566.0,
+  "p25": 647.0,
+  "p50": 736.0,
+  "p75": 801.0,
+  "p90": 823.0
+ },
+ "sources": [
+  {
+   "id": "src-q-federal-reserve-board-feds-notes-develop",
+   "name": "Federal Reserve Board, FEDS Notes: Developments in the Credit Score Distribution over 2020 (Figure 2, Credit score percentiles)",
+   "url": "https://www.federalreserve.gov/econres/notes/feds-notes/developments-in-the-credit-score-distribution-over-2020-accessible-20210430.htm",
+   "accessed": "2026-10-15",
+   "measures": "Distribution of credit scores across all credit-scored individuals in the Federal Reserve Bank of New York Consumer Credit Panel/Equifax, a 5% random sample of US credit reports. The note names no score model. The CCP's score is the Equifax Risk Score, which runs to 850 like FICO, but it is not a FICO score.",
+   "values": {
+    "p10": 566.0,
+    "p25": 647.0,
+    "p50": 736.0,
+    "p75": 801.0,
+    "p90": 823.0
+   },
+   "independent_of": [],
+   "official": true,
+   "unit_as_published": "credit score points",
+   "notes": "Figures are for December 2020. Earlier p90 values: 802 (March 2003), 818 (December 2010), 820 (December 2015), 822 (December 2019). The p90 hardly moved during 2020, but the lower percentiles rose. The note does not state the sample size."
+  }
+ ],
+ "definition": "Distribution of credit scores across all credit-scored individuals in the Federal Reserve Bank of New York Consumer Credit Panel/Equifax, a 5% random sample of US credit reports. The note names no score model. The CCP's score is the Equifax Risk Score, which runs to 850 like FICO, but it is not a FICO score.",
+ "derived_points": [],
+ "caveat": "Only one credible source gives a 90th-percentile credit score directly, so the grid rests on one source. The value is the Equifax Risk Score from the NY Fed Consumer Credit Panel, as of December 2020. It covers people who have a credit report and a score, not all adults; roughly 10–20% of US adults have no file or no score. Most people know their FICO Score 8, which is a different scale, so it is a comparison here and is not in sources. Experian's own data (June 2026) puts 22.9% of consumers at a FICO 8 score of 800 or higher, 27.4% at 740–799, 1.71% at 850, and the average at 713 (https://www.experian.com/blogs/ask-experian/how-many-americans-have-800-credit-score/). That band data places the FICO 8 90th percentile somewhere in the 800–850 band, but Experian publishes no exact cutoff. Scores have risen since 2020, so the p90 today is probably a little above 823 on the Equifax scale. That is unverified. The 850 cap squeezes the top of the distribution, so p99 and p99.9 would both sit at or near 850 and are not useful.",
+ "status": "queued",
+ "added": "2026-10-15",
+ "questions_n": 1,
+ "new_metric": {
+  "label": "Credit score",
+  "short": "Credit score",
+  "unit": "points",
+  "direction": "high",
+  "format": "number",
+  "metric_phrase": "a credit score",
+  "base_noun": "US adults with a credit score",
+  "definition": "A consumer credit score on the 300/280–850 scale, computed by a US credit bureau from the person's credit report; values here are the Equifax Risk Score in the NY Fed Consumer Credit Panel.",
+  "phrasings": [
+   "what credit score is top 10% in the US",
+   "what percentile is an 800 credit score",
+   "is 750 a good credit score compared to others",
+   "top 1% credit score",
+   "median credit score in America",
+   "how rare is an 850 credit score",
+   "what credit score beats 90% of Americans",
+   "average FICO score US"
+  ],
+  "activity": "adults_with_a_credit_report_and_a_score",
+  "activity_label": "who are adults with a credit report and a score",
+  "id": "credit_score_us"
+ }
+}

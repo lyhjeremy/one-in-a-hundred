@@ -1,0 +1,23 @@
+{
+ "label": "Max pull-ups",
+ "short": "Pull-ups",
+ "unit": "reps",
+ "direction": "high",
+ "format": "count",
+ "metric_phrase": "a pull-up count",
+ "base_noun": "boys aged 17 and over",
+ "definition": "The most overhand-grip, dead-hang pull-ups a person can do in one attempt without letting go of the bar, each rep starting from straight arms with the chin rising over the bar.",
+ "phrasings": [
+  "how many pull ups can the top 1% of men do",
+  "how many pull ups is good for a man",
+  "average number of pull ups for men",
+  "how many pull ups can the average man do",
+  "pull up percentile",
+  "is 20 pull ups good",
+  "how rare is it to do 15 pull ups",
+  "max pull ups percentile by age"
+ ],
+ "activity": null,
+ "activity_label": null,
+ "id": "pullups_max"
+}

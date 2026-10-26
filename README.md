@@ -1,16 +1,22 @@
 # One in a Hundred
 
-What does it take to be in the top 1% (or top 10%, or the median) of some group? Income, wealth, height, weight, BMI, age, life expectancy, marathon times, and a growing set of researched measures. Pick a measure and narrow the group, or ask in words. Every answer is one sentence, the whole distribution it came from, a confidence grade, and the sources.
+What it takes to be in the top 1% (or top 10%, or the median) of a group: income, wealth, height, weight, BMI, age, life expectancy, marathon times and a growing set of researched measures.
 
-> Live: https://lyhjeremy.github.io/one-in-a-hundred/ · Overview: https://lyhjeremy.github.io/one-in-a-hundred/overview/
+[Live site](https://lyhjeremy.github.io/one-in-a-hundred/) · [Overview](https://lyhjeremy.github.io/one-in-a-hundred/overview/) · [Write-up](writeup.md) · [Sources](https://lyhjeremy.github.io/one-in-a-hundred/sources/)
 
-Design and copy follow [these standards](https://github.com/lyhjeremy/lyhjeremy/blob/main/design-standards.md).
+Design and copy follow [these standards](https://github.com/lyhjeremy/lyhjeremy/blob/main/DESIGN_STANDARDS.md).
+
+![Share card: to be in the top 1% of all adults worldwide, you'd need an income of at least $220,000; about 56 million people, reference year 2023, grade B](cards/income_pretax_adult_ppp.world.all.2023.png)
+
+Pick a measure and narrow the group, or ask in words. Every answer is one sentence, the whole distribution it came from, a confidence grade and the sources.
+
+Stack: a static site in plain JavaScript (no framework) on GitHub Pages; a Python data pipeline (pandas, requests, Pillow) with one fetcher per source; an offline research loop on `claude -p` with web search; a Cloudflare Worker for LLM parsing and live research, written and not yet deployed.
 
 ## Headline numbers
 
 950 facts across 20 countries and the world, from 72 sources, every one with a URL and an access date. 3 facts reach grade A (two independent official sources within 10%), 906 are grade B (one official source, or a percentile derived from a published mean), and 41 are grade D (researched automatically, not yet reviewed). 103 facts carry a time series. The rules parser that reads typed questions scores 90.5% exact-triple accuracy on a frozen 200-question gold set.
 
-The claim that started the project, "earning $30,000 a year puts you in the global top 1%", is false under every definition on the site, but not by the same margin: 75th percentile by WID's pre-tax income per adult (top 1% starts near $220,000), 94th by the World Bank's consumption per person (top 1% near $57,000, the source of the "$60k" version).
+The claim that started the project, "earning $30,000 a year puts you in the global top 1%", is false under every definition on the site, by different margins: 75th percentile by WID's pre-tax income per adult (top 1% starts near $220,000), 94th by the World Bank's consumption per person (top 1% near $57,000, the source of the "$60k" version).
 
 ## The screen
 

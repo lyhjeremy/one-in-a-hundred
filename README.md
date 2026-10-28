@@ -8,24 +8,24 @@ Design and copy follow [these standards](https://github.com/lyhjeremy/lyhjeremy/
 
 ![Share card: to be in the top 1% of all adults worldwide, you'd need an income of at least $220,000; about 56 million people, reference year 2023, grade B](cards/income_pretax_adult_ppp.world.all.2023.png)
 
-Pick a measure and narrow the group, or ask in words. Every answer is one sentence, the whole distribution it came from, a confidence grade and the sources.
+You pick a measure and narrow the group, or ask in words. Each answer comes back as one sentence, with the whole distribution it came from, a confidence grade and the sources underneath.
 
-Stack: a static site in plain JavaScript (no framework) on GitHub Pages; a Python data pipeline (pandas, requests, Pillow) with one fetcher per source; an offline research loop on `claude -p` with web search; a Cloudflare Worker for LLM parsing and live research, written and not yet deployed.
+The site is plain JavaScript (no framework) on GitHub Pages. Behind it sit a Python data pipeline (pandas, requests, Pillow) with one fetcher per source; an offline research loop on `claude -p` with web search, and a Cloudflare Worker for LLM parsing and live research, which is written and not yet deployed.
 
 ## Headline numbers
 
-950 facts across 20 countries and the world, from 72 sources, every one with a URL and an access date. 3 facts reach grade A (two independent official sources within 10%), 906 are grade B (one official source, or a percentile derived from a published mean), and 41 are grade D (researched automatically, not yet reviewed). 103 facts carry a time series. The rules parser that reads typed questions scores 90.5% exact-triple accuracy on a frozen 200-question gold set.
+There are 950 facts across 20 countries and the world, from 72 sources, each with a URL and an access date. 3 facts reach grade A (two independent official sources within 10%), 906 are grade B (one official source, or a percentile derived from a published mean), and 41 are grade D (researched automatically, not yet reviewed). 103 facts carry a time series. The rules parser that reads typed questions scores 90.5% exact-triple accuracy on a frozen 200-question gold set.
 
-The claim that started the project, "earning $30,000 a year puts you in the global top 1%", is false under every definition on the site, by different margins: 75th percentile by WID's pre-tax income per adult (top 1% starts near $220,000), 94th by the World Bank's consumption per person (top 1% near $57,000, the source of the "$60k" version).
+The project started with the claim that "earning $30,000 a year puts you in the global top 1%". It is false under every definition on the site, by different margins: $30k is the 75th percentile by WID's pre-tax income per adult (top 1% starts near $220,000), 94th by the World Bank's consumption per person (top 1% near $57,000, the source of the "$60k" version).
 
 ## The screen
 
-Five modes in the left rail, one answer in the middle, the evidence on the right.
+The left rail has five modes; the answer sits in the middle and the evidence on the right.
 
 | Mode | What it does |
 |---|---|
 | Explore | One grouped select for the measure; group selects that appear only when they offer a choice; Median, Top 10%, Top 1%. The chain above the sentence shows how the group was narrowed and lets you undo any step. |
-| Ask | Type the question. A rules parser in the browser turns it into measure, group and percentile; the LLM parser takes over once the Worker is deployed. |
+| Ask | Type the question. A rules parser in the browser turns it into measure, group and percentile; the LLM parser will take over once the Worker is deployed. |
 | Where do I land | Your own number, placed on the curve and kept in a profile across measures (browser storage only). |
 | Compare | A second group on the same curve, dashed, with a one-line comparison. |
 | Surprise me | A random A or B grade fact, whole populations first. |
@@ -39,14 +39,14 @@ fetchers (one per source) -> build_facts.py -> verify.py (grades) -> render_card
 queued or seeded questions -> research_queue.py (claude -p with web search) -> inbox (grade D) -> review.py -> reviewed
 ```
 
-Each fact is one distribution: a measure, a group, a reference year, a grid of percentile points, and its sources. `verify.py` refuses to build a fact without a source and assigns the grade by fixed rules. Questions the catalogue cannot answer go to the research loop, which can define a new measure (`data/metrics_extra.json`) and ships the result flagged as unreviewed until `review.py` promotes it. Live research on demand (`worker/src/research.js`) is written and waits for the Worker to be deployed; until then the site offers "Request this fact", which files a GitHub issue.
+Each fact is one distribution: a measure, a group, a reference year, a grid of percentile points, and its sources. `verify.py` refuses to build a fact without a source and assigns the grade by fixed rules. Questions the catalog cannot answer go to the research loop, which can define a new measure (`data/metrics_extra.json`) and ships the result flagged as unreviewed until `review.py` promotes it. Live research on demand (`worker/src/research.js`) is written and waits for the Worker to be deployed; until then the site offers "Request this fact", which files a GitHub issue.
 
 ## Files
 
 | Path | What |
 |---|---|
 | `index.html`, `app.js`, `chart.js`, `format.js`, `parser-rules.js` | The site. No framework. |
-| `data/metrics.json`, `data/metrics_extra.json` | The measure catalogue: hand-written, and defined by the research loop. |
+| `data/metrics.json`, `data/metrics_extra.json` | The measure catalog: hand-written, and defined by the research loop. |
 | `data/facts/<family>.json`, `data/index.json` | The facts and the lookup index, generated. |
 | `f/<id>/`, `cards/<id>.png` | One static page and one share image per fact, generated. |
 | `pipeline/fetch/*.py` | One fetcher per source. Raw downloads are git-ignored. |
@@ -73,6 +73,6 @@ A: two or more independent sources, at least one official, within 10% at every s
 
 ## What it cannot show
 
-Almost everything is B, because for a given definition official statistics have one producer. Height outside the US is derived from NCD-RisC means under a normal assumption. BMI percentiles are interpolated inside published bands. Marathon facts describe a 2013 research sample that skews to North America and Europe. Researched (grade D) facts can mix definitions until a person reviews them. Sensitive breakdowns appear only where the source publishes them. Full list in `writeup.md`.
+Almost everything is B, because for a given definition official statistics usually have one producer. Height outside the US is derived from NCD-RisC means under a normal assumption. BMI percentiles are interpolated inside published bands. Marathon facts describe a 2013 research sample that skews to North America and Europe. Researched (grade D) facts can mix definitions until a person reviews them. Sensitive breakdowns appear only where the source publishes them. Full list in `writeup.md`.
 
 [MIT](LICENSE) © 2026 Jeremy Lee

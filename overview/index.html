@@ -2,59 +2,499 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>How One in a Hundred works</title>
 <meta name="description" content="950 graded percentile facts from 72 sources, a distribution curve under every sentence, and why the '$30k is the global top 1%' claim is wrong under every definition.">
-<link rel="stylesheet" href="../assets/ledger.css"><link rel="stylesheet" href="../assets/app.css">
-<style>.wrap.prose{max-width:68ch;margin:0 auto;padding:var(--s4) var(--s3) var(--s5)}.wrap.prose .punchline{max-width:none}</style></head>
-<body><main class="wrap prose prose-serif">
-<p class="kicker"><a href="../">One in a Hundred</a></p>
-<h1>How this works, and what it cannot show</h1>
-<p class="meta">Version 0.3.1, built 2026-10-15. <a href="https://github.com/lyhjeremy/one-in-a-hundred">Code and data on GitHub</a>.</p>
+<meta name="theme-color" content="#E9EAE6">
+<style>
+  /* Ledger, workshop family. Self-hosted fonts; this page makes no third-party request. */
+  @font-face{font-family:"IBM Plex Sans Condensed";src:url("../assets/fonts/IBMPlexSansCondensed-600.woff2")format("woff2");font-weight:600;font-display:swap}
+  @font-face{font-family:"IBM Plex Sans";src:url("../assets/fonts/IBMPlexSans-400.woff2")format("woff2");font-weight:400;font-display:swap}
+  @font-face{font-family:"IBM Plex Sans";src:url("../assets/fonts/IBMPlexSans-600.woff2")format("woff2");font-weight:600;font-display:swap}
+  @font-face{font-family:"IBM Plex Mono";src:url("../assets/fonts/IBMPlexMono-400.woff2")format("woff2");font-weight:400;font-display:swap}
+  @font-face{font-family:"IBM Plex Mono";src:url("../assets/fonts/IBMPlexMono-600.woff2")format("woff2");font-weight:600;font-display:swap}
+  :root {
+    --paper: #E9EAE6; --panel: #F2F3EF; --ink: #191B1A; --ink-2: #4B504D;
+    --rule: #C3C6C1; --edge: #727773; --signal: #2F6243; --signal-2: #7C5A26;
+    --display: "IBM Plex Sans Condensed", "Arial Narrow", sans-serif;
+    --body: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --mono: "IBM Plex Mono", "SF Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #161817; --panel: #1F2220; --ink: #E3E5E1; --ink-2: #A0A6A1; --rule: #373B38; --edge: #686E6A; --signal: #7DC096; --signal-2: #CBA668; }
+  }
+  *, *::before, *::after { box-sizing: border-box; border-radius: 0; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 400 17.5px/1.62 var(--body); -webkit-font-smoothing: antialiased; }
+  a { color: var(--signal); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+  a:hover { color: var(--ink); }
+  :focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }
+  b, strong { font-weight: 600; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+  .mono, .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  .masthead { margin-top: 24px; border: 1px solid var(--edge); padding: 10px 14px; display: flex; justify-content: space-between; align-items: baseline; gap: 6px 16px; flex-wrap: wrap; }
+  .logo { font: 600 19px/1.2 var(--display); color: var(--ink); text-decoration: none; }
+  .tagline { font: 400 12px/1.4 var(--mono); text-transform: uppercase; letter-spacing: .1em; color: var(--ink-2); }
+  .hero { padding: 48px 0 8px; }
+  .kicker { font: 600 13px/1.4 var(--mono); text-transform: uppercase; letter-spacing: .12em; color: var(--signal); margin: 0 0 14px; }
+  h1 { font: 600 clamp(38px, 6vw, 70px)/1.02 var(--display); letter-spacing: -.02em; margin: 0; max-width: 18ch; }
+  .lede { font-size: 19px; color: var(--ink-2); margin: 22px 0 0; max-width: 62ch; }
+  .meta { font: 400 13px/1.5 var(--mono); color: var(--ink-2); margin: 14px 0 0; }
+  .sheet { margin-top: 30px; border: 1px solid var(--edge); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(150px, 100%), 1fr)); }
+  .sheet div { padding: 12px 14px; border-right: 1px solid var(--rule); border-bottom: 1px solid var(--rule); margin: 0 -1px -1px 0; }
+  .sheet .n { font: 600 28px/1.1 var(--mono); letter-spacing: -.02em; display: block; }
+  .sheet span { font-size: 14px; color: var(--ink-2); }
+  main { counter-reset: sec; }
+  section.sec { counter-increment: sec; border-top: 1px solid var(--rule); margin-top: 52px; padding-top: 44px; }
+  .sec > .label::before { content: counter(sec, decimal-leading-zero) "  "; color: var(--signal); white-space: pre; }
+  .label { font: 600 12px/1.4 var(--mono); text-transform: uppercase; letter-spacing: .12em; color: var(--ink-2); margin: 0 0 8px; }
+  h2 { font: 600 clamp(27px, 3.4vw, 38px)/1.1 var(--display); letter-spacing: -.015em; margin: 0 0 16px; max-width: 26ch; }
+  p { margin: 0 0 16px; max-width: 68ch; color: var(--ink-2); }
+  p b, p strong { color: var(--ink); }
+  .two { display: grid; gap: 8px 36px; }
+  @media (min-width: 860px) { .two { grid-template-columns: minmax(0, 1fr) 300px; } }
+  .aside { border: 1px solid var(--edge); padding: 12px 14px; align-self: start; font-size: 15px; }
+  .aside p { font-size: 15px; margin: 0 0 8px; }
+  .aside p:last-child { margin: 0; }
+  .aside .label { margin-bottom: 6px; }
 
-<p>The site holds 950 percentile facts across 20 countries and the world, from 72 sources, each with a source link and an access date and graded A to D by how much independent sources agree. Three facts reach A; 906 are B, because for a given definition official statistics usually have one producer; 41 are D, researched automatically and not yet reviewed. 103 facts carry history back to 1980. The parser that reads typed questions scores 90.5% exact-triple accuracy on a frozen 200-question test set.</p>
+  .table-scroll { overflow-x: auto; border: 1px solid var(--edge); margin: 20px 0 18px; }
+  table { border-collapse: collapse; width: 100%; min-width: 620px; font-size: 15px; }
+  th, td { padding: 8px 12px; border-bottom: 1px solid var(--rule); text-align: left; vertical-align: top; }
+  thead th { font: 600 11.5px/1.3 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2); background: var(--panel); }
+  td.num, th.num { text-align: right; white-space: nowrap; }
+  tbody tr:last-child td { border-bottom: 0; }
 
-<h2>The claim that started it</h2>
-<p>"Earning $30,000 a year puts you in the top 1% of earners worldwide." Sometimes the number is $60,000. Neither is the top 1%. The gap between the two versions comes from the definition of income, so the site keeps each definition as its own measure and never averages them.</p>
-<div class="table-scroll"><table>
-<thead><tr><th>Definition</th><th>Source</th><th class="num">Median</th><th class="num">Top 10%</th><th class="num">Top 1%</th><th>Where $30k lands</th></tr></thead>
-<tbody>
-<tr><td>Pre-tax national income per adult, PPP</td><td>WID.world, 2023</td><td class="num">$11,000</td><td class="num">$64,000</td><td class="num">$220,000</td><td>75th percentile</td></tr>
-<tr><td>Post-tax disposable income per adult, PPP</td><td>WID.world, 2023</td><td class="num">$12,000</td><td class="num">$66,000</td><td class="num">$200,000</td><td>72nd</td></tr>
-<tr><td>Household consumption or income per person, PPP</td><td>World Bank PIP, 2022</td><td class="num">$3,200</td><td class="num">$19,000</td><td class="num">$57,000</td><td>94th</td></tr>
-</tbody></table></div>
-<p>The "$60k" version is roughly right for the World Bank's per-person measure, which counts children, comes from household surveys, and is net of tax. The "$30k" version fails under all three. The threshold has also moved: under WID's definition the world top 1% started at $131,000 in 1980 and $223,000 in 2023, in constant purchasing-power dollars, a real (inflation-adjusted) rise of 70%. <a href="../?m=income_pretax_adult_ppp&q=99">Open the income fact</a> to see the curve and the history.</p>
+  .chart { border: 1px solid var(--edge); background: var(--panel); margin-top: 22px; }
+  .chart-head { padding: 12px 14px 4px; }
+  .chart-title { font: 600 20px/1.25 var(--display); margin: 0 0 4px; color: var(--ink); max-width: none; }
+  .chart-sub { font-size: 14.5px; margin: 0; max-width: 72ch; }
+  .ctl { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; padding: 10px 14px; margin-top: 10px; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); font: 400 13.5px/1.4 var(--mono); color: var(--ink-2); }
+  .ctl input[type=number] { font: 600 16px/1.2 var(--mono); width: 9.5em; padding: 6px 8px; border: 1px solid var(--edge); background: var(--paper); color: var(--ink); }
+  .ctl input[type=range] { width: min(280px, 100%); accent-color: var(--signal); }
+  .seg { display: inline-flex; border: 1px solid var(--edge); }
+  .seg button { font: 400 13px/1 var(--mono); padding: 8px 10px; border: 0; background: transparent; color: var(--ink); cursor: pointer; }
+  .seg button + button { border-left: 1px solid var(--edge); }
+  .seg button[aria-pressed=true] { background: var(--ink); color: var(--paper); }
+  .chart svg { width: 100%; height: auto; display: block; touch-action: pan-y; }
+  .body { padding: 6px 10px 2px; }
+  .tick { font: 400 11px var(--mono); fill: var(--ink-2); }
+  .grid { stroke: var(--rule); stroke-width: 1; }
+  .s0 { stroke: var(--signal); } .s1 { stroke: var(--signal-2); } .s2 { stroke: var(--ink-2); }
+  .f0 { fill: var(--signal); } .f1 { fill: var(--signal-2); } .f2 { fill: var(--ink-2); }
+  .ln { fill: none; stroke-width: 2.2; }
+  .ln.s2 { stroke-dasharray: 5 4; }
+  .lab { font: 600 12px var(--mono); paint-order: stroke; stroke: var(--panel); stroke-width: 4px; stroke-linejoin: round; }
+  .vline { stroke: var(--ink); stroke-width: 1.2; }
+  .p99 { stroke: var(--edge); stroke-dasharray: 2 4; }
+  .out { width: 100%; min-width: 0; border-top: 1px solid var(--rule); font-size: 14.5px; }
+  .out td, .out th { padding: 7px 14px; }
+  .out i { display: inline-block; width: 18px; height: 0; border-top: 3px solid; vertical-align: middle; margin-right: 8px; }
+  .out .k2 i { border-top-style: dashed; }
+  .readout { font: 400 13.5px/1.5 var(--mono); color: var(--ink); padding: 8px 14px 12px; min-height: 2.8em; }
+  ul.limits { padding: 0; margin: 10px 0 0; list-style: none; border-top: 1px solid var(--rule); max-width: 72ch; }
+  ul.limits li { padding: 9px 0 9px 26px; border-bottom: 1px solid var(--rule); color: var(--ink-2); position: relative; }
+  ul.limits li::before { content: counter(lim, decimal-leading-zero); counter-increment: lim; position: absolute; left: 0; top: 11px; font: 600 12px var(--mono); color: var(--signal-2); }
+  ul.limits { counter-reset: lim; }
+  dl.grades { margin: 14px 0 0; border-top: 1px solid var(--edge); max-width: 72ch; }
+  dl.grades div { display: grid; grid-template-columns: 44px 1fr; gap: 12px; padding: 9px 0; border-bottom: 1px solid var(--rule); }
+  dl.grades dt { font: 600 20px/1.2 var(--mono); color: var(--ink); }
+  dl.grades dd { margin: 0; color: var(--ink-2); }
+  footer { border-top: 1px solid var(--rule); margin-top: 60px; padding: 22px 0 60px; font-size: 14.5px; color: var(--ink-2); }
+  footer a { color: var(--ink-2); }
+  @media (max-width: 560px) { body { font-size: 16.5px; } .lede { font-size: 17.5px; } }
+</style></head>
+<body><div class="wrap">
+<header class="masthead"><a class="logo" href="../">One in a Hundred</a><span class="tagline">How it works · v0.3.1 · 2026-10-15</span></header>
 
-<h2>The screen</h2>
-<p>Five modes sit in the left rail. <b>Explore</b> picks a measure and narrows the group with selects that only appear when they offer a choice; the chain above the sentence shows every narrowing step and lets you undo it. <b>Ask</b> takes the question in words. <b>Where do I land</b> puts your own number on the curve and keeps it in a profile across measures, in your browser only. <b>Compare</b> draws a second group on the same curve, dashed. <b>Surprise me</b> picks a graded fact you did not ask for.</p>
-<p>The center holds the sentence and, under it, the whole distribution the sentence came from: value against the share of the group at or below it, with the chosen percentile marked and your own value beside it. Money is drawn on a log scale. Where the source has history, a second chart shows the chosen threshold over the years. The right column holds the evidence: the grade and its reason, the range across sources, the group size and where it came from, the definition, the caveat, and each source with the value it gives at this percentile.</p>
+<div class="hero">
+  <p class="kicker">Percentile facts, graded</p>
+  <h1>Earning $30,000 does not put you in the global top 1%</h1>
+  <p class="lede">
+    Under the most generous definition on the site it puts you at the 94th percentile;
+    under the other two, the 72nd and 75th. One in a Hundred exists to settle claims like
+    that: it holds <b>950 percentile facts</b> across 20 countries and the world, from
+    72 sources, each with a source link, an access date and a grade for how far
+    independent sources agree. This page explains how those facts are made and what
+    they can't show.
+  </p>
+  <p class="meta"><a href="../">Open the site</a> · <a href="https://github.com/lyhjeremy/one-in-a-hundred">Code and data on GitHub</a> · <a href="../sources/">Sources</a></p>
+  <div class="sheet">
+    <div><span class="n">950</span><span>facts</span></div>
+    <div><span class="n">72</span><span>sources</span></div>
+    <div><span class="n">3 / 906 / 41</span><span>grade A / B / D</span></div>
+    <div><span class="n">103</span><span>facts with history</span></div>
+    <div><span class="n">90.5%</span><span>parser accuracy, 200 questions</span></div>
+  </div>
+</div>
 
-<h2>Two more worth repeating</h2>
-<p>One in a hundred people alive is at least <a href="../f/age_years.world.all.2025/">84.6 years old</a>; the median person is 31.9. To be in the fastest 1% of the <a href="../f/marathon_time.world.all.marathon_finishers.2013/">778,747 people who finished a timed marathon</a> in the 2013 research sample, you needed to run under 2:50; the median finisher took 4:19.</p>
+<main>
+<section class="sec" id="income">
+  <p class="label">The claim that started it</p>
+  <h2>Three definitions of income, and $30k is the top 1% under none of them</h2>
+  <p>
+    "Earning $30,000 a year puts you in the top 1% of earners worldwide." Sometimes the
+    number is $60,000. The gap between the two versions is the definition of income,
+    so the site keeps each definition as its own measure and never averages them.
+  </p>
+  <div class="table-scroll"><table>
+    <thead><tr><th>Definition</th><th>Source</th><th class="num">Median</th><th class="num">Top 10%</th><th class="num">Top 1%</th><th>Where $30k lands</th></tr></thead>
+    <tbody>
+    <tr><td>Pre-tax national income per adult, PPP</td><td>WID.world, 2023</td><td class="num">$11,000</td><td class="num">$64,000</td><td class="num">$220,000</td><td>75th percentile</td></tr>
+    <tr><td>Post-tax disposable income per adult, PPP</td><td>WID.world, 2023</td><td class="num">$12,000</td><td class="num">$66,000</td><td class="num">$200,000</td><td>72nd</td></tr>
+    <tr><td>Household consumption or income per person, PPP</td><td>World Bank PIP, 2022</td><td class="num">$3,200</td><td class="num">$19,000</td><td class="num">$57,000</td><td>94th</td></tr>
+    </tbody></table></div>
+  <p>
+    The "$60k" version is roughly right for the World Bank's per-person measure, which
+    counts children, comes from household surveys and is net of tax. The "$30k" version
+    fails under all three. Try your own number:
+  </p>
 
-<h2>How the numbers are made</h2>
-<p>Each fact is one distribution: a measure, a group, a reference year, a grid of percentile points, and its sources. One fetcher per source reads it into the same row shape, for every year it publishes; a build step makes the latest year the fact and the earlier years its history, from the same sources only; a verify step computes the spread across sources at each shown percentile, assigns the grade by fixed rules, and refuses to build a fact with no source. The UN pyramid gives ages directly. WID publishes income and wealth thresholds from 1980. The World Bank API answers "what welfare level is the 99th percentile" per country. NHANES gives measured US body data, weighted to the population. NCD-RisC gives height means by birth cohort (so the percentiles are derived) and BMI in bands (so they are interpolated). Marathon times are plain quantiles of 897,204 finisher records from 2013, published by the authors of a Management Science paper and compiled from races' own results.</p>
+  <figure class="chart" id="land" style="margin-left:0;margin-right:0">
+    <div class="chart-head">
+      <p class="chart-title" id="land-title">Where an income lands</p>
+      <p class="chart-sub">Each line is a published grid of percentile points joined on a log scale, the way the site places "Where do I land" values. Purchasing-power dollars per year.</p>
+    </div>
+    <div class="ctl">
+      <label for="land-v">Income, $ a year</label>
+      <input type="number" id="land-v" min="100" max="1000000" step="1000" value="30000" inputmode="numeric">
+      <input type="range" id="land-r" min="0" max="1000" value="0" aria-label="Income on a log scale">
+    </div>
+    <div class="body"><svg id="land-svg" viewBox="0 0 640 300" role="img" aria-labelledby="land-desc"><desc id="land-desc">Three cumulative distribution curves of world income on a log scale, with a vertical line at the chosen income.</desc></svg></div>
+    <table class="out"><tbody id="land-out"></tbody></table>
+  </figure>
+</section>
 
-<h2>Questions outside the catalog</h2>
-<p>A question the catalog cannot answer goes to a research loop: a fixed prompt, a JSON schema, and a model with web search that must name its sources, define the measure, and say where the sources disagree. The result ships at once as a grade D fact with an "unreviewed" stamp on the page and on its share image, and a person reviews it later. Sixty popular questions (chess ratings, IQ, push-ups, typing speed, Instagram followers, VO2 max, savings by age, test scores) have been run through it: 42 produced a fact (41 ship; the bench press grid ran backwards and is held for review) and 18 found nothing the model would stand behind. The first result is the reason for the stamp. For "what chess rating is the top 1%" the model found four sources and wrote a careful caveat about FIDE's rating floor, and then averaged FIDE, US Chess and Lichess values into one grid. Review is where one definition gets chosen. Live research at the moment of asking is built and waits for a server to be switched on, and until then a missing fact offers "Request this fact", which files an issue the loop picks up.</p>
+<section class="sec" id="history">
+  <p class="label">History</p>
+  <h2>The top-1% line moved too, and the median moved faster</h2>
+  <p>
+    Under WID's pre-tax definition the world top 1% started at $131,000 in 1980 and
+    $223,000 in 2023, in constant purchasing-power dollars: a real rise of 70%. Over the
+    same years the median adult went from $5,200 to $11,100. Where a source has history,
+    the site draws a second chart like this one under the curve.
+    <a href="../?m=income_pretax_adult_ppp&amp;q=99">Open the income fact</a> to see it there.
+  </p>
+  <figure class="chart" id="hist" style="margin-left:0;margin-right:0">
+    <div class="chart-head">
+      <p class="chart-title" id="hist-title">Since 1980 the median has more than doubled; the top-1% threshold rose 70%</p>
+      <p class="chart-sub">World pre-tax national income per adult, WID.world, 1980 to 2023, from the fact's own history.</p>
+    </div>
+    <div class="ctl">
+      <span>Show:</span>
+      <span class="seg" role="group" aria-label="Scale">
+        <button type="button" data-mode="index" aria-pressed="true">Change since 1980</button>
+        <button type="button" data-mode="usd" aria-pressed="false">Dollars</button>
+      </span>
+    </div>
+    <div class="body"><svg id="hist-svg" viewBox="0 0 640 280" role="img" tabindex="0" aria-labelledby="hist-desc"><desc id="hist-desc">Three lines from 1980 to 2023 for the median, top 10% and top 1% thresholds of world pre-tax income.</desc></svg></div>
+    <div class="readout" id="hist-read" aria-live="polite"></div>
+  </figure>
+</section>
 
-<h2>Grades</h2>
-<p><b>A</b>: two or more independent sources, at least one official, within 10% at every shown percentile. <b>B</b>: one official source, or a derived percentile. <b>C</b>: sources disagree by more than 10%, or a known definitional mismatch. <b>D</b>: produced by the research loop and not yet checked by a person. A reviewer can lower a grade with a reason and never raise one; the way up is another source.</p>
+<section class="sec">
+  <p class="label">Two more</p>
+  <h2>Age and the marathon</h2>
+  <p>
+    One in a hundred people alive is at least <a href="../f/age_years.world.all.2025/">84.6 years old</a>;
+    the median person is 31.9. To be in the fastest 1% of the
+    <a href="../f/marathon_time.world.all.marathon_finishers.2013/">778,747 people who finished a timed marathon</a>
+    in the 2013 research sample, you needed to run under 2:50. The median finisher took 4:19.
+  </p>
+</section>
 
-<h2>The parser</h2>
-<p>Two parsers return the same shape. A rules parser runs in your browser: regexes for percentiles, sex, age and values, a country alias table, and a phrasing match that accepts inflections, with a fuzzy fallback for typos. Researched measures bring their own phrasings, so a new fact is askable at once. An LLM parser, when deployed, runs in a Cloudflare Worker against the same catalog; the browser falls back to the rules parser after 2.5 seconds or on any error. On the frozen 200-question set the rules parser scores 95% on plain questions, 92% on paraphrases, 60% on questions that include the asker's own number, 95% on ambiguous ones, and 92% on out-of-scope questions with 3 invented ids. It was adjusted twice after seeing failures, so its score is optimistic by an unknown amount. Details in <a href="https://github.com/lyhjeremy/one-in-a-hundred/blob/main/eval/results.md">eval/results.md</a>.</p>
+<section class="sec">
+  <p class="label">The screen</p>
+  <h2>A sentence, the curve it came from, and the evidence beside it</h2>
+  <p>
+    Five modes sit in the left rail. <b>Explore</b> picks a measure and narrows the group,
+    showing each narrowing step so any of them can be undone. <b>Ask</b> takes the
+    question in words. <b>Where do I land</b> puts your own number on the curve, as the
+    chart above does, and keeps it in a profile in your browser only. <b>Compare</b>
+    draws a second group on the same curve, dashed. <b>Surprise me</b> picks a graded
+    fact you didn't ask for.
+  </p>
+  <p>
+    The center holds the sentence and the whole distribution under it, with money on a
+    log scale. The right column is the evidence: the grade and its reason, the range
+    across sources, the group size and where it came from, the definition, the caveat,
+    and each source with the value it gives at this percentile.
+  </p>
+</section>
 
-<h2>What it cannot show</h2>
-<ul>
-<li>Almost everything is B. The A grade needs independent producers measuring the same definition, and for income, wealth, height and age there is usually one.</li>
-<li>Height outside the US is derived from cohort means under a normal assumption. Measured height tails are slightly heavier than normal, so the Dutch 202 cm is probably a centimeter or two high.</li>
-<li>BMI percentiles are linear interpolations inside published bands.</li>
-<li>Marathon facts describe the 2013 research sample (61% US); the "world" running group means finishers in that sample.</li>
-<li>Researched facts are only as good as what the web says, are graded D and stamped, can mix definitions until reviewed, and have no group size.</li>
-<li>History charts follow one definition, so a change inside the source shows up as an unexplained kink in the line.</li>
-<li>Group counts for age bands and categories are survey shares applied to UN totals.</li>
-<li>The LLM parser, live research and the request queue need a Cloudflare account and a Groq key before they run.</li>
-</ul>
+<section class="sec">
+  <p class="label">How the numbers are made</p>
+  <h2>One fetcher per source, one row shape, fixed grading rules</h2>
+  <div class="two">
+    <div>
+      <p>
+        Each fact is one distribution: a measure, a group, a reference year, a grid of
+        percentile points, and its sources. One fetcher per source reads it into the same
+        row shape for every year it publishes. A build step makes the latest year the
+        fact and earlier years its history, from the same sources only. A verify step
+        computes the spread across sources at each shown percentile, assigns the grade by
+        fixed rules, and refuses to build a fact with no source.
+      </p>
+      <p>
+        The UN pyramid gives ages directly. WID publishes income and wealth thresholds
+        from 1980. The World Bank API answers "what welfare level is the 99th percentile"
+        per country. NHANES gives measured US body data, weighted to the population.
+        NCD-RisC gives height means by birth cohort (so those percentiles are derived) and
+        BMI in bands (so those are interpolated). Marathon times are plain quantiles of
+        the 778,747 finishers in the 2013 sample published with Allen, Dechow, Pope and Wu's
+        Management Science paper, compiled from races' own results.
+      </p>
+    </div>
+    <div class="aside">
+      <p class="label">Grades</p>
+      <dl class="grades" style="margin:0">
+        <div><dt>A</dt><dd>Two or more independent sources, at least one official, within 10% at every shown percentile.</dd></div>
+        <div><dt>B</dt><dd>One official source, or a derived percentile.</dd></div>
+        <div><dt>C</dt><dd>Sources disagree by more than 10%, or a known definitional mismatch.</dd></div>
+        <div><dt>D</dt><dd>From the research loop, not yet checked by a person.</dd></div>
+      </dl>
+      <p style="margin-top:10px">A reviewer can lower a grade with a reason and never raise one. The way up is another source.</p>
+    </div>
+  </div>
+</section>
 
-<h2>Sources</h2>
-<p>UN DESA, World Population Prospects 2024. WHO Global Health Observatory, life expectancy at birth. World Inequality Database, bulk download September 2026. World Bank Poverty and Inequality Platform, release 20260922, 2021 PPP. CDC NHANES August 2021 to August 2023. NCD Risk Factor Collaboration, height (Lancet 2020) and adult BMI (Nature 2026). Allen, Dechow, Pope and Wu (2017), marathon finisher records. Researched facts cite their own sources on each fact page. Licenses and access dates are on the <a href="../sources/">sources page</a>.</p>
+<section class="sec">
+  <p class="label">Questions outside the catalog</p>
+  <h2>A research loop that ships its answers stamped "unreviewed"</h2>
+  <p>
+    A question the catalog can't answer goes to a research loop: a fixed prompt, a JSON
+    schema, and a model with web search that must name its sources, define the measure,
+    and say where the sources disagree. The result ships as a grade D fact with an
+    "unreviewed" stamp on the page and on its share image, and a person reviews it later.
+  </p>
+  <p>
+    Sixty popular questions (chess ratings, IQ, push-ups, typing speed, Instagram
+    followers, VO2 max, savings by age, test scores) have been through it. 42 produced a
+    fact; 41 ship, and the bench press is held because its grid ran backwards. 18 found
+    nothing the model would stand behind. The first result is why the stamp exists: for
+    "what chess rating is the top 1%" the model found four sources and wrote a careful
+    caveat about FIDE's rating floor, then averaged FIDE, US Chess and Lichess values into
+    one grid. Review is where one definition gets chosen.
+  </p>
+  <p>
+    Live research at the moment of asking is written and waits for a server. Until then
+    a missing fact offers "Request this fact", which files a GitHub issue the loop picks up.
+  </p>
+</section>
+
+<section class="sec">
+  <p class="label">The parser</p>
+  <h2>90.5% on a frozen set of 200 questions, and an honest asterisk</h2>
+  <p>
+    Two parsers return the same shape. A rules parser runs in your browser: regexes for
+    percentiles, sex, age and values, a country alias table, and a phrasing match that
+    accepts inflections, with a fuzzy fallback for typos. An LLM parser, once deployed,
+    runs in a Cloudflare Worker against the same catalog, and the browser falls back to
+    the rules parser after 2.5 seconds or on any error.
+  </p>
+  <div class="table-scroll" style="max-width:560px"><table style="min-width:0">
+    <thead><tr><th>Question type</th><th class="num">Rules parser</th></tr></thead>
+    <tbody>
+      <tr><td>Plain</td><td class="num">95%</td></tr>
+      <tr><td>Paraphrased</td><td class="num">92%</td></tr>
+      <tr><td>Includes the asker's own number</td><td class="num">60%</td></tr>
+      <tr><td>Ambiguous</td><td class="num">95%</td></tr>
+      <tr><td>Out of scope (3 invented ids)</td><td class="num">92%</td></tr>
+    </tbody></table></div>
+  <p>
+    The parser was adjusted twice after seeing failures, so its score is optimistic by an
+    unknown amount. Details in <a href="https://github.com/lyhjeremy/one-in-a-hundred/blob/main/eval/results.md">eval/results.md</a>.
+  </p>
+</section>
+
+<section class="sec">
+  <p class="label">Limits</p>
+  <h2>What it cannot show</h2>
+  <ul class="limits">
+    <li>Almost everything is B. An A needs independent producers measuring the same definition, and for income, wealth, height and age there is usually one.</li>
+    <li>Height outside the US is derived from cohort means under a normal assumption. Measured height tails are slightly heavier than normal, so the Dutch 202 cm is probably a centimeter or two high.</li>
+    <li>BMI percentiles are linear interpolations inside published bands.</li>
+    <li>Marathon facts describe the 2013 research sample (61% US); the "world" running group means finishers in that sample.</li>
+    <li>Researched facts are only as good as what the web says. They are graded D and stamped, can mix definitions until reviewed, and have no group size.</li>
+    <li>History charts follow one definition, so a change of method inside the source shows up as an unexplained kink in the line.</li>
+    <li>Group counts for age bands and categories are survey shares applied to UN totals.</li>
+    <li>The LLM parser, live research and the request queue need a Cloudflare account and a Groq key before they run.</li>
+  </ul>
+</section>
+
+<section class="sec">
+  <p class="label">Sources</p>
+  <h2>Where the facts come from</h2>
+  <p>UN DESA, World Population Prospects 2024. WHO Global Health Observatory, life expectancy at birth. World Inequality Database, bulk download September 2026. World Bank Poverty and Inequality Platform, release 20260922, 2021 PPP. CDC NHANES August 2021 to August 2023. NCD Risk Factor Collaboration, height (Lancet 2020) and adult BMI (Nature 2026). Allen, Dechow, Pope and Wu (2017), marathon finisher records. Researched facts cite their own sources on each fact page. Licenses and access dates are on the <a href="../sources/">sources page</a>.</p>
+</section>
 </main>
-<footer class="wrap prose site-footer"><p><a href="../">Home</a> · <a href="../sources/">Sources</a> · <a href="../about/">About</a> · <a href="../privacy/">Privacy</a> · <a href="../terms/">Terms</a></p></footer>
+
+<footer><p><a href="../">Home</a> · <a href="../sources/">Sources</a> · <a href="../about/">About</a> · <a href="../privacy/">Privacy</a> · <a href="../terms/">Terms</a></p>
+<p>Chart values come from <span class="mono">data/facts/income.json</span>.</p></footer>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var D = {"grids":{"income_pretax_adult_ppp.world.all.2023":{"p1":21.7,"p10":2101.0,"p25":4678.9,"p50":11100.9,"p75":29804.4,"p90":64167.6,"p99":223480.2,"p99.9":827501.9},"income_posttax_adult_ppp.world.all.2023":{"p1":283.4,"p10":2171.2,"p25":5426.4,"p50":12379.5,"p75":33211.7,"p90":65836.4,"p99":199138.3,"p99.9":700432.4},"consumption_percap_ppp.world.all.2022":{"p0.1":108.1,"p1":338.2,"p10":1050.1,"p25":1721.8,"p50":3179.1,"p75":7602.7,"p90":18826.5,"p99":56604.6,"p99.9":128380.6}},"series":{"1980":{"p50":5190,"p90":45688,"p99":131298},"1981":{"p50":5286,"p90":45351,"p99":129922},"1982":{"p50":5345,"p90":44659,"p99":126452},"1983":{"p50":5281,"p90":44918,"p99":129140},"1984":{"p50":5402,"p90":45479,"p99":131908},"1985":{"p50":5434,"p90":45829,"p99":133727},"1986":{"p50":5550,"p90":46226,"p99":136024},"1987":{"p50":5660,"p90":46252,"p99":138644},"1988":{"p50":5711,"p90":46861,"p99":142423},"1989":{"p50":5682,"p90":47481,"p99":143802},"1990":{"p50":5596,"p90":47656,"p99":146096},"1991":{"p50":5607,"p90":47073,"p99":146795},"1992":{"p50":5588,"p90":47852,"p99":150153},"1993":{"p50":5657,"p90":47352,"p99":149424},"1994":{"p50":5683,"p90":47729,"p99":153003},"1995":{"p50":5835,"p90":48356,"p99":156700},"1996":{"p50":5894,"p90":48716,"p99":161370},"1997":{"p50":6044,"p90":48865,"p99":164635},"1998":{"p50":5960,"p90":48553,"p99":167157},"1999":{"p50":6056,"p90":48828,"p99":169850},"2000":{"p50":6160,"p90":50078,"p99":174066},"2001":{"p50":6233,"p90":49858,"p99":173698},"2002":{"p50":6325,"p90":50487,"p99":174474},"2003":{"p50":6511,"p90":50787,"p99":177120},"2004":{"p50":6845,"p90":51679,"p99":182743},"2005":{"p50":7003,"p90":52294,"p99":186882},"2006":{"p50":7436,"p90":53741,"p99":195742},"2007":{"p50":7820,"p90":54936,"p99":197276},"2008":{"p50":8002,"p90":54694,"p99":197529},"2009":{"p50":8199,"p90":53331,"p99":193198},"2010":{"p50":8582,"p90":54446,"p99":194760},"2011":{"p50":8777,"p90":55260,"p99":197954},"2012":{"p50":9160,"p90":55532,"p99":197857},"2013":{"p50":9229,"p90":55958,"p99":203475},"2014":{"p50":9587,"p90":56852,"p99":201382},"2015":{"p50":9812,"p90":57974,"p99":204155},"2016":{"p50":10160,"p90":58880,"p99":204867},"2017":{"p50":10346,"p90":60535,"p99":206736},"2018":{"p50":10551,"p90":61465,"p99":211375},"2019":{"p50":10652,"p90":61948,"p99":211011},"2020":{"p50":10189,"p90":59076,"p99":207189},"2021":{"p50":10549,"p90":61491,"p99":215662},"2022":{"p50":10811,"p90":62806,"p99":219948},"2023":{"p50":11101,"p90":64168,"p99":223480}}};
+  var NS = "http://www.w3.org/2000/svg";
+  function el(t, a, p) { var e = document.createElementNS(NS, t); for (var k in a) e.setAttribute(k, a[k]); p.appendChild(e); return e; }
+  function h(t, c, x, p) { var e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; if (p) p.appendChild(e); return e; }
+  function money(v) { return "$" + Math.round(v).toLocaleString("en-US"); }
+  function short(v) { return v >= 1e6 ? "$" + (v / 1e6) + "M" : v >= 1000 ? "$" + (v / 1000) + "k" : "$" + v; }
+  function width(svg) { return Math.max(300, Math.min(900, Math.round(svg.parentNode.clientWidth || 640))); }
+
+  var SER = [
+    { k: "income_pretax_adult_ppp.world.all.2023", name: "Pre-tax income per adult", src: "WID.world, 2023", cls: 0 },
+    { k: "income_posttax_adult_ppp.world.all.2023", name: "Post-tax income per adult", src: "WID.world, 2023", cls: 1 },
+    { k: "consumption_percap_ppp.world.all.2022", name: "Consumption or income per person", src: "World Bank PIP, 2022", cls: 2 }
+  ];
+  function pts(k) {
+    var g = D.grids[k];
+    return Object.keys(g).map(function (p) { return [parseFloat(p.slice(1)) / 100, g[p]]; })
+      .sort(function (a, b) { return a[0] - b[0]; });
+  }
+  // Same placement rule as app.js placeValue(): linear in log(value) between grid points.
+  function place(k, v) {
+    var P = pts(k).filter(function (p) { return p[1] > 0; });
+    var lv = Math.log(v);
+    if (v < P[0][1]) return { kind: "below", at: P[0][0] };
+    if (v > P[P.length - 1][1]) return { kind: "beyond", at: P[P.length - 1][0] };
+    for (var i = 0; i < P.length - 1; i++) {
+      var a = P[i], b = P[i + 1];
+      if (v >= a[1] && v <= b[1]) {
+        var f = (lv - Math.log(a[1])) / (Math.log(b[1]) - Math.log(a[1]));
+        return { kind: "between", at: a[0] + f * (b[0] - a[0]) };
+      }
+    }
+  }
+  function ord(n) { var s = ["th", "st", "nd", "rd"], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); }
+  function words(r) {
+    if (r.kind === "beyond") return "top " + +((1 - r.at) * 100).toFixed(1) + "% or better";
+    if (r.kind === "below") return "below the " + ord(Math.round(r.at * 100)) + " percentile";
+    var pc = r.at * 100;
+    return pc >= 99 ? "top " + (100 - pc).toFixed(1) + "%" : ord(Math.round(pc)) + " percentile";
+  }
+
+  // ---------- where an income lands ----------
+  (function land() {
+    var svg = document.getElementById("land-svg"); if (!svg || !D) return;
+    var inp = document.getElementById("land-v"), rng = document.getElementById("land-r");
+    var out = document.getElementById("land-out"), title = document.getElementById("land-title");
+    var LO = Math.log(100), HI = Math.log(1e6);
+    function toR(v) { return Math.round((Math.log(v) - LO) / (HI - LO) * 1000); }
+    function fromR(r) { var v = Math.exp(LO + r / 1000 * (HI - LO)); var m = Math.pow(10, Math.floor(Math.log10(v)) - 1); return Math.round(v / m) * m; }
+    function draw(v) {
+      var W = width(svg), H = W < 520 ? 260 : 300; svg.setAttribute("viewBox", "0 0 " + W + " " + H);
+      while (svg.lastChild && svg.lastChild.nodeName !== "desc") svg.removeChild(svg.lastChild);
+      var l = 36, r = 12, t = 12, b = 26;
+      var x = function (m) { return l + (Math.log(m) - LO) / (HI - LO) * (W - l - r); };
+      var y = function (q) { return t + (1 - q) * (H - t - b); };
+      [0, .25, .5, .75, 1].forEach(function (q) {
+        el("line", { x1: l, x2: W - r, y1: y(q), y2: y(q), "class": "grid" }, svg);
+        el("text", { x: l - 5, y: y(q) + 4, "text-anchor": "end", "class": "tick" }, svg).textContent = Math.round(q * 100);
+      });
+      el("line", { x1: l, x2: W - r, y1: y(.99), y2: y(.99), "class": "p99" }, svg);
+      el("text", { x: l + 4, y: y(.99) - 4, "class": "tick" }, svg).textContent = "top 1% starts here";
+      [100, 1000, 10000, 100000, 1000000].forEach(function (m) {
+        el("text", { x: x(m), y: H - 7, "text-anchor": m === 100 ? "start" : m === 1e6 ? "end" : "middle", "class": "tick" }, svg).textContent = short(m);
+      });
+      SER.forEach(function (s) {
+        var P = pts(s.k).filter(function (p) { return p[1] >= 100; });
+        el("path", { d: P.map(function (p, i) { return (i ? "L" : "M") + x(p[1]).toFixed(1) + " " + y(p[0]).toFixed(1); }).join(""), "class": "ln s" + s.cls }, svg);
+      });
+      // Direct labels: each placed beside its own line at a fixed percentile.
+      function at(k, q) {
+        var P = pts(k).filter(function (p) { return p[1] > 0; });
+        for (var i = 0; i < P.length - 1; i++) if (q >= P[i][0] && q <= P[i + 1][0]) {
+          var f = (q - P[i][0]) / (P[i + 1][0] - P[i][0]);
+          return Math.exp(Math.log(P[i][1]) + f * (Math.log(P[i + 1][1]) - Math.log(P[i][1])));
+        }
+      }
+      var short3 = W < 520;
+      [[0, .6, -8, short3 ? "pre-tax" : "pre-tax per adult"], [1, .36, 8, short3 ? "post-tax" : "post-tax per adult"], [2, .84, -8, short3 ? "consumption" : "consumption per person"]].forEach(function (a) {
+        var s = SER[a[0]];
+        el("text", { x: x(at(s.k, a[1])) + a[2], y: y(a[1]) + 4, "class": "lab f" + s.cls, "text-anchor": a[2] < 0 ? "end" : "start" }, svg).textContent = a[3];
+      });
+      el("line", { x1: x(v), x2: x(v), y1: t, y2: H - b, "class": "vline" }, svg);
+      out.textContent = "";
+      var res = SER.map(function (s) {
+        var p = place(s.k, v);
+        if (p.kind === "between") el("circle", { cx: x(v), cy: y(p.at), r: 4.5, "class": "f" + s.cls }, svg);
+        var tr = h("tr", "k" + s.cls, null, out);
+        var td = h("td", null, null, tr); var i = h("i", null, null, td); i.style.color = "var(--" + (s.cls === 0 ? "signal" : s.cls === 1 ? "signal-2" : "ink-2") + ")";
+        td.appendChild(document.createTextNode(s.name + " (" + s.src + ")"));
+        h("td", "num", words(p), tr);
+        return p;
+      });
+      var top1 = res.filter(function (p) { return p.at >= .99; }).length;
+      var tag = [" pre-tax", " post-tax", " by consumption"];
+      title.textContent = money(v) + " a year: " + res.map(function (p, i) { return words(p) + tag[i]; }).join(", ") + ". " +
+        (top1 === 3 ? "Top 1% under all three definitions." : top1 ? "Top 1% under " + top1 + " of the three definitions." : "Not the top 1% under any definition.");
+    }
+    function setV(v, fromRange) {
+      v = Math.max(100, Math.min(1e6, v || 100));
+      if (!fromRange) rng.value = toR(v);
+      if (document.activeElement !== inp) inp.value = v;
+      draw(v);
+    }
+    inp.addEventListener("input", function () { var v = +inp.value; if (v >= 100) setV(v); });
+    inp.addEventListener("change", function () { setV(+inp.value); inp.value = Math.max(100, Math.min(1e6, +inp.value || 100)); });
+    rng.addEventListener("input", function () { var v = fromR(+rng.value); inp.value = v; setV(v, true); });
+    window.addEventListener("resize", function () { setV(+inp.value); });
+    setV(30000);
+  })();
+
+  // ---------- threshold history ----------
+  (function hist() {
+    var svg = document.getElementById("hist-svg"); if (!svg || !D) return;
+    var read = document.getElementById("hist-read");
+    var btns = document.querySelectorAll("#hist [data-mode]");
+    var years = Object.keys(D.series).map(Number).sort(function (a, b) { return a - b; });
+    var LINES = [["p50", "median", 2], ["p90", "top 10%", 1], ["p99", "top 1%", 0]];
+    var mode = "index", cur = 2023;
+    function val(p, yr) { var v = D.series[String(yr)][p]; return mode === "index" ? v / D.series["1980"][p] * 100 : v; }
+    function draw() {
+      var W = width(svg), H = W < 520 ? 240 : 280; svg.setAttribute("viewBox", "0 0 " + W + " " + H);
+      while (svg.lastChild && svg.lastChild.nodeName !== "desc") svg.removeChild(svg.lastChild);
+      var l = mode === "index" ? 36 : 52, r = W < 520 ? 64 : 84, t = 12, b = 24;
+      var x = function (yr) { return l + (yr - 1980) / 43 * (W - l - r); };
+      var lo, hi, y, ticks;
+      if (mode === "index") { lo = 80; hi = 230; ticks = [100, 150, 200]; y = function (v) { return t + (1 - (v - lo) / (hi - lo)) * (H - t - b); }; }
+      else { lo = Math.log(4000); hi = Math.log(300000); ticks = [5000, 10000, 50000, 100000, 200000]; y = function (v) { return t + (1 - (Math.log(v) - lo) / (hi - lo)) * (H - t - b); }; }
+      ticks.forEach(function (g) {
+        el("line", { x1: l, x2: W - r, y1: y(g), y2: y(g), "class": "grid" }, svg);
+        el("text", { x: l - 5, y: y(g) + 4, "text-anchor": "end", "class": "tick" }, svg).textContent = mode === "index" ? "×" + g / 100 : short(g);
+      });
+      [1980, 1990, 2000, 2010, 2023].forEach(function (yr) { el("text", { x: x(yr), y: H - 6, "text-anchor": "middle", "class": "tick" }, svg).textContent = yr; });
+      LINES.forEach(function (L) {
+        el("path", { d: years.map(function (yr, i) { return (i ? "L" : "M") + x(yr).toFixed(1) + " " + y(val(L[0], yr)).toFixed(1); }).join(""), "class": "ln s" + L[2] }, svg);
+        var end = val(L[0], 2023);
+        el("text", { x: x(2023) + 6, y: y(end) + 4, "class": "lab f" + L[2] }, svg).textContent = L[1];
+      });
+      el("line", { x1: x(cur), x2: x(cur), y1: t, y2: H - b, "class": "vline" }, svg);
+      LINES.forEach(function (L) { el("circle", { cx: x(cur), cy: y(val(L[0], cur)), r: 4, "class": "f" + L[2] }, svg); });
+      var s = D.series[String(cur)], s0 = D.series["1980"];
+      read.textContent = cur + ": " + LINES.map(function (L) {
+        return L[1] + " " + money(s[L[0]]) + " (" + (s[L[0]] >= s0[L[0]] ? "+" : "") + Math.round((s[L[0]] / s0[L[0]] - 1) * 100) + "% on 1980)";
+      }).join(", ") + ".";
+      svg._x = x; svg._l = l; svg._r = r; svg._W = W;
+    }
+    function fromEv(ev) {
+      var rc = svg.getBoundingClientRect(), px = (ev.clientX - rc.left) / rc.width * svg._W;
+      return Math.max(1980, Math.min(2023, Math.round(1980 + (px - svg._l) / (svg._W - svg._l - svg._r) * 43)));
+    }
+    svg.addEventListener("pointermove", function (e) { cur = fromEv(e); draw(); });
+    svg.addEventListener("keydown", function (e) {
+      if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+      e.preventDefault(); cur = Math.max(1980, Math.min(2023, cur + (e.key === "ArrowRight" ? 1 : -1))); draw();
+    });
+    Array.prototype.forEach.call(btns, function (bt) {
+      bt.addEventListener("click", function () {
+        mode = bt.getAttribute("data-mode");
+        Array.prototype.forEach.call(btns, function (o) { o.setAttribute("aria-pressed", o === bt ? "true" : "false"); });
+        draw();
+      });
+    });
+    window.addEventListener("resize", draw);
+    draw();
+  })();
+})();
+</script>
 </body></html>

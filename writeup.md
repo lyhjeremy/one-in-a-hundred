@@ -67,7 +67,7 @@ The gold set is 200 questions in five buckets, frozen at sha1 `0b1dd183b3f8`. Th
 - BMI percentiles are linear interpolations inside published bands.
 - Marathon facts describe the 2013 research sample (61% US), which is a subset of the world's marathons; the "world" running group means finishers in that sample.
 - Researched facts are only as good as what the web says. They are graded D, stamped, and can mix definitions until reviewed. Their group sizes are unknown, so they carry no "that's about N people" line.
-- The history charts show the threshold for one definition over time. A definitional change inside the source (WID's 2024 rating compression, for example, or a survey redesign) shows up as a kink in the line with no note attached.
+- The history charts show the threshold for one definition over time. A change of method inside the source shows up as a kink in the line with no note attached.
 - Group counts for age bands and categories are survey shares applied to UN totals.
 - The LLM parser, live research and the request queue need a Cloudflare account and a Groq API key before they run.
 

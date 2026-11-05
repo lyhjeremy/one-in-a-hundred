@@ -1,7 +1,8 @@
 """Check that pipeline/format.py and format.js agree on the fixtures.
 
 Writes eval/format_fixtures.json from the Python side, then runs the JS side
-in Node over the same inputs and diffs. Usage: python3 pipeline/test_format.py
+in Node over the same inputs and diffs. Usage: python3 pipeline/test_format.py,
+or python -m pytest -q pipeline/test_format.py
 """
 from __future__ import annotations
 
@@ -75,6 +76,10 @@ def main() -> int:
         return r.returncode
     finally:
         runner.unlink(missing_ok=True)
+
+
+def test_python_and_js_formatters_agree():
+    assert main() == 0
 
 
 if __name__ == "__main__":

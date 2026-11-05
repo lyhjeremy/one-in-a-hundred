@@ -1,0 +1,3 @@
+# The format check is standard library Python plus Node, which the
+# GitHub runner already has (python -m pytest -q pipeline/test_format.py).
+pytest>=8.0

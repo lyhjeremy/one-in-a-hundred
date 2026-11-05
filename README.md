@@ -1,6 +1,8 @@
 # One in a Hundred
 
-What it takes to be in the top 1% (or top 10%, or the median) of a group: income, wealth, height, weight, BMI, age, life expectancy, marathon times and a growing set of researched measures.
+Claims like "earning $30,000 a year puts you in the global top 1%" are easy to repeat and hard to check. This site shows what it takes to be in the top 1% (or top 10%, or the median) of a group: income, wealth, height, weight, BMI, age, life expectancy, marathon times and a growing set of researched measures.
+
+Result: $30,000 is the 75th percentile of world pre-tax income per adult (WID) and the 94th under the most generous definition; the top 1% starts near $220,000. 950 sourced, graded facts sit behind the site, and the parser that reads typed questions gets 181 of 200 frozen test questions exactly right (90.5%).
 
 [Live site](https://lyhjeremy.github.io/one-in-a-hundred/) · [Overview](https://lyhjeremy.github.io/one-in-a-hundred/overview/) · [Write-up](writeup.md) · [Sources](https://lyhjeremy.github.io/one-in-a-hundred/sources/)
 

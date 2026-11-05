@@ -108,6 +108,19 @@
   footer { border-top: 1px solid var(--rule); margin-top: 60px; padding: 22px 0 60px; font-size: 14.5px; color: var(--ink-2); }
   footer a { color: var(--ink-2); }
   @media (max-width: 560px) { body { font-size: 16.5px; } .lede { font-size: 17.5px; } }
+  /* At a glance, laid out like one of the site's own fact pages: a sentence, a grade, the evidence rows. */
+  .glance { margin-top: 18px; border: 1px solid var(--edge); background: var(--panel); }
+  .glance-top { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 14px; align-items: start; padding: 14px 16px 12px; border-bottom: 1px solid var(--rule); }
+  .glance h2 { font: 600 12px/1.4 var(--mono); text-transform: uppercase; letter-spacing: .12em; color: var(--ink-2); margin: 0 0 6px; max-width: none; }
+  .glance-say { font: 600 clamp(20px, 2.4vw, 25px)/1.25 var(--display); color: var(--ink); margin: 0; max-width: 44ch; }
+  .glance-grade { font: 600 13px/1.3 var(--mono); color: var(--ink); border: 1.5px solid var(--signal-2); padding: 6px 9px; text-align: center; }
+  .glance-grade b { display: block; font-size: 24px; color: var(--signal-2); }
+  .glance dl { margin: 0; }
+  .glance dl div { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr); gap: 4px 14px; padding: 8px 16px; border-bottom: 1px solid var(--rule); }
+  .glance dl div:last-child { border-bottom: 0; }
+  .glance dt { font: 600 11.5px/1.6 var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-2); }
+  .glance dd { margin: 0; font-size: 15.5px; color: var(--ink); }
+  @media (max-width: 600px) { .glance dl div { grid-template-columns: 1fr; } .glance-top { grid-template-columns: 1fr; } .glance-grade { justify-self: start; } }
 </style></head>
 <body><div class="wrap">
 <header class="masthead"><a class="logo" href="../">One in a Hundred</a><span class="tagline">How it works · v0.3.1 · 2026-10-15</span></header>
@@ -131,6 +144,22 @@
     <div><span class="n">103</span><span>facts with history</span></div>
     <div><span class="n">90.5%</span><span>parser accuracy, 200 questions</span></div>
   </div>
+  <section class="glance" aria-labelledby="glance-h">
+    <div class="glance-top">
+      <div>
+        <h2 id="glance-h">At a glance</h2>
+        <p class="glance-say">Asked in words, the rules parser read 181 of 200 frozen test questions exactly right (90.5%).</p>
+      </div>
+      <div class="glance-grade"><b>60%</b>own-number questions</div>
+    </div>
+    <dl>
+      <div><dt>Task</dt><dd>Say what it takes to reach the median, top 10% or top 1% of a chosen group, with the sources and a grade for how far they agree.</dd></div>
+      <div><dt>Data</dt><dd>950 facts for 20 countries and the world from 72 sources; 3 grade A, 906 grade B, 41 grade D (researched, not yet reviewed).</dd></div>
+      <div><dt>Method</dt><dd>One fetcher per source into one row shape, grades set by fixed rules, and a rules parser in the browser for typed questions.</dd></div>
+      <div><dt>Check</dt><dd>A frozen 200-question gold set (sha1 0b1dd183b3f8); a question counts only if every field matches. Questions that include the asker's own number score 12 of 20; 3 of 40 out-of-scope questions got an invented catalog id. Latency is 1 ms at p95. The LLM parser has not been scored: its Worker is not deployed.</dd></div>
+      <div><dt>Main limit</dt><dd>The rules were adjusted after seeing failures on this set, so 90.5% is optimistic by an unknown amount. Nearly every fact rests on one source.</dd></div>
+    </dl>
+  </section>
 </div>
 
 <main>

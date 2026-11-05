@@ -63,6 +63,8 @@ Each fact is one distribution: a measure, a group, a reference year, a grid of p
 ## Rebuild
 
 ```bash
+git clone https://github.com/lyhjeremy/one-in-a-hundred && cd one-in-a-hundred
+python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 # downloads (about 2 GB, git-ignored): URL lists at the top of each pipeline/fetch/*.py
 python3 pipeline/build_facts.py && python3 pipeline/render_cards.py && python3 pipeline/build_site.py
@@ -70,6 +72,8 @@ python3 pipeline/build_catalogue.py && python3 pipeline/test_format.py && python
 python3 pipeline/research_queue.py --from-file pipeline/seeds/popular_questions.jsonl   # needs the claude CLI
 python3 pipeline/review.py
 ```
+
+`build_facts.py` stops with a missing-file error until the raw downloads are in `pipeline/raw/`. The Kaggle marathon set is optional and needs a Kaggle account token. Everything after it runs from the committed `data/facts/`, so without the downloads you can still run `render_cards.py`, `build_site.py`, `build_catalogue.py`, `test_format.py` and `eval/eval_parser.py`. The Worker needs a Cloudflare account.
 
 ## Grades
 

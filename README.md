@@ -56,7 +56,7 @@ The main failures: near-ties between neighboring measures ("wealthy" goes to inc
 
 One local edit to the vendored library: GitHub push protection read the class name string `"Mistral3ForConditionalGeneration"` in `assets/ai/vendor/transformers.min.js` as a Mistral API key, so that literal is written as two concatenated halves. The value is identical.
 
-Run it: `python3 eval/semantic/eval_semantic.py` (Playwright), then `python eval/semantic/parity.py` in a venv with sentence-transformers. Tests: `python -m pytest -q pipeline/test_format.py pipeline/test_semantic.py`.
+Run it: `python3 eval/semantic/eval_semantic.py` (Playwright), `python3 eval/semantic/dev_outputs.py` for per-question dev outputs (`dev_outputs.jsonl`, `dev_diff.json`: the hybrid gets 8 dev questions right that the rules miss and none wrong that they get right), then `python eval/semantic/parity.py` in a venv with sentence-transformers. Tests: `python -m pytest -q pipeline/test_format.py pipeline/test_semantic.py`.
 
 ## How facts are made
 

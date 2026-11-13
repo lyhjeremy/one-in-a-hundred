@@ -225,8 +225,8 @@
     <a href="https://github.com/lyhjeremy/one-in-a-hundred/blob/main/eval/semantic/results.md">eval/semantic/results.md</a>.
   </p>
   <p>
-    Cost: 53.1 MB on first use (22.9 MB model, 28.4 MB WebAssembly runtime, 0.6 MB library,
-    0.4 MB phrase index), cached afterwards; 0.5 s cold load from a local server; 4.9 ms per question at p50 and 8.2 ms at p95
+    Cost: 53.1 MB on first use (23.0 MB model, 0.7 MB tokenizer and config, 28.4 MB WebAssembly runtime,
+    0.6 MB library, 0.4 MB phrase index), cached afterwards; 0.5 s cold load from a local server; 4.9 ms per question at p50 and 8.2 ms at p95
     on WASM in headless Chromium on an Apple M4 (n=199). WebGPU found an Apple Metal adapter, but
     the bundled onnxruntime build failed to start it ("webgpuInit is not a function"), so WASM is
     the only measured path. The browser's vectors match sentence-transformers in Python at cosine
@@ -264,7 +264,9 @@
     life expectancy (0.68) and hours worked (0.82). "how many hours does the average Korean work
     in a year" shows the override: the rules hit "a year" and answered income; the model said
     hours worked at 0.82. Those are 3 of the 8 dev questions the hybrid gets right and the rules
-    miss; it gets none wrong that the rules get right on dev.
+    miss; it gets none wrong that the rules get right on dev
+    (<a href="https://github.com/lyhjeremy/one-in-a-hundred/blob/main/eval/semantic/dev_diff.json">eval/semantic/dev_diff.json</a>,
+    per question in <code>dev_outputs.jsonl</code>).
   </p>
 
   <h3>Where it goes wrong, from the frozen set</h3>

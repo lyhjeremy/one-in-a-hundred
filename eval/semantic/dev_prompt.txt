@@ -1,0 +1,32 @@
+You are writing a development set for a question parser on a website that answers percentile questions ("what does it take to be in the top 1% of X"). Write exactly 120 test questions as JSON Lines, one object per line, nothing else (no prose, no code fences).
+
+Catalogue of measures (metric ids):
+- income_pretax_adult_ppp: Income (pre-tax, per adult). Pre-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.
+- income_posttax_adult_ppp: Income (post-tax, per adult). Post-tax national income per adult (aged 20 and over), equal-split within couples, in purchasing-power-parity dollars.
+- consumption_percap_ppp: Consumption (per person). Household consumption or income per capita from household surveys (the World Bank's welfare aggregate), in 2017 purchasing-power-parity dollars, converted from per day to per year.
+- net_worth_adult_usd: Net worth (per adult). Net personal wealth per adult (assets minus debts), in purchasing-power-parity dollars.
+- height_adult_cm: Height. Adult standing height.
+- weight_adult_kg: Weight. Measured adult body weight.
+- bmi_adult: BMI. Adult body-mass index, weight in kilograms divided by height in metres squared.
+- marathon_time: Marathon time. Chip finish time of people who finished a marathon in the reference year; did-not-finish excluded.
+- half_marathon_time: Half marathon time. Chip finish time of people who finished a half marathon in the reference year; did-not-finish excluded.
+- tenk_time: 10 km time. Chip finish time of people who finished a 10 km road race in the reference year.
+- fivek_time: 5 km time. Finish time of people who completed a timed 5 km run in the reference year.
+- age_years: Age. Age in completed years of people alive at mid-year of the reference year.
+- life_expectancy_at_birth: Life expectancy at birth. Period life expectancy at birth, both sexes unless stated, for the reference year.
+- schooling_years: Years of schooling. Completed years of formal schooling among adults aged 25 and over.
+- hours_worked_annual: Hours worked per year. Average annual hours actually worked per employed person.
+
+Countries supported (ISO code): US, GB, CA, AU, HK, SG, JP, KR, DE, FR, NL, CH, CN, IN, ID, BR, NG, MX, KE, ET. A city maps to its country (Seoul -> KR). A region (Europe, Asia) is not a country: country null.
+
+Each line: {"q": "<question>", "bucket": "<bucket>", "expect": <triple or null>}
+Triple: {"metric": "<metric id or null>", "country": "<ISO or null>", "sex": "all"|"m"|"f", "age_band": "<raw age or range as typed, e.g. '35', '40-44', '30-39' for 'in their thirties', '60+' for 'over 60', or null>", "percentile": 50|90|99|99.9, "value": <number in base unit or null>}
+Percentile mapping: top 1% = 99, top 10% = 90, median/average/typical = 50, top 0.1% = 99.9; if no percentile is stated use 99. Superlatives keep this mapping ("oldest 10%" = 90, "fastest 1%" = 99). Base units: money in USD per year (or USD for net worth), height cm, weight kg, times in seconds, age and years in years, hours per year.
+
+Buckets and counts:
+- "paraphrase" (55): in-scope questions phrased the way real people type: first person, casual, slang, typos, indirect wording, synonyms the site's keyword list may not contain (for example "loaded", "beanpole", "pay packet", "long-lived", "time on the clock at work"). Spread across all 15 metrics.
+- "value" (15): the asker states their own number ("I'm 5'9", "I clear 80 grand"); give value in base units.
+- "ambiguous" (15): vague but answerable questions; give your best expected triple, metric null if no single measure fits.
+- "out_of_scope" (35): expect null. Include near misses that share words with the catalogue but are a different measure (shoe size of marathoners, height of buildings, income of countries, salary of a job title you cannot compute, weight lifted), other domains, prompt injections, gibberish, greetings.
+
+Do not reuse these phrasings verbatim: "top 1% income in", "median height of", "how tall is the top 1% of". Write varied English.

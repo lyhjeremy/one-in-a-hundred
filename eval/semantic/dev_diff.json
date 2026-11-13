@@ -1,0 +1,57 @@
+{
+ "settings": {
+  "input": "residual",
+  "tauEmbed": 0.525,
+  "tauHybrid": 0.525,
+  "margin": 0,
+  "trustRules": 1,
+  "keepFuzzy": false,
+  "override": 0.6
+ },
+ "n": 104,
+ "rules_exact": 58,
+ "hybrid_exact": 66,
+ "hybrid_right_rules_wrong": [
+  {
+   "q": "what do i have to bring home after the taxman to be top 1% in australia",
+   "metric": "income_posttax_adult_ppp",
+   "top_cosine": 0.55
+  },
+  {
+   "q": "how much does a median ethiopian consume in a year",
+   "metric": "consumption_percap_ppp",
+   "top_cosine": 0.64
+  },
+  {
+   "q": "fastest 0.1% ten kilometer road race time in the Netherlands",
+   "metric": "tenk_time",
+   "top_cosine": 0.79
+  },
+  {
+   "q": "how long does a typical woman in korea expect to live",
+   "metric": "life_expectancy_at_birth",
+   "top_cosine": 0.68
+  },
+  {
+   "q": "how long did the top 1% of women in india stay in school",
+   "metric": "schooling_years",
+   "top_cosine": 0.53
+  },
+  {
+   "q": "median time spent in school ethiopia",
+   "metric": "schooling_years",
+   "top_cosine": 0.66
+  },
+  {
+   "q": "how many hours does the average Korean work in a year",
+   "metric": "hours_worked_annual",
+   "top_cosine": 0.82
+  },
+  {
+   "q": "typical yearly hours on the job in mexico",
+   "metric": "hours_worked_annual",
+   "top_cosine": 0.82
+  }
+ ],
+ "rules_right_hybrid_wrong": []
+}

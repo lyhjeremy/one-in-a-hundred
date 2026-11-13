@@ -54,6 +54,8 @@ Cost: 53.1 MB on first use, then cached; 0.5 s cold load from a local server; 4.
 
 The main failures: near-ties between neighboring measures ("wealthy" goes to income instead of net worth, "oldest 1% alive" to life expectancy), and a design error where the text given to the model has already lost the words that name the measure ("tallest 10 percent", "190 cm"). Fixing the second now would mean tuning on the frozen set, so it waits for a new one.
 
+One local edit to the vendored library: GitHub push protection read the class name string `"Mistral3ForConditionalGeneration"` in `assets/ai/vendor/transformers.min.js` as a Mistral API key, so that literal is written as two concatenated halves. The value is identical.
+
 Run it: `python3 eval/semantic/eval_semantic.py` (Playwright), then `python eval/semantic/parity.py` in a venv with sentence-transformers. Tests: `python -m pytest -q pipeline/test_format.py pipeline/test_semantic.py`.
 
 ## How facts are made

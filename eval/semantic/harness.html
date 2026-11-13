@@ -1,0 +1,43 @@
+<!doctype html><meta charset="utf-8"><title>semantic parser harness</title>
+<p id="status">loading</p>
+<script type="module">
+// Eval harness: runs the shipped parser-semantic.js in a real browser.
+// Driven by eval/semantic/eval_semantic.py through Playwright.
+import { parseRules } from "../../parser-rules.js";
+import { loadModel, loadIndex, rankMetrics, embedText, combine, DEFAULTS } from "../../parser-semantic.js";
+const base = new URL("../../", location.href).href;
+const device = new URLSearchParams(location.search).get("device") || "wasm";
+const M = await (await fetch(base + "data/metrics.json")).json();
+const allow = new Set(Object.keys(M.metrics));
+let cache = null;
+window.setup = async () => {
+  const t0 = performance.now();
+  const model = await loadModel({ base, device });
+  const index = await loadIndex(base);
+  return { loadMs: performance.now() - t0, device: model.device };
+};
+window.embedRaw = async (texts) => { const m = await loadModel({ base, device }); return m.embed(texts); };
+window.embedAll = async (qs) => {
+  const model = await loadModel({ base, device }); const index = await loadIndex(base);
+  cache = [];
+  for (const q of qs) {
+    const rules = parseRules(q, M);
+    const row = { rules, ranked: {}, ms: {} };
+    for (const input of ["residual", "full"]) {
+      const text = embedText(q, rules, { ...DEFAULTS, input });
+      if (!text) { row.ranked[input] = []; row.ms[input] = 0; continue; }
+      const t0 = performance.now();
+      const [v] = await model.embed([text]);
+      row.ms[input] = performance.now() - t0;
+      row.ranked[input] = rankMetrics(index, v, allow).slice(0, 5);
+    }
+    cache.push(row);
+  }
+  return cache.map((r) => ({ ms: r.ms, top: Object.fromEntries(Object.entries(r.ranked).map(([k, v]) => [k, v.slice(0, 3)])) }));
+};
+window.combineAll = (mode, cfg) => cache.map((r) => {
+  if (mode === "rules") return r.rules;
+  return combine(r.rules, r.ranked[cfg.input], M, mode, cfg);
+});
+document.getElementById("status").textContent = "ready";
+</script>

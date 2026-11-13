@@ -53,8 +53,14 @@
       <form id="ask-form">
         <div class="ctl"><span id="q-l">Your question</span><textarea id="q" rows="3" maxlength="300" aria-labelledby="q-l" placeholder="how tall is the top 1% of Dutch men"></textarea></div>
         <button class="btn btn-primary" type="submit">Ask</button>
-        <p id="ask-note" class="pane-note"></p>
+        <p id="ask-note" class="pane-note" aria-live="polite"></p>
       </form>
+      <div class="sem" id="sem">
+        <p class="pane-note" id="sem-note">Questions are read by keyword rules. An optional model (MiniLM, 53 MB once, then cached) runs in this browser and matches wording the rules miss. Either way, nothing you type leaves the page.</p>
+        <button class="btn" type="button" id="sem-load">Load the in-browser model (53 MB)</button>
+        <label class="sem-use" id="sem-use-l" hidden><input type="checkbox" id="sem-use" checked> Use the model for questions</label>
+        <div class="skeleton sem-sk" id="sem-sk" hidden aria-hidden="true"></div>
+      </div>
       <p class="pane-note">Try one:</p>
       <ul class="examples" id="examples">
         <li><button type="button">how fast is top 1% of all marathoners</button></li>

@@ -4,7 +4,9 @@
 
 Claims like "earning $30,000 a year puts you in the global top 1%" are easy to repeat and hard to check. This site shows what it takes to be in the top 1% (or top 10%, or the median) of a group: income, wealth, height, weight, BMI, age, life expectancy, marathon times and a growing set of researched measures.
 
-Result: $30,000 is the 75th percentile of world pre-tax income per adult (WID) and the 94th under the most generous definition; the top 1% starts near $220,000. 950 sourced, graded facts sit behind the site, and the parser that reads typed questions gets 181 of 200 frozen test questions exactly right (90.5%).
+Result: $30,000 is the 75th percentile of world pre-tax income per adult (WID) and the 94th under the most generous definition; the top 1% starts near $220,000. 950 sourced, graded facts sit behind the site, and the rules parser that reads typed questions gets 181 of 200 frozen test questions exactly right (90.5%). An optional embedding model that runs in the browser (MiniLM via transformers.js, self-hosted, 53 MB) lifts a fresh 104-question dev set from 58 to 66 exact, and costs 9 questions on the frozen set (172/200).
+
+![Demo: asked "how much does a median ethiopian consume in a year", the keyword rules answer with pre-tax income ($6,300); after the in-browser model loads, the same question is matched to consumption per person and the answer becomes $1,300](assets/demo.gif)
 
 [Live site](https://lyhjeremy.github.io/one-in-a-hundred/) · [Overview](https://lyhjeremy.github.io/one-in-a-hundred/overview/) · [Write-up](writeup.md) · [Sources](https://lyhjeremy.github.io/one-in-a-hundred/sources/)
 
@@ -29,12 +31,30 @@ The left rail has five modes; the answer sits in the middle and the evidence on 
 | Mode | What it does |
 |---|---|
 | Explore | One grouped select for the measure; group selects that appear only when they offer a choice; Median, Top 10%, Top 1%. The chain above the sentence shows how the group was narrowed and lets you undo any step. |
-| Ask | Type the question. A rules parser in the browser turns it into measure, group and percentile; the LLM parser will take over once the Worker is deployed. |
+| Ask | Type the question. A rules parser in the browser turns it into measure, group and percentile. An optional in-browser model (loaded on a click, 53 MB once) picks the measure when the rules find none. The LLM parser would take over once the Worker is deployed. |
 | Where do I land | Your own number, placed on the curve and kept in a profile across measures (browser storage only). |
 | Compare | A second group on the same curve, dashed, with a one-line comparison. |
 | Surprise me | A random A or B grade fact, whole populations first. |
 
 The curve under every sentence is the full published distribution (value against share of the group at or below it); money is on a log scale. Where the source has history (WID from 1980, NCD-RisC cohorts from 1989), a second chart shows the chosen threshold over time in constant purchasing-power terms.
+
+## In-browser semantic parser (v0.4)
+
+The rules parser only knows its keyword list. `parser-semantic.js` adds MiniLM (all-MiniLM-L6-v2, q8 ONNX) running in the browser through transformers.js 4.3.2, with the library, the WebAssembly runtime and the model all served from `assets/ai/` (`env.allowRemoteModels = false`). `pipeline/build_semantic_index.py` embeds every measure's catalog phrasings with sentence-transformers and stores them as int8 in `data/semantic_index.json` (736 phrasings, 425 KB). In the browser the question is stripped of its country, sex, age, percentile and number by the rules, embedded, and matched to the nearest measure. The hybrid keeps a rules phrasing hit unless the model names another measure at cosine 0.6 or more, uses the model when the rules find nothing and the cosine clears 0.525, and abstains otherwise.
+
+| Parser | Frozen 200 | Dev 104 | Out-of-scope ids returned (frozen) |
+|---|---|---|---|
+| Rules | 181 (90.5%) | 58 (55.8%) | 3/40 |
+| Embeddings alone | 166 (83.0%) | 69 (66.3%) | 3/40 |
+| Hybrid (shipped, opt-in) | 172 (86.0%) | 66 (63.5%) | 3/40 |
+
+The thresholds were picked on the dev split (`eval/semantic/dev.jsonl`, 104 questions written and labeled by Claude Sonnet, frozen in commit a22df0d, filtered against overlap with the gold set). The gold set (frozen in b31ff53) was scored twice: once before an override option was added on the strength of a dev result (hybrid 180/200) and once after (172/200); `eval/semantic/results.md` gives both. The hybrid abstains on 25.0% of the frozen set, mostly the 40 out-of-scope questions; it wrongly abstains on 7 of 152 in-scope ones.
+
+Cost: 53.1 MB on first use, then cached; 0.5 s cold load from a local server; 4.9 ms per question at p50 and 8.2 ms at p95 on WASM in headless Chromium on an Apple M4. WebGPU found an adapter but the bundled onnxruntime build failed to initialise it, so it is not measured. Browser vectors agree with sentence-transformers at cosine 0.982 or better (n=40, `eval/semantic/parity.json`). Playwright saw no request outside the site's origin.
+
+The main failures: near-ties between neighboring measures ("wealthy" goes to income instead of net worth, "oldest 1% alive" to life expectancy), and a design error where the text given to the model has already lost the words that name the measure ("tallest 10 percent", "190 cm"). Fixing the second now would mean tuning on the frozen set, so it waits for a new one.
+
+Run it: `python3 eval/semantic/eval_semantic.py` (Playwright), then `python eval/semantic/parity.py` in a venv with sentence-transformers. Tests: `python -m pytest -q pipeline/test_format.py pipeline/test_semantic.py`.
 
 ## How facts are made
 

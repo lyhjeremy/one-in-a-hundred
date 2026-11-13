@@ -113,6 +113,9 @@ export function parseRules(question, M) {
     else if ((m = rest.match(/\b(\d{2,3}(?:\.\d+)?)\s*(kg|kilos?|kilograms?)\b/))) { out.value = parseFloat(m[1]); out.notes.push("value: kg"); rest = rest.replace(m[0], " "); }
     else if ((m = rest.match(/\b(\d{2,3}(?:\.\d+)?)\s*(lb|lbs|pounds?)\b/))) { out.value = Math.round(parseFloat(m[1]) / 2.20462 * 10) / 10; out.notes.push("value: lb"); rest = rest.replace(m[0], " "); }
 
+    // What is left once the slots are removed; the semantic parser embeds this.
+    out.residual = rest.replace(/\s+/g, " ").trim();
+
     // Metric: phrasing hits, then fuzzy on the leftover words.
     let best = null, bestScore = 0;
     for (const [id, md] of Object.entries(M.metrics)) {
@@ -125,6 +128,7 @@ export function parseRules(question, M) {
       if (!score) for (const p of md.phrasings) score = Math.max(score, dice(rest.trim(), p) * 0.9);
       if (score > bestScore) { bestScore = score; best = id; }
     }
+    out.metric_score = Math.round(bestScore * 1000) / 1000;
     if (best && bestScore >= 0.5) {
       out.metric = best;
       if (bestScore < 1) { out.confidence = "low"; out.notes.push("metric matched fuzzily"); }

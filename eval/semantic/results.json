@@ -1,0 +1,271 @@
+{
+ "date": "2026-11-13",
+ "gold_sha1": "0b1dd183b3f8",
+ "gold_frozen_commit": "b31ff53",
+ "dev_sha1": "2d39248d0114",
+ "dev_n": 104,
+ "machine": "Apple M4, Darwin 25.5.0",
+ "browser": "Chromium 147.0.7727.15 (Playwright, new headless)",
+ "cold_load_ms_localhost": 498,
+ "download_bytes": 53108234,
+ "download_files": {
+  "/assets/ai/vendor/transformers.min.js": 587917,
+  "/assets/ai/models/all-MiniLM-L6-v2/config.json": 650,
+  "/assets/ai/models/all-MiniLM-L6-v2/tokenizer_config.json": 366,
+  "/assets/ai/models/all-MiniLM-L6-v2/tokenizer.json": 711661,
+  "/assets/ai/models/all-MiniLM-L6-v2/onnx/model_quantized.onnx": 22972370,
+  "/assets/ai/vendor/ort-wasm-simd-threaded.jsep.wasm": 28352885,
+  "/assets/ai/vendor/ort-wasm-simd-threaded.jsep.mjs": 46851,
+  "/data/semantic_index.json": 435534
+ },
+ "dev": {
+  "rules": {
+   "exact": 58,
+   "n": 104,
+   "acc": 0.5577,
+   "buckets": {
+    "paraphrase": [
+     30,
+     50
+    ],
+    "value": [
+     4,
+     15
+    ],
+    "ambiguous": [
+     8,
+     11
+    ],
+    "out_of_scope": [
+     16,
+     28
+    ]
+   },
+   "hallucinated_oos": [
+    12,
+    28
+   ],
+   "abstain_rate": 0.3365,
+   "abstained": 35,
+   "false_abstain_in_scope": [
+    15,
+    72
+   ]
+  },
+  "embed": {
+   "exact": 69,
+   "n": 104,
+   "acc": 0.6635,
+   "buckets": {
+    "paraphrase": [
+     39,
+     50
+    ],
+    "value": [
+     3,
+     15
+    ],
+    "ambiguous": [
+     8,
+     11
+    ],
+    "out_of_scope": [
+     19,
+     28
+    ]
+   },
+   "hallucinated_oos": [
+    9,
+    28
+   ],
+   "abstain_rate": 0.2981,
+   "abstained": 31,
+   "false_abstain_in_scope": [
+    8,
+    72
+   ]
+  },
+  "hybrid": {
+   "exact": 66,
+   "n": 104,
+   "acc": 0.6346,
+   "buckets": {
+    "paraphrase": [
+     38,
+     50
+    ],
+    "value": [
+     4,
+     15
+    ],
+    "ambiguous": [
+     8,
+     11
+    ],
+    "out_of_scope": [
+     16,
+     28
+    ]
+   },
+   "hallucinated_oos": [
+    12,
+    28
+   ],
+   "abstain_rate": 0.25,
+   "abstained": 26,
+   "false_abstain_in_scope": [
+    6,
+    72
+   ]
+  },
+  "chosen_hybrid": {
+   "input": "residual",
+   "tauEmbed": 0.525,
+   "tauHybrid": 0.525,
+   "margin": 0,
+   "trustRules": 1,
+   "keepFuzzy": false,
+   "override": 0.6
+  },
+  "chosen_embed": {
+   "input": "residual",
+   "tauEmbed": 0.525,
+   "tauHybrid": 0.525,
+   "margin": 0,
+   "trustRules": 1,
+   "keepFuzzy": false,
+   "override": 0
+  },
+  "grid_size": 1224
+ },
+ "gold": {
+  "rules": {
+   "exact": 181,
+   "n": 200,
+   "acc": 0.905,
+   "buckets": {
+    "canonical": [
+     76,
+     80
+    ],
+    "paraphrase": [
+     37,
+     40
+    ],
+    "value": [
+     12,
+     20
+    ],
+    "ambiguous": [
+     19,
+     20
+    ],
+    "out_of_scope": [
+     37,
+     40
+    ]
+   },
+   "hallucinated_oos": [
+    3,
+    40
+   ],
+   "abstain_rate": 0.265,
+   "abstained": 53,
+   "false_abstain_in_scope": [
+    8,
+    152
+   ]
+  },
+  "embed": {
+   "exact": 166,
+   "n": 200,
+   "acc": 0.83,
+   "buckets": {
+    "canonical": [
+     70,
+     80
+    ],
+    "paraphrase": [
+     33,
+     40
+    ],
+    "value": [
+     11,
+     20
+    ],
+    "ambiguous": [
+     15,
+     20
+    ],
+    "out_of_scope": [
+     37,
+     40
+    ]
+   },
+   "hallucinated_oos": [
+    3,
+    40
+   ],
+   "abstain_rate": 0.275,
+   "abstained": 55,
+   "false_abstain_in_scope": [
+    12,
+    152
+   ]
+  },
+  "hybrid": {
+   "exact": 172,
+   "n": 200,
+   "acc": 0.86,
+   "buckets": {
+    "canonical": [
+     73,
+     80
+    ],
+    "paraphrase": [
+     34,
+     40
+    ],
+    "value": [
+     12,
+     20
+    ],
+    "ambiguous": [
+     16,
+     20
+    ],
+    "out_of_scope": [
+     37,
+     40
+    ]
+   },
+   "hallucinated_oos": [
+    3,
+    40
+   ],
+   "abstain_rate": 0.25,
+   "abstained": 50,
+   "false_abstain_in_scope": [
+    7,
+    152
+   ]
+  }
+ },
+ "latency_wasm": {
+  "n": 199,
+  "p50_ms": 4.9,
+  "p95_ms": 8.2,
+  "max_ms": 9.8
+ },
+ "hybrid_embedding_calls": 61,
+ "hybrid_embedding_answers": 11,
+ "origins_seen": {
+  "http://127.0.0.1:8850": 13,
+  "blob://": 1
+ },
+ "webgpu_adapter": true,
+ "latency_webgpu": {
+  "error": "Page.evaluate: Error: no available backend found. ERR: [webgpu] TypeError: je(...).webgpuInit is not a function\n    at yT (http://127.0.0.1:8850/assets/ai/vendor/transformers.min.js:11:31033)\n    at a"
+ },
+ "third_party_origins": {}
+}

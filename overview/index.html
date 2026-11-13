@@ -121,9 +121,35 @@
   .glance dt { font: 600 11.5px/1.6 var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-2); }
   .glance dd { margin: 0; font-size: 15.5px; color: var(--ink); }
   @media (max-width: 600px) { .glance dl div { grid-template-columns: 1fr; } .glance-top { grid-template-columns: 1fr; } .glance-grade { justify-self: start; } }
+
+  /* In-browser semantic parser section (2026-11-13) */
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .sem-demo .row { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 14px 12px; }
+  .sem-demo input[type=text] { flex: 1 1 260px; min-width: 0; font: 400 15px/1.3 var(--mono); padding: 8px 10px; border: 1px solid var(--edge); background: var(--paper); color: var(--ink); }
+  .sem-demo button { font: 600 13px/1 var(--mono); padding: 9px 12px; border: 1px solid var(--edge); background: var(--paper); color: var(--ink); cursor: pointer; }
+  .sem-demo button.primary { background: var(--signal); color: var(--paper); border-color: var(--signal); }
+  .sem-demo button:disabled { color: var(--ink-2); cursor: default; }
+  .sem-demo .ex { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 14px 12px; }
+  .sem-demo .ex button { font-weight: 400; font-size: 12.5px; }
+  .sem-sk { height: 7.5em; margin: 0 14px 12px; background: var(--rule); }
+  @media (prefers-reduced-motion: no-preference) { .sem-sk { animation: semsk 1.6s ease-in-out infinite; } }
+  @keyframes semsk { 0%, 100% { opacity: 1 } 50% { opacity: .55 } }
+  .sem-out { border-top: 1px solid var(--rule); padding: 10px 14px 12px; font-size: 14.5px; }
+  .sem-out p { margin: 0 0 8px; max-width: none; }
+  .sem-out .who { font: 600 12px/1.4 var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-2); }
+  .bars { display: grid; grid-template-columns: minmax(0, 13rem) minmax(0, 1fr) 3.2rem; gap: 4px 10px; align-items: center; font-size: 13.5px; margin: 6px 0 4px; }
+  .bars .bar { height: 10px; background: var(--rule); position: relative; }
+  .bars .bar span { position: absolute; left: 0; top: 0; bottom: 0; background: var(--signal-2); }
+  .bars .bar.on span { background: var(--signal); }
+  .bars .bar i { position: absolute; top: -3px; bottom: -3px; border-left: 2px solid var(--ink); }
+  .bars .v { font-family: var(--mono); text-align: right; }
+  .bars .lab { overflow-wrap: anywhere; }
+  .errs td { vertical-align: top; }
+  .errs td:first-child { font-family: var(--mono); font-size: 13.5px; }
+  @media (max-width: 600px) { .bars { grid-template-columns: minmax(0, 1fr) 3.2rem; } .bars .bar { grid-column: 1 / -1; order: 0; } }
 </style></head>
 <body><div class="wrap">
-<header class="masthead"><a class="logo" href="../">One in a Hundred</a><span class="tagline">How it works · v0.3.1 · 2026-10-15</span></header>
+<header class="masthead"><a class="logo" href="../">One in a Hundred</a><span class="tagline">How it works · v0.4 · 2026-11-13</span></header>
 
 <div class="hero">
   <p class="kicker">Percentile facts, graded</p>
@@ -142,27 +168,133 @@
     <div><span class="n">72</span><span>sources</span></div>
     <div><span class="n">3 / 906 / 41</span><span>grade A / B / D</span></div>
     <div><span class="n">103</span><span>facts with history</span></div>
-    <div><span class="n">90.5%</span><span>parser accuracy, 200 questions</span></div>
+    <div><span class="n">90.5%</span><span>rules parser, 200 frozen questions</span></div>
+    <div><span class="n">86.0%</span><span>rules plus in-browser model, same set</span></div>
   </div>
   <section class="glance" aria-labelledby="glance-h">
     <div class="glance-top">
       <div>
         <h2 id="glance-h">At a glance</h2>
-        <p class="glance-say">Asked in words, the rules parser read 181 of 200 frozen test questions exactly right (90.5%).</p>
+        <p class="glance-say">Asked in words, the rules parser read 181 of 200 frozen test questions exactly right (90.5%). Adding an in-browser embedding model lifted a fresh 104-question dev set from 58 to 66 and lowered the frozen set to 172.</p>
       </div>
       <div class="glance-grade"><b>60%</b>own-number questions</div>
     </div>
     <dl>
       <div><dt>Task</dt><dd>Say what it takes to reach the median, top 10% or top 1% of a chosen group, with the sources and a grade for how far they agree.</dd></div>
       <div><dt>Data</dt><dd>950 facts for 20 countries and the world from 72 sources; 3 grade A, 906 grade B, 41 grade D (researched, not yet reviewed).</dd></div>
-      <div><dt>Method</dt><dd>One fetcher per source into one row shape, grades set by fixed rules, and a rules parser in the browser for typed questions.</dd></div>
-      <div><dt>Check</dt><dd>A frozen 200-question gold set (sha1 0b1dd183b3f8); a question counts only if every field matches. Questions that include the asker's own number score 12 of 20; 3 of 40 out-of-scope questions got an invented catalog id. Latency is 1 ms at p95. The LLM parser has not been scored: its Worker is not deployed.</dd></div>
-      <div><dt>Main limit</dt><dd>The rules were adjusted after seeing failures on this set, so 90.5% is optimistic by an unknown amount. Nearly every fact rests on one source.</dd></div>
+      <div><dt>Method</dt><dd>One fetcher per source into one row shape, grades set by fixed rules, and a rules parser in the browser for typed questions. Optional: MiniLM (q8, transformers.js) embeds the question in the browser and picks the measure when the rules find none.</dd></div>
+      <div><dt>Check</dt><dd>A frozen 200-question gold set (sha1 0b1dd183b3f8); a question counts only if every field matches. Questions that include the asker's own number score 12 of 20; 3 of 40 out-of-scope questions got an invented catalog id. Rules latency is 1 ms at p95; the model adds 4.9 ms at p50 and 8.2 ms at p95 per question (WASM, Apple M4) after a 53 MB one-time download. The Groq LLM parser has never been scored: its Worker cannot be deployed.</dd></div>
+      <div><dt>Main limit</dt><dd>The rules were adjusted after seeing failures on this set, so 90.5% is optimistic by an unknown amount; on new wording they score 58 of 104. Both question sets were written and labeled by people or models who also built the parsers. Nearly every fact rests on one source.</dd></div>
     </dl>
   </section>
 </div>
 
 <main>
+<section class="sec" id="semantic">
+  <p class="label">In-browser model</p>
+  <h2>An embedding model in the browser helps on new wording and loses 9 questions on the frozen set</h2>
+  <p>
+    The rules parser only knows the words it was given. To catch "pay packet" or "put in at work",
+    the site can now load MiniLM (all-MiniLM-L6-v2, 8-bit ONNX) through transformers.js and run it
+    in the visitor's browser. Every measure's catalog phrasings were embedded at build time in
+    Python with the same model; the browser embeds the question with the country, sex, age,
+    percentile and number already removed, and takes the nearest measure. The rules still fill
+    every other field. In the hybrid, a rules phrasing hit stands unless the model names a
+    different measure at cosine 0.6 or more; when the rules find nothing, the model answers above
+    0.525 and abstains below it.
+  </p>
+  <p>
+    The thresholds came from a separate 104-question dev split, written and labeled by Claude
+    Sonnet and filtered so no question overlaps the frozen set. The frozen 200 were not used for
+    tuning. Exact match means every field is right.
+  </p>
+  <div class="table-scroll"><table>
+    <thead><tr><th>Parser</th><th class="num">Frozen 200</th><th class="num">Dev 104</th><th class="num">Dev paraphrase</th><th class="num">Out-of-scope ids (frozen)</th><th class="num">Wrong abstains (frozen)</th></tr></thead>
+    <tbody>
+      <tr><td>Rules (baseline)</td><td class="num">181 (90.5%)</td><td class="num">58 (55.8%)</td><td class="num">30/50</td><td class="num">3/40</td><td class="num">8/152</td></tr>
+      <tr><td>Embeddings alone</td><td class="num">166 (83.0%)</td><td class="num">69 (66.3%)</td><td class="num">39/50</td><td class="num">3/40</td><td class="num">12/152</td></tr>
+      <tr><td>Hybrid (shipped, opt-in)</td><td class="num">172 (86.0%)</td><td class="num">66 (63.5%)</td><td class="num">38/50</td><td class="num">3/40</td><td class="num">7/152</td></tr>
+    </tbody></table></div>
+  <p>
+    Read the two columns together. The rules were tuned on the frozen set, and they hold 90.5%
+    there; on wording nobody tuned them on they fall to 56%. The model wins on the new wording and
+    gives back 9 frozen questions. The hybrid abstains on 25.0% of the frozen set, most of them the
+    40 out-of-scope questions it should refuse. The gold set was scored twice; the first hybrid
+    (rules hit always kept) scored 180, and the change that cost 8 of those was chosen on the dev
+    split, before the second run. Both runs are in
+    <a href="https://github.com/lyhjeremy/one-in-a-hundred/blob/main/eval/semantic/results.md">eval/semantic/results.md</a>.
+  </p>
+  <p>
+    Cost: 53.1 MB on first use (22.9 MB model, 28.4 MB WebAssembly runtime, 0.6 MB library,
+    0.4 MB phrase index), cached afterwards; 0.5 s cold load from a local server; 4.9 ms per question at p50 and 8.2 ms at p95
+    on WASM in headless Chromium on an Apple M4 (n=199). WebGPU found an Apple Metal adapter, but
+    the bundled onnxruntime build failed to start it ("webgpuInit is not a function"), so WASM is
+    the only measured path. The browser's vectors match sentence-transformers in Python at cosine
+    0.982 or better on 40 sample texts. A Playwright run of the whole flow saw no request leave
+    the site's own origin.
+  </p>
+
+  <figure class="chart sem-demo" id="semdemo" style="margin-left:0;margin-right:0">
+    <div class="chart-head">
+      <p class="chart-title">Try it: rules and the model on the same question</p>
+      <p class="chart-sub" id="sem-status">The model is not loaded. Loading it downloads 53 MB from this site, once.</p>
+    </div>
+    <div class="row">
+      <button type="button" class="primary" id="sem-load">Load the model (53 MB)</button>
+    </div>
+    <div class="sem-sk" id="sem-sk" hidden aria-hidden="true"></div>
+    <form class="row" id="sem-form">
+      <label class="sr-only" for="sem-q">Question</label>
+      <input type="text" id="sem-q" maxlength="300" value="how long does a typical woman in korea expect to live" autocomplete="off">
+      <button type="submit" id="sem-go">Parse</button>
+    </form>
+    <div class="ex" id="sem-ex">
+      <button type="button">how many hours does the average Korean work in a year</button>
+      <button type="button">fastest 0.1% ten kilometer road race time in the Netherlands</button>
+      <button type="button">how wealthy is the richest 1% in France</button>
+      <button type="button">top 1% of marathon runners by shoe size</button>
+    </div>
+    <div class="sem-out" id="sem-out" aria-live="polite"></div>
+    <figcaption style="padding:0 14px 12px;font-size:13px;color:var(--ink-2)">Runs <code>parser-rules.js</code> and <code>parser-semantic.js</code> from the live site. The black tick on each bar is the 0.525 threshold; bars are the best cosine per measure. Before the model loads, only the rules column is filled.</figcaption>
+  </figure>
+
+  <p>
+    Where it helps, from the dev split: "how long does a typical woman in korea expect to live"
+    and "typical yearly hours on the job in mexico" match no rules phrasing, and the model finds
+    life expectancy (0.68) and hours worked (0.82). "how many hours does the average Korean work
+    in a year" shows the override: the rules hit "a year" and answered income; the model said
+    hours worked at 0.82. Those are 3 of the 8 dev questions the hybrid gets right and the rules
+    miss; it gets none wrong that the rules get right on dev.
+  </p>
+
+  <h3>Where it goes wrong, from the frozen set</h3>
+  <div class="table-scroll"><table class="errs">
+    <thead><tr><th>Question</th><th>Expected</th><th>Hybrid said</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td>how wealthy is the richest 1% in France</td><td>net worth</td><td>pre-tax income</td><td>The catalog phrasing "wealthy by income" (0.70) beat "wealthy" (0.66), and 0.70 cleared the override. Rules had it right.</td></tr>
+      <tr><td>how old is the oldest 1% of people alive</td><td>age</td><td>life expectancy</td><td>"how long do people live" scored 0.70 against 0.69 for age. Two measures about living long sit one hundredth apart.</td></tr>
+      <tr><td>income of the median adult in ethiopia</td><td>pre-tax income</td><td>post-tax income</td><td>The label "Income (post-tax, per adult)" is closer than the pre-tax label (0.80 against 0.75). The embedding cannot see that "income" with no qualifier defaults to pre-tax.</td></tr>
+      <tr><td>tallest 10 percent of japanese women</td><td>height</td><td>abstained</td><td>The percentile step removes "tallest 10 percent" before embedding, so the model sees "of japanese women" and nothing about height.</td></tr>
+      <tr><td>I'm 190 cm, how do I compare to Dutch men</td><td>height, 190</td><td>abstained</td><td>The same problem: "190 cm" is taken as the value, and the unit was the only clue to the measure.</td></tr>
+      <tr><td>top 1% of marathon runners by shoe size</td><td>out of scope</td><td>marathon time</td><td>Rules and model both lock on to "marathon". Neither can tell that the measure asked for is shoe size.</td></tr>
+    </tbody></table></div>
+  <p>
+    The first three are near-ties between neighboring measures, so a threshold cannot fix them and
+    a margin rule did not help on dev. The next two are a design error: the text handed to the
+    model drops the words that carry the measure. Fixing that now would mean tuning on failures
+    seen in the frozen set, so it waits for a fresh test set. Every output is in
+    <a href="https://github.com/lyhjeremy/one-in-a-hundred/blob/main/eval/semantic/gold_outputs.jsonl">gold_outputs.jsonl</a>.
+  </p>
+
+  <h3>What I would do next</h3>
+  <ul class="limits">
+    <li>Keep superlatives ("tallest", "oldest") and units ("cm", "$") in the text the model embeds, then score once on a new frozen set.</li>
+    <li>Have a person label the dev split: <a href="https://github.com/lyhjeremy/one-in-a-hundred/blob/main/eval/semantic/label_sheet_dev.csv">label_sheet_dev.csv</a> lists each question with the model-written label and blank columns for a person.</li>
+    <li>Add a short "measure words" list per catalog entry so "wealthy" points to net worth and bare "income" to pre-tax, and measure the near-tie errors again.</li>
+    <li>Try a WebGPU-capable onnxruntime build, and a smaller model, to cut the 53 MB download.</li>
+  </ul>
+</section>
+
 <section class="sec" id="income">
   <p class="label">The claim that started it</p>
   <h2>Three definitions of income, and $30k is the top 1% under none of them</h2>
@@ -336,8 +468,8 @@
       <tr><td>Out of scope (3 invented ids)</td><td class="num">92%</td></tr>
     </tbody></table></div>
   <p>
-    The parser was adjusted twice after seeing failures, so its score is optimistic by an
-    unknown amount. Details in <a href="https://github.com/lyhjeremy/one-in-a-hundred/blob/main/eval/results.md">eval/results.md</a>.
+    The rules parser was adjusted twice after seeing failures, so its score is optimistic by an
+    unknown amount. Section 01 measures the in-browser model against it on the same set and on new wording. Details in <a href="https://github.com/lyhjeremy/one-in-a-hundred/blob/main/eval/results.md">eval/results.md</a>.
   </p>
 </section>
 
@@ -353,6 +485,7 @@
     <li>History charts follow one definition, so a change of method inside the source shows up as an unexplained kink in the line.</li>
     <li>Group counts for age bands and categories are survey shares applied to UN totals.</li>
     <li>The LLM parser, live research and the request queue need a Cloudflare account and a Groq key before they run.</li>
+    <li>The in-browser model costs a 53 MB download and was tuned on 104 model-written questions; on the frozen set it is 4.5 points below the rules alone.</li>
   </ul>
 </section>
 
@@ -367,6 +500,54 @@
 <p>Chart values come from <span class="mono">data/facts/income.json</span>.</p></footer>
 </div>
 
+<script type="module">
+// In-browser semantic parser demo. Nothing loads until the button is pressed.
+import { parseRules } from "../parser-rules.js";
+const $ = (id) => document.getElementById(id);
+const M = await fetch("../data/metrics.json").then((r) => r.json());
+const extra = await fetch("../data/metrics_extra.json").then((r) => r.json()).catch(() => ({ metrics: {} }));
+for (const [id, d] of Object.entries(extra.metrics || {})) M.metrics[id] = { family: "more", ...d };
+let S = null;
+const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const label = (id) => (id && M.metrics[id] ? M.metrics[id].label : "no measure");
+function slots(p) {
+  const b = [];
+  if (p.population.country) b.push(p.population.country);
+  if (p.population.sex !== "all") b.push(p.population.sex === "m" ? "men" : "women");
+  if (p.population.age_band) b.push("age " + p.population.age_band);
+  b.push("p" + p.percentile);
+  if (p.value != null) b.push("value " + p.value);
+  return b.join(", ");
+}
+async function run(q) {
+  const r = parseRules(q, M);
+  let html = `<p><span class="who">Rules</span><br>${esc(label(r.metric))}${r.metric ? "" : " (abstains)"} · ${esc(slots(r))}</p>`;
+  if (S) {
+    const h = await S.parseSemantic(q, M, { base: "../" });
+    const tau = S.DEFAULTS.tauHybrid;
+    html += `<p><span class="who">Model input</span><br><code>${esc(h.embedded || "(nothing left after the slots)")}</code> · ${h.embedMs.toFixed(1)} ms</p>`;
+    html += '<div class="bars" role="list">' + (h.ranked || []).map((x, i) => `<span class="lab" role="listitem">${esc(label(x.metric))}<br><small>"${esc(x.text)}"</small></span><span class="bar${i === 0 && h.semantic && h.semantic.accepted ? " on" : ""}"><span style="width:${Math.max(0, x.score) * 100}%"></span><i style="left:${tau * 100}%"></i></span><span class="v">${x.score.toFixed(2)}</span>`).join("") + "</div>";
+    const why = h.parser === "rules" ? "kept the rules match" : h.abstained ? "abstained: best cosine below " + tau : "took the model's measure";
+    html += `<p><span class="who">Hybrid</span><br>${esc(label(h.metric))} · ${esc(slots(h))} · ${why}</p>`;
+  }
+  $("sem-out").innerHTML = html;
+}
+$("sem-load").addEventListener("click", async () => {
+  const b = $("sem-load"); b.disabled = true; $("sem-sk").hidden = false; $("sem-status").textContent = "Loading 53 MB from this site...";
+  try {
+    const mod = await import("../parser-semantic.js");
+    const t0 = performance.now();
+    await Promise.all([mod.loadModel({ base: "../" }), mod.loadIndex("../")]);
+    S = mod; b.hidden = true;
+    $("sem-status").textContent = `Model loaded in ${((performance.now() - t0) / 1000).toFixed(1)} s. It runs on this device.`;
+    run($("sem-q").value);
+  } catch (e) { b.disabled = false; $("sem-status").textContent = "The model did not load in this browser."; }
+  finally { $("sem-sk").hidden = true; }
+});
+$("sem-form").addEventListener("submit", (e) => { e.preventDefault(); run($("sem-q").value); });
+for (const b of $("sem-ex").querySelectorAll("button")) b.addEventListener("click", () => { $("sem-q").value = b.textContent; run(b.textContent); });
+run($("sem-q").value);
+</script>
 <script>
 (function () {
   "use strict";

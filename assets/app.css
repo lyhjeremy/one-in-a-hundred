@@ -14,7 +14,7 @@ body{font-size:16px}
 .tagline{margin:0;color:var(--ink-2);font-size:.9rem;flex:1}
 .masthead-links{display:flex;gap:var(--s2);font-size:.9rem}
 .masthead-links a{color:var(--ink-2)}
-.rail{grid-area:rail}
+.rail{grid-area:rail;min-width:0}
 .stage{grid-area:stage;min-width:0}
 .evidence{grid-area:evidence;font-size:.9rem;border-left:1px solid var(--rule);padding-left:var(--s3)}
 .foot{grid-area:foot;border-top:1px solid var(--rule);padding-top:var(--s2);font-size:.85rem;color:var(--ink-2)}
@@ -117,6 +117,12 @@ figcaption{font-size:.8rem;color:var(--ink-2);margin-top:6px;line-height:1.4}
 .share .btn{text-decoration:none}
 
 .skeleton{background:var(--rule);color:transparent;min-height:2.4em}
+.sem{margin:var(--s2) 0 0;padding:var(--s1) 0 0;border-top:1px solid var(--rule)}
+.sem .btn{margin-top:var(--s1)}
+.sem-use{display:flex;gap:var(--s1);align-items:center;justify-content:flex-start;font:400 .85rem/1.4 var(--font-body);text-transform:none;letter-spacing:0;color:var(--ink);margin-top:var(--s1)}
+.sem-use input{width:auto;margin:0;flex:0 0 auto;accent-color:var(--signal)}
+.sem-sk{height:3.2em;margin-top:var(--s1)}
+.sem-sk[hidden]{display:none}
 @media (prefers-reduced-motion:no-preference){.skeleton{animation:sk 1.6s ease-in-out infinite}}
 @keyframes sk{0%,100%{opacity:1}50%{opacity:.55}}
 
@@ -126,7 +132,7 @@ figcaption{font-size:.8rem;color:var(--ink-2);margin-top:6px;line-height:1.4}
   .evidence>*{break-inside:avoid}
 }
 @media (max-width:760px){
-  .sheet{grid-template-columns:1fr;grid-template-areas:"head" "rail" "stage" "evidence" "foot";padding:var(--s2) var(--s2) var(--s4)}
+  .sheet{grid-template-columns:minmax(0,1fr);grid-template-areas:"head" "rail" "stage" "evidence" "foot";padding:var(--s2) var(--s2) var(--s4)}
   .modes{flex-direction:row;overflow-x:auto;border-top:0;border-bottom:1px solid var(--rule)}
   .modes button{border-bottom:0;flex:0 0 auto;padding:8px 10px}
   .mode-hint{display:none}

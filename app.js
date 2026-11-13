@@ -411,6 +411,9 @@ async function ask(q) {
       if (j.ok) parsed = { ...j.triple, confidence: j.confidence, parser: "llm", unmatched: j.unmatched || {} };
     } catch { parsed = null; }
   }
+  if (!parsed && SEM.model && $("#sem-use").checked) {
+    try { parsed = await SEM.mod.parseSemantic(q, M, { mode: "hybrid" }); } catch { parsed = null; }
+  }
   if (!parsed) parsed = parseRules(q, M);
   parsed.q = q;
   if (parsed.metric && slicesFor(parsed.metric).length) {
@@ -421,12 +424,37 @@ async function ask(q) {
     state.pct = PCT_KEYS.includes(`p${parsed.percentile}`) ? `p${parsed.percentile}` : "p99";
     state.v = parsed.value; state.b = null;
     update(true);
-    note.textContent = `Understood as ${describeParsed(parsed)}.${parsed.confidence === "low" ? " If that is wrong, adjust it in Explore." : ""}`;
+    note.textContent = `Understood as ${describeParsed(parsed)}.${whoAnswered(parsed)}${parsed.confidence === "low" ? " If that is wrong, adjust it in Explore." : ""}`;
   } else {
     renderAnswer(null); renderEmpty(parsed);
-    note.textContent = parsed.metric && M.metrics[parsed.metric] ? `Understood as ${M.metrics[parsed.metric].label.toLowerCase()}, but there is no data for it yet.` : "That is not a measure on the site yet.";
+    note.textContent = (parsed.metric && M.metrics[parsed.metric] ? `Understood as ${M.metrics[parsed.metric].label.toLowerCase()}, but there is no data for it yet.` : "That is not a measure on the site yet.")
+      + (!SEM.model && parsed.parser === "rules" && !parsed.metric ? " The in-browser model below may match the wording." : whoAnswered(parsed));
   }
 }
+function whoAnswered(p) {
+  if (p.parser === "semantic" && p.semantic && p.semantic.accepted) return ` Matched by the in-browser model (closest phrasing "${p.semantic.text}", cosine ${p.semantic.score.toFixed(2)}).`;
+  if (p.parser === "semantic" && p.abstained && p.semantic) return ` The model's closest phrasing was "${p.semantic.text}" at cosine ${p.semantic.score.toFixed(2)}, below its ${SEM.mod.DEFAULTS.tauHybrid} threshold.`;
+  return "";
+}
+
+// ---------- in-browser semantic parser (loaded on request only) ----------
+const SEM = { mod: null, model: null };
+async function loadSemantic() {
+  const btn = $("#sem-load"), sk = $("#sem-sk"), note = $("#sem-note");
+  btn.disabled = true; sk.hidden = false; note.textContent = "Loading the model: 53 MB the first time, from this site only.";
+  try {
+    SEM.mod = await import("./parser-semantic.js");
+    const t0 = performance.now();
+    const [model] = await Promise.all([SEM.mod.loadModel(), SEM.mod.loadIndex()]);
+    SEM.model = model;
+    btn.hidden = true; $("#sem-use-l").hidden = false;
+    note.textContent = `Model ready in ${((performance.now() - t0) / 1000).toFixed(1)} s. Questions now go to the rules first; the model answers when the rules find no measure or it is confident they picked the wrong one.`;
+  } catch (e) {
+    btn.disabled = false;
+    note.textContent = "The model did not load in this browser. The rules parser still works.";
+  } finally { sk.hidden = true; }
+}
+
 function describeParsed(p) {
   const bits = [M.metrics[p.metric].label.toLowerCase()];
   if (p.population.country) bits.push(COUNTRY_SHORT[p.population.country]);
@@ -490,6 +518,7 @@ async function init() {
     document.getElementById(`sel-${suffix}`).addEventListener("change", (e) => { state.pop = reconcile(state.metric, { ...state.pop, [dim]: e.target.value || (dim === "sex" ? "all" : null) }, dim); state.v = null; update(true); });
     document.getElementById(`selb-${suffix}`).addEventListener("change", (e) => { state.b = reconcile(state.metric, { ...state.b, [dim]: e.target.value || (dim === "sex" ? "all" : null) }, dim); update(true); });
   }
+  $("#sem-load").addEventListener("click", loadSemantic);
   $("#ask-form").addEventListener("submit", (e) => { e.preventDefault(); const q = $("#q").value.trim(); if (q) ask(q); });
   // Enter asks; Shift+Enter makes a new line.
   $("#q").addEventListener("keydown", (e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); const q = $("#q").value.trim(); if (q) ask(q); } });

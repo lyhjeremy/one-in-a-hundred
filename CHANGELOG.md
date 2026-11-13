@@ -1,6 +1,13 @@
 # Changelog
 
-v0.1 to v0.3 shipped on 2026-10-14; v0.3.1 on 2026-10-15.
+v0.1 to v0.3 shipped on 2026-10-14; v0.3.1 on 2026-10-15; v0.4 on 2026-11-13.
+
+## v0.4: an in-browser semantic parser
+
+- `parser-semantic.js`: MiniLM (q8) through self-hosted transformers.js picks the measure when the rules find none, loaded only when the visitor presses a button in Ask. Hybrid 172/200 on the frozen gold set against 181 for rules alone; 66/104 against 58 on a new dev split. Details in `eval/semantic/results.md`.
+- `parser-rules.js` now also returns `residual` (the text left after the slots) and `metric_score`; its gold score is unchanged at 181/200 and a test pins it.
+- Phone layout: the single-column grid used `1fr`, which let the mode tabs push the page 16 px wider than a 390 px screen. It is `minmax(0, 1fr)` now; checked at 390 px in every mode.
+- Privacy page says what the model download is.
 
 ## v0.3.1: the seed research batch finished
 
